@@ -1,0 +1,48 @@
+{
+  "imports": {
+    "@b-fuze/deno-dom": "jsr:@b-fuze/deno-dom@^0.1.56",
+    "@std/assert": "jsr:@std/assert@^1.0.19",
+    "@std/bytes": "jsr:@std/bytes@^1.0.6",
+    "@std/cli": "jsr:@std/cli@^1.0.32",
+    "@std/fs": "jsr:@std/fs@^1.0.23",
+    "@std/http": "jsr:@std/http@^1.1.0",
+    "@std/io": "jsr:@std/io@^0.225.3",
+    "@std/json": "jsr:@std/json@^1.1.0",
+    "@std/log": "jsr:@std/log@^0.224.14",
+    "@std/media-types": "jsr:@std/media-types@^1.1.0",
+    "@std/path": "jsr:@std/path@^1.1.4",
+    "@std/xml": "jsr:@std/xml@^0.1.1",
+    "bottleneck": "npm:bottleneck@^2.19.5",
+    "warcio": "npm:warcio@^2.4.10"
+  },
+  "fmt": {
+    "lineWidth": 100
+  },
+  "lint": {
+    "rules": {
+      "tags": ["recommended"],
+      "exclude": ["no-cond-assign"],
+      "include": [
+        "camelcase",
+        "eqeqeq",
+        "explicit-function-return-type",
+        "explicit-module-boundary-types",
+        "no-console",
+        "no-eval",
+        "no-inferrable-types",
+        "no-sync-fn-in-async-fn",
+        "no-throw-literal",
+        "no-undef",
+        "no-useless-rename",
+        "verbatim-module-syntax"
+      ]
+    }
+  },
+  "tasks": {
+    "archive": "unzstd --rm ../archive/osem.seagl.org.warc.zst; deno --allow-env=LOG_LEVEL --allow-read=../archive,../github-pages --allow-write=../archive,../github-pages --allow-net=osem.seagl.org src/main.ts --archive-dir=../archive --github-pages-dir=../github-pages && zstd --long --rm -19 ../archive/osem.seagl.org.warc",
+    "verify-archive": "hurl --delay 200ms --jobs 1 --test ../archive/verify.hurl",
+    "emulate-github-pages": "podman run --name osem-static --rm --volume \"$PWD/resources/emulate-github-pages.nginx.conf:/etc/nginx/conf.d/default.conf:ro\" --volume \"$PWD/../github-pages:/mnt/github-pages:ro\" --publish '8080:80' 'nginx:1'",
+    "verify-emulated-github-pages": "hurl --continue-on-error --location --jobs 1 --test --variable origin=http://localhost:8080 ../github-pages/verify.hurl",
+    "verify-production-github-pages": "hurl --continue-on-error --delay 500ms --location --jobs 1 --test --variable origin=https://osem.seagl.org ../github-pages/verify.hurl"
+  }
+}
