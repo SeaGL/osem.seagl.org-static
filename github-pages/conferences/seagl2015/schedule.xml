@@ -1,0 +1,1328 @@
+<schedule>
+<version>899</version>
+<conference>
+<acronym>seagl2015</acronym>
+<title>SeaGL 2015</title>
+<start>2015-10-23</start>
+<end>2015-10-24</end>
+<days>2</days>
+<timeslot_duration>00:15</timeslot_duration>
+</conference>
+<day date="2015-10-23" index="1">
+<room name="Room 1110">
+<event guid="1I2aF39iLNrs_E6y90uj9w" id="88">
+<date>2015-10-23T02:00:00-07:00</date>
+<start>09:00</start>
+<duration>08:00</duration>
+<room>Room 1110</room>
+<type>Exhibitor Hall Day One</type>
+<language/>
+<slug>88-exhibitor-hall-day-one</slug>
+<title>Exhibitor Hall Day One</title>
+<subtitle>9:30am - 5:00pm</subtitle>
+<track/>
+<abstract>Visit our sponsors and community organizations!</abstract>
+<description>Visit our sponsors and community organizations!</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="32">Deb Nicholson</person>
+</persons>
+</event>
+</room>
+<room name="Room  3184">
+<event guid="D0j6lgXODOeXbvqM5nHz6g" id="4">
+<date>2015-10-23T03:00:00-07:00</date>
+<start>10:00</start>
+<duration>00:50</duration>
+<room>Room  3184</room>
+<type>Talk</type>
+<language/>
+<slug>4-defending-linux-systems-from-bootkits</slug>
+<title>Defending Linux systems from Bootkits</title>
+<subtitle>firmware security testing using open source tools.</subtitle>
+<track/>
+<abstract>In this presentation, we will discuss how to detect and protect against BIOS and UEFI firmware security threats on Linux systems, using open source tools. Most still only do security testing at userspace and kernelspace, not in any detail at hardware and firmware level. Attacks at the firmware level exist, called &quot;bootkits&quot;. Bootkits are scary. If you don&apos;t look for them, you won&apos;t find them. Most people don&apos;t know how to look for them. Our goal is to help improve enterprise defensive firmware security by helping people understand how to look for bootkits. We&apos;ll show the latest open source tools and malware research of the industry experts -- Intel, LegbaCore, Invisible Things Lab, Mitre, NIST, etc. -- and how you can start using today to help defend your enterprise at the silicon and firmware levels.
+
+Audience: The audience are enterprise system administrators and security teams responsible for defending BIOS- or UEFI-based Linux systems on Intel processors.
+
+Requirements: Core understanding of PC hardware architecture needed. Basic use of Python (CPython 2.7x) is interpreter needed; the ability to write Python code is useful to write custom tests. Basic shell scripting skills needed; given the MS-DOS-like nature of UEFI Shell, knowledge of command.com/cmd.exe batch files is useful, beyond Bash scripting.</abstract>
+<description>In this presentation, we will discuss how to detect and protect against BIOS and UEFI firmware security threats on Linux systems, using open source tools. Most still only do security testing at userspace and kernelspace, not in any detail at hardware and firmware level. Attacks at the firmware level exist, called &quot;bootkits&quot;. Bootkits are scary. If you don&apos;t look for them, you won&apos;t find them. Most people don&apos;t know how to look for them. Our goal is to help improve enterprise defensive firmware security by helping people understand how to look for bootkits. We&apos;ll show the latest open source tools and malware research of the industry experts -- Intel, LegbaCore, Invisible Things Lab, Mitre, NIST, etc. -- and how you can start using today to help defend your enterprise at the silicon and firmware levels.
+
+Audience: The audience are enterprise system administrators and security teams responsible for defending BIOS- or UEFI-based Linux systems on Intel processors.
+
+Requirements: Core understanding of PC hardware architecture needed. Basic use of Python (CPython 2.7x) is interpreter needed; the ability to write Python code is useful to write custom tests. Basic shell scripting skills needed; given the MS-DOS-like nature of UEFI Shell, knowledge of command.com/cmd.exe batch files is useful, beyond Bash scripting.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="25">Lee Fisher</person>
+</persons>
+</event>
+<event guid="uv7vvtd6PTU_fc9ya1Oquw" id="13">
+<date>2015-10-23T04:00:00-07:00</date>
+<start>11:00</start>
+<duration>00:50</duration>
+<room>Room  3184</room>
+<type>Talk</type>
+<language/>
+<slug>13-12-steps-to-cloud-security</slug>
+<title>12 steps to cloud security</title>
+<subtitle>A guide to securing your cloud deployment using open source tools</subtitle>
+<track/>
+<abstract>Whether you are running on a public or a private cloud provider, this talk aims to help you secure your cloud based deployment, by using a simple step-by-step guide that involves using open source tools. You will be able to understand and implement a security framework for your own cloud deployment.
+
+This talk outlines a 12-step guide consisting of the following steps:
+
+1. Knowing your shared responsibility
+2. Protecting your network
+3. Protecting your cloud machine images
+4. Protecting your data at rest
+5. Protecting your data in transit
+6. Protecting and patching your instances
+7. Protecting access to your instances
+8. Protecting your applications
+9. Auditing and monitoring your cloud
+10. Validating your protection
+11. Automating everything
+12. Updating your security policy
+
+Open Source tools and technologies covered:
+
+PfSense, Openswan, OpenVPN
+SELinux, App Armor, Dm-crypt
+Nginx, ModSecurity
+Samba/Winbind, OpenLDAP
+Logstash, Nagios, Ganglia
+Metasploit, Nessus
+Ansible, Docker, Jenkins
+
+We will be going over each step in detail, so attendees can understand the importance of underlying security domains and learn how to go about implementing them using open source solutions alone. I will also be sharing my personal experiences and best practices when it comes to implementing a security framework for the cloud using open source tools and technologies.</abstract>
+<description>Whether you are running on a public or a private cloud provider, this talk aims to help you secure your cloud based deployment, by using a simple step-by-step guide that involves using open source tools. You will be able to understand and implement a security framework for your own cloud deployment.
+
+This talk outlines a 12-step guide consisting of the following steps:
+
+1. Knowing your shared responsibility
+2. Protecting your network
+3. Protecting your cloud machine images
+4. Protecting your data at rest
+5. Protecting your data in transit
+6. Protecting and patching your instances
+7. Protecting access to your instances
+8. Protecting your applications
+9. Auditing and monitoring your cloud
+10. Validating your protection
+11. Automating everything
+12. Updating your security policy
+
+Open Source tools and technologies covered:
+
+PfSense, Openswan, OpenVPN
+SELinux, App Armor, Dm-crypt
+Nginx, ModSecurity
+Samba/Winbind, OpenLDAP
+Logstash, Nagios, Ganglia
+Metasploit, Nessus
+Ansible, Docker, Jenkins
+
+We will be going over each step in detail, so attendees can understand the importance of underlying security domains and learn how to go about implementing them using open source solutions alone. I will also be sharing my personal experiences and best practices when it comes to implementing a security framework for the cloud using open source tools and technologies.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="35">Vishnu Vettrivel</person>
+</persons>
+</event>
+<event guid="flkLQf2oxvVh0ZjIQUVjmQ" id="57">
+<date>2015-10-23T06:00:00-07:00</date>
+<start>13:00</start>
+<duration>00:50</duration>
+<room>Room  3184</room>
+<type>Talk</type>
+<language/>
+<slug>57-why-test-driven-development-works-for-sysadmins</slug>
+<title> Why Test Driven Development works for SysAdmins</title>
+<subtitle/>
+<track/>
+<abstract>This talk would be largely technology agnostic and would focus on demonstrating
+the value of TDD to SysAdmins. This topic was requested of me for LISA last year and it would be great to get this message out at a forum like SeaGL that is focused on the community.
+
+* Why test?
+** Confidence
+** Fast feedback
+** Matrix testing
+** Test multiple OS&apos;s with deploying it everywhere
+** Prevent regression
+** Design specs (even in an agile world)
+
+* Why test first?
+** Focus on the end goal, not the steps involved
+** Document functionality that you care about
+** Forces you to think about the design
+** Save time by building minimum viable product
+** You can refactor later
+
+* What to test?
+** Data inputs
+** Conditional logic
+** Failure occurs when expected
+** The system as it is consumed
+
+* Tools
+** GitHub
+** Travis-ci
+** Jenkins
+** Vagrant
+
+* Monitoring
+** That&apos;s how SysAdmins test now
+** Use it in pre-production
+** Feedback loop to improve monitoring through testing</abstract>
+<description>This talk would be largely technology agnostic and would focus on demonstrating
+the value of TDD to SysAdmins. This topic was requested of me for LISA last year and it would be great to get this message out at a forum like SeaGL that is focused on the community.
+
+* Why test?
+** Confidence
+** Fast feedback
+** Matrix testing
+** Test multiple OS&apos;s with deploying it everywhere
+** Prevent regression
+** Design specs (even in an agile world)
+
+* Why test first?
+** Focus on the end goal, not the steps involved
+** Document functionality that you care about
+** Forces you to think about the design
+** Save time by building minimum viable product
+** You can refactor later
+
+* What to test?
+** Data inputs
+** Conditional logic
+** Failure occurs when expected
+** The system as it is consumed
+
+* Tools
+** GitHub
+** Travis-ci
+** Jenkins
+** Vagrant
+
+* Monitoring
+** That&apos;s how SysAdmins test now
+** Use it in pre-production
+** Feedback loop to improve monitoring through testing</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="67">garrett honeycutt</person>
+</persons>
+</event>
+<event guid="nKE1eNEbnXHZgUgrewcYGA" id="40">
+<date>2015-10-23T07:00:00-07:00</date>
+<start>14:00</start>
+<duration>00:50</duration>
+<room>Room  3184</room>
+<type>Talk</type>
+<language/>
+<slug>40-advice-on-becoming-a-sysadmin-a-talk-for-my-former-self</slug>
+<title>Advice on becoming a sysadmin: A talk for my former self</title>
+<subtitle>Linux Sysadmin Careers</subtitle>
+<track/>
+<abstract>Alternate titles:
+ * Career advice for the aspiring Linux sysadmin today or myself 10 years ago
+ * &quot;So you want to be a sysadmin?&quot;
+
+&quot;It’s Difficult to Make Predictions, Especially About the Future&quot; - So is Attribution
+
+Being a sysadmin is a career path which can be fun, lucrative and one of the best ways to get paid to work with and on open source software. In this presentation I share some of the mistakes I made so you don&apos;t need to repeat them. Why not make new and interesting mistakes?
+
+It is a confusing time to enter this field. Why not be a DevOps instead of a Sysadmin? What is this Site Reliability Engineer thing? What if the whole world goes NoOps? Do I really have to carry a pager? I&apos;ll provide some answers, hints and raw speculation.
+
+About the Presenter:
+Paul English is President of the Seattle Area System Administrator&apos;s Guild, Board Member for the League of Professional System Administrators, and multi-year organizer of the Cascadia IT Conference.  Paul also works as a system administrator and manager at Vaisala Inc, creating weather forecasts for wind, solar and hydro power.</abstract>
+<description>Alternate titles:
+ * Career advice for the aspiring Linux sysadmin today or myself 10 years ago
+ * &quot;So you want to be a sysadmin?&quot;
+
+&quot;It’s Difficult to Make Predictions, Especially About the Future&quot; - So is Attribution
+
+Being a sysadmin is a career path which can be fun, lucrative and one of the best ways to get paid to work with and on open source software. In this presentation I share some of the mistakes I made so you don&apos;t need to repeat them. Why not make new and interesting mistakes?
+
+It is a confusing time to enter this field. Why not be a DevOps instead of a Sysadmin? What is this Site Reliability Engineer thing? What if the whole world goes NoOps? Do I really have to carry a pager? I&apos;ll provide some answers, hints and raw speculation.
+
+About the Presenter:
+Paul English is President of the Seattle Area System Administrator&apos;s Guild, Board Member for the League of Professional System Administrators, and multi-year organizer of the Cascadia IT Conference.  Paul also works as a system administrator and manager at Vaisala Inc, creating weather forecasts for wind, solar and hydro power.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="57">Paul English</person>
+</persons>
+</event>
+<event guid="Z281IBwFKbiZay1WzPylZQ" id="60">
+<date>2015-10-23T08:00:00-07:00</date>
+<start>15:00</start>
+<duration>00:50</duration>
+<room>Room  3184</room>
+<type>Talk</type>
+<language/>
+<slug>60-production-trenches-pitfalls-and-pratfalls</slug>
+<title>Production Trenches: Pitfalls and Pratfalls</title>
+<subtitle>How I learned to stop scheduling downtime and love the SLA.</subtitle>
+<track/>
+<abstract>Whether your title is Production Engineering, DevOps, SRE, or IT doesn&apos;t matter. You&apos;re the lifeblood of the company, the team that invisibly makes everything work. You, my friend, carry the pager.
+
+Join Bri as he passes on wisdom, wit, and embarrassing stories, replacing his normal code-filled presentations with humour and humiliation. You&apos;ll learn how to run a solid yet nimble production infrastructure, organize your workload, avoid burnout, and automate caffeine ingestion.
+
+You may you end up making the same mistakes he&apos;s made, but at least you&apos;ll make them your own.
+
+</abstract>
+<description>Whether your title is Production Engineering, DevOps, SRE, or IT doesn&apos;t matter. You&apos;re the lifeblood of the company, the team that invisibly makes everything work. You, my friend, carry the pager.
+
+Join Bri as he passes on wisdom, wit, and embarrassing stories, replacing his normal code-filled presentations with humour and humiliation. You&apos;ll learn how to run a solid yet nimble production infrastructure, organize your workload, avoid burnout, and automate caffeine ingestion.
+
+You may you end up making the same mistakes he&apos;s made, but at least you&apos;ll make them your own.
+
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="68">Bri Hatch</person>
+</persons>
+</event>
+</room>
+<room name="Room  3183">
+<event guid="oBL6-IuVLrDjmbyzAHaK2Q" id="67">
+<date>2015-10-23T03:00:00-07:00</date>
+<start>10:00</start>
+<duration>00:50</duration>
+<room>Room  3183</room>
+<type>Talk</type>
+<language/>
+<slug>67-hosting-events-that-the-whole-community-loves</slug>
+<title>Hosting Events that the Whole Community Loves</title>
+<subtitle/>
+<track/>
+<abstract>So, you&apos;re responsible for a growing an open source community and you want to ensure it&apos;s a friendly place for newcomers and old-timers alike. You want to make sure everyone feels welcome and has access to a variety of events (both on and offline) with content that meets the needs of all of your user base from beginner to advanced.  This talk will... 
+
+*Discuss how to create events that include your entire user base - beginners, advanced and diverse attendees 
+*Talk about the value of in person and online events and how to target them to your audience
+*Talk about the value of hosting local community events into your office and tips for how to do it
+*Talk about the role that an event code of conduct plays in making spaces inclusive, as well as other aspects.
+
+After the talk, attendees should:
+
+*Understand the value of planning a variety of events for your user base and have tips for how to do it with a mind to creating an inclusive event for all.
+</abstract>
+<description>So, you&apos;re responsible for a growing an open source community and you want to ensure it&apos;s a friendly place for newcomers and old-timers alike. You want to make sure everyone feels welcome and has access to a variety of events (both on and offline) with content that meets the needs of all of your user base from beginner to advanced.  This talk will... 
+
+*Discuss how to create events that include your entire user base - beginners, advanced and diverse attendees 
+*Talk about the value of in person and online events and how to target them to your audience
+*Talk about the value of hosting local community events into your office and tips for how to do it
+*Talk about the role that an event code of conduct plays in making spaces inclusive, as well as other aspects.
+
+After the talk, attendees should:
+
+*Understand the value of planning a variety of events for your user base and have tips for how to do it with a mind to creating an inclusive event for all.
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="74">Meg Hartley</person>
+</persons>
+</event>
+<event guid="WNC2MiXBpe1kxrQ5e1gXnA" id="54">
+<date>2015-10-23T04:00:00-07:00</date>
+<start>11:00</start>
+<duration>00:50</duration>
+<room>Room  3183</room>
+<type>Talk</type>
+<language/>
+<slug>54-how-to-get-started-contributing-to-floss-projects</slug>
+<title>How to get started contributing to FLOSS projects</title>
+<subtitle>loosely based on &apos;how to Debian&apos;, a document I haven&apos;t written yet.</subtitle>
+<track/>
+<abstract>Since we&apos;re at this conference, we probably all are involved in Free Software or Open Source projects to some degree, even if only as users. Lots of us want to help, but it&apos;s hard to know where to start!
+ In this talk we&apos;ll look at some common tools and processes prerequisite for involvement in most Open Source or Free Software projects, including but not limited to the following:
+
+This talk is itself a Free Software project. The source lives at https://github.com/koanhead-fgsea/howto-contrib and it is DocBook XML.
+
+Introduction: FLOSS contribution is like Social Media writ large
+
+Ways to Contribute:
+    Bug crushing
+    Documentation
+    Media assets
+    Code monkeying
+
+Communication: 
+    Introduction to GPG and its various uses incl. the Debian Keyring.
+    Email lists, joining vs following via NNTP gateway vs gmane or other Web gateway; list etiquette
+    How to IRC; why to IRC; why IRC is still a thing when $FLASHY_NEW_CHAT_APP is *clearly* superior
+
+Programming:
+     How to read source code
+     How to find problems
+     How to make patches
+     Why VCS is important and how to do it (not the *only* way)
+     TIMTOWTDI vs. TIOOWTDI and other Holy Wars and Crusades, and how to remain unbloodied.
+
+Collaboration:
+     Finding help / mentors / mentees
+     Submitting patches
+     How to be a good VCS citizen
+
+And more (or possibly less once I figure out timing)
+
+Notes are available as I compose them at https://freegeekseattle.org/wiki/Getting_Started_OpenSource#Getting_Started_with_Free_Libre_Open_Source_Projects</abstract>
+<description>Since we&apos;re at this conference, we probably all are involved in Free Software or Open Source projects to some degree, even if only as users. Lots of us want to help, but it&apos;s hard to know where to start!
+ In this talk we&apos;ll look at some common tools and processes prerequisite for involvement in most Open Source or Free Software projects, including but not limited to the following:
+
+This talk is itself a Free Software project. The source lives at https://github.com/koanhead-fgsea/howto-contrib and it is DocBook XML.
+
+Introduction: FLOSS contribution is like Social Media writ large
+
+Ways to Contribute:
+    Bug crushing
+    Documentation
+    Media assets
+    Code monkeying
+
+Communication: 
+    Introduction to GPG and its various uses incl. the Debian Keyring.
+    Email lists, joining vs following via NNTP gateway vs gmane or other Web gateway; list etiquette
+    How to IRC; why to IRC; why IRC is still a thing when $FLASHY_NEW_CHAT_APP is *clearly* superior
+
+Programming:
+     How to read source code
+     How to find problems
+     How to make patches
+     Why VCS is important and how to do it (not the *only* way)
+     TIMTOWTDI vs. TIOOWTDI and other Holy Wars and Crusades, and how to remain unbloodied.
+
+Collaboration:
+     Finding help / mentors / mentees
+     Submitting patches
+     How to be a good VCS citizen
+
+And more (or possibly less once I figure out timing)
+
+Notes are available as I compose them at https://freegeekseattle.org/wiki/Getting_Started_OpenSource#Getting_Started_with_Free_Libre_Open_Source_Projects</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="64">Andrew Kane</person>
+</persons>
+</event>
+<event guid="rV8_SLgh0Z3E_BF1YIc1QA" id="24">
+<date>2015-10-23T06:00:00-07:00</date>
+<start>13:00</start>
+<duration>00:50</duration>
+<room>Room  3183</room>
+<type>Talk</type>
+<language/>
+<slug>24-cultivating-collective-intelligence</slug>
+<title>Cultivating Collective Intelligence</title>
+<subtitle/>
+<track/>
+<abstract>For over two centuries, representative democracy has been the best means humankind has found for governing communities.  But as we look around, we can’t help but think that if this is the best we can do, we’re in trouble.  Today’s political processes severely limit individuals’ ability to meaningfully participate in solving the problems that affect them.  As Citizens, it’s our duty to reclaim our place at the table.
+
+Civic technology holds the potential to reshape how communities of all sizes identify problems, deliberate solutions, make decisions, take collective action, and evaluate outcomes.  So far that potential has failed to translate into significant real-world impacts.
+
+Today’s civic tech landscape is littered with good ideas from intelligent people that failed to garner a critical mass of eyeballs and funding.  There is a need for a platform to connect users, developers and donors, creating a more efficient civic tech marketplace and a fertile framework for experimentation.  If critical mass is achieved, the network effect of connected stakeholders will accelerate the development and adoption of a wide variety of tools, each one holding the potential to make the hard work of collective problem solving easier.
+
+This presentation will focus on discussing the principles, characteristics and features that would be important in a civic tech acceleration platform.
+
+We imagine four primary use cases:
+-	Activists identify communities to which they belong and the issues they care about, then are pointed towards civic tech apps that address their concern.  
+-	Developers submit civic tech apps to be featured on the site and find projects to contribute to.
+-	Donors research projects and development teams, and give with greater confidence.
+-	Leaders connect civic participation to real-world outcomes.
+
+After participating, users rate and evaluate their experience, curating the apps on the platform.
+
+The result of the successful implementation and adoption of such a platform would be the ongoing iteration of civic technologies that give every willing member of a community the power to contribute towards solving the problems that affect them.
+
+Participants in this presentation should expect to offer opinions, criticism and insight; to walk away with new ideas and a better understanding of the work of DemocracyLab.org.
+</abstract>
+<description>For over two centuries, representative democracy has been the best means humankind has found for governing communities.  But as we look around, we can’t help but think that if this is the best we can do, we’re in trouble.  Today’s political processes severely limit individuals’ ability to meaningfully participate in solving the problems that affect them.  As Citizens, it’s our duty to reclaim our place at the table.
+
+Civic technology holds the potential to reshape how communities of all sizes identify problems, deliberate solutions, make decisions, take collective action, and evaluate outcomes.  So far that potential has failed to translate into significant real-world impacts.
+
+Today’s civic tech landscape is littered with good ideas from intelligent people that failed to garner a critical mass of eyeballs and funding.  There is a need for a platform to connect users, developers and donors, creating a more efficient civic tech marketplace and a fertile framework for experimentation.  If critical mass is achieved, the network effect of connected stakeholders will accelerate the development and adoption of a wide variety of tools, each one holding the potential to make the hard work of collective problem solving easier.
+
+This presentation will focus on discussing the principles, characteristics and features that would be important in a civic tech acceleration platform.
+
+We imagine four primary use cases:
+-	Activists identify communities to which they belong and the issues they care about, then are pointed towards civic tech apps that address their concern.  
+-	Developers submit civic tech apps to be featured on the site and find projects to contribute to.
+-	Donors research projects and development teams, and give with greater confidence.
+-	Leaders connect civic participation to real-world outcomes.
+
+After participating, users rate and evaluate their experience, curating the apps on the platform.
+
+The result of the successful implementation and adoption of such a platform would be the ongoing iteration of civic technologies that give every willing member of a community the power to contribute towards solving the problems that affect them.
+
+Participants in this presentation should expect to offer opinions, criticism and insight; to walk away with new ideas and a better understanding of the work of DemocracyLab.org.
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="48"> Mark Frischmuth</person>
+</persons>
+</event>
+<event guid="455ctc4b2Yq4IQ2SLtZZXA" id="20">
+<date>2015-10-23T07:00:00-07:00</date>
+<start>14:00</start>
+<duration>00:50</duration>
+<room>Room  3183</room>
+<type>Talk</type>
+<language/>
+<slug>20-you-should-speak</slug>
+<title>You Should Speak</title>
+<subtitle/>
+<track/>
+<abstract>Have you ever wanted to speak at a conference, but not known whether you’re
+good enough or how to start? I was in the same situation 2 years ago, but
+since then I’ve given over a dozen talks at a variety of different tech
+conferences. As well as testing and refining my own solutions to the
+challenges that face new speakers, I’ve learned what works and doesn’t work
+for others.
+
+This talk will share solutions, often in the form of open-source tools, to
+many of the problems which aspiring speakers encounter, including:
+
+    Overcoming fear of public speaking
+    Choosing a topic to talk about
+    Finding the right conference for your topic
+    Marketing a talk proposal with a convincing abstract
+    Finding open-source presentation software that fits your needs
+    Designing powerful slides
+
+These tricks will be helpful for experienced presenters looking to learn new
+skills, as well as novice speakers who need some help getting started.
+
+Slides at http://talks.edunham.net/seagl2015/
+</abstract>
+<description>Have you ever wanted to speak at a conference, but not known whether you’re
+good enough or how to start? I was in the same situation 2 years ago, but
+since then I’ve given over a dozen talks at a variety of different tech
+conferences. As well as testing and refining my own solutions to the
+challenges that face new speakers, I’ve learned what works and doesn’t work
+for others.
+
+This talk will share solutions, often in the form of open-source tools, to
+many of the problems which aspiring speakers encounter, including:
+
+    Overcoming fear of public speaking
+    Choosing a topic to talk about
+    Finding the right conference for your topic
+    Marketing a talk proposal with a convincing abstract
+    Finding open-source presentation software that fits your needs
+    Designing powerful slides
+
+These tricks will be helpful for experienced presenters looking to learn new
+skills, as well as novice speakers who need some help getting started.
+
+Slides at http://talks.edunham.net/seagl2015/
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="45">edunham</person>
+</persons>
+</event>
+<event guid="77L1J3tgEbRpCJSshftwBQ" id="77">
+<date>2015-10-23T08:00:00-07:00</date>
+<start>15:00</start>
+<duration>00:50</duration>
+<room>Room  3183</room>
+<type>Talk</type>
+<language/>
+<slug>77-the-journey-to-a-successful-user-group</slug>
+<title>The Journey to a Successful User Group</title>
+<subtitle/>
+<track/>
+<abstract>User groups are an essential and flourishing part of the tech community, but it’s common for them to encounter obstacles to meeting regularly. This talk will be packed with practical tips to keep your UG growing and active.
+We’ll begin with advice for those starting a new user group, and then cover many of the common obstacles groups face. The bulk of the presentation will be comprised of solutions and tips for bypassing those common obstacles. Join us for a daring journey through the Speakerless Swamps, the No-Members Mountains, and the Foodless Flats. You’ll emerge well-equipped to make that journey on your own.
+
+Topics this talk will include: 
+- Starting new groups
+ - Finding the right venue 
+- Sourcing quality content and speakers 
+- Sponsoring food and drink
+ - Increasing visibility in the community
+ - Creating an inclusive atmosphere 
+- Plus: a map of the dangers ahead!
+
+These tips are based on finding creative workarounds to obstacles encountered by over 50 technology user groups while remotely running Puppet Labs’ Puppet User Group (PUG) program and frequently journeying into the wilds of technology user group organization without a map.</abstract>
+<description>User groups are an essential and flourishing part of the tech community, but it’s common for them to encounter obstacles to meeting regularly. This talk will be packed with practical tips to keep your UG growing and active.
+We’ll begin with advice for those starting a new user group, and then cover many of the common obstacles groups face. The bulk of the presentation will be comprised of solutions and tips for bypassing those common obstacles. Join us for a daring journey through the Speakerless Swamps, the No-Members Mountains, and the Foodless Flats. You’ll emerge well-equipped to make that journey on your own.
+
+Topics this talk will include: 
+- Starting new groups
+ - Finding the right venue 
+- Sourcing quality content and speakers 
+- Sponsoring food and drink
+ - Increasing visibility in the community
+ - Creating an inclusive atmosphere 
+- Plus: a map of the dangers ahead!
+
+These tips are based on finding creative workarounds to obstacles encountered by over 50 technology user groups while remotely running Puppet Labs’ Puppet User Group (PUG) program and frequently journeying into the wilds of technology user group organization without a map.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="84">Kara Sowles</person>
+</persons>
+</event>
+</room>
+<room name="Room  3179">
+<event guid="hDxjpH-uaiqi6SgSDSOCIw" id="45">
+<date>2015-10-23T03:00:00-07:00</date>
+<start>10:00</start>
+<duration>00:50</duration>
+<room>Room  3179</room>
+<type>Talk</type>
+<language/>
+<slug>45-the-cloud-sucks-use-the-cloud</slug>
+<title>The Cloud Sucks, Use the Cloud</title>
+<subtitle/>
+<track/>
+<abstract>Clouds suck. We&apos;ll explain the shortcomings of both Amazon and OpenStack clouds. We&apos;ll share our first-hand experiences with cloud failures and other failures resulting from using the cloud. These failures should amuse and terrify any sysadmin. After fully convincing you that clouds are terrible, we&apos;ll come back and show you why they are the best option and you should use them.
+
+Also Presenting: William Van Hevelingen
+
+Bio: 
+
+William Van Hevelingen is a Cloud Systems Engineer at Acquia where he helps manage and maintain 10,000+ AWS instances. 
+
+Prior to joining Acquia, William was the Lead Linux Administrator at Portland State University’s Maseeh College of Engineering and Computer Science. He taught students Linux and Unix system administration through the PSU Computer Action Team’s Braindump program.
+
+William is a Co-Author of Pro Puppet Edition II from Apress.</abstract>
+<description>Clouds suck. We&apos;ll explain the shortcomings of both Amazon and OpenStack clouds. We&apos;ll share our first-hand experiences with cloud failures and other failures resulting from using the cloud. These failures should amuse and terrify any sysadmin. After fully convincing you that clouds are terrible, we&apos;ll come back and show you why they are the best option and you should use them.
+
+Also Presenting: William Van Hevelingen
+
+Bio: 
+
+William Van Hevelingen is a Cloud Systems Engineer at Acquia where he helps manage and maintain 10,000+ AWS instances. 
+
+Prior to joining Acquia, William was the Lead Linux Administrator at Portland State University’s Maseeh College of Engineering and Computer Science. He taught students Linux and Unix system administration through the PSU Computer Action Team’s Braindump program.
+
+William is a Co-Author of Pro Puppet Edition II from Apress.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="49">Spencer Krum</person>
+</persons>
+</event>
+<event guid="AO0uxH70opaPjT9nLMirrw" id="83">
+<date>2015-10-23T04:00:00-07:00</date>
+<start>11:00</start>
+<duration>00:50</duration>
+<room>Room  3179</room>
+<type>Talk</type>
+<language/>
+<slug>83-scribus-libre-desktop-publishing-from-books-to-zines</slug>
+<title>Scribus: Libre Desktop Publishing from Books to Zines</title>
+<subtitle/>
+<track/>
+<abstract>Whether creating a program for your free software conference or a zine for your friends, the GPL-licensed desktop publishing program Scribus is for you. 
+
+Working from my own experience creating print publications for the Free Software Foundation, and assuming no prior desktop publishing experience, I will give an overview of Scribus, explain how to install it, and walk through the creation of a simple, multi-page document. The discussion will cover why Scribus is the best choice for your project, and briefly examine other libre programs that complement it, including GIMP and Inkscape. </abstract>
+<description>Whether creating a program for your free software conference or a zine for your friends, the GPL-licensed desktop publishing program Scribus is for you. 
+
+Working from my own experience creating print publications for the Free Software Foundation, and assuming no prior desktop publishing experience, I will give an overview of Scribus, explain how to install it, and walk through the creation of a simple, multi-page document. The discussion will cover why Scribus is the best choice for your project, and briefly examine other libre programs that complement it, including GIMP and Inkscape. </description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="89">Georgia Young</person>
+</persons>
+</event>
+<event guid="A43Jq3asM8Tf2Wo48FfMuQ" id="73">
+<date>2015-10-23T06:00:00-07:00</date>
+<start>13:00</start>
+<duration>00:50</duration>
+<room>Room  3179</room>
+<type>Talk</type>
+<language/>
+<slug>73-trading-freedom-the-threat-of-international-trade-agreements-like-tpp-ttip-and-tisa</slug>
+<title>Trading Freedom: The threat of international trade agreements like TPP, TTIP, and TISA</title>
+<subtitle/>
+<track/>
+<abstract>The Free Software Foundation has campaigned for years against the dangers of the Trans-Pacific Partnership (TPP), an international trade agreement with grave consequences for software freedom. This agreement, negotiated in complete secrecy, threatens to lock its member countries into a potential future of spreading software patents, perpetual copyright restriction, and legal penalties for the circumvention of Digital Restrictions Management (DRM). While TPP secretly trundles along, other similarly terrible agreements loom on the horizon, threatening to ensnare most of the world in a web of restrictions. While trade agreements in the past have always presented issues, the threat to software freedom hidden in these hidden talks is an entirely new phenomena. Restrictions implemented in such treaties could be enforced for decades to come, and with little public input, the agreements that will eventually come out of these negotiations invariably will be anti-user.
+
+This talk will begin with a primer on the process and general procedure for these types of agreements, focusing on how ordinary users and citizens (and even elected officials) are left out in favour of lobbyists and corporations. It will then delve in to the particular dangers that each agreement presents. While there is overlap between each, the restrictions hidden within the secret negotiations are each implemented in a slightly different fashion. Finally, the talk will cover what we at the FSF have been doing to campaign against these international agreements, and what the audience can do to join in this fight.
+
+Speaker Bio:
+
+Donald Robertson, III, J.D. is the Copyright and Licensing Associate for the Free Software Foundation. He has worked for the FSF for over seven years in the FSF&apos;s Licensing &amp; Compliance Lab, and has been involved in free software for over fifteen years. &lt;http://www.fsf.org/about/staff-and-board&gt;
+
+Other Talks:
+* The Free Software Foundation Licensing &amp; Compliance Lab; We Fight for the User at LinuxfestNW 2015 &lt;http://linuxfestnorthwest.org/2015/sessions/free-software-foundation-licensing-compliance-lab-we-fight-user&gt;
+* Seminar on GPL Enforcement and Legal Ethics 2014 &lt;https://www.fsf.org/events/seminar-on-gpl-enforcement-and-legal-ethics&gt;
+* From Creation to Compliance: A Free Software Legal Primer at LinuxfestNW 2014 &lt;http://2014.linuxfestnorthwest.org/2014/sessions/creation-compliance-free-software-legal-primer&gt;
+* Software License Compliance Audits: Establishing Audit Protocol in the Agreement and in Practice at ACI:Software Agreements - Cloud, SaaS, Open Source &amp; Licensing 2013 &lt;http://www.americanconference.com/softwarelic/agenda&gt;
+* Licensing &amp; compliance: a collective effort at Libreplanet 2013 &lt;https://libreplanet.org/wiki/LibrePlanet:Conference/2013/Sessions&gt;
+</abstract>
+<description>The Free Software Foundation has campaigned for years against the dangers of the Trans-Pacific Partnership (TPP), an international trade agreement with grave consequences for software freedom. This agreement, negotiated in complete secrecy, threatens to lock its member countries into a potential future of spreading software patents, perpetual copyright restriction, and legal penalties for the circumvention of Digital Restrictions Management (DRM). While TPP secretly trundles along, other similarly terrible agreements loom on the horizon, threatening to ensnare most of the world in a web of restrictions. While trade agreements in the past have always presented issues, the threat to software freedom hidden in these hidden talks is an entirely new phenomena. Restrictions implemented in such treaties could be enforced for decades to come, and with little public input, the agreements that will eventually come out of these negotiations invariably will be anti-user.
+
+This talk will begin with a primer on the process and general procedure for these types of agreements, focusing on how ordinary users and citizens (and even elected officials) are left out in favour of lobbyists and corporations. It will then delve in to the particular dangers that each agreement presents. While there is overlap between each, the restrictions hidden within the secret negotiations are each implemented in a slightly different fashion. Finally, the talk will cover what we at the FSF have been doing to campaign against these international agreements, and what the audience can do to join in this fight.
+
+Speaker Bio:
+
+Donald Robertson, III, J.D. is the Copyright and Licensing Associate for the Free Software Foundation. He has worked for the FSF for over seven years in the FSF&apos;s Licensing &amp; Compliance Lab, and has been involved in free software for over fifteen years. &lt;http://www.fsf.org/about/staff-and-board&gt;
+
+Other Talks:
+* The Free Software Foundation Licensing &amp; Compliance Lab; We Fight for the User at LinuxfestNW 2015 &lt;http://linuxfestnorthwest.org/2015/sessions/free-software-foundation-licensing-compliance-lab-we-fight-user&gt;
+* Seminar on GPL Enforcement and Legal Ethics 2014 &lt;https://www.fsf.org/events/seminar-on-gpl-enforcement-and-legal-ethics&gt;
+* From Creation to Compliance: A Free Software Legal Primer at LinuxfestNW 2014 &lt;http://2014.linuxfestnorthwest.org/2014/sessions/creation-compliance-free-software-legal-primer&gt;
+* Software License Compliance Audits: Establishing Audit Protocol in the Agreement and in Practice at ACI:Software Agreements - Cloud, SaaS, Open Source &amp; Licensing 2013 &lt;http://www.americanconference.com/softwarelic/agenda&gt;
+* Licensing &amp; compliance: a collective effort at Libreplanet 2013 &lt;https://libreplanet.org/wiki/LibrePlanet:Conference/2013/Sessions&gt;
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="80">Donald R. Robertson</person>
+</persons>
+</event>
+<event guid="SFKQ6fszuPSfJvgbFHksnA" id="71">
+<date>2015-10-23T07:00:00-07:00</date>
+<start>14:00</start>
+<duration>00:50</duration>
+<room>Room  3179</room>
+<type>Talk</type>
+<language/>
+<slug>71-access-without-empowerment</slug>
+<title>Access Without Empowerment</title>
+<subtitle/>
+<track/>
+<abstract>The free software movement has twin goals: promoting access to software through users&apos; freedom to share, and empowering users by giving them control over their technology. For all our movement&apos;s success, we have been much more successful at the former. I will use data from free software and from several related movements to explain why promoting empowerment is systematically more difficult than promoting access and I will explore how our movement might address the second challenge in the future.</abstract>
+<description>The free software movement has twin goals: promoting access to software through users&apos; freedom to share, and empowering users by giving them control over their technology. For all our movement&apos;s success, we have been much more successful at the former. I will use data from free software and from several related movements to explain why promoting empowerment is systematically more difficult than promoting access and I will explore how our movement might address the second challenge in the future.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="79">Benjamin Mako Hill</person>
+</persons>
+</event>
+<event guid="zDlEu_iy0eVFafA7hQT1mA" id="11">
+<date>2015-10-23T08:00:00-07:00</date>
+<start>15:00</start>
+<duration>00:50</duration>
+<room>Room  3179</room>
+<type>Talk</type>
+<language/>
+<slug>11-software-patent-litigation-what-have-we-learned</slug>
+<title>Software Patent Litigation: What Have We Learned? </title>
+<subtitle/>
+<track/>
+<abstract>The huge increase in software patent litigation over the last 15 years has produced reams of articles, cost fortunes and even snagged the US President&apos;s attention. But when something goes on for long enough, it also produces data -- lots and lots of data. So what have we learned from all the data?
+
+Non-practicing entities are growing and litigation costs increase each year, but that&apos;s hardly the whole story. Ms. Nicholson will examine data from academic and industrial sources to see what it all means for Linux, Android, GNU and the rest of the free and open source community. While some solutions are already working, more data brings more opportunities to impact the patent field in way that lets developers worry less about patent suits.</abstract>
+<description>The huge increase in software patent litigation over the last 15 years has produced reams of articles, cost fortunes and even snagged the US President&apos;s attention. But when something goes on for long enough, it also produces data -- lots and lots of data. So what have we learned from all the data?
+
+Non-practicing entities are growing and litigation costs increase each year, but that&apos;s hardly the whole story. Ms. Nicholson will examine data from academic and industrial sources to see what it all means for Linux, Android, GNU and the rest of the free and open source community. While some solutions are already working, more data brings more opportunities to impact the patent field in way that lets developers worry less about patent suits.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="32">Deb Nicholson</person>
+</persons>
+</event>
+</room>
+<room name="Room  3178">
+<event guid="HhR3ZGOrEG56lZGKrHGj5g" id="87">
+<date>2015-10-23T04:00:00-07:00</date>
+<start>11:00</start>
+<duration>01:00</duration>
+<room>Room  3178</room>
+<type>GSLUG Lightning Talk</type>
+<language/>
+<slug>87-lghtning-talks</slug>
+<title>Lghtning Talks</title>
+<subtitle>Presented by GSLUG</subtitle>
+<track/>
+<abstract>Lightning talks hosted by the Greater Seattle Linux Users Group.
+
+Each talk will consist of a 5 minute presentation, followed by 5 minutes of Q/A.
+
+Sign-up to present at the GSLUG table in the expo hall.</abstract>
+<description>Lightning talks hosted by the Greater Seattle Linux Users Group.
+
+Each talk will consist of a 5 minute presentation, followed by 5 minutes of Q/A.
+
+Sign-up to present at the GSLUG table in the expo hall.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="87">Wm Salt Hale</person>
+</persons>
+</event>
+<event guid="fqxXD-NJEKcKBK5my8w-zw" id="39">
+<date>2015-10-23T06:00:00-07:00</date>
+<start>13:00</start>
+<duration>00:50</duration>
+<room>Room  3178</room>
+<type>Talk</type>
+<language/>
+<slug>39-project-hosting-3-0</slug>
+<title>Project Hosting 3.0</title>
+<subtitle/>
+<track/>
+<abstract>Over the past ten to fifteen years, the landscape of FOSS project hosting has evolved quite a bit. Starting with just simple file hosting, to dedicated server hosting and now onto platforms fully featured platforms have changed how FOSS is hosted. Over the past tweleve years the OSU Open Source Lab (OSUOSL) hosting has even shifted towards more cloud-like solutions. But even with these advances, the needs of many FOSS projects still aren’t being met by all of these services.
+
+This session will cover a brief history of FOSS project hosting, explain what advances have been made in the past few years, cover what I feel projects are needing that isn’t available and finally discuss what I think FOSS project hosting should look like in the coming years. I also encourage this session to be an open ended discussion with attendees to get a feel for what they feel is needed. </abstract>
+<description>Over the past ten to fifteen years, the landscape of FOSS project hosting has evolved quite a bit. Starting with just simple file hosting, to dedicated server hosting and now onto platforms fully featured platforms have changed how FOSS is hosted. Over the past tweleve years the OSU Open Source Lab (OSUOSL) hosting has even shifted towards more cloud-like solutions. But even with these advances, the needs of many FOSS projects still aren’t being met by all of these services.
+
+This session will cover a brief history of FOSS project hosting, explain what advances have been made in the past few years, cover what I feel projects are needing that isn’t available and finally discuss what I think FOSS project hosting should look like in the coming years. I also encourage this session to be an open ended discussion with attendees to get a feel for what they feel is needed. </description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="56">Lance Albertson</person>
+</persons>
+</event>
+<event guid="_86dl_l9q6BASRtSVefnjQ" id="75">
+<date>2015-10-23T07:00:00-07:00</date>
+<start>14:00</start>
+<duration>00:50</duration>
+<room>Room  3178</room>
+<type>Talk</type>
+<language/>
+<slug>75-safe-an-internet-for-privacy-security-and-freedom</slug>
+<title>SAFE: An Internet for Privacy, Security and Freedom</title>
+<subtitle/>
+<track/>
+<abstract>The SAFE Network by MaidSafe is a decentralised storage and communication platform with the values of privacy, security and freedom built into the core. By replacing the current infrastructure which depends on central servers with a fully peer-to-peer network of users sharing computer resources, we can begin to see an evolution of the Internet which values individual users above large corporate entities.  The SAFE Network is censorship and surveillance resistant making use of sophisticated obfuscation and encryption schemes to enable a place for everything from anonymous, sensitive communications to public content too important to trust storing on central servers.
+With almost a decade of research and development behind it and a recent rewrite of the core libraries into the promising Rust language, SAFE is ready for users and developers to participate and help grow the network. Third party applications sit on top of the core stack making use of the security provided below to SAFEly store users data and route communications, reducing overall liability for developers.
+The SAFE Network is FOSS (GPLv3) and committed to a world where openness is not only viral but compatible with individual&apos;s needs to make a living. A network-level ecosystem will facilitate new opportunities for developers, content creators and service providers to earn from their labor.
+As Technology and Developer Communications Manager for MaidSafe, Paige Peterson and will talk about these various facets of the technology and how users and developers can participate in the evolution of an Internet with Secure Access For Everyone.</abstract>
+<description>The SAFE Network by MaidSafe is a decentralised storage and communication platform with the values of privacy, security and freedom built into the core. By replacing the current infrastructure which depends on central servers with a fully peer-to-peer network of users sharing computer resources, we can begin to see an evolution of the Internet which values individual users above large corporate entities.  The SAFE Network is censorship and surveillance resistant making use of sophisticated obfuscation and encryption schemes to enable a place for everything from anonymous, sensitive communications to public content too important to trust storing on central servers.
+With almost a decade of research and development behind it and a recent rewrite of the core libraries into the promising Rust language, SAFE is ready for users and developers to participate and help grow the network. Third party applications sit on top of the core stack making use of the security provided below to SAFEly store users data and route communications, reducing overall liability for developers.
+The SAFE Network is FOSS (GPLv3) and committed to a world where openness is not only viral but compatible with individual&apos;s needs to make a living. A network-level ecosystem will facilitate new opportunities for developers, content creators and service providers to earn from their labor.
+As Technology and Developer Communications Manager for MaidSafe, Paige Peterson and will talk about these various facets of the technology and how users and developers can participate in the evolution of an Internet with Secure Access For Everyone.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="82">Paige Peterson</person>
+</persons>
+</event>
+<event guid="VmbaWWIMXY3lIR6IJr-2DQ" id="27">
+<date>2015-10-23T08:00:00-07:00</date>
+<start>15:00</start>
+<duration>00:50</duration>
+<room>Room  3178</room>
+<type>Talk</type>
+<language/>
+<slug>27-the-mathematics-of-the-rsa-cipher</slug>
+<title>The Mathematics of the RSA Cipher</title>
+<subtitle/>
+<track/>
+<abstract>Most people know that RSA depends on some special attributes of very large prime numbers, but little else. The mathematics behind the RSA cipher are subtle but surprisingly accessible. This talk will explain the mechanics and the logic that make the RSA algorithm work. No mathematical skill beyond basic algebra is needed. Come and learn about (one of) the games that prime numbers play.</abstract>
+<description>Most people know that RSA depends on some special attributes of very large prime numbers, but little else. The mathematics behind the RSA cipher are subtle but surprisingly accessible. This talk will explain the mechanics and the logic that make the RSA algorithm work. No mathematical skill beyond basic algebra is needed. Come and learn about (one of) the games that prime numbers play.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="46">Brian Raiter</person>
+</persons>
+</event>
+</room>
+</day>
+<day date="2015-10-24" index="2">
+<room name="Room 1110">
+<event guid="4rAkvZujfDs6qQ6oYNsNmA" id="89">
+<date>2015-10-24T03:00:00-07:00</date>
+<start>10:00</start>
+<duration>05:00</duration>
+<room>Room 1110</room>
+<type>Exhibitor Hall Day Two</type>
+<language/>
+<slug>89-exhibitor-hall-day-two</slug>
+<title>Exhibitor Hall Day Two</title>
+<subtitle>9:30am - 2:30pm</subtitle>
+<track/>
+<abstract>Visit our sponsors and community organizations!</abstract>
+<description>Visit our sponsors and community organizations!</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="32">Deb Nicholson</person>
+</persons>
+</event>
+</room>
+<room name="Room  3183">
+<event guid="9FVwKOCHtzXaQ89SRP1_CA" id="81">
+<date>2015-10-24T03:30:00-07:00</date>
+<start>10:30</start>
+<duration>00:50</duration>
+<room>Room  3183</room>
+<type>Talk</type>
+<language/>
+<slug>81-exploring-the-value-of-free-libre-open-source-software</slug>
+<title>Exploring the Value of Free/Libre Open Source Software</title>
+<subtitle>a journey through FLOSS</subtitle>
+<track/>
+<abstract>What puts the FLO in Free/Libre Open Source Software? How do traditional value systems apply? Who has been discussing these questions? And where do we go from here?
+
+Nearly every person in the world interacts with and uses FLOSS on a daily basis. However, few have really tried to nail down its &quot;value&quot;. My final year at the University of Washington was spent exploring the field and this presentation will be accompanied by the release of three short essays. I will provide a historical perspective and overview of other scholars work to demonstrate that FLOSS is a model for the future of all information goods.
+
+Please join me on my journey through FLOSS!</abstract>
+<description>What puts the FLO in Free/Libre Open Source Software? How do traditional value systems apply? Who has been discussing these questions? And where do we go from here?
+
+Nearly every person in the world interacts with and uses FLOSS on a daily basis. However, few have really tried to nail down its &quot;value&quot;. My final year at the University of Washington was spent exploring the field and this presentation will be accompanied by the release of three short essays. I will provide a historical perspective and overview of other scholars work to demonstrate that FLOSS is a model for the future of all information goods.
+
+Please join me on my journey through FLOSS!</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="87">Wm Salt Hale</person>
+</persons>
+</event>
+<event guid="Pye7S4Cj1h5sflZnmXv5fQ" id="33">
+<date>2015-10-24T04:30:00-07:00</date>
+<start>11:30</start>
+<duration>00:50</duration>
+<room>Room  3183</room>
+<type>Talk</type>
+<language/>
+<slug>33-philosophy-of-free-software</slug>
+<title>Philosophy of Free Software</title>
+<subtitle/>
+<track/>
+<abstract>Born in an era of increasing social freedom but increasing political and corporate conservatism, Free Software didn&apos;t begin as a rebellion against an entrenched proprietary majority, but more as a jolt of surprise that earlier attitudes of open collaboration were disappearing. Academic experimentation gave way to the &quot;Big Business&quot; of software, and to economic motivations to lock down legal ownership. Until the 1970&apos;s, the United States considered software as a &quot;utilitarian good&quot; and granted it no copyright protection. Free Software and proprietary software grew more-or-less at the same time, in response to new ideas of software as a creative work, due the same treatment as other forms of property.
+
+Free Software has always been firmly planted in the ideals of freedom, liberty, equality, and a society of individuals working toward a common good. These concepts are steeped in a heritage stretching back centuries, including Socrates, Plato, Scotus, John Locke, Thomas Paine, Thomas Hill Green, and numerous others. This talk explores the philosophical roots of Free Software, for a deeper understanding of the movement today.</abstract>
+<description>Born in an era of increasing social freedom but increasing political and corporate conservatism, Free Software didn&apos;t begin as a rebellion against an entrenched proprietary majority, but more as a jolt of surprise that earlier attitudes of open collaboration were disappearing. Academic experimentation gave way to the &quot;Big Business&quot; of software, and to economic motivations to lock down legal ownership. Until the 1970&apos;s, the United States considered software as a &quot;utilitarian good&quot; and granted it no copyright protection. Free Software and proprietary software grew more-or-less at the same time, in response to new ideas of software as a creative work, due the same treatment as other forms of property.
+
+Free Software has always been firmly planted in the ideals of freedom, liberty, equality, and a society of individuals working toward a common good. These concepts are steeped in a heritage stretching back centuries, including Socrates, Plato, Scotus, John Locke, Thomas Paine, Thomas Hill Green, and numerous others. This talk explores the philosophical roots of Free Software, for a deeper understanding of the movement today.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="53">Allison Randal</person>
+</persons>
+</event>
+<event guid="KlgtdT1t7y1zHBtC8yZXFw" id="16">
+<date>2015-10-24T06:30:00-07:00</date>
+<start>13:30</start>
+<duration>00:50</duration>
+<room>Room  3183</room>
+<type>Talk</type>
+<language/>
+<slug>16-take-control-of-your-web-browsing</slug>
+<title>Take Control Of Your Web Browsing!</title>
+<subtitle> End Online Tracking!</subtitle>
+<track/>
+<abstract>Modern websites incorporate large amounts of third party resources. While these third parties can provide a better browsing experience all too often they abuse their inclusion on sites to be able to track information about your website&apos;s visitors. Companies like DoubleClick and Axciom collect user data through ads or tracking pixels and sell it with impunity, compromising the privacy of web users. This type of non-consensual tracking must stop. 
+
+Many different solutions to this tracking have sprung up in recent years, the most prevalent of which are ad blockers. Unfortunately these blockers use pre-generated blacklists that can be slow to update, and are focused mainly on blocking visible ads not tracking. Additionally browsers have started fighting back, both Chrome and Firefox allow users to block all third party cookies. While Firefox has been working on built in tracking protection and Safari just released the ability to blacklist domains, there has been little work to block non-cookie browser identification for mainstream users.
+
+The EFF is working on a browser extension that is hoping to solve all of this! It blocks cookies, HTML5 local storage &apos;super cookies&apos;, and canvas fingerprinting! It additionally works to make the HTTP DNT header a real tool for opting out of tracking via our legally binding DNT policy. As an extension available for Chrome and Firefox and GPL3 it&apos;s a great project to protect users that anyone can contribute to without guilt. After this talk, attendees will feel empowered to end online tracking by knowing their enemies and by contributing to Privacy Badger!</abstract>
+<description>Modern websites incorporate large amounts of third party resources. While these third parties can provide a better browsing experience all too often they abuse their inclusion on sites to be able to track information about your website&apos;s visitors. Companies like DoubleClick and Axciom collect user data through ads or tracking pixels and sell it with impunity, compromising the privacy of web users. This type of non-consensual tracking must stop. 
+
+Many different solutions to this tracking have sprung up in recent years, the most prevalent of which are ad blockers. Unfortunately these blockers use pre-generated blacklists that can be slow to update, and are focused mainly on blocking visible ads not tracking. Additionally browsers have started fighting back, both Chrome and Firefox allow users to block all third party cookies. While Firefox has been working on built in tracking protection and Safari just released the ability to blacklist domains, there has been little work to block non-cookie browser identification for mainstream users.
+
+The EFF is working on a browser extension that is hoping to solve all of this! It blocks cookies, HTML5 local storage &apos;super cookies&apos;, and canvas fingerprinting! It additionally works to make the HTTP DNT header a real tool for opting out of tracking via our legally binding DNT policy. As an extension available for Chrome and Firefox and GPL3 it&apos;s a great project to protect users that anyone can contribute to without guilt. After this talk, attendees will feel empowered to end online tracking by knowing their enemies and by contributing to Privacy Badger!</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="40">Noah Swartz</person>
+</persons>
+</event>
+</room>
+<room name="Room  3179">
+<event guid="fPjBwv-I8cijVywkF-mjpg" id="78">
+<date>2015-10-24T03:30:00-07:00</date>
+<start>10:30</start>
+<duration>00:50</duration>
+<room>Room  3179</room>
+<type>Talk</type>
+<language/>
+<slug>78-just-do-it-the-approachability-of-free-software-for-beginners</slug>
+<title>Just Do It - The Approachability of Free Software for Beginners</title>
+<subtitle/>
+<track/>
+<abstract>We all know that one of free software&apos;s greatest strengths is the ability to do whatever you&apos;re interested in, without asking for permission. But even though we all know, we don&apos;t talk about it that much, and in particular, we don&apos;t talk about the significance of what that strength means for those who are just beginning their programming careers.
+&quot;Just Do It - The Approachability of Free Software for Beginners&quot; will put forth the idea that the _only_ tools that are approachable for beginners while still leading to the ability to produce what we would call &quot;high quality&quot; software are all free software tools. It will talk about the ability of free and open source software to inspire curiosity and interest and the role of that curiosity in bringing new programmers into our community. Finally, it will explore some of the areas that this model fails in, and what we can do to fix it.</abstract>
+<description>We all know that one of free software&apos;s greatest strengths is the ability to do whatever you&apos;re interested in, without asking for permission. But even though we all know, we don&apos;t talk about it that much, and in particular, we don&apos;t talk about the significance of what that strength means for those who are just beginning their programming careers.
+&quot;Just Do It - The Approachability of Free Software for Beginners&quot; will put forth the idea that the _only_ tools that are approachable for beginners while still leading to the ability to produce what we would call &quot;high quality&quot; software are all free software tools. It will talk about the ability of free and open source software to inspire curiosity and interest and the role of that curiosity in bringing new programmers into our community. Finally, it will explore some of the areas that this model fails in, and what we can do to fix it.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="83">AJ Jordan</person>
+</persons>
+</event>
+<event guid="M6onO7UohRp95EQXdhrv8A" id="31">
+<date>2015-10-24T04:30:00-07:00</date>
+<start>11:30</start>
+<duration>00:50</duration>
+<room>Room  3179</room>
+<type>Talk</type>
+<language/>
+<slug>31-the-command-line-a-versatile-future-proof-computing-environment</slug>
+<title>The command line - a versatile, future-proof computing environment</title>
+<subtitle>Mind-blowing Bash, Vim, Git, SSH, GNU Screen, and more.</subtitle>
+<track/>
+<abstract>What&apos;s all the fuss with the command line? Why should you bother with this arcane neckbeard-centric time waster? Come and I&apos;ll show you!
+
+* amateur and professional text editing
+* advanced Bash configuration
+* shell job control
+* fish: the betamax of shells
+* programs you can&apos;t live without and never knew existed
+
+All talk materials are published under copyleft licenses.
+
+[Follow-up (video, slides, code)](http://adammonsen.com/post/1342)</abstract>
+<description>What&apos;s all the fuss with the command line? Why should you bother with this arcane neckbeard-centric time waster? Come and I&apos;ll show you!
+
+* amateur and professional text editing
+* advanced Bash configuration
+* shell job control
+* fish: the betamax of shells
+* programs you can&apos;t live without and never knew existed
+
+All talk materials are published under copyleft licenses.
+
+[Follow-up (video, slides, code)](http://adammonsen.com/post/1342)</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="9">Adam Monsen</person>
+</persons>
+</event>
+<event guid="X4I9opFo6tf9FRfAA_nEGQ" id="43">
+<date>2015-10-24T06:30:00-07:00</date>
+<start>13:30</start>
+<duration>00:50</duration>
+<room>Room  3179</room>
+<type>Talk</type>
+<language/>
+<slug>43-how-to-train-your-compiler</slug>
+<title>How to Train Your Compiler</title>
+<subtitle>The Dragon Book, condensed</subtitle>
+<track/>
+<abstract>You probably use a compiler or an interpreter every day, but do you know how they work? The first compilers were designed more than 60 years ago, but writing a compiler is still viewed as a challenge. However, brave knight, do not fear! Equipped with modern tools and theory we can slay the dragon! Along your journey you will likely gain insights about the trade offs made during the design and implementation of your favorite language.
+
+We&apos;ll look at the major components of compilers and interpreters and the theory behind their design. First we&apos;ll discuss compilers and the difference between the compiler&apos;s front end and back end with examples in simple C code. We&apos;ll explain the process of lexing, parsing, and machine code generation, and some common analysis techniques and optimizations. Then we&apos;ll examine interpreters through the lens of Python and compare and contrast different designs. We&apos;ll look at the trade offs made during interpretation and compilation and how they will affect the code you write.
+
+This talk has been presented at Beaver BarCamp in April, 2015 and is being further refined.
+The source code for the slides can be found at https://github.com/iankronquist/how-to-train-your-compiler
+A relatively recent build of the slides can be found at http://people.oregonstate.edu/~kronquii/build/slides/#2</abstract>
+<description>You probably use a compiler or an interpreter every day, but do you know how they work? The first compilers were designed more than 60 years ago, but writing a compiler is still viewed as a challenge. However, brave knight, do not fear! Equipped with modern tools and theory we can slay the dragon! Along your journey you will likely gain insights about the trade offs made during the design and implementation of your favorite language.
+
+We&apos;ll look at the major components of compilers and interpreters and the theory behind their design. First we&apos;ll discuss compilers and the difference between the compiler&apos;s front end and back end with examples in simple C code. We&apos;ll explain the process of lexing, parsing, and machine code generation, and some common analysis techniques and optimizations. Then we&apos;ll examine interpreters through the lens of Python and compare and contrast different designs. We&apos;ll look at the trade offs made during interpretation and compilation and how they will affect the code you write.
+
+This talk has been presented at Beaver BarCamp in April, 2015 and is being further refined.
+The source code for the slides can be found at https://github.com/iankronquist/how-to-train-your-compiler
+A relatively recent build of the slides can be found at http://people.oregonstate.edu/~kronquii/build/slides/#2</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="39">Ian Kronquist</person>
+</persons>
+</event>
+</room>
+<room name="Room  3178">
+<event guid="SYVzT7ArFyGdJsszZdVlsg" id="29">
+<date>2015-10-24T03:30:00-07:00</date>
+<start>10:30</start>
+<duration>00:50</duration>
+<room>Room  3178</room>
+<type>Talk</type>
+<language/>
+<slug>29-terrible-ideas-in-git</slug>
+<title>Terrible Ideas in Git</title>
+<subtitle>A group of developers is called a merge conflict</subtitle>
+<track/>
+<abstract>Adapted from his class &quot;The Screaming Horrors of Git,&quot; Corey takes us on a magical tour through the (mis)use of Git to do things its creators never intended. In this humorously delivered exploration of one of the open source community&apos;s more ubiquitous tools, Corey demonstrates that a finely crafted wrench makes a barely acceptable hammer if you hold it wrong.</abstract>
+<description>Adapted from his class &quot;The Screaming Horrors of Git,&quot; Corey takes us on a magical tour through the (mis)use of Git to do things its creators never intended. In this humorously delivered exploration of one of the open source community&apos;s more ubiquitous tools, Corey demonstrates that a finely crafted wrench makes a barely acceptable hammer if you hold it wrong.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="50">Corey Quinn</person>
+</persons>
+</event>
+<event guid="o91AzqFKlcsvQB5JykDBWA" id="69">
+<date>2015-10-24T04:30:00-07:00</date>
+<start>11:30</start>
+<duration>00:50</duration>
+<room>Room  3178</room>
+<type>Talk</type>
+<language/>
+<slug>69-xmpp-slack-and-irc-oh-my-chatops-using-saltstack</slug>
+<title>XMPP, Slack, and IRC..Oh my! ChatOps using SaltStack</title>
+<subtitle/>
+<track/>
+<abstract>Popularized by GitHub, ChatOps is putting tools in the middle of the conversation.  Using recent additions to SaltStack in the form of runners, returners &amp; engines, popular chat methods such as XMPP, Slack, &amp; IRC can be used for a variety of things such as orchestrating virtual machine deployments, minion monitoring and software upgrades.  This talk will primarily focus on demonstrations of the features mentioned above.</abstract>
+<description>Popularized by GitHub, ChatOps is putting tools in the middle of the conversation.  Using recent additions to SaltStack in the form of runners, returners &amp; engines, popular chat methods such as XMPP, Slack, &amp; IRC can be used for a variety of things such as orchestrating virtual machine deployments, minion monitoring and software upgrades.  This talk will primarily focus on demonstrations of the features mentioned above.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="77">Gareth J. Greenaway</person>
+</persons>
+</event>
+<event guid="-Rm1cQ46b6zQsaIuF-MC-Q" id="65">
+<date>2015-10-24T06:30:00-07:00</date>
+<start>13:30</start>
+<duration>00:50</duration>
+<room>Room  3178</room>
+<type>Talk</type>
+<language/>
+<slug>65-magic-myth-and-the-devops</slug>
+<title>Magic, Myth, and the DevOps</title>
+<subtitle>Antidotes to Learned Helplessness and Fear Culture</subtitle>
+<track/>
+<abstract>&quot;Once upon a time&quot;:  powerful words that begin many oral
+narratives and indicate that the story to be told will be imbued
+with magic and myth.  Organizational folklore can be a very powerful
+force for instilling or perpetuating behavior, systems, and culture
+within an organization.
+
+Too often, fear and negativity are the driving forces in the folklore
+behind many organizational traditions.  A positive narrative that
+embraces the customs and traditions of a healthy, balanced feedback
+loop can help jumpstart your DevOps journey.  This talk will help you
+frame your narrative alongside metrics and use folklore as a catalyst
+for positive change.</abstract>
+<description>&quot;Once upon a time&quot;:  powerful words that begin many oral
+narratives and indicate that the story to be told will be imbued
+with magic and myth.  Organizational folklore can be a very powerful
+force for instilling or perpetuating behavior, systems, and culture
+within an organization.
+
+Too often, fear and negativity are the driving forces in the folklore
+behind many organizational traditions.  A positive narrative that
+embraces the customs and traditions of a healthy, balanced feedback
+loop can help jumpstart your DevOps journey.  This talk will help you
+frame your narrative alongside metrics and use folklore as a catalyst
+for positive change.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="73">Jennifer Davis</person>
+</persons>
+</event>
+</room>
+<room name="Room  3184">
+<event guid="cWk66nX3_8OemYy80-RVbg" id="51">
+<date>2015-10-24T03:30:00-07:00</date>
+<start>10:30</start>
+<duration>00:50</duration>
+<room>Room  3184</room>
+<type>Talk</type>
+<language/>
+<slug>51-what-journalists-want-to-know-about-your-free-software-project</slug>
+<title>What journalists want to know about your free software project</title>
+<subtitle/>
+<track/>
+<abstract>Slashdot gets a lot of press releases and other news about software, including a lot of Free / open source software (our favorite kind). However, very often this news is submitted in ways that make it unlikely that the news will be spread. This presentation looks at why that is, and how it can be fixed, with a laundry list of things to think about, whether a project is brand new or long-established. 
+
+Detailed outline about how to get journalist&apos;s attention in talking about software: 
+
+A) Explain what it does and what it&apos;s for, and in short words, if it&apos;s not utterly obvious. &quot;Analyzes crop circles for patterns.&quot; &quot;Transparently compares or manipulates text in wildly different file formats to analyze freedom of information act responses.&quot;
+
+B) the competition, and why yours is different: it slices, it dices, it parses, it mixes, but why is LibreBungler better than the existing and widely used OpenBungler? Sometimes the obvious factor is that yours *is* open source or otherwise advantageously licensed.
+
+C) Speaking of that, what a Free license (or other open source license, if you think Free is the wrong word) brings in the case of your own project. Related: which license, and why, especially if that&apos;s a vital reason for the itch being scratched. KDE v gnome. Openbox fluxbox etc.
+
+D) Maturity. If a project is looking for publicity per se, it&apos;s probably not already the &quot;market leader.&quot; But is it the next best thing, or is it just a small personal project? Is it already used by lots of people, but was previously under a closed license?
+
+D) Who&apos;s using it, and why? Just you, because it&apos;s your baby? Google, because it solves a small problem that crops up 10,000,000 times a day? Everyone who used to use another piece of software until its maintainer committed a horrible crime or it was found to send your data straight to the NSA? 
+
+E) Why it&apos;s called what it&apos;s called. One thing this should make everyone think about is how they name or otherwise brand their project.  (The GIMP problem .. But other things, too, like Vagrant and brainfuck.)
+
+Names can be widely, whimsical, self deprecating, recursively recursive, but names can have consequences. 
+
+F) how is it developed? Just saying it&apos;s &quot;Foss&quot; doesn&apos;t say much. Is it hosted on github? Is it hosted on sourceforge? Is it written in a new language or old, obscure or widespread? Written in perl, but with an interface that&apos;s manipulated by a configuration file anyone can edit to change the look. Do all contributions go through a small team? (The bus factor)
+
+G) requirements, hardware and software. 
+
+H) The story. All of the previous line items matter, or at least they might, but they are all potentially answers for the questions &quot;Why does this exist?&quot; and &quot;Why should anyone who doesn&apos;t already know care?&quot;) And if it&apos;s news about an existing project, what&apos;s the *new* in that news?</abstract>
+<description>Slashdot gets a lot of press releases and other news about software, including a lot of Free / open source software (our favorite kind). However, very often this news is submitted in ways that make it unlikely that the news will be spread. This presentation looks at why that is, and how it can be fixed, with a laundry list of things to think about, whether a project is brand new or long-established. 
+
+Detailed outline about how to get journalist&apos;s attention in talking about software: 
+
+A) Explain what it does and what it&apos;s for, and in short words, if it&apos;s not utterly obvious. &quot;Analyzes crop circles for patterns.&quot; &quot;Transparently compares or manipulates text in wildly different file formats to analyze freedom of information act responses.&quot;
+
+B) the competition, and why yours is different: it slices, it dices, it parses, it mixes, but why is LibreBungler better than the existing and widely used OpenBungler? Sometimes the obvious factor is that yours *is* open source or otherwise advantageously licensed.
+
+C) Speaking of that, what a Free license (or other open source license, if you think Free is the wrong word) brings in the case of your own project. Related: which license, and why, especially if that&apos;s a vital reason for the itch being scratched. KDE v gnome. Openbox fluxbox etc.
+
+D) Maturity. If a project is looking for publicity per se, it&apos;s probably not already the &quot;market leader.&quot; But is it the next best thing, or is it just a small personal project? Is it already used by lots of people, but was previously under a closed license?
+
+D) Who&apos;s using it, and why? Just you, because it&apos;s your baby? Google, because it solves a small problem that crops up 10,000,000 times a day? Everyone who used to use another piece of software until its maintainer committed a horrible crime or it was found to send your data straight to the NSA? 
+
+E) Why it&apos;s called what it&apos;s called. One thing this should make everyone think about is how they name or otherwise brand their project.  (The GIMP problem .. But other things, too, like Vagrant and brainfuck.)
+
+Names can be widely, whimsical, self deprecating, recursively recursive, but names can have consequences. 
+
+F) how is it developed? Just saying it&apos;s &quot;Foss&quot; doesn&apos;t say much. Is it hosted on github? Is it hosted on sourceforge? Is it written in a new language or old, obscure or widespread? Written in perl, but with an interface that&apos;s manipulated by a configuration file anyone can edit to change the look. Do all contributions go through a small team? (The bus factor)
+
+G) requirements, hardware and software. 
+
+H) The story. All of the previous line items matter, or at least they might, but they are all potentially answers for the questions &quot;Why does this exist?&quot; and &quot;Why should anyone who doesn&apos;t already know care?&quot;) And if it&apos;s news about an existing project, what&apos;s the *new* in that news?</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="63">Timothy Lord</person>
+</persons>
+</event>
+<event guid="s-VKYXysj-7MAv7gp-kXww" id="50">
+<date>2015-10-24T04:30:00-07:00</date>
+<start>11:30</start>
+<duration>00:50</duration>
+<room>Room  3184</room>
+<type>Talk</type>
+<language/>
+<slug>50-innovating-journalism-at-the-new-york-times</slug>
+<title>Innovating Journalism at the New York Times</title>
+<subtitle/>
+<track/>
+<abstract>The New York Times has been innovating journalism with technology for the past 164 years.   Since our first website launched in 1996, we’ve faced the unique challenges of running a high-traffic website from the moment we launched, something incredibly challenging for a company where digital started off as an afterthought. Without the open source tools available today, this required building web servers, ad networks, and caches all from scratch. 
+
+The Times has been around a long time and will be around for the foreseeable future. This presents a unique problem-how do you build software to last decades? Any piece of software we build is immediately in the hands of hundreds of thousands of users and we have core pieces of our architecture that have lasted 10, even 20 years. 
+
+We’ll talk about some of the mistakes we’ve made, the huge diversity of tools that go into the New York Times, and what we’ve done and are doing to continue to move fast while innovating journalism at scale. We’ll look how we’re using microservices, continuous delivery, and API management to make our 164 year old newsgathering machine continue to “enhance society by creating, collecting and distributing high-quality news and information” for the next century. </abstract>
+<description>The New York Times has been innovating journalism with technology for the past 164 years.   Since our first website launched in 1996, we’ve faced the unique challenges of running a high-traffic website from the moment we launched, something incredibly challenging for a company where digital started off as an afterthought. Without the open source tools available today, this required building web servers, ad networks, and caches all from scratch. 
+
+The Times has been around a long time and will be around for the foreseeable future. This presents a unique problem-how do you build software to last decades? Any piece of software we build is immediately in the hands of hundreds of thousands of users and we have core pieces of our architecture that have lasted 10, even 20 years. 
+
+We’ll talk about some of the mistakes we’ve made, the huge diversity of tools that go into the New York Times, and what we’ve done and are doing to continue to move fast while innovating journalism at scale. We’ll look how we’re using microservices, continuous delivery, and API management to make our 164 year old newsgathering machine continue to “enhance society by creating, collecting and distributing high-quality news and information” for the next century. </description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="61">Scott Feinberg</person>
+</persons>
+</event>
+<event guid="EkTwUKCdv4c518havHC7cA" id="35">
+<date>2015-10-24T06:30:00-07:00</date>
+<start>13:30</start>
+<duration>00:50</duration>
+<room>Room  3184</room>
+<type>Talk</type>
+<language/>
+<slug>35-intro-to-making-music-with-gnu-linux</slug>
+<title>Intro to Making Music with GNU/Linux</title>
+<subtitle/>
+<track/>
+<abstract>The range of options for music-making on GNU/Linux with free/libre/open tools stretches from music-focused programming languages like CSound and PureData to simple tools like Audacity, Ardour, Guitarix, Hydrogen, and Musescore which are accessible to novice members of the general public.
+
+We&apos;ll explore the options for different sorts of musical creativity, focusing on the basic tools and how to get them set up effectively on GNU/Linux, and how to get involved with the Linux music community. We will emphasize the basic audio set-up issues and common tools for beginner with brief mention of some of the more advanced options.</abstract>
+<description>The range of options for music-making on GNU/Linux with free/libre/open tools stretches from music-focused programming languages like CSound and PureData to simple tools like Audacity, Ardour, Guitarix, Hydrogen, and Musescore which are accessible to novice members of the general public.
+
+We&apos;ll explore the options for different sorts of musical creativity, focusing on the basic tools and how to get them set up effectively on GNU/Linux, and how to get involved with the Linux music community. We will emphasize the basic audio set-up issues and common tools for beginner with brief mention of some of the more advanced options.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="54">Aaron Wolf</person>
+</persons>
+</event>
+</room>
+<room name="500EAST">
+<event guid="DuMW_fcgHYyCoyRSjcU9Ew" id="104">
+<date>2015-10-24T08:00:00-07:00</date>
+<start>15:00</start>
+<duration>01:00</duration>
+<room>500EAST</room>
+<type>Shauna Keynote</type>
+<language/>
+<slug>104-beneath-the-code-the-heart</slug>
+<title>Beneath the Code, the Heart</title>
+<subtitle/>
+<track/>
+<abstract>Free software are tools that can be studied, changed, and shared. But what is the free software community?  United by values more than methodology, we perform a variety of tasks and develop an abundance of projects.  This talk shares the stories of people in and around free software - users and developers, teachers and testers, programmers and philosophers.  We’ll talk about the paths we’ve taken, the obstacles we’ve faced, and the shared values that inspire us to grow as individuals and as a community.</abstract>
+<description>Free software are tools that can be studied, changed, and shared. But what is the free software community?  United by values more than methodology, we perform a variety of tasks and develop an abundance of projects.  This talk shares the stories of people in and around free software - users and developers, teachers and testers, programmers and philosophers.  We’ll talk about the paths we’ve taken, the obstacles we’ve faced, and the shared values that inspire us to grow as individuals and as a community.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="148">Shauna Gordon-McKeon</person>
+</persons>
+</event>
+<event guid="6O4l82qZWHOIJpmWt5eaDA" id="85">
+<date>2015-10-24T09:00:00-07:00</date>
+<start>16:00</start>
+<duration>02:30</duration>
+<room>500EAST</room>
+<type>RMS Keynote</type>
+<language/>
+<slug>85-free-software-and-your-freedom</slug>
+<title>Free Software and Your Freedom</title>
+<subtitle/>
+<track/>
+<abstract>The Free Software Movement campaigns for computer users&apos; freedom to cooperate and control their own computing. The Free Software Movement developed the GNU operating system, typically used together with the kernel Linux, specifically to make these freedoms possible.</abstract>
+<description>The Free Software Movement campaigns for computer users&apos; freedom to cooperate and control their own computing. The Free Software Movement developed the GNU operating system, typically used together with the kernel Linux, specifically to make these freedoms possible.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="110">Richard M. Stallman</person>
+</persons>
+</event>
+</room>
+</day>
+</schedule>

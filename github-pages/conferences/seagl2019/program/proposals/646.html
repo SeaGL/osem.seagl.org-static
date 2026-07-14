@@ -1,0 +1,268 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<title>SeaGL</title>
+<meta content="" name="description">
+<meta content="" name="author">
+<link rel="stylesheet" href="/assets/application-9ebb7e8df4f6abe04ca09a78e84abc751d81a041f3702dfc6c2ebbdd106ceaa0.css" media="all">
+<script src="/assets/application-47ef59ee7b6477ee91a0ce07fca426e369cd7b348258d0db05fed8e81411ccdc.js"></script>
+<meta name="csrf-param" content="authenticity_token">
+
+
+<meta content="The Death Star Postmortem" property="og:title">
+<meta content="https://osem.seagl.org/conferences/seagl2019/program/proposals/646" property="og:url">
+<meta content="Following every release of a complicated project is the inevitable postmortem, an opportunity for everyone to get together to discuss what went wrong and what could have been done better. When I think of complicated fictitious projects none is more complicated than the Death Star from Star Wars.
+
+Not only was it a weapon with the capability of destroying an entire planet from quite some distance away but it was also a moon-sized city. One that needed to provide the infrastructure to support the crew that lived and worked on it full time. The ultimate power of the Death Star was only overshadowed by its ultimate failure when it was successfully destroyed by the rebels not once, but twice.
+
+Following each of these failures, I like to think that what was left of the Galactic Empire would regroup and hold a postmortem, discussing what they all felt went wrong and what ultimately led each of the Death Stars being destroyed. During this talk, we’ll look at what these fictional postmortems might have looked like. What some of the potential talking points that might have come up, for example perhaps in hindsight it wasn’t a good idea to include an exposed exhaust vent that was easy to hit as a womp rat. And some potential lessons that we can incorporate into our real-life postmortems." property="og:description">
+<meta content="SeaGL" property="og:site_name">
+<meta content="https://secure.gravatar.com/avatar/034ddb7377a9730c87ef724223c7033c.png?r=PG&amp;s=32" property="og:image">
+<meta content="https://secure.gravatar.com/avatar/034ddb7377a9730c87ef724223c7033c.png?r=PG&amp;s=32" property="og:image:secure_url">
+
+</head>
+<body class="conference-seagl2019">
+<div class="navbar navbar-default navbar-fixed-top nav-osem" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target="#main-nav" data-toggle="collapse" type="button">
+<span class="sr-only">
+Toggle navigation
+</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" title="Open Source Event Manager" href="/">SeaGL</a>
+</div>
+<div class="collapse navbar-collapse" id="main-nav">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown visible-desktop">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<span class="fa-solid fa-user"></span>
+Sign In
+<span class="caret"></span>
+</a>
+<div class="dropdown-menu">
+<form action="/accounts/sign_in" accept-charset="UTF-8" method="post"><input type="text" name="user[login]" id="user_login_dd" class="form-control" placeholder="Username / E-Mail" inert="true">
+<input type="password" name="user[password]" id="user_password_dd" class="form-control" placeholder="Password" inert="true">
+<p class="text-right">
+<small>
+<label for="user_remember_me" inert="true">Remember me</label>
+<input type="checkbox" name="user[remember_me]" id="user_remember_me" value="1" inert="true">
+</small>
+</p>
+<button class="btn btn-success btn-block" inert="true">Sign in</button>
+<p class="text-right">
+<br>
+<a class="small btn btn-xs btn-default" data-target="#navbar-devise-help" data-toggle="collapse">
+Need Help?
+</a>
+</p><div class="collapse" id="navbar-devise-help">
+<a href="/accounts/password/new">Forgot your password?</a>
+<br>
+<a href="/accounts/confirmation/new">Didn't receive confirmation instructions?</a>
+<br>
+
+</div>
+<p></p>
+</form></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="messages">
+<div class="container">
+<noscript>
+<style>
+  #content {
+    display: none;
+  }
+</style>
+<h2>
+JavaScript is not enabled
+</h2>
+<p>
+OSEM requires JavaScript to be enabled to function. Please turn on JavaScript in your browser's settings and reload the page to continue.
+</p>
+</noscript>
+
+</div>
+</div>
+<div id="content">
+<div class="container">
+<div class="row">
+<div class="col-md-12 page-header">
+<h2>
+The Death Star Postmortem
+<br>
+<small>
+What would a postmortem for a hugely complicated project such as the Death Star look like?
+</small>
+<div class="btn-group pull-right">
+</div>
+</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-3">
+<h3></h3>
+Presented by:
+<div class="speakerinfo">
+<div class="row">
+<div class="col-md-4">
+<img class="img-responsive img-rounded" src="https://secure.gravatar.com/avatar/034ddb7377a9730c87ef724223c7033c.png?r=PG&amp;s=120">
+</div>
+<div class="col-md-8">
+<h4>
+<a href="/users/77">Gareth J. Greenaway</a>
+<br>
+</h4>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-9">
+<div class="row">
+<div class="col-md-12">
+<div class="lead">
+
+
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<p>
+</p><p>Following every release of a complicated project is the inevitable postmortem, an opportunity for everyone to get together to discuss what went wrong and what could have been done better. When I think of complicated fictitious projects none is more complicated than the Death Star from Star Wars.</p>
+
+<p>Not only was it a weapon with the capability of destroying an entire planet from quite some distance away but it was also a moon-sized city. One that needed to provide the infrastructure to support the crew that lived and worked on it full time. The ultimate power of the Death Star was only overshadowed by its ultimate failure when it was successfully destroyed by the rebels not once, but twice.</p>
+
+<p>Following each of these failures, I like to think that what was left of the Galactic Empire would regroup and hold a postmortem, discussing what they all felt went wrong and what ultimately led each of the Death Stars being destroyed. During this talk, we’ll look at what these fictional postmortems might have looked like. What some of the potential talking points that might have come up, for example perhaps in hindsight it wasn’t a good idea to include an exposed exhaust vent that was easy to hit as a womp rat. And some potential lessons that we can incorporate into our real-life postmortems.</p>
+
+<p></p>
+</div>
+<dl id="proposal-info">
+<div class="col-md-12">
+<dt>Date:</dt>
+<dd>2019 November 16 - 16:15</dd>
+</div>
+<div class="col-md-12">
+<dt>Duration:</dt>
+<dd>50 min</dd>
+</div>
+<div class="col-md-12">
+<dt>Room:</dt>
+<dd>
+TALKS 3180
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Conference:</dt>
+<dd><a href="/conferences/seagl2019">SeaGL 2019 - A Prime Year for Free Software</a></dd>
+</div>
+<div class="col-md-12">
+<dt>Language:</dt>
+<dd></dd>
+</div>
+<div class="col-md-12">
+<dt>Track:</dt>
+<dd>
+<span class="label" style="background-color: #5AF675; color: black">
+People
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Difficulty:</dt>
+<dd>
+<span class="label" style="background-color: #32CB2A; color: black;">
+Easy
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<hr>
+<h4>Happening at the same time:</h4>
+<ol>
+<li>
+<a href="/conferences/seagl2019/program/proposals/711">Free as in Freedom: Live at SeaGL!
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2019 November 16 15:40
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+TALKS 3183
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2019/program/proposals/660">Getting started with Nextcloud
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2019 November 16 16:15
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+TALKS 3179
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2019/program/proposals/673">Co-operation: Putting it in Writing
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2019 November 16 16:15
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+TALKS 3178
+</dd>
+<br>
+</dl>
+</ol>
+</div>
+</dl>
+</div>
+<div class="row">
+<div class="col-md-12">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="footer">
+<div class="container">
+<p class="muted text-center">
+<small>
+This tool is
+<a href="http://www.gnu.org/philosophy/free-sw.html">free software</a>,
+released under the
+<a href="http://opensource.org/licenses/MIT">MIT license</a>.
+You can run, copy, distribute, study, change and improve it.
+The source code and the developers are on
+<a href="https://github.com/openSUSE/osem">GitHub</a>.
+</small>
+</p>
+</div>
+</div>
+
+
+
+
+</body></html>

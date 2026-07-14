@@ -1,0 +1,305 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<title>SeaGL</title>
+<meta content="" name="description">
+<meta content="" name="author">
+<link rel="stylesheet" href="/assets/application-9ebb7e8df4f6abe04ca09a78e84abc751d81a041f3702dfc6c2ebbdd106ceaa0.css" media="all">
+<script src="/assets/application-47ef59ee7b6477ee91a0ce07fca426e369cd7b348258d0db05fed8e81411ccdc.js"></script>
+<meta name="csrf-param" content="authenticity_token">
+
+
+<meta content="Advice on becoming a sysadmin: A talk for my former self" property="og:title">
+<meta content="https://osem.seagl.org/conferences/seagl2015/program/proposals/40" property="og:url">
+<meta content="Alternate titles:
+ * Career advice for the aspiring Linux sysadmin today or myself 10 years ago
+ * &quot;So you want to be a sysadmin?&quot;
+
+&quot;It’s Difficult to Make Predictions, Especially About the Future&quot; - So is Attribution
+
+Being a sysadmin is a career path which can be fun, lucrative and one of the best ways to get paid to work with and on open source software. In this presentation I share some of the mistakes I made so you don't need to repeat them. Why not make new and interesting mistakes?
+
+It is a confusing time to enter this field. Why not be a DevOps instead of a Sysadmin? What is this Site Reliability Engineer thing? What if the whole world goes NoOps? Do I really have to carry a pager? I'll provide some answers, hints and raw speculation.
+
+About the Presenter:
+Paul English is President of the Seattle Area System Administrator's Guild, Board Member for the League of Professional System Administrators, and multi-year organizer of the Cascadia IT Conference.  Paul also works as a system administrator and manager at Vaisala Inc, creating weather forecasts for wind, solar and hydro power." property="og:description">
+<meta content="SeaGL" property="og:site_name">
+<meta content="https://secure.gravatar.com/avatar/d4766d549bcc8771e8731d8d442b1060.png?r=PG&amp;s=32" property="og:image">
+<meta content="https://secure.gravatar.com/avatar/d4766d549bcc8771e8731d8d442b1060.png?r=PG&amp;s=32" property="og:image:secure_url">
+
+</head>
+<body class="conference-seagl2015">
+<div class="navbar navbar-default navbar-fixed-top nav-osem" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target="#main-nav" data-toggle="collapse" type="button">
+<span class="sr-only">
+Toggle navigation
+</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" title="Open Source Event Manager" href="/">SeaGL</a>
+</div>
+<div class="collapse navbar-collapse" id="main-nav">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown visible-desktop">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<span class="fa-solid fa-user"></span>
+Sign In
+<span class="caret"></span>
+</a>
+<div class="dropdown-menu">
+<form action="/accounts/sign_in" accept-charset="UTF-8" method="post"><input type="text" name="user[login]" id="user_login_dd" class="form-control" placeholder="Username / E-Mail" inert="true">
+<input type="password" name="user[password]" id="user_password_dd" class="form-control" placeholder="Password" inert="true">
+<p class="text-right">
+<small>
+<label for="user_remember_me" inert="true">Remember me</label>
+<input type="checkbox" name="user[remember_me]" id="user_remember_me" value="1" inert="true">
+</small>
+</p>
+<button class="btn btn-success btn-block" inert="true">Sign in</button>
+<p class="text-right">
+<br>
+<a class="small btn btn-xs btn-default" data-target="#navbar-devise-help" data-toggle="collapse">
+Need Help?
+</a>
+</p><div class="collapse" id="navbar-devise-help">
+<a href="/accounts/password/new">Forgot your password?</a>
+<br>
+<a href="/accounts/confirmation/new">Didn't receive confirmation instructions?</a>
+<br>
+
+</div>
+<p></p>
+</form></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="messages">
+<div class="container">
+<noscript>
+<style>
+  #content {
+    display: none;
+  }
+</style>
+<h2>
+JavaScript is not enabled
+</h2>
+<p>
+OSEM requires JavaScript to be enabled to function. Please turn on JavaScript in your browser's settings and reload the page to continue.
+</p>
+</noscript>
+
+</div>
+</div>
+<div id="content">
+<div class="container">
+<div class="row">
+<div class="col-md-12 page-header">
+<h2>
+Advice on becoming a sysadmin: A talk for my former self
+<br>
+<small>
+Linux Sysadmin Careers
+</small>
+<div class="btn-group pull-right">
+<a class="btn btn-success" href="/conferences/seagl2015/schedule">Schedule</a>
+</div>
+</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-3">
+<h3></h3>
+Presented by:
+<div class="speakerinfo">
+<div class="row">
+<div class="col-md-4">
+<img class="img-responsive img-rounded" src="https://secure.gravatar.com/avatar/d4766d549bcc8771e8731d8d442b1060.png?r=PG&amp;s=120">
+</div>
+<div class="col-md-8">
+<h4>
+<a href="/users/57">Paul English</a>
+<br>
+</h4>
+<div class="text-muted">
+from
+Vaisala Inc, Seattle Area System Administrator's Guild, League of Professional System Administrators, Seattle Privacy Coalition, Techno-Activism 3rd Mondays, Emerald Onion Project
+</div>
+</div>
+</div>
+<div class="row speakerbio">
+<div class="col-md-12">
+<p>Paul is CEO of PreOS Security Inc and is a board member for the League of Professional System Administrator, a nonprofit professional association for the advancement of the practice of system administration from 2015 through 2017. Paul has a bachelor’s degree in computer science from Worcester Polytechnic Institute obtained in 1998. He has been a UNIX &amp; Linux system administrator and wearer of many other IT hats since 1996. More recently he has managed a few sysadmins while still racking the occasional server. In 2016, Paul ventured into a firmware security startup to help sysadmins keep their systems safe from new threats.</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-9">
+<div class="row">
+<div class="col-md-12">
+<div class="lead">
+
+
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<p>
+</p><p>Alternate titles:
+ * Career advice for the aspiring Linux sysadmin today or myself 10 years ago
+ * "So you want to be a sysadmin?"</p>
+
+<p>"It’s Difficult to Make Predictions, Especially About the Future" - So is Attribution</p>
+
+<p>Being a sysadmin is a career path which can be fun, lucrative and one of the best ways to get paid to work with and on open source software. In this presentation I share some of the mistakes I made so you don't need to repeat them. Why not make new and interesting mistakes?</p>
+
+<p>It is a confusing time to enter this field. Why not be a DevOps instead of a Sysadmin? What is this Site Reliability Engineer thing? What if the whole world goes NoOps? Do I really have to carry a pager? I'll provide some answers, hints and raw speculation.</p>
+
+<p>About the Presenter:
+Paul English is President of the Seattle Area System Administrator's Guild, Board Member for the League of Professional System Administrators, and multi-year organizer of the Cascadia IT Conference.  Paul also works as a system administrator and manager at Vaisala Inc, creating weather forecasts for wind, solar and hydro power.</p>
+
+<p></p>
+</div>
+<dl id="proposal-info">
+<div class="col-md-12">
+<dt>Date:</dt>
+<dd>2015 October 23 - 14:00</dd>
+</div>
+<div class="col-md-12">
+<dt>Duration:</dt>
+<dd>50 min</dd>
+</div>
+<div class="col-md-12">
+<dt>Room:</dt>
+<dd>
+Room  3184
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Conference:</dt>
+<dd><a href="/conferences/seagl2015">SeaGL 2015</a></dd>
+</div>
+<div class="col-md-12">
+<dt>Language:</dt>
+<dd></dd>
+</div>
+<div class="col-md-12">
+<dt>Track:</dt>
+<dd>
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Difficulty:</dt>
+<dd>
+<span class="label" style="background-color: #70ef69; color: black;">
+Easy
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<hr>
+<h4>Happening at the same time:</h4>
+<ol>
+<li>
+<a href="/conferences/seagl2015/program/proposals/88">Exhibitor Hall Day One
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2015 October 23 09:00
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 1110
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2015/program/proposals/20">You Should Speak
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2015 October 23 14:00
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room  3183
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2015/program/proposals/75">SAFE: An Internet for Privacy, Security and Freedom
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2015 October 23 14:00
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room  3178
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2015/program/proposals/71">Access Without Empowerment
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2015 October 23 14:00
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room  3179
+</dd>
+<br>
+</dl>
+</ol>
+</div>
+</dl>
+</div>
+<div class="row">
+<div class="col-md-12">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="footer">
+<div class="container">
+<p class="muted text-center">
+<small>
+This tool is
+<a href="http://www.gnu.org/philosophy/free-sw.html">free software</a>,
+released under the
+<a href="http://opensource.org/licenses/MIT">MIT license</a>.
+You can run, copy, distribute, study, change and improve it.
+The source code and the developers are on
+<a href="https://github.com/openSUSE/osem">GitHub</a>.
+</small>
+</p>
+</div>
+</div>
+
+
+
+
+</body></html>

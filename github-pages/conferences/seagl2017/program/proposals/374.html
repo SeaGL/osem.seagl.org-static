@@ -1,0 +1,286 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<title>SeaGL</title>
+<meta content="" name="description">
+<meta content="" name="author">
+<link rel="stylesheet" href="/assets/application-9ebb7e8df4f6abe04ca09a78e84abc751d81a041f3702dfc6c2ebbdd106ceaa0.css" media="all">
+<script src="/assets/application-47ef59ee7b6477ee91a0ce07fca426e369cd7b348258d0db05fed8e81411ccdc.js"></script>
+<meta name="csrf-param" content="authenticity_token">
+
+
+<meta content="Detecting BadBIOS, Evil Maids, Bootkits, and Other Firmware Malware" property="og:title">
+<meta content="https://osem.seagl.org/conferences/seagl2017/program/proposals/374" property="og:url">
+<meta content="For attackers, platform firmware is the new Software. Most systems include hundreds of firmwares - UEFI or BIOS, PCIe expansion ROMs, USB controller drivers, storage controller host and disk/SSD drivers. Firmware-level hosted malware, bare-metal or virtualized, is nearly invisible to normal security detection tools, has full control of your system, and can often continue running even when the system is &quot;powered off&quot;. Security Firms (eg, &quot;Hacking Team&quot; sell UEFI 0days to the highest bidder), and government agencies include firmware-level malware (eg, Wikileak'ed Vault7 CIA EFI malware). Defenders need to catch-up, and learn to defend their systems against firmware-level malware. In this presentation, we'll cover the NIST SP (147,147b,155,193) secure firmware guidance, for citizens, rather than vendors/enterprises. We'll discuss the problem of firmware-level malware, and cover some open source tools (FlashROM, CHIPSEC, etc.) to help detect malware on your system. We'll be discussing a new open source tool we've just released to help make it easier for you to do this check. You'll also get a nice paper tri-fold copy of our CHIPSEC Quick Reference for Sysadmins [note: we're all sysadmins for our own personal systems(!)], and some scary looking BadBIOS stickers for your laptop." property="og:description">
+<meta content="SeaGL" property="og:site_name">
+<meta content="https://secure.gravatar.com/avatar/d4766d549bcc8771e8731d8d442b1060.png?r=PG&amp;s=32" property="og:image">
+<meta content="https://secure.gravatar.com/avatar/d4766d549bcc8771e8731d8d442b1060.png?r=PG&amp;s=32" property="og:image:secure_url">
+
+</head>
+<body class="conference-seagl2017">
+<div class="navbar navbar-default navbar-fixed-top nav-osem" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target="#main-nav" data-toggle="collapse" type="button">
+<span class="sr-only">
+Toggle navigation
+</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" title="Open Source Event Manager" href="/">SeaGL</a>
+</div>
+<div class="collapse navbar-collapse" id="main-nav">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown visible-desktop">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<span class="fa-solid fa-user"></span>
+Sign In
+<span class="caret"></span>
+</a>
+<div class="dropdown-menu">
+<form action="/accounts/sign_in" accept-charset="UTF-8" method="post"><input type="text" name="user[login]" id="user_login_dd" class="form-control" placeholder="Username / E-Mail" inert="true">
+<input type="password" name="user[password]" id="user_password_dd" class="form-control" placeholder="Password" inert="true">
+<p class="text-right">
+<small>
+<label for="user_remember_me" inert="true">Remember me</label>
+<input type="checkbox" name="user[remember_me]" id="user_remember_me" value="1" inert="true">
+</small>
+</p>
+<button class="btn btn-success btn-block" inert="true">Sign in</button>
+<p class="text-right">
+<br>
+<a class="small btn btn-xs btn-default" data-target="#navbar-devise-help" data-toggle="collapse">
+Need Help?
+</a>
+</p><div class="collapse" id="navbar-devise-help">
+<a href="/accounts/password/new">Forgot your password?</a>
+<br>
+<a href="/accounts/confirmation/new">Didn't receive confirmation instructions?</a>
+<br>
+
+</div>
+<p></p>
+</form></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="messages">
+<div class="container">
+<noscript>
+<style>
+  #content {
+    display: none;
+  }
+</style>
+<h2>
+JavaScript is not enabled
+</h2>
+<p>
+OSEM requires JavaScript to be enabled to function. Please turn on JavaScript in your browser's settings and reload the page to continue.
+</p>
+</noscript>
+
+</div>
+</div>
+<div id="content">
+<div class="container">
+<div class="row">
+<div class="col-md-12 page-header">
+<h2>
+Detecting BadBIOS, Evil Maids, Bootkits, and Other Firmware Malware
+<br>
+<small>
+Systems/Ops, Hardware/IoT, Security/InfoSec
+</small>
+<div class="btn-group pull-right">
+<a class="btn btn-success" href="/conferences/seagl2017/schedule">Schedule</a>
+</div>
+</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-3">
+<h3></h3>
+Presented by:
+<div class="speakerinfo">
+<div class="row">
+<div class="col-md-4">
+<img class="img-responsive img-rounded" src="https://secure.gravatar.com/avatar/d4766d549bcc8771e8731d8d442b1060.png?r=PG&amp;s=120">
+</div>
+<div class="col-md-8">
+<h4>
+<a href="/users/57">Paul English</a>
+<br>
+</h4>
+<div class="text-muted">
+from
+Vaisala Inc, Seattle Area System Administrator's Guild, League of Professional System Administrators, Seattle Privacy Coalition, Techno-Activism 3rd Mondays, Emerald Onion Project
+</div>
+</div>
+</div>
+<div class="row speakerbio">
+<div class="col-md-12">
+<p>Paul is CEO of PreOS Security Inc and is a board member for the League of Professional System Administrator, a nonprofit professional association for the advancement of the practice of system administration from 2015 through 2017. Paul has a bachelor’s degree in computer science from Worcester Polytechnic Institute obtained in 1998. He has been a UNIX &amp; Linux system administrator and wearer of many other IT hats since 1996. More recently he has managed a few sysadmins while still racking the occasional server. In 2016, Paul ventured into a firmware security startup to help sysadmins keep their systems safe from new threats.</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-9">
+<div class="row">
+<div class="col-md-12">
+<div class="lead">
+
+
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<p>
+</p><p>For attackers, platform firmware is the new Software. Most systems include hundreds of firmwares - UEFI or BIOS, PCIe expansion ROMs, USB controller drivers, storage controller host and disk/SSD drivers. Firmware-level hosted malware, bare-metal or virtualized, is nearly invisible to normal security detection tools, has full control of your system, and can often continue running even when the system is "powered off". Security Firms (eg, "Hacking Team" sell UEFI 0days to the highest bidder), and government agencies include firmware-level malware (eg, Wikileak'ed Vault7 CIA EFI malware). Defenders need to catch-up, and learn to defend their systems against firmware-level malware. In this presentation, we'll cover the NIST SP (147,147b,155,193) secure firmware guidance, for citizens, rather than vendors/enterprises. We'll discuss the problem of firmware-level malware, and cover some open source tools (FlashROM, CHIPSEC, etc.) to help detect malware on your system. We'll be discussing a new open source tool we've just released to help make it easier for you to do this check. You'll also get a nice paper tri-fold copy of our CHIPSEC Quick Reference for Sysadmins [note: we're all sysadmins for our own personal systems(!)], and some scary looking BadBIOS stickers for your laptop.</p>
+
+<p></p>
+</div>
+<dl id="proposal-info">
+<div class="col-md-12">
+<dt>Date:</dt>
+<dd>2017 October  6 - 15:30</dd>
+</div>
+<div class="col-md-12">
+<dt>Duration:</dt>
+<dd>50 min</dd>
+</div>
+<div class="col-md-12">
+<dt>Room:</dt>
+<dd>
+Room 5102
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Conference:</dt>
+<dd><a href="/conferences/seagl2017">Seattle GNU/Linux Conference 2017</a></dd>
+</div>
+<div class="col-md-12">
+<dt>Language:</dt>
+<dd></dd>
+</div>
+<div class="col-md-12">
+<dt>Track:</dt>
+<dd>
+<span class="label" style="background-color: #CB4A1D; color: white">
+Security/InfoSec
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Difficulty:</dt>
+<dd>
+<span class="label" style="background-color: #EEEF69; color: black;">
+Medium
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<hr>
+<h4>Happening at the same time:</h4>
+<ol>
+<li>
+<a href="/conferences/seagl2017/program/proposals/279">A Brief History of I/O
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2017 October  6 15:30
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 1113
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2017/program/proposals/389">Introduction to the Godot Game Engine
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2017 October  6 15:30
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3187
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2017/program/proposals/266">Open Source: Worldwide Communities
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2017 October  6 15:30
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 5104
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2017/program/proposals/260">What's new in Python 3.6 and some of the factors to consider when upgrading from Python 3.5 or Python 2.7
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2017 October  6 15:30
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3199
+</dd>
+<br>
+</dl>
+</ol>
+</div>
+</dl>
+</div>
+<div class="row">
+<div class="col-md-12">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="footer">
+<div class="container">
+<p class="muted text-center">
+<small>
+This tool is
+<a href="http://www.gnu.org/philosophy/free-sw.html">free software</a>,
+released under the
+<a href="http://opensource.org/licenses/MIT">MIT license</a>.
+You can run, copy, distribute, study, change and improve it.
+The source code and the developers are on
+<a href="https://github.com/openSUSE/osem">GitHub</a>.
+</small>
+</p>
+</div>
+</div>
+
+
+
+
+</body></html>

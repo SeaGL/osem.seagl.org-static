@@ -1,0 +1,336 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<title>SeaGL</title>
+<meta content="" name="description">
+<meta content="" name="author">
+<link rel="stylesheet" href="/assets/application-9ebb7e8df4f6abe04ca09a78e84abc751d81a041f3702dfc6c2ebbdd106ceaa0.css" media="all">
+<script src="/assets/application-47ef59ee7b6477ee91a0ce07fca426e369cd7b348258d0db05fed8e81411ccdc.js"></script>
+<meta name="csrf-param" content="authenticity_token">
+
+
+<meta content="Everyday Use of GNU Guix" property="og:title">
+<meta content="https://osem.seagl.org/conferences/seagl2018/program/proposals/526" property="og:url">
+<meta content="VIDEO AVAILABLE: https://media.marusich.info/everyday-use-of-gnu-guix-chris-marusich-seagl-2018.webm
+
+In this talk, I will introduce GNU Guix: a liberating, dependable, and
+hackable package manager that follows the &quot;purely functional software
+deployment model&quot; pioneered by Nix.
+
+I will demonstrate some common use cases of Guix and show you how I
+use it in my everyday life.  In addition, I will briefly explain the
+basic idea behind the functional model and how it enables Guix to
+provide useful features like the following:
+
+- Transactional upgrades and roll-back of installed software.
+- Unprivileged users can simultaneously install multiple versions of
+  software.
+- Transparently build from source or download pre-built binaries.
+- Installed software is bootstrappable, trustable, and auditable all
+  the way down to your compiler's compiler.
+- Eliminates an entire class of &quot;works on my system&quot; type problems.
+
+No prior knowledge of Guix, Nix, or the functional model is required.
+When you leave this talk, I hope you will have a basic understanding
+of what Guix is, how to use it, and why it will help make your life
+brighter.
+" property="og:description">
+<meta content="SeaGL" property="og:site_name">
+<meta content="https://secure.gravatar.com/avatar/25272ff173674cb7d3c9afa12cfc9f82.png?r=PG&amp;s=32" property="og:image">
+<meta content="https://secure.gravatar.com/avatar/25272ff173674cb7d3c9afa12cfc9f82.png?r=PG&amp;s=32" property="og:image:secure_url">
+
+</head>
+<body class="conference-seagl2018">
+<div class="navbar navbar-default navbar-fixed-top nav-osem" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target="#main-nav" data-toggle="collapse" type="button">
+<span class="sr-only">
+Toggle navigation
+</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" title="Open Source Event Manager" href="/">SeaGL</a>
+</div>
+<div class="collapse navbar-collapse" id="main-nav">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown visible-desktop">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<span class="fa-solid fa-user"></span>
+Sign In
+<span class="caret"></span>
+</a>
+<div class="dropdown-menu">
+<form action="/accounts/sign_in" accept-charset="UTF-8" method="post"><input type="text" name="user[login]" id="user_login_dd" class="form-control" placeholder="Username / E-Mail" inert="true">
+<input type="password" name="user[password]" id="user_password_dd" class="form-control" placeholder="Password" inert="true">
+<p class="text-right">
+<small>
+<label for="user_remember_me" inert="true">Remember me</label>
+<input type="checkbox" name="user[remember_me]" id="user_remember_me" value="1" inert="true">
+</small>
+</p>
+<button class="btn btn-success btn-block" inert="true">Sign in</button>
+<p class="text-right">
+<br>
+<a class="small btn btn-xs btn-default" data-target="#navbar-devise-help" data-toggle="collapse">
+Need Help?
+</a>
+</p><div class="collapse" id="navbar-devise-help">
+<a href="/accounts/password/new">Forgot your password?</a>
+<br>
+<a href="/accounts/confirmation/new">Didn't receive confirmation instructions?</a>
+<br>
+
+</div>
+<p></p>
+</form></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="messages">
+<div class="container">
+<noscript>
+<style>
+  #content {
+    display: none;
+  }
+</style>
+<h2>
+JavaScript is not enabled
+</h2>
+<p>
+OSEM requires JavaScript to be enabled to function. Please turn on JavaScript in your browser's settings and reload the page to continue.
+</p>
+</noscript>
+
+</div>
+</div>
+<div id="content">
+<div class="container">
+<div class="row">
+<div class="col-md-12 page-header">
+<h2>
+Everyday Use of GNU Guix
+<br>
+<small>
+
+</small>
+<div class="btn-group pull-right">
+<a class="btn btn-success" href="/conferences/seagl2018/schedule">Schedule</a>
+</div>
+</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-3">
+<h3></h3>
+Presented by:
+<div class="speakerinfo">
+<div class="row">
+<div class="col-md-4">
+<img class="img-responsive img-rounded" src="https://secure.gravatar.com/avatar/25272ff173674cb7d3c9afa12cfc9f82.png?r=PG&amp;s=120">
+</div>
+<div class="col-md-8">
+<h4>
+<a href="/users/762">Chris Marusich</a>
+<br>
+<a href="mailto:cmmarusich@gmail.com"><i class="fa-solid fa-envelope fa-2x"></i>
+</a></h4>
+</div>
+</div>
+<div class="row speakerbio">
+<div class="col-md-12">
+<p>Hi!  My name is Chris, and I'm a software developer living in Seattle.  In the past, I've also been a systems engineer and a customer service representative.  I love a good cup of coffee, and currently my favorite cafe is Anchorhead Coffee.</p>
+
+<p>I first became interested in GNU/Linux and freedom-respecting software when I began to dip my toes into the world of programming around 2011.  Despite the fact that I didn't go to school for programming, GNU/Linux and freedom-respecting software have helped me to harness my curiosity and passion for computers and turn it into a career.</p>
+
+<p>In my personal time, I occasionally contribute to the fantastic GNU Guix project.  I hope that by contributing to freedom-respecting software projects and participating in events like SeaGL, I can give back to the community that has given me so much.</p>
+
+<p>I look forward to seeing you at SeaGL 2018!</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-9">
+<div class="row">
+<div class="col-md-12">
+<div class="lead">
+
+
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<p>
+</p><p>VIDEO AVAILABLE: <a href="https://media.marusich.info/everyday-use-of-gnu-guix-chris-marusich-seagl-2018.webm" rel="nofollow">https://media.marusich.info/everyday-use-of-gnu-guix-chris-marusich-seagl-2018.webm</a></p>
+
+<p>In this talk, I will introduce GNU Guix: a liberating, dependable, and
+hackable package manager that follows the "purely functional software
+deployment model" pioneered by Nix.</p>
+
+<p>I will demonstrate some common use cases of Guix and show you how I
+use it in my everyday life.  In addition, I will briefly explain the
+basic idea behind the functional model and how it enables Guix to
+provide useful features like the following:</p>
+
+<ul>
+<li>Transactional upgrades and roll-back of installed software.</li>
+<li>Unprivileged users can simultaneously install multiple versions of
+software.</li>
+<li>Transparently build from source or download pre-built binaries.</li>
+<li>Installed software is bootstrappable, trustable, and auditable all
+the way down to your compiler's compiler.</li>
+<li>Eliminates an entire class of "works on my system" type problems.</li>
+</ul>
+
+<p>No prior knowledge of Guix, Nix, or the functional model is required.
+When you leave this talk, I hope you will have a basic understanding
+of what Guix is, how to use it, and why it will help make your life
+brighter.</p>
+
+<p></p>
+</div>
+<dl id="proposal-info">
+<div class="col-md-12">
+<dt>Date:</dt>
+<dd>2018 November 10 - 13:30</dd>
+</div>
+<div class="col-md-12">
+<dt>Duration:</dt>
+<dd>50 min</dd>
+</div>
+<div class="col-md-12">
+<dt>Room:</dt>
+<dd>
+Room 3183
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Conference:</dt>
+<dd><a href="/conferences/seagl2018">Seattle GNU/Linux Conference 2018</a></dd>
+</div>
+<div class="col-md-12">
+<dt>Language:</dt>
+<dd></dd>
+</div>
+<div class="col-md-12">
+<dt>Track:</dt>
+<dd>
+<span class="label" style="background-color: #4024F3; color: white">
+Systems, sysadmin, ops, DevOps
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Difficulty:</dt>
+<dd>
+<span class="label" style="background-color: #32CB2A; color: black;">
+No experience required
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<hr>
+<h4>Happening at the same time:</h4>
+<ol>
+<li>
+<a href="/conferences/seagl2018/program/proposals/524">Qubes OS: A reasonably secure operating system
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2018 November 10 13:30
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3180
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2018/program/proposals/444">How to learn Arduino by playing with fire
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2018 November 10 13:30
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3184
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2018/program/proposals/459">Documentation is Teaching, and Teaching is Everything
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2018 November 10 13:30
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3178
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2018/program/proposals/560">A case study in incrementing a language's major version: PHP
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2018 November 10 13:30
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3179
+</dd>
+<br>
+</dl>
+</ol>
+</div>
+</dl>
+</div>
+<div class="row">
+<div class="col-md-12">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="footer">
+<div class="container">
+<p class="muted text-center">
+<small>
+This tool is
+<a href="http://www.gnu.org/philosophy/free-sw.html">free software</a>,
+released under the
+<a href="http://opensource.org/licenses/MIT">MIT license</a>.
+You can run, copy, distribute, study, change and improve it.
+The source code and the developers are on
+<a href="https://github.com/openSUSE/osem">GitHub</a>.
+</small>
+</p>
+</div>
+</div>
+
+
+
+
+</body></html>

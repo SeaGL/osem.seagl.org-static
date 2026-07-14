@@ -1,0 +1,300 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<title>SeaGL</title>
+<meta content="" name="description">
+<meta content="" name="author">
+<link rel="stylesheet" href="/assets/application-9ebb7e8df4f6abe04ca09a78e84abc751d81a041f3702dfc6c2ebbdd106ceaa0.css" media="all">
+<script src="/assets/application-47ef59ee7b6477ee91a0ce07fca426e369cd7b348258d0db05fed8e81411ccdc.js"></script>
+<meta name="csrf-param" content="authenticity_token">
+
+
+<meta content="i3-wm: Tiling never felt so good" property="og:title">
+<meta content="https://osem.seagl.org/conferences/seagl2016/program/proposals/155" property="og:url">
+<meta content="NOTE: Presentation would be done by two people: I (Jesse Walling 'jpwall') and Matt Kelsey 'mattkelsey' with 2 years of experience of i3 between the two of them
+
+Choosing a distribution is important, but of equal or greater importance is choosing a window manager. Your window manager defines how you interact with your system and choosing the correct one for you can drastically change the feel of the OS. Amidst the myriad of managers it can be a daunting task to find the right one. Anyone who has booted to a live CD has most likely heard of Unity, GNOME, and maybe even Cinnamon. But it is unusual to meet someone who has heard of, let alone runs, i3. 
+
+This presentation will go over:
+- How i3 compares to other window managers
+- How i3 can improve the functionality and appearance of your system
+- Tackling i3 setup
+- Making it your own
+- Using i3 with another desktop environment
+
+In conclusion, it is not our intention to try to sell people on i3. Ultimately it is necessary to choose a window manager that suits your own needs. But who knows, maybe i3 is the right one for you?" property="og:description">
+<meta content="SeaGL" property="og:site_name">
+<meta content="https://secure.gravatar.com/avatar/f6d31e1130bcd12c571b0a434515b42e.png?r=PG&amp;s=32" property="og:image">
+<meta content="https://secure.gravatar.com/avatar/f6d31e1130bcd12c571b0a434515b42e.png?r=PG&amp;s=32" property="og:image:secure_url">
+
+</head>
+<body class="conference-seagl2016">
+<div class="navbar navbar-default navbar-fixed-top nav-osem" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target="#main-nav" data-toggle="collapse" type="button">
+<span class="sr-only">
+Toggle navigation
+</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" title="Open Source Event Manager" href="/">SeaGL</a>
+</div>
+<div class="collapse navbar-collapse" id="main-nav">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown visible-desktop">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<span class="fa-solid fa-user"></span>
+Sign In
+<span class="caret"></span>
+</a>
+<div class="dropdown-menu">
+<form action="/accounts/sign_in" accept-charset="UTF-8" method="post"><input type="text" name="user[login]" id="user_login_dd" class="form-control" placeholder="Username / E-Mail" inert="true">
+<input type="password" name="user[password]" id="user_password_dd" class="form-control" placeholder="Password" inert="true">
+<p class="text-right">
+<small>
+<label for="user_remember_me" inert="true">Remember me</label>
+<input type="checkbox" name="user[remember_me]" id="user_remember_me" value="1" inert="true">
+</small>
+</p>
+<button class="btn btn-success btn-block" inert="true">Sign in</button>
+<p class="text-right">
+<br>
+<a class="small btn btn-xs btn-default" data-target="#navbar-devise-help" data-toggle="collapse">
+Need Help?
+</a>
+</p><div class="collapse" id="navbar-devise-help">
+<a href="/accounts/password/new">Forgot your password?</a>
+<br>
+<a href="/accounts/confirmation/new">Didn't receive confirmation instructions?</a>
+<br>
+
+</div>
+<p></p>
+</form></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="messages">
+<div class="container">
+<noscript>
+<style>
+  #content {
+    display: none;
+  }
+</style>
+<h2>
+JavaScript is not enabled
+</h2>
+<p>
+OSEM requires JavaScript to be enabled to function. Please turn on JavaScript in your browser's settings and reload the page to continue.
+</p>
+</noscript>
+
+</div>
+</div>
+<div id="content">
+<div class="container">
+<div class="row">
+<div class="col-md-12 page-header">
+<h2>
+i3-wm: Tiling never felt so good
+<br>
+<small>
+
+</small>
+<div class="btn-group pull-right">
+</div>
+</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-3">
+<h3></h3>
+Presented by:
+<div class="speakerinfo">
+<div class="row">
+<div class="col-md-4">
+<img class="img-responsive img-rounded" src="https://secure.gravatar.com/avatar/f6d31e1130bcd12c571b0a434515b42e.png?r=PG&amp;s=120">
+</div>
+<div class="col-md-8">
+<h4>
+<a href="/users/316">Jesse Walling</a>
+<br>
+</h4>
+</div>
+</div>
+<div class="row speakerbio">
+<div class="col-md-12">
+<p>I am a high school student entering junior year (16 years old) who is interested in many things, and among them is GNU/Linux. I have been an avid and daily GNU/Linux user since early 2014 when I first installed Ubuntu on my desktop (now server). I don't do much programming but I take pride in my system configuration, hence why I use Arch Linux currently on my main computer. I have multiple other interests and hobbies as well, including art, dance, engineering, and design. To find more in-depth information about who I am, my current projects (and their source code if applicable), and even my contact info, then head over to <a href="https://jessewalling.com" rel="nofollow">https://jessewalling.com</a></p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-9">
+<div class="row">
+<div class="col-md-12">
+<div class="lead">
+
+
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<p>
+</p><p>NOTE: Presentation would be done by two people: I (Jesse Walling 'jpwall') and Matt Kelsey 'mattkelsey' with 2 years of experience of i3 between the two of them</p>
+
+<p>Choosing a distribution is important, but of equal or greater importance is choosing a window manager. Your window manager defines how you interact with your system and choosing the correct one for you can drastically change the feel of the OS. Amidst the myriad of managers it can be a daunting task to find the right one. Anyone who has booted to a live CD has most likely heard of Unity, GNOME, and maybe even Cinnamon. But it is unusual to meet someone who has heard of, let alone runs, i3. </p>
+
+<p>This presentation will go over:
+- How i3 compares to other window managers
+- How i3 can improve the functionality and appearance of your system
+- Tackling i3 setup
+- Making it your own
+- Using i3 with another desktop environment</p>
+
+<p>In conclusion, it is not our intention to try to sell people on i3. Ultimately it is necessary to choose a window manager that suits your own needs. But who knows, maybe i3 is the right one for you?</p>
+
+<p></p>
+</div>
+<dl id="proposal-info">
+<div class="col-md-12">
+<dt>Date:</dt>
+<dd>2016 November 12 - 16:30</dd>
+</div>
+<div class="col-md-12">
+<dt>Duration:</dt>
+<dd>1 h</dd>
+</div>
+<div class="col-md-12">
+<dt>Room:</dt>
+<dd>
+Room 3178
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Conference:</dt>
+<dd><a href="/conferences/seagl2016">Seattle GNU/Linux Conference 2016</a></dd>
+</div>
+<div class="col-md-12">
+<dt>Language:</dt>
+<dd></dd>
+</div>
+<div class="col-md-12">
+<dt>Track:</dt>
+<dd>
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Difficulty:</dt>
+<dd>
+<span class="label" style="background-color: #EEEF69; color: black;">
+Medium
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<hr>
+<h4>Happening at the same time:</h4>
+<ol>
+<li>
+<a href="/conferences/seagl2016/program/proposals/248">Technology Overload: How makerspaces and libraries can save classrooms from pervasive tech run amok
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2016 November 12 16:30
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3180
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2016/program/proposals/186">Free Software Foundation: Volunteer Empire
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2016 November 12 16:30
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3179
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2016/program/proposals/194">Servo's Infrastructure: Building Tomorrow's Browser Engine
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2016 November 12 16:30
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3183
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2016/program/proposals/242">MySQL for the system administrator
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2016 November 12 16:30
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3184
+</dd>
+<br>
+</dl>
+</ol>
+</div>
+</dl>
+</div>
+<div class="row">
+<div class="col-md-12">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="footer">
+<div class="container">
+<p class="muted text-center">
+<small>
+This tool is
+<a href="http://www.gnu.org/philosophy/free-sw.html">free software</a>,
+released under the
+<a href="http://opensource.org/licenses/MIT">MIT license</a>.
+You can run, copy, distribute, study, change and improve it.
+The source code and the developers are on
+<a href="https://github.com/openSUSE/osem">GitHub</a>.
+</small>
+</p>
+</div>
+</div>
+
+
+
+
+</body></html>

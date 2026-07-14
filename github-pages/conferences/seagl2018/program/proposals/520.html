@@ -1,0 +1,302 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<title>SeaGL</title>
+<meta content="" name="description">
+<meta content="" name="author">
+<link rel="stylesheet" href="/assets/application-9ebb7e8df4f6abe04ca09a78e84abc751d81a041f3702dfc6c2ebbdd106ceaa0.css" media="all">
+<script src="/assets/application-47ef59ee7b6477ee91a0ce07fca426e369cd7b348258d0db05fed8e81411ccdc.js"></script>
+<meta name="csrf-param" content="authenticity_token">
+
+
+<meta content="Monitoring and Alerting: Knowing the Unknown " property="og:title">
+<meta content="https://osem.seagl.org/conferences/seagl2018/program/proposals/520" property="og:url">
+<meta content="Successful monitoring and alerting systems can detect all known points of failure and include alerts that will quickly escalate these problems to the appropriate parties. 
+
+The meat of this talk will focus on addressing the problems in a system that have not been thought of specifically. What about the monsters lurking in the dark to strike when your team is out? How do you find those unknown unknowns and give your future self the tools to investigate them? We will look at the best tactics and technologies for finding those unforeseen problems and bringing them to light. 
+
+First, I will discuss methods for discovering the most common points of failure--ideally before a product or feature goes live. Next I will briefly go over best practices for logging in a system. Next, we will discuss methods for detecting problems when all other techniques have failed. Finally I will do an overview of open source logging/alerting systems like Elasticsearch, Logstash, and Kibana (ELK) by Elastic. 
+
+By the end of this talk attendees should:
+Understand the key components of a thorough monitoring/alerting system
+Gain some new techniques for catching and debugging the more elusive issues
+Have some familiarity with open source logging/alerting technologies
+" property="og:description">
+<meta content="SeaGL" property="og:site_name">
+<meta content="https://secure.gravatar.com/avatar/ddf97ebc89866f8e356cc43975864e28.png?r=PG&amp;s=32" property="og:image">
+<meta content="https://secure.gravatar.com/avatar/ddf97ebc89866f8e356cc43975864e28.png?r=PG&amp;s=32" property="og:image:secure_url">
+
+</head>
+<body class="conference-seagl2018">
+<div class="navbar navbar-default navbar-fixed-top nav-osem" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target="#main-nav" data-toggle="collapse" type="button">
+<span class="sr-only">
+Toggle navigation
+</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" title="Open Source Event Manager" href="/">SeaGL</a>
+</div>
+<div class="collapse navbar-collapse" id="main-nav">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown visible-desktop">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<span class="fa-solid fa-user"></span>
+Sign In
+<span class="caret"></span>
+</a>
+<div class="dropdown-menu">
+<form action="/accounts/sign_in" accept-charset="UTF-8" method="post"><input type="text" name="user[login]" id="user_login_dd" class="form-control" placeholder="Username / E-Mail" inert="true">
+<input type="password" name="user[password]" id="user_password_dd" class="form-control" placeholder="Password" inert="true">
+<p class="text-right">
+<small>
+<label for="user_remember_me" inert="true">Remember me</label>
+<input type="checkbox" name="user[remember_me]" id="user_remember_me" value="1" inert="true">
+</small>
+</p>
+<button class="btn btn-success btn-block" inert="true">Sign in</button>
+<p class="text-right">
+<br>
+<a class="small btn btn-xs btn-default" data-target="#navbar-devise-help" data-toggle="collapse">
+Need Help?
+</a>
+</p><div class="collapse" id="navbar-devise-help">
+<a href="/accounts/password/new">Forgot your password?</a>
+<br>
+<a href="/accounts/confirmation/new">Didn't receive confirmation instructions?</a>
+<br>
+
+</div>
+<p></p>
+</form></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="messages">
+<div class="container">
+<noscript>
+<style>
+  #content {
+    display: none;
+  }
+</style>
+<h2>
+JavaScript is not enabled
+</h2>
+<p>
+OSEM requires JavaScript to be enabled to function. Please turn on JavaScript in your browser's settings and reload the page to continue.
+</p>
+</noscript>
+
+</div>
+</div>
+<div id="content">
+<div class="container">
+<div class="row">
+<div class="col-md-12 page-header">
+<h2>
+Monitoring and Alerting: Knowing the Unknown 
+<br>
+<small>
+
+</small>
+<div class="btn-group pull-right">
+<a class="btn btn-success" href="/conferences/seagl2018/schedule">Schedule</a>
+</div>
+</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-3">
+<h3></h3>
+Presented by:
+<div class="speakerinfo">
+<div class="row">
+<div class="col-md-4">
+<img class="img-responsive img-rounded" src="https://secure.gravatar.com/avatar/ddf97ebc89866f8e356cc43975864e28.png?r=PG&amp;s=120">
+</div>
+<div class="col-md-8">
+<h4>
+<a href="/users/746">Amanda Sopkin</a>
+<br>
+<a href="mailto:amsopkin@gmail.com"><i class="fa-solid fa-envelope fa-2x"></i>
+</a></h4>
+</div>
+</div>
+<div class="row speakerbio">
+<div class="col-md-12">
+<p>Amanda is a full-stack software engineer for the rentals team at Zillow working to make the process of renting better for renters and property managers. In addition to working as a software engineer, she attends hackathons as a coach for Major League Hacking to help hackers have a great experience at the events they attend.  Amanda has spoken on topics in mathematics and software engineering at Pycon, Devsum Sweden, Hackcon, and various hackathons around the country. Amanda holds a degree in Mathematics and Computer Science from the University of Illinois at Urbana-Champaign.  </p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-9">
+<div class="row">
+<div class="col-md-12">
+<div class="lead">
+
+
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<p>
+</p><p>Successful monitoring and alerting systems can detect all known points of failure and include alerts that will quickly escalate these problems to the appropriate parties. </p>
+
+<p>The meat of this talk will focus on addressing the problems in a system that have not been thought of specifically. What about the monsters lurking in the dark to strike when your team is out? How do you find those unknown unknowns and give your future self the tools to investigate them? We will look at the best tactics and technologies for finding those unforeseen problems and bringing them to light. </p>
+
+<p>First, I will discuss methods for discovering the most common points of failure--ideally before a product or feature goes live. Next I will briefly go over best practices for logging in a system. Next, we will discuss methods for detecting problems when all other techniques have failed. Finally I will do an overview of open source logging/alerting systems like Elasticsearch, Logstash, and Kibana (ELK) by Elastic. </p>
+
+<p>By the end of this talk attendees should:
+Understand the key components of a thorough monitoring/alerting system
+Gain some new techniques for catching and debugging the more elusive issues
+Have some familiarity with open source logging/alerting technologies</p>
+
+<p></p>
+</div>
+<dl id="proposal-info">
+<div class="col-md-12">
+<dt>Date:</dt>
+<dd>2018 November 10 - 15:00</dd>
+</div>
+<div class="col-md-12">
+<dt>Duration:</dt>
+<dd>50 min</dd>
+</div>
+<div class="col-md-12">
+<dt>Room:</dt>
+<dd>
+Room 3183
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Conference:</dt>
+<dd><a href="/conferences/seagl2018">Seattle GNU/Linux Conference 2018</a></dd>
+</div>
+<div class="col-md-12">
+<dt>Language:</dt>
+<dd></dd>
+</div>
+<div class="col-md-12">
+<dt>Track:</dt>
+<dd>
+<span class="label" style="background-color: #4024F3; color: white">
+Systems, sysadmin, ops, DevOps
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Difficulty:</dt>
+<dd>
+<span class="label" style="background-color: #E6B65B; color: black;">
+Some experience required
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<hr>
+<h4>Happening at the same time:</h4>
+<ol>
+<li>
+<a href="/conferences/seagl2018/program/proposals/529">Exploring Security of IoT Devices
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2018 November 10 15:00
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3184
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2018/program/proposals/465">Client Side Video Editing - Lessons in WebAssembly and FFmpeg
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2018 November 10 15:00
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3180
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2018/program/proposals/555">You got chocolate in my peanut butter! .NET on Mac &amp; Linux
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2018 November 10 15:00
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3179
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2018/program/proposals/423">Open Source DocOps: How Open Data Kit Writes, Tests, and Publishes Documentation
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2018 November 10 15:00
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3178
+</dd>
+<br>
+</dl>
+</ol>
+</div>
+</dl>
+</div>
+<div class="row">
+<div class="col-md-12">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="footer">
+<div class="container">
+<p class="muted text-center">
+<small>
+This tool is
+<a href="http://www.gnu.org/philosophy/free-sw.html">free software</a>,
+released under the
+<a href="http://opensource.org/licenses/MIT">MIT license</a>.
+You can run, copy, distribute, study, change and improve it.
+The source code and the developers are on
+<a href="https://github.com/openSUSE/osem">GitHub</a>.
+</small>
+</p>
+</div>
+</div>
+
+
+
+
+</body></html>

@@ -1,0 +1,304 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<title>SeaGL</title>
+<meta content="" name="description">
+<meta content="" name="author">
+<link rel="stylesheet" href="/assets/application-9ebb7e8df4f6abe04ca09a78e84abc751d81a041f3702dfc6c2ebbdd106ceaa0.css" media="all">
+<script src="/assets/application-47ef59ee7b6477ee91a0ce07fca426e369cd7b348258d0db05fed8e81411ccdc.js"></script>
+<meta name="csrf-param" content="authenticity_token">
+
+
+<meta content="A Technology Time Travel Trip - Or What I Learned Implementing A Technology Base From The Early 1970's" property="og:title">
+<meta content="https://osem.seagl.org/conferences/seagl2016/program/proposals/132" property="og:url">
+<meta content="Prior to the mid 1980's, networks and computers were expensive and limited to a few people.  From the late 1960's to the late 1970's a small group of individuals created a networked, group-based complex problem solving process that is directly dependent on online computer support and network connectivity.  A small number of monographs, that describe the basic process, were written and published by The Battelle Memorial Institute in the early 1970's.  The mathematics and algorithms were given for various components of this complexity reduction process.  However, at this time in the development of computer technology there were no standard compliers, languages or network approaches.
+
+Over the past two or three years, open source software and systems have been used to verify and validate the information provided in these monographs and other publications.  The Symbolic Algebra Graphic Environment (SAGE) from the University of Washington is one open source tool used to evaluate the information and process.  Python and Javascript systems have also been developed to implement the mathematics and process detailed in the publications.
+
+There are a number of existing closed source implementations of these complexity reduction techniques, but individuals find it difficult to place their trust in a code base that they do not have access to and can not evaluate the code.  Therefore, an open source testbed initiative was started to create a standard, open-source code base that will be used to test and evaluate the performance of the closed source systems.  There are a few groups around the world that use these closed source systems, however they are getting uncomfortable because the software is such an important part of the complexity reduction approach.
+
+With a properly implemented set of open source technology combined with the ubiquitous availability of network connectivity, some groups are looking to use this technology to implement digital democracy projects.  The open source philosophy, ethics and transparency are necessary factors that lead to a clear understanding of the software function and validity.
+
+The primary open source components used to move the current project to its current state will be discussed along with the open source code that is being created for future use.   " property="og:description">
+<meta content="SeaGL" property="og:site_name">
+<meta content="https://secure.gravatar.com/avatar/8aaaa67257f61de0c6537b5c24e27a81.png?r=PG&amp;s=32" property="og:image">
+<meta content="https://secure.gravatar.com/avatar/8aaaa67257f61de0c6537b5c24e27a81.png?r=PG&amp;s=32" property="og:image:secure_url">
+
+</head>
+<body class="conference-seagl2016">
+<div class="navbar navbar-default navbar-fixed-top nav-osem" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target="#main-nav" data-toggle="collapse" type="button">
+<span class="sr-only">
+Toggle navigation
+</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" title="Open Source Event Manager" href="/">SeaGL</a>
+</div>
+<div class="collapse navbar-collapse" id="main-nav">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown visible-desktop">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<span class="fa-solid fa-user"></span>
+Sign In
+<span class="caret"></span>
+</a>
+<div class="dropdown-menu">
+<form action="/accounts/sign_in" accept-charset="UTF-8" method="post"><input type="text" name="user[login]" id="user_login_dd" class="form-control" placeholder="Username / E-Mail" inert="true">
+<input type="password" name="user[password]" id="user_password_dd" class="form-control" placeholder="Password" inert="true">
+<p class="text-right">
+<small>
+<label for="user_remember_me" inert="true">Remember me</label>
+<input type="checkbox" name="user[remember_me]" id="user_remember_me" value="1" inert="true">
+</small>
+</p>
+<button class="btn btn-success btn-block" inert="true">Sign in</button>
+<p class="text-right">
+<br>
+<a class="small btn btn-xs btn-default" data-target="#navbar-devise-help" data-toggle="collapse">
+Need Help?
+</a>
+</p><div class="collapse" id="navbar-devise-help">
+<a href="/accounts/password/new">Forgot your password?</a>
+<br>
+<a href="/accounts/confirmation/new">Didn't receive confirmation instructions?</a>
+<br>
+
+</div>
+<p></p>
+</form></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="messages">
+<div class="container">
+<noscript>
+<style>
+  #content {
+    display: none;
+  }
+</style>
+<h2>
+JavaScript is not enabled
+</h2>
+<p>
+OSEM requires JavaScript to be enabled to function. Please turn on JavaScript in your browser's settings and reload the page to continue.
+</p>
+</noscript>
+
+</div>
+</div>
+<div id="content">
+<div class="container">
+<div class="row">
+<div class="col-md-12 page-header">
+<h2>
+A Technology Time Travel Trip - Or What I Learned Implementing A Technology Base From The Early 1970's
+<br>
+<small>
+What to do when data types do not exist!
+</small>
+<div class="btn-group pull-right">
+</div>
+</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-3">
+<h3></h3>
+Presented by:
+<div class="speakerinfo">
+<div class="row">
+<div class="col-md-4">
+<img class="img-responsive img-rounded" src="https://secure.gravatar.com/avatar/8aaaa67257f61de0c6537b5c24e27a81.png?r=PG&amp;s=120">
+</div>
+<div class="col-md-8">
+<h4>
+<a href="/users/327">jjs0sbw</a>
+<br>
+</h4>
+<div class="text-muted">
+from
+Systems Concepts
+</div>
+</div>
+</div>
+<div class="row speakerbio">
+<div class="col-md-12">
+<p>Joseph J. Simpson’s experience and interests are focused in the area of complex systems, system science, systems thinking and systems management.  Joseph has professional experience in several domain areas including environmental restoration, information systems, systems security, aerospace and defense.  His current activities and research interests are associated with complex systems modeling, complexity reduction, evolutionary programming, the development of a systems engineering language, and organizational assessment and improvement.  </p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-9">
+<div class="row">
+<div class="col-md-12">
+<div class="lead">
+
+
+</div>
+<p></p>
+<div class="flexvideo">
+<iframe width="420" height="315" src="https://www.youtube.com/embed/edMYPd7Yhxc?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="" title="Structural Modeling -- Part One"></iframe>
+
+</div>
+
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<p>
+</p><p>Prior to the mid 1980's, networks and computers were expensive and limited to a few people.  From the late 1960's to the late 1970's a small group of individuals created a networked, group-based complex problem solving process that is directly dependent on online computer support and network connectivity.  A small number of monographs, that describe the basic process, were written and published by The Battelle Memorial Institute in the early 1970's.  The mathematics and algorithms were given for various components of this complexity reduction process.  However, at this time in the development of computer technology there were no standard compliers, languages or network approaches.</p>
+
+<p>Over the past two or three years, open source software and systems have been used to verify and validate the information provided in these monographs and other publications.  The Symbolic Algebra Graphic Environment (SAGE) from the University of Washington is one open source tool used to evaluate the information and process.  Python and Javascript systems have also been developed to implement the mathematics and process detailed in the publications.</p>
+
+<p>There are a number of existing closed source implementations of these complexity reduction techniques, but individuals find it difficult to place their trust in a code base that they do not have access to and can not evaluate the code.  Therefore, an open source testbed initiative was started to create a standard, open-source code base that will be used to test and evaluate the performance of the closed source systems.  There are a few groups around the world that use these closed source systems, however they are getting uncomfortable because the software is such an important part of the complexity reduction approach.</p>
+
+<p>With a properly implemented set of open source technology combined with the ubiquitous availability of network connectivity, some groups are looking to use this technology to implement digital democracy projects.  The open source philosophy, ethics and transparency are necessary factors that lead to a clear understanding of the software function and validity.</p>
+
+<p>The primary open source components used to move the current project to its current state will be discussed along with the open source code that is being created for future use.   </p>
+
+<p></p>
+</div>
+<dl id="proposal-info">
+<div class="col-md-12">
+<dt>Date:</dt>
+<dd>2016 November 11 - 10:45</dd>
+</div>
+<div class="col-md-12">
+<dt>Duration:</dt>
+<dd>1 h</dd>
+</div>
+<div class="col-md-12">
+<dt>Room:</dt>
+<dd>
+Room 3184
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Conference:</dt>
+<dd><a href="/conferences/seagl2016">Seattle GNU/Linux Conference 2016</a></dd>
+</div>
+<div class="col-md-12">
+<dt>Language:</dt>
+<dd></dd>
+</div>
+<div class="col-md-12">
+<dt>Track:</dt>
+<dd>
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Difficulty:</dt>
+<dd>
+<span class="label" style="background-color: #70EF69; color: black;">
+Easy
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<hr>
+<h4>Happening at the same time:</h4>
+<ol>
+<li>
+<a href="/conferences/seagl2016/program/proposals/126">Linux Jargon
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2016 November 11 10:45
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3180
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2016/program/proposals/140">IndieWeb 101: owning your content and identity
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2016 November 11 10:45
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3183
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2016/program/proposals/123">Cutting Some Slack: Decoding IRC
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2016 November 11 10:45
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3179
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2016/program/proposals/119">Naval Gunnery Fire Control in WWI
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2016 November 11 10:45
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3178
+</dd>
+<br>
+</dl>
+</ol>
+</div>
+</dl>
+</div>
+<div class="row">
+<div class="col-md-12">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="footer">
+<div class="container">
+<p class="muted text-center">
+<small>
+This tool is
+<a href="http://www.gnu.org/philosophy/free-sw.html">free software</a>,
+released under the
+<a href="http://opensource.org/licenses/MIT">MIT license</a>.
+You can run, copy, distribute, study, change and improve it.
+The source code and the developers are on
+<a href="https://github.com/openSUSE/osem">GitHub</a>.
+</small>
+</p>
+</div>
+</div>
+
+
+
+
+</body></html>

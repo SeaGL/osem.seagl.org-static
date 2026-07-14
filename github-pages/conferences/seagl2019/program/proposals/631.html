@@ -1,0 +1,296 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<title>SeaGL</title>
+<meta content="" name="description">
+<meta content="" name="author">
+<link rel="stylesheet" href="/assets/application-9ebb7e8df4f6abe04ca09a78e84abc751d81a041f3702dfc6c2ebbdd106ceaa0.css" media="all">
+<script src="/assets/application-47ef59ee7b6477ee91a0ce07fca426e369cd7b348258d0db05fed8e81411ccdc.js"></script>
+<meta name="csrf-param" content="authenticity_token">
+
+
+<meta content="Microservices - A Cautionary Tale" property="og:title">
+<meta content="https://osem.seagl.org/conferences/seagl2019/program/proposals/631" property="og:url">
+<meta content="Product transformation and diversification in the product suite is the essence of the success of any company in today’s rapidly changing technology world. Most of the architectural patterns prescribe solutions to scale up a single product under critical workloads. Microservices architecture is one such pattern that is highly efficient and applicable to scale up a product. Though this is applicable to some of the products, the reality is much different for many others. In this era of startups trying to make their own place with a variety of products, the speaker talks about what happens when the range of products scale horizontally. She shares her engineering experience with the Microservice architecture and details of the infrastructure level decisions that can influence the maintainability and the scalability of the Microservice architecture in a rapidly changing product environment. She explains the course of product transformation, engineering choices made along the way, and how a well-designed microservices architecture failed to evolve with the product and transformed into a distributed monolith.
+
+A product life cycle usually has 4 phases— introduction, growth, maturity, and decline. We are currently in the growth stage. Every product evolves and an organization diversifies at some point or another to adapt to changing customer requirements or to solve another correlated problem. What we failed at was to do the same in engineering. For every new product offering, we introduced a bunch of carefully designed, modular services into the same cluster as needed. Soon, we had an ecosystem of products in the same cluster. We forgot the basic assumption of the microservice architecture— that architecture is designed for a single application but not a suite of applications to fit under one umbrella. Missing this assumption turned out to be the root cause of our problem.
+
+It soon turned the bottleneck, with multiple products existing in the same cluster. Any change in any service API contract requires API Gateway restart, which may have a great impact on other co-existing products and hence we needed to have coordinated timed releases. We thus lost the essence of CICD and our productivity has dipped.
+
+**Lessons Learnt**
+
+- Evolve/change technology in proportion to product growth and/or evolution. 
+- Grow organically. Identify and act during the transition from the introduction phase to the growth phase, to accommodate the product growth.
+- Revisit the architecture, infrastructure and other choices made in the past, from time to time. Every organization should understand, appreciate and accommodate this re-engineering activity from time to time to ensure the stability and scalability of the systems." property="og:description">
+<meta content="SeaGL" property="og:site_name">
+<meta content="https://secure.gravatar.com/avatar/7368bfd8e65f1d9822d0d7d4a3d2866e.png?r=PG&amp;s=32" property="og:image">
+<meta content="https://secure.gravatar.com/avatar/7368bfd8e65f1d9822d0d7d4a3d2866e.png?r=PG&amp;s=32" property="og:image:secure_url">
+
+</head>
+<body class="conference-seagl2019">
+<div class="navbar navbar-default navbar-fixed-top nav-osem" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target="#main-nav" data-toggle="collapse" type="button">
+<span class="sr-only">
+Toggle navigation
+</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" title="Open Source Event Manager" href="/">SeaGL</a>
+</div>
+<div class="collapse navbar-collapse" id="main-nav">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown visible-desktop">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<span class="fa-solid fa-user"></span>
+Sign In
+<span class="caret"></span>
+</a>
+<div class="dropdown-menu">
+<form action="/accounts/sign_in" accept-charset="UTF-8" method="post"><input type="text" name="user[login]" id="user_login_dd" class="form-control" placeholder="Username / E-Mail" inert="true">
+<input type="password" name="user[password]" id="user_password_dd" class="form-control" placeholder="Password" inert="true">
+<p class="text-right">
+<small>
+<label for="user_remember_me" inert="true">Remember me</label>
+<input type="checkbox" name="user[remember_me]" id="user_remember_me" value="1" inert="true">
+</small>
+</p>
+<button class="btn btn-success btn-block" inert="true">Sign in</button>
+<p class="text-right">
+<br>
+<a class="small btn btn-xs btn-default" data-target="#navbar-devise-help" data-toggle="collapse">
+Need Help?
+</a>
+</p><div class="collapse" id="navbar-devise-help">
+<a href="/accounts/password/new">Forgot your password?</a>
+<br>
+<a href="/accounts/confirmation/new">Didn't receive confirmation instructions?</a>
+<br>
+
+</div>
+<p></p>
+</form></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="messages">
+<div class="container">
+<noscript>
+<style>
+  #content {
+    display: none;
+  }
+</style>
+<h2>
+JavaScript is not enabled
+</h2>
+<p>
+OSEM requires JavaScript to be enabled to function. Please turn on JavaScript in your browser's settings and reload the page to continue.
+</p>
+</noscript>
+
+</div>
+</div>
+<div id="content">
+<div class="container">
+<div class="row">
+<div class="col-md-12 page-header">
+<h2>
+Microservices - A Cautionary Tale
+<br>
+<small>
+
+</small>
+<div class="btn-group pull-right">
+</div>
+</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-3">
+<h3></h3>
+Presented by:
+<div class="speakerinfo">
+<div class="row">
+<div class="col-md-4">
+<img class="img-responsive img-rounded" src="https://secure.gravatar.com/avatar/7368bfd8e65f1d9822d0d7d4a3d2866e.png?r=PG&amp;s=120">
+</div>
+<div class="col-md-8">
+<h4>
+<a href="/users/909">Amulya Bandikatla</a>
+<br>
+</h4>
+<div class="text-muted">
+from
+Indeed
+</div>
+</div>
+</div>
+<div class="row speakerbio">
+<div class="col-md-12">
+<p>Amulya Bandikatla, an alumnus of IIIT-Hyderabad and is currently working as a Senior Software Engineer at Indeed. Possesses experience working across various sectors - eCommerce, online listings, advertising, and finance technology. At Indeed, busy building robust solutions to help job seekers get jobs. Was previously with Directi - leading the engineering team at Zeta Express and prior to that, has built the Video Ads Platform at Media.net.</p>
+
+<p>Passionate about designing and implementing robust distributed solutions with highly efficient response times under critical loads. Mentors budding professionals and offers career advice with a clear perspective of the industry standards.</p>
+
+<p><a href="https://in.linkedin.com/in/amulya-bandikatla-aa446917" rel="nofollow">LinkedIn Profile</a></p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-9">
+<div class="row">
+<div class="col-md-12">
+<div class="lead">
+
+
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<p>
+</p><p>Product transformation and diversification in the product suite is the essence of the success of any company in today’s rapidly changing technology world. Most of the architectural patterns prescribe solutions to scale up a single product under critical workloads. Microservices architecture is one such pattern that is highly efficient and applicable to scale up a product. Though this is applicable to some of the products, the reality is much different for many others. In this era of startups trying to make their own place with a variety of products, the speaker talks about what happens when the range of products scale horizontally. She shares her engineering experience with the Microservice architecture and details of the infrastructure level decisions that can influence the maintainability and the scalability of the Microservice architecture in a rapidly changing product environment. She explains the course of product transformation, engineering choices made along the way, and how a well-designed microservices architecture failed to evolve with the product and transformed into a distributed monolith.</p>
+
+<p>A product life cycle usually has 4 phases— introduction, growth, maturity, and decline. We are currently in the growth stage. Every product evolves and an organization diversifies at some point or another to adapt to changing customer requirements or to solve another correlated problem. What we failed at was to do the same in engineering. For every new product offering, we introduced a bunch of carefully designed, modular services into the same cluster as needed. Soon, we had an ecosystem of products in the same cluster. We forgot the basic assumption of the microservice architecture— that architecture is designed for a single application but not a suite of applications to fit under one umbrella. Missing this assumption turned out to be the root cause of our problem.</p>
+
+<p>It soon turned the bottleneck, with multiple products existing in the same cluster. Any change in any service API contract requires API Gateway restart, which may have a great impact on other co-existing products and hence we needed to have coordinated timed releases. We thus lost the essence of CICD and our productivity has dipped.</p>
+
+<p><strong>Lessons Learnt</strong></p>
+
+<ul>
+<li>Evolve/change technology in proportion to product growth and/or evolution. </li>
+<li>Grow organically. Identify and act during the transition from the introduction phase to the growth phase, to accommodate the product growth.</li>
+<li>Revisit the architecture, infrastructure and other choices made in the past, from time to time. Every organization should understand, appreciate and accommodate this re-engineering activity from time to time to ensure the stability and scalability of the systems.</li>
+</ul>
+
+<p></p>
+</div>
+<dl id="proposal-info">
+<div class="col-md-12">
+<dt>Date:</dt>
+<dd>2019 November 15 - 16:15</dd>
+</div>
+<div class="col-md-12">
+<dt>Duration:</dt>
+<dd>20 min</dd>
+</div>
+<div class="col-md-12">
+<dt>Room:</dt>
+<dd>
+TALKS 3180
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Conference:</dt>
+<dd><a href="/conferences/seagl2019">SeaGL 2019 - A Prime Year for Free Software</a></dd>
+</div>
+<div class="col-md-12">
+<dt>Language:</dt>
+<dd></dd>
+</div>
+<div class="col-md-12">
+<dt>Track:</dt>
+<dd>
+<span class="label" style="background-color: #4024F3; color: white">
+Something Different!
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Difficulty:</dt>
+<dd>
+<span class="label" style="background-color: #E6B65B; color: black;">
+Medium
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<hr>
+<h4>Happening at the same time:</h4>
+<ol>
+<li>
+<a href="/conferences/seagl2019/program/proposals/637">Security Compliance Testing with Inspec
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2019 November 15 16:15
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+TALKS 3178
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2019/program/proposals/679">"This is fine" (the meme)
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2019 November 15 16:15
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+TALKS 3183
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2019/program/proposals/666">The Tor Project: the state of the Onion
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2019 November 15 16:15
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+TALKS 3179
+</dd>
+<br>
+</dl>
+</ol>
+</div>
+</dl>
+</div>
+<div class="row">
+<div class="col-md-12">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="footer">
+<div class="container">
+<p class="muted text-center">
+<small>
+This tool is
+<a href="http://www.gnu.org/philosophy/free-sw.html">free software</a>,
+released under the
+<a href="http://opensource.org/licenses/MIT">MIT license</a>.
+You can run, copy, distribute, study, change and improve it.
+The source code and the developers are on
+<a href="https://github.com/openSUSE/osem">GitHub</a>.
+</small>
+</p>
+</div>
+</div>
+
+
+
+
+</body></html>

@@ -1,0 +1,1058 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<title>SeaGL 2015
+</title>
+<meta content="" name="description">
+<meta content="" name="author">
+<link rel="stylesheet" href="/assets/application-9ebb7e8df4f6abe04ca09a78e84abc751d81a041f3702dfc6c2ebbdd106ceaa0.css" media="all">
+<script src="/assets/application-47ef59ee7b6477ee91a0ce07fca426e369cd7b348258d0db05fed8e81411ccdc.js"></script>
+<meta name="csrf-param" content="authenticity_token">
+
+<script>
+  var triangle_tcs = tinycolor("#0c5a73").monochromatic();
+  var triangle_colors = triangle_tcs.map(function(t) {
+    return t.toHexString();
+  });
+  $(function () {
+    $(document).ready(function() {
+      var triangle_width = document.body.clientWidth;
+      var triangle_height = ($( "#banner" ).height() + 200 );
+      var pattern = Trianglify({ width: triangle_width,
+                                 height: triangle_height,
+                                 cell_size: 100,
+                                 x_colors: triangle_colors
+                                });
+      $('#banner').css('background-image', 'url("' + pattern.png() + '")');
+    });
+  });
+</script>
+
+<meta content="SeaGL 2015" property="og:title">
+<meta content="SeaGL" property="og:site_name">
+<meta content="" property="og:description">
+<meta content="https://osem.seagl.org/conferences/seagl2015" property="og:url">
+<meta content="SeaGL 2015" property="twitter:title">
+<meta content="" property="twitter:description">
+<meta content="summary" property="twitter:card">
+
+</head>
+<body class="conference-seagl2015">
+<div class="navbar navbar-default navbar-fixed-top nav-osem" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target="#main-nav" data-toggle="collapse" type="button">
+<span class="sr-only">
+Toggle navigation
+</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" title="Open Source Event Manager" href="/">SeaGL</a>
+</div>
+<div class="collapse navbar-collapse" id="main-nav">
+<ul class="nav navbar-nav" id="splash-nav">
+<li>
+<a class="smoothscroll" href="#call">Call For Content</a>
+</li>
+<li>
+<a class="smoothscroll" href="#program">Program</a>
+</li>
+<li>
+<a class="smoothscroll" href="#venue">Venue</a>
+</li>
+<li>
+<a class="smoothscroll" href="#sponsors">Sponsors</a>
+</li>
+
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown visible-desktop">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<span class="fa-solid fa-user"></span>
+Sign In
+<span class="caret"></span>
+</a>
+<div class="dropdown-menu">
+<form action="/accounts/sign_in" accept-charset="UTF-8" method="post"><input type="text" name="user[login]" id="user_login_dd" class="form-control" placeholder="Username / E-Mail" inert="true">
+<input type="password" name="user[password]" id="user_password_dd" class="form-control" placeholder="Password" inert="true">
+<p class="text-right">
+<small>
+<label for="user_remember_me" inert="true">Remember me</label>
+<input type="checkbox" name="user[remember_me]" id="user_remember_me" value="1" inert="true">
+</small>
+</p>
+<button class="btn btn-success btn-block" inert="true">Sign in</button>
+<p class="text-right">
+<br>
+<a class="small btn btn-xs btn-default" data-target="#navbar-devise-help" data-toggle="collapse">
+Need Help?
+</a>
+</p><div class="collapse" id="navbar-devise-help">
+<a href="/accounts/password/new">Forgot your password?</a>
+<br>
+<a href="/accounts/confirmation/new">Didn't receive confirmation instructions?</a>
+<br>
+
+</div>
+<p></p>
+</form></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="messages">
+<div class="container">
+<noscript>
+<style>
+  #content {
+    display: none;
+  }
+</style>
+<h2>
+JavaScript is not enabled
+</h2>
+<p>
+OSEM requires JavaScript to be enabled to function. Please turn on JavaScript in your browser's settings and reload the page to continue.
+</p>
+</noscript>
+
+</div>
+</div>
+<div id="content">
+<div id="splash">
+<div id="banner">
+<div class="container">
+<div class="row">
+<div class="col-md-8 col-md-offset-2" id="header">
+<div class="row">
+<div class="col-md-4">
+</div>
+<div class="col-md-8">
+<h1>
+SeaGL 2015
+</h1>
+<h3>
+<span class="date text-nowrap">
+October 23 - 24, 2015
+</span>
+<span class="venue text-nowrap">
+<a href="http://seattlecentral.edu/">Seattle Central College</a>
+</span>
+</h3>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<section id="call">
+<div class="container">
+<div class="row">
+</div>
+</div>
+</section>
+
+<section id="program">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<p class="lead text-center">
+<span class="notranslate">
+SeaGL 2015
+</span>
+has the most awesome program ever!
+</p>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<h3 class="text-center">
+Program Highlights
+</h3>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<div class="row row-centered shuffle-deck">
+<div class="col-md-3 col-sm-3 col-centered col-top highlights">
+<a class="thumbnail" href="/conferences/seagl2015/program/proposals/85"><img class="img-responsive img-circle" title="Richard M. Stallman" src="https://secure.gravatar.com/avatar/9abe3cdcef98c23a46fe507a568ac615.png?r=PG&amp;s=300">
+<div class="caption">
+<h3 class="text-center">Richard M. Stallman</h3>
+<h4 class="text-center">Free Software and Your Freedom</h4>
+</div>
+</a></div>
+<div class="col-md-3 col-sm-3 col-centered col-top highlights">
+<a class="thumbnail" href="/conferences/seagl2015/program/proposals/104"><img class="img-responsive img-circle" title="Shauna Gordon-McKeon" src="https://secure.gravatar.com/avatar/2bdf820f298588fef18a33de5779836a.png?r=PG&amp;s=300">
+<div class="caption">
+<h3 class="text-center">Shauna Gordon-McKeon</h3>
+<h4 class="text-center">Beneath the Code, the Heart</h4>
+</div>
+</a></div>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-12">
+<p class="cta-button text-center">
+<a class="btn btn-success btn-lg" href="/conferences/seagl2015/schedule">Full Schedule
+</a></p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="venue">
+<div id="map" style="height: 500px;"></div>
+
+</section>
+
+<section id="sponsors">
+<div class="container">
+<div class="row text-center">
+<h3>
+Platinum
+Sponsor
+</h3>
+</div>
+<div class="row row-centered">
+<div class="col-md-4 col-sm-4 col-centered col-top">
+<a data-target="#modal-sponsor-1" data-toggle="modal" href="#">
+<img class="img-responsive img-sponsor img-sponsor-1" title="Seattle Central College" src="/system/sponsors/logos/000/000/001/first/seattle-central-college-logo.png">
+</a>
+</div>
+</div>
+<div class="row text-center">
+<h3>
+Gold
+Sponsors
+</h3>
+</div>
+<div class="row row-centered">
+<div class="col-md-4 col-sm-4 col-centered col-top">
+<a data-target="#modal-sponsor-8" data-toggle="modal" href="#">
+<img class="img-responsive img-sponsor img-sponsor-2" title="Google" src="/system/sponsors/logos/000/000/008/second/googlelogo_color_272x92dp.png">
+</a>
+</div>
+<div class="col-md-4 col-sm-4 col-centered col-top">
+<a data-target="#modal-sponsor-9" data-toggle="modal" href="#">
+<img class="img-responsive img-sponsor img-sponsor-2" title="Schedules Direct" src="/system/sponsors/logos/000/000/009/second/sd.gif">
+</a>
+</div>
+</div>
+<div class="row text-center">
+<h3>
+Silver
+Sponsors
+</h3>
+</div>
+<div class="row row-centered">
+<div class="col-md-4 col-sm-4 col-centered col-top">
+<a data-target="#modal-sponsor-11" data-toggle="modal" href="#">
+<img class="img-responsive img-sponsor img-sponsor-3" title="Microsoft" src="/system/sponsors/logos/000/000/011/others/Microsoft_logo_(2012)_modified.svg.png">
+</a>
+</div>
+<div class="col-md-4 col-sm-4 col-centered col-top">
+<a data-target="#modal-sponsor-24" data-toggle="modal" href="#">
+<img class="img-responsive img-sponsor img-sponsor-3" title="Silicon Mechanics" src="/system/sponsors/logos/000/000/024/others/OFFICIAL-SIMECH_BLACK.PNG">
+</a>
+</div>
+</div>
+<div class="row text-center">
+<h3>
+Bronze
+Sponsors
+</h3>
+</div>
+<div class="row row-centered">
+<div class="col-md-4 col-sm-4 col-centered col-top">
+<a data-target="#modal-sponsor-5" data-toggle="modal" href="#">
+<img class="img-responsive img-sponsor img-sponsor-4" title="C-SATS" src="/system/sponsors/logos/000/000/005/others/c-sats.jpg">
+</a>
+</div>
+<div class="col-md-4 col-sm-4 col-centered col-top">
+<a data-target="#modal-sponsor-7" data-toggle="modal" href="#">
+<img class="img-responsive img-sponsor img-sponsor-4" title="ExtraHop" src="/system/sponsors/logos/000/000/007/others/extrahop-logo.png">
+</a>
+</div>
+<div class="col-md-4 col-sm-4 col-centered col-top">
+<a data-target="#modal-sponsor-3" data-toggle="modal" href="#">
+<img class="img-responsive img-sponsor img-sponsor-4" title="Hewlett-Packard" src="/system/sponsors/logos/000/000/003/others/HP_logo_630x630.png">
+</a>
+</div>
+<div class="col-md-4 col-sm-4 col-centered col-top">
+<a data-target="#modal-sponsor-4" data-toggle="modal" href="#">
+<img class="img-responsive img-sponsor img-sponsor-4" title="Pogo Linux" src="/system/sponsors/logos/000/000/004/others/pogo-linux-logo.png">
+</a>
+</div>
+</div>
+<div class="row text-center">
+<h3>
+Non-exhibiting
+Sponsors
+</h3>
+</div>
+<div class="row row-centered">
+<div class="col-md-4 col-sm-4 col-centered col-top">
+<a data-target="#modal-sponsor-21" data-toggle="modal" href="#">
+<img class="img-responsive img-sponsor img-sponsor-5" title="Linux Journal" src="/system/sponsors/logos/000/000/021/others/linuxjournal.jpg">
+</a>
+</div>
+<div class="col-md-4 col-sm-4 col-centered col-top">
+<a data-target="#modal-sponsor-6" data-toggle="modal" href="#">
+<img class="img-responsive img-sponsor img-sponsor-5" title="Rainier Connect" src="/system/sponsors/logos/000/000/006/others/logo.png">
+</a>
+</div>
+<div class="col-md-4 col-sm-4 col-centered col-top">
+<a data-target="#modal-sponsor-20" data-toggle="modal" href="#">
+<img class="img-responsive img-sponsor img-sponsor-5" title="no starch press" src="/system/sponsors/logos/000/000/020/others/nsp_logo_black.png">
+</a>
+</div>
+</div>
+<div class="row text-center">
+<h3>
+Educational / Nonprofit
+Sponsors
+</h3>
+</div>
+<div class="row row-centered">
+<div class="col-md-4 col-sm-4 col-centered col-top">
+<a data-target="#modal-sponsor-18" data-toggle="modal" href="#">
+<img class="img-responsive img-sponsor img-sponsor-6" title="Free Software Foundation" src="/system/sponsors/logos/000/000/018/others/fsf30-header-fsf.png">
+</a>
+</div>
+<div class="col-md-4 col-sm-4 col-centered col-top">
+<a data-target="#modal-sponsor-22" data-toggle="modal" href="#">
+<img class="img-responsive img-sponsor img-sponsor-6" title="LibreOffice" src="/system/sponsors/logos/000/000/022/others/LibreOffice_Initial-Artwork-Logo_ColorLogoBasic_500px.png">
+</a>
+</div>
+<div class="col-md-4 col-sm-4 col-centered col-top">
+<a data-target="#modal-sponsor-19" data-toggle="modal" href="#">
+<img class="img-responsive img-sponsor img-sponsor-6" title="Linuxfest Northwest" src="/system/sponsors/logos/000/000/019/others/linuxfest-northwest-logo.png">
+</a>
+</div>
+<div class="col-md-4 col-sm-4 col-centered col-top">
+<a data-target="#modal-sponsor-14" data-toggle="modal" href="#">
+<img class="img-responsive img-sponsor img-sponsor-6" title="Northeastern University Seattle" src="/system/sponsors/logos/000/000/014/others/NortheasternSeattle.jpg">
+</a>
+</div>
+<div class="col-md-4 col-sm-4 col-centered col-top">
+<a data-target="#modal-sponsor-15" data-toggle="modal" href="#">
+<img class="img-responsive img-sponsor img-sponsor-6" title="Oregon State University Open Source Lab" src="/system/sponsors/logos/000/000/015/others/osuosl-tag.png">
+</a>
+</div>
+</div>
+<div class="row text-center">
+<h3>
+Community
+Sponsors
+</h3>
+</div>
+<div class="row row-centered">
+<div class="col-md-4 col-sm-4 col-centered col-top">
+<a data-target="#modal-sponsor-2" data-toggle="modal" href="#">
+<img class="img-responsive img-sponsor img-sponsor-7" title="Greater Seattle Linux Users Group" src="/system/sponsors/logos/000/000/002/others/logo.png">
+</a>
+</div>
+<div class="col-md-4 col-sm-4 col-centered col-top">
+<a data-target="#modal-sponsor-12" data-toggle="modal" href="#">
+<img class="img-responsive img-sponsor img-sponsor-7" title="Pacific Northwest PHP Conference" src="/system/sponsors/logos/000/000/012/others/pnwphp.png">
+</a>
+</div>
+<div class="col-md-4 col-sm-4 col-centered col-top">
+<a data-target="#modal-sponsor-16" data-toggle="modal" href="#">
+<img class="img-responsive img-sponsor img-sponsor-7" title="Seattle Area System Administrators Guild" src="/system/sponsors/logos/000/000/016/others/SASAG.png">
+</a>
+</div>
+<div class="col-md-4 col-sm-4 col-centered col-top">
+<a data-target="#modal-sponsor-13" data-toggle="modal" href="#">
+<img class="img-responsive img-sponsor img-sponsor-7" title="The FreeBSD Project" src="/system/sponsors/logos/000/000/013/others/FreeBSD-logo-red.png">
+</a>
+</div>
+<div class="col-md-4 col-sm-4 col-centered col-top">
+<a data-target="#modal-sponsor-17" data-toggle="modal" href="#">
+<img class="img-responsive img-sponsor img-sponsor-7" title="Write The Docs Seattle" src="/system/sponsors/logos/000/000/017/others/WriteTheDocs.jpeg">
+</a>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<h3 class="text-center">
+Want to sponsor?
+<a href="mailto:sponsor@seagl.org?subject=seagl2015%20Sponsorship">Contact us!
+</a></h3>
+</div>
+</div>
+</div>
+</section>
+
+<section id="social-media">
+<div class="container">
+<div class="row">
+<div class="col-md-12 text-center">
+<a href="https://www.facebook.com/SeattleGnuLinuxConference"><i class="fa-brands fa-facebook fa-4x"></i>
+</a><a href="https://twitter.com/SeaGL"><i class="fa-brands fa-twitter fa-4x"></i>
+</a><a href="https://plus.google.com/+SeaglOrg/"><i class="fa-brands fa-google-plus fa-4x"></i>
+</a><a href="mailto:info@seagl.org"><i class="fa-solid fa-envelope fa-4x"></i>
+</a></div>
+</div>
+</div>
+</section>
+
+<div class="scroll-top-wrapper">
+<a class="smoothscroll" href="#banner"><i class="fa-solid fa-2x fa-circle-arrow-up"></i>
+</a></div>
+<script>
+  $(function(){
+    $(document).on( 'scroll', function(){
+      if ($(window).scrollTop() > 100) {
+          $('.scroll-top-wrapper').addClass('show');
+      } else {
+          $('.scroll-top-wrapper').removeClass('show');
+      }
+    });
+  });
+</script>
+
+</div>
+
+</div>
+<div class="modal fade" id="modal-sponsor-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal">
+<i class="fa-solid fa-xmark"></i>
+</button>
+<h3 class="modal-title">
+Seattle Central College
+</h3>
+</div>
+<div class="modal-body">
+<p class="logo">
+<a target="_blank" href="http://seattlecentral.edu/"></a></p>
+<p class="description">
+</p><p>Seattle Central College is located on Capitol Hill, the vibrant urban center of Seattle life. We are an educational home for our students, a leadership incubator for our community and an economic catalyst for our state and beyond. Since 1966, the college has served the higher education and workforce training needs of more than 500,000 students.</p>
+
+<p>Seattle Central is committed to creating a learning environment that is accessible, diverse, responsive, and innovative.</p>
+
+<p></p>
+</div>
+<div class="modal-footer">
+<a target="_blank" href="http://seattlecentral.edu/">http://seattlecentral.edu/</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="modal-sponsor-2">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal">
+<i class="fa-solid fa-xmark"></i>
+</button>
+<h3 class="modal-title">
+Greater Seattle Linux Users Group
+</h3>
+</div>
+<div class="modal-body">
+<p class="logo">
+<a target="_blank" href="http://www.gslug.org/"></a></p>
+<p class="description">
+</p><p>Founded in 1994, GSLUG is a community of people in the Seattle area who share an interest in Linux and open source software. Everyone is welcome, whether you've never used Linux before or you're a seasoned kernel developer. Come join us the 2nd Saturday of each month to learn and share!</p>
+
+<p></p>
+</div>
+<div class="modal-footer">
+<a target="_blank" href="http://www.gslug.org/">http://www.gslug.org/</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="modal-sponsor-3">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal">
+<i class="fa-solid fa-xmark"></i>
+</button>
+<h3 class="modal-title">
+Hewlett-Packard
+</h3>
+</div>
+<div class="modal-body">
+<p class="logo">
+<a target="_blank" href="http://www.hp.com/go/opensource/"></a></p>
+<p class="description">
+
+</p>
+</div>
+<div class="modal-footer">
+<a target="_blank" href="http://www.hp.com/go/opensource/">http://www.hp.com/go/opensource/</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="modal-sponsor-4">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal">
+<i class="fa-solid fa-xmark"></i>
+</button>
+<h3 class="modal-title">
+Pogo Linux
+</h3>
+</div>
+<div class="modal-body">
+<p class="logo">
+<a target="_blank" href="http://www.pogolinux.com"></a></p>
+<p class="description">
+</p><p>Founded in 1999, Pogo Linux, Inc. is an open-source systems integrator headquartered in Redmond, WA. With a multi-OS focus and in-house technical expertise, we offer a wide range of servers, workstations, and network storage solutions for the technology needs of IT departments in organizations of all sizes.</p>
+
+<p></p>
+</div>
+<div class="modal-footer">
+<a target="_blank" href="http://www.pogolinux.com">http://www.pogolinux.com</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="modal-sponsor-5">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal">
+<i class="fa-solid fa-xmark"></i>
+</button>
+<h3 class="modal-title">
+C-SATS
+</h3>
+</div>
+<div class="modal-body">
+<p class="logo">
+<a target="_blank" href="https://www.csats.com"></a></p>
+<p class="description">
+</p><p>C-SATS offers a performance management system for evaluating and improving technique in healthcare professionals rapidly, accurately and cost effectively. C-SATS is based in Seattle and is proud to be a repeat sponsor of SeaGL.</p>
+
+<p></p>
+</div>
+<div class="modal-footer">
+<a target="_blank" href="https://www.csats.com">https://www.csats.com</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="modal-sponsor-6">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal">
+<i class="fa-solid fa-xmark"></i>
+</button>
+<h3 class="modal-title">
+Rainier Connect
+</h3>
+</div>
+<div class="modal-body">
+<p class="logo">
+<a target="_blank" href="https://www.rainierconnect.com/"></a></p>
+<p class="description">
+</p><p>Rainier Connect is South Puget Sound’s premiere phone, cable TV &amp; high-speed Internet provider. Homes &amp; businesses choose us for quality phone, DSL, cable &amp; TV service in Tacoma, Puyallup, Centralia, Eatonville, Graham &amp; beyond.</p>
+
+<p></p>
+</div>
+<div class="modal-footer">
+<a target="_blank" href="https://www.rainierconnect.com/">https://www.rainierconnect.com/</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="modal-sponsor-7">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal">
+<i class="fa-solid fa-xmark"></i>
+</button>
+<h3 class="modal-title">
+ExtraHop
+</h3>
+</div>
+<div class="modal-body">
+<p class="logo">
+<a target="_blank" href="http://www.extrahop.com"></a></p>
+<p class="description">
+</p><p>ExtraHop Networks, Inc. is an enterprise technology real-time wire data and IT operations analytics company headquartered in Seattle, Washington, US.</p>
+
+<p></p>
+</div>
+<div class="modal-footer">
+<a target="_blank" href="http://www.extrahop.com">http://www.extrahop.com</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="modal-sponsor-8">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal">
+<i class="fa-solid fa-xmark"></i>
+</button>
+<h3 class="modal-title">
+Google
+</h3>
+</div>
+<div class="modal-body">
+<p class="logo">
+<a target="_blank" href="https://www.google.com"></a></p>
+<p class="description">
+
+</p>
+</div>
+<div class="modal-footer">
+<a target="_blank" href="https://www.google.com">https://www.google.com</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="modal-sponsor-9">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal">
+<i class="fa-solid fa-xmark"></i>
+</button>
+<h3 class="modal-title">
+Schedules Direct
+</h3>
+</div>
+<div class="modal-body">
+<p class="logo">
+<a target="_blank" href="http://www.schedulesdirect.org/"></a></p>
+<p class="description">
+</p><p>Schedules Direct is a non-profit organization whose mission is to educate the public about the benefits of Open Source Software and other free software, provide support functions for such software, and provide funding for research that facilitates the improvement or creation of Open Source Software and other free software for the benefit of the public at large.</p>
+
+<p></p>
+</div>
+<div class="modal-footer">
+<a target="_blank" href="http://www.schedulesdirect.org/">http://www.schedulesdirect.org/</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="modal-sponsor-11">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal">
+<i class="fa-solid fa-xmark"></i>
+</button>
+<h3 class="modal-title">
+Microsoft
+</h3>
+</div>
+<div class="modal-body">
+<p class="logo">
+<a target="_blank" href="https://www.microsoft.com"></a></p>
+<p class="description">
+
+</p>
+</div>
+<div class="modal-footer">
+<a target="_blank" href="https://www.microsoft.com">https://www.microsoft.com</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="modal-sponsor-12">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal">
+<i class="fa-solid fa-xmark"></i>
+</button>
+<h3 class="modal-title">
+Pacific Northwest PHP Conference
+</h3>
+</div>
+<div class="modal-body">
+<p class="logo">
+<a target="_blank" href="http://pnwphp.com"></a></p>
+<p class="description">
+</p><p>The Pacific Northwest PHP Conference is a 3-day event for PHP developers living in the Pacific Northwest region. We've invited world-renowned speakers from the PHP community to teach about topics ranging from continuous integration to the cloud. Join us for the amazing presentations, catered food, musical numbers, the hackathon, and the live blog.</p>
+
+<p></p>
+</div>
+<div class="modal-footer">
+<a target="_blank" href="http://pnwphp.com">http://pnwphp.com</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="modal-sponsor-13">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal">
+<i class="fa-solid fa-xmark"></i>
+</button>
+<h3 class="modal-title">
+The FreeBSD Project
+</h3>
+</div>
+<div class="modal-body">
+<p class="logo">
+<a target="_blank" href="http://www.freebsd.org/"></a></p>
+<p class="description">
+</p><p>FreeBSD is an advanced computer operating system used to power modern servers, desktops and embedded platforms. A large community has continually developed it for more than thirty years. Its advanced networking, security and storage features have made FreeBSD the platform of choice for many of the busiest web sites and most pervasive embedded networking and storage devices.</p>
+
+<p></p>
+</div>
+<div class="modal-footer">
+<a target="_blank" href="http://www.freebsd.org/">http://www.freebsd.org/</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="modal-sponsor-14">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal">
+<i class="fa-solid fa-xmark"></i>
+</button>
+<h3 class="modal-title">
+Northeastern University Seattle
+</h3>
+</div>
+<div class="modal-body">
+<p class="logo">
+<a target="_blank" href="http://www.northeastern.edu/seattle/"></a></p>
+<p class="description">
+
+</p>
+</div>
+<div class="modal-footer">
+<a target="_blank" href="http://www.northeastern.edu/seattle/">http://www.northeastern.edu/seattle/</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="modal-sponsor-15">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal">
+<i class="fa-solid fa-xmark"></i>
+</button>
+<h3 class="modal-title">
+Oregon State University Open Source Lab
+</h3>
+</div>
+<div class="modal-body">
+<p class="logo">
+<a target="_blank" href="http://osuosl.org/"></a></p>
+<p class="description">
+
+</p>
+</div>
+<div class="modal-footer">
+<a target="_blank" href="http://osuosl.org/">http://osuosl.org/</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="modal-sponsor-16">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal">
+<i class="fa-solid fa-xmark"></i>
+</button>
+<h3 class="modal-title">
+Seattle Area System Administrators Guild
+</h3>
+</div>
+<div class="modal-body">
+<p class="logo">
+<a target="_blank" href="http://www.sasag.org/"></a></p>
+<p class="description">
+</p><p>Seattle Area System Administrators Guild (SASAG) is a local group for systems administrators in the Seattle and Pacific Northwest areas (North Western Washington). </p>
+
+<p></p>
+</div>
+<div class="modal-footer">
+<a target="_blank" href="http://www.sasag.org/">http://www.sasag.org/</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="modal-sponsor-17">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal">
+<i class="fa-solid fa-xmark"></i>
+</button>
+<h3 class="modal-title">
+Write The Docs Seattle
+</h3>
+</div>
+<div class="modal-body">
+<p class="logo">
+<a target="_blank" href="http://www.meetup.com/Write-The-Docs-Seattle/"></a></p>
+<p class="description">
+</p><p>A group for Seattle technical writers, software developers, content managers, or editors who want to share ideas about how to produce great software and documentation that creates a positive customer experience.</p>
+
+<p></p>
+</div>
+<div class="modal-footer">
+<a target="_blank" href="http://www.meetup.com/Write-The-Docs-Seattle/">http://www.meetup.com/Write-The-Docs-Seattle/</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="modal-sponsor-18">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal">
+<i class="fa-solid fa-xmark"></i>
+</button>
+<h3 class="modal-title">
+Free Software Foundation
+</h3>
+</div>
+<div class="modal-body">
+<p class="logo">
+<a target="_blank" href="http://www.fsf.org/"></a></p>
+<p class="description">
+</p><p>The Free Software Foundation (FSF) is a nonprofit with a worldwide mission to promote computer user freedom and to defend the rights of all free software users.</p>
+
+<p></p>
+</div>
+<div class="modal-footer">
+<a target="_blank" href="http://www.fsf.org/">http://www.fsf.org/</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="modal-sponsor-19">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal">
+<i class="fa-solid fa-xmark"></i>
+</button>
+<h3 class="modal-title">
+Linuxfest Northwest
+</h3>
+</div>
+<div class="modal-body">
+<p class="logo">
+<a target="_blank" href="http://linuxfestnorthwest.org/2016"></a></p>
+<p class="description">
+</p><p>LinuxFest Northwest is an annual OpenSource event held the last weekend in April, in Bellingham, WA USA. The Fest features presentations and Exhibits on various F/OSS topics, as well as Linux distributions and applications. LinuxFest Northwest has something for everyone from the novice to the professional. The hours are 9:00 a.m. to 5:00 p.m. both days.</p>
+
+<p></p>
+</div>
+<div class="modal-footer">
+<a target="_blank" href="http://linuxfestnorthwest.org/2016">http://linuxfestnorthwest.org/2016</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="modal-sponsor-20">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal">
+<i class="fa-solid fa-xmark"></i>
+</button>
+<h3 class="modal-title">
+no starch press
+</h3>
+</div>
+<div class="modal-body">
+<p class="logo">
+<a target="_blank" href="https://www.nostarch.com/"></a></p>
+<p class="description">
+</p><p>No Starch Press publishes the finest in geek entertainment — distinctive books on computing, such as bestsellers Steal This Computer Book, Hacking: The Art of Exploitation, Practical Packet Analysis, and The Manga Guides.</p>
+
+<p></p>
+</div>
+<div class="modal-footer">
+<a target="_blank" href="https://www.nostarch.com/">https://www.nostarch.com/</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="modal-sponsor-21">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal">
+<i class="fa-solid fa-xmark"></i>
+</button>
+<h3 class="modal-title">
+Linux Journal
+</h3>
+</div>
+<div class="modal-body">
+<p class="logo">
+<a target="_blank" href="http://www.linuxjournal.com/"></a></p>
+<p class="description">
+</p><p>Linux Journal, currently celebrating its 20th year of publication, is the original magazine of the global Linux community, delivering readers the advice and inspiration they need to get the most out of their Linux systems.</p>
+
+<p></p>
+</div>
+<div class="modal-footer">
+<a target="_blank" href="http://www.linuxjournal.com/">http://www.linuxjournal.com/</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="modal-sponsor-22">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal">
+<i class="fa-solid fa-xmark"></i>
+</button>
+<h3 class="modal-title">
+LibreOffice
+</h3>
+</div>
+<div class="modal-body">
+<p class="logo">
+<a target="_blank" href="https://www.libreoffice.org/"></a></p>
+<p class="description">
+</p><p>LibreOffice is a powerful office suite; Its clean interface and its powerful tools let you unleash your creativity and grow your productivity.
+LibreOffice embeds several applications that make it the most powerful Free &amp; Open Source Office suite on the market</p>
+
+<p></p>
+</div>
+<div class="modal-footer">
+<a target="_blank" href="https://www.libreoffice.org/">https://www.libreoffice.org/</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="modal-sponsor-24">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button class="close" data-dismiss="modal">
+<i class="fa-solid fa-xmark"></i>
+</button>
+<h3 class="modal-title">
+Silicon Mechanics
+</h3>
+</div>
+<div class="modal-body">
+<p class="logo">
+<a target="_blank" href="http://www.siliconmechanics.com/"></a></p>
+<p class="description">
+</p><p>Silicon Mechanics, Inc., is a leading provider of servers, storage and high-performance computing technologies to the world’s most innovative organizations. Since 2001 Silicon Mechanics has supported customers with its “Expert included.” approach, reflecting the company's passion for providing complete customer satisfaction and customer confidence in the return on their technology investments. Recognized as one of the fastest growing companies in the greater Seattle technology corridor, Silicon Mechanics is changing the way systems providers engage with customers. To learn more, please visit <a href="http://www.siliconmechanics.com" rel="nofollow">http://www.siliconmechanics.com</a></p>
+
+<p></p>
+</div>
+<div class="modal-footer">
+<a target="_blank" href="http://www.siliconmechanics.com/">http://www.siliconmechanics.com/</a>
+</div>
+</div>
+</div>
+</div>
+
+
+<div id="footer">
+<div class="container">
+<p class="muted text-center">
+<small>
+This tool is
+<a href="http://www.gnu.org/philosophy/free-sw.html">free software</a>,
+released under the
+<a href="http://opensource.org/licenses/MIT">MIT license</a>.
+You can run, copy, distribute, study, change and improve it.
+The source code and the developers are on
+<a href="https://github.com/openSUSE/osem">GitHub</a>.
+</small>
+</p>
+</div>
+</div>
+<script>
+  // create a map in the "map" div, set the view to a given place and zoom
+  var map = L.map('map', { scrollWheelZoom: false }).setView(
+    [
+      47.6661836,
+      -122.3214323
+    ], 11);
+  // add an OpenStreetMap tile layer
+  L.tileLayer('//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: 'Map data &copy; \
+      <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, \
+      <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, \
+      Imagery © <a href="http://mapbox.com">Mapbox</a>',
+    maxZoom: 18
+  }).addTo(map);
+  // add a marker in the given location, attach some popup content to it
+  // and open the popup
+  L.marker([
+    47.6161836,
+    -122.3214323
+  ]).addTo(map)
+    .bindPopup("<h3>Seattle Central College<\/h3>\n<p>\n1701 Broadway\n<br>\nSeattle\n<br>\nUnited States\n<\/p>\n<p class=\'text-center clearfix\'><a href=\"http://seattlecentral.edu/\">http://seattlecentral.edu/<\/a><\/p>\n")
+    .openPopup();
+  // Turn scrollwheel on when user clicks
+  map.on('focus', function(e) {
+    map.scrollWheelZoom.enable();
+  });
+  // Turn scrollwheel off once the map isn't in the viewport anymore
+  $('#map').waypoint({
+    handler: function(direction) {
+      map.scrollWheelZoom.disable();
+      //alert('map');
+    },
+    offset: '90%'
+  });
+  $('#map').waypoint({
+    handler: function(direction) {
+      map.scrollWheelZoom.disable();
+      //alert('map');
+    },
+    offset: '10%'
+  });
+</script>
+
+
+
+
+</body></html>

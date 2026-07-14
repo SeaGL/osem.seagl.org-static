@@ -1,0 +1,246 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<title>SeaGL</title>
+<meta content="" name="description">
+<meta content="" name="author">
+<link rel="stylesheet" href="/assets/application-9ebb7e8df4f6abe04ca09a78e84abc751d81a041f3702dfc6c2ebbdd106ceaa0.css" media="all">
+<script src="/assets/application-47ef59ee7b6477ee91a0ce07fca426e369cd7b348258d0db05fed8e81411ccdc.js"></script>
+<meta name="csrf-param" content="authenticity_token">
+
+
+<meta content="CANCELLED - (formely &quot;Environments&quot;)" property="og:title">
+<meta content="https://osem.seagl.org/conferences/seagl2020/program/proposals/779" property="og:url">
+<meta content="You want to put a web application on a Linux-ish web server. Let’s say your application is written in Python. It should be easy! Most Linux distributions come with a Python package.
+
+These days, most experienced Python developers will tell you to never deploy your application into System Python -- that’s the version of Python that’s packaged by your Linux distribution. This is sound advice: System Python often lags the state of the art, and lacks features that you may want to use. Its upgrade cycle may vary from your maintenance cycle. 
+
+But it doesn’t stop the fact that System Python exists.
+
+If you choose not to use System Python, you need to figure out how to configure an environment with a version of Python, with support libraries, and packages, and how to keep that version of Python isolated from System Python.
+
+So how do you isolate your environment from the System version?
+
+Regardless of your choice of language, the history of deployment environments is the story of a constant trade-off between isolation and available resources. Resources tend to be limited. As resources -- be it money, processing power, physical space, or storage -- have become less limiting, new approaches to isolation have become possible.
+
+In this talk, we’re going to (very quickly) trace the history of environments, from shared hosting through to massively orchestrated container clusters, and show what problems each type of environment introduced, and what problems each type of environment solved.
+
+After this talk, you’ll understand what factors various environments solve, and why some environments that used to be popular have fallen out of favour.
+" property="og:description">
+<meta content="SeaGL" property="og:site_name">
+<meta content="https://secure.gravatar.com/avatar/62e3dd421b8c075597cee7ad4eb74baf.png?r=PG&amp;s=32" property="og:image">
+<meta content="https://secure.gravatar.com/avatar/62e3dd421b8c075597cee7ad4eb74baf.png?r=PG&amp;s=32" property="og:image:secure_url">
+
+</head>
+<body class="conference-seagl2020">
+<div class="navbar navbar-default navbar-fixed-top nav-osem" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target="#main-nav" data-toggle="collapse" type="button">
+<span class="sr-only">
+Toggle navigation
+</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" title="Open Source Event Manager" href="/">SeaGL</a>
+</div>
+<div class="collapse navbar-collapse" id="main-nav">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown visible-desktop">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<span class="fa-solid fa-user"></span>
+Sign In
+<span class="caret"></span>
+</a>
+<div class="dropdown-menu">
+<form action="/accounts/sign_in" accept-charset="UTF-8" method="post"><input type="text" name="user[login]" id="user_login_dd" class="form-control" placeholder="Username / E-Mail" inert="true">
+<input type="password" name="user[password]" id="user_password_dd" class="form-control" placeholder="Password" inert="true">
+<p class="text-right">
+<small>
+<label for="user_remember_me" inert="true">Remember me</label>
+<input type="checkbox" name="user[remember_me]" id="user_remember_me" value="1" inert="true">
+</small>
+</p>
+<button class="btn btn-success btn-block" inert="true">Sign in</button>
+<p class="text-right">
+<br>
+<a class="small btn btn-xs btn-default" data-target="#navbar-devise-help" data-toggle="collapse">
+Need Help?
+</a>
+</p><div class="collapse" id="navbar-devise-help">
+<a href="/accounts/password/new">Forgot your password?</a>
+<br>
+<a href="/accounts/confirmation/new">Didn't receive confirmation instructions?</a>
+<br>
+
+</div>
+<p></p>
+</form></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="messages">
+<div class="container">
+<noscript>
+<style>
+  #content {
+    display: none;
+  }
+</style>
+<h2>
+JavaScript is not enabled
+</h2>
+<p>
+OSEM requires JavaScript to be enabled to function. Please turn on JavaScript in your browser's settings and reload the page to continue.
+</p>
+</noscript>
+
+</div>
+</div>
+<div id="content">
+<div class="container">
+<div class="row">
+<div class="col-md-12 page-header">
+<h2>
+CANCELLED - (formely "Environments")
+<br>
+<small>
+
+</small>
+<div class="btn-group pull-right">
+<a class="btn btn-success" href="/conferences/seagl2020/schedule">Schedule</a>
+</div>
+</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-3">
+<h3></h3>
+Presented by:
+<div class="speakerinfo">
+<div class="row">
+<div class="col-md-4">
+<img class="img-responsive img-rounded" src="https://secure.gravatar.com/avatar/62e3dd421b8c075597cee7ad4eb74baf.png?r=PG&amp;s=120">
+</div>
+<div class="col-md-8">
+<h4>
+<a href="/users/613">Christopher Neugebauer</a>
+<br>
+<a href="mailto:_@chrisjrn.com"><i class="fa-solid fa-envelope fa-2x"></i>
+</a></h4>
+<div class="text-muted">
+from
+North Bay Python
+</div>
+</div>
+</div>
+<div class="row speakerbio">
+<div class="col-md-12">
+<p>Christopher is an Australian programmer now based in glorious Petaluma, California. He's a programmer of all sorts, and over the last year has been knee-deep in backend web development with Django. Christopher is strongly interested in developing the Australian and International Python communities: he was director of linux.conf.au 2017, is on the organising committee for PyCon Australia. He's a past board member of Linux Australia, and has been a fellow of the Python Software Foundation since 2013.</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-9">
+<div class="row">
+<div class="col-md-12">
+<div class="lead">
+
+
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<p>
+</p><p>You want to put a web application on a Linux-ish web server. Let’s say your application is written in Python. It should be easy! Most Linux distributions come with a Python package.</p>
+
+<p>These days, most experienced Python developers will tell you to never deploy your application into System Python -- that’s the version of Python that’s packaged by your Linux distribution. This is sound advice: System Python often lags the state of the art, and lacks features that you may want to use. Its upgrade cycle may vary from your maintenance cycle. </p>
+
+<p>But it doesn’t stop the fact that System Python exists.</p>
+
+<p>If you choose not to use System Python, you need to figure out how to configure an environment with a version of Python, with support libraries, and packages, and how to keep that version of Python isolated from System Python.</p>
+
+<p>So how do you isolate your environment from the System version?</p>
+
+<p>Regardless of your choice of language, the history of deployment environments is the story of a constant trade-off between isolation and available resources. Resources tend to be limited. As resources -- be it money, processing power, physical space, or storage -- have become less limiting, new approaches to isolation have become possible.</p>
+
+<p>In this talk, we’re going to (very quickly) trace the history of environments, from shared hosting through to massively orchestrated container clusters, and show what problems each type of environment introduced, and what problems each type of environment solved.</p>
+
+<p>After this talk, you’ll understand what factors various environments solve, and why some environments that used to be popular have fallen out of favour.</p>
+
+<p></p>
+</div>
+<dl id="proposal-info">
+<div class="col-md-12">
+<dt>Date:</dt>
+<dd></dd>
+</div>
+<div class="col-md-12">
+<dt>Duration:</dt>
+<dd>30 min</dd>
+</div>
+<div class="col-md-12">
+<dt>Room:</dt>
+<dd>
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Conference:</dt>
+<dd><a href="/conferences/seagl2020">SeaGL 2020</a></dd>
+</div>
+<div class="col-md-12">
+<dt>Language:</dt>
+<dd></dd>
+</div>
+<div class="col-md-12">
+<dt>Track:</dt>
+<dd>
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Difficulty:</dt>
+<dd>
+<span class="label" style="background-color: #32CB2A; color: black;">
+Easy
+</span>
+</dd>
+</div>
+</dl>
+</div>
+<div class="row">
+<div class="col-md-12">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="footer">
+<div class="container">
+<p class="muted text-center">
+<small>
+This tool is
+<a href="http://www.gnu.org/philosophy/free-sw.html">free software</a>,
+released under the
+<a href="http://opensource.org/licenses/MIT">MIT license</a>.
+You can run, copy, distribute, study, change and improve it.
+The source code and the developers are on
+<a href="https://github.com/openSUSE/osem">GitHub</a>.
+</small>
+</p>
+</div>
+</div>
+
+
+
+
+</body></html>

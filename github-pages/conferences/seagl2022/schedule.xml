@@ -1,0 +1,958 @@
+<schedule>
+<version>234</version>
+<conference>
+<acronym>seagl2022</acronym>
+<title>SeaGL 2022</title>
+<start>2022-11-04</start>
+<end>2022-11-05</end>
+<days>2</days>
+<timeslot_duration>00:05</timeslot_duration>
+</conference>
+<day date="2022-11-04" index="1">
+<room name="Keynotes">
+<event guid="fG-EyVSoadPh0EOOYifD0g" id="921">
+<date>2022-11-04T02:10:00-07:00</date>
+<start>09:10</start>
+<duration>00:25</duration>
+<room>Keynotes</room>
+<type>Opening Keynote</type>
+<language>en</language>
+<slug>921-keynote-aeva-black</slug>
+<title>Keynote: Aeva Black</title>
+<subtitle/>
+<track>Keynote</track>
+<abstract>Keynote: Aeva Black</abstract>
+<description>Keynote: Aeva Black</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+</persons>
+</event>
+<event guid="4hW7y-xK0AgPb1SGfSDNyw" id="920">
+<date>2022-11-04T09:30:00-07:00</date>
+<start>16:30</start>
+<duration>00:20</duration>
+<room>Keynotes</room>
+<type>Keynote</type>
+<language>en</language>
+<slug>920-keynote-ernie-smith</slug>
+<title>Keynote: Ernie Smith</title>
+<subtitle/>
+<track>Keynote</track>
+<abstract>Keynote: Ernie Smith</abstract>
+<description>Keynote: Ernie Smith</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+</persons>
+</event>
+</room>
+<room name="Room 2">
+<event guid="ewnrqulGKHqmE-ZH_P_nxA" id="909">
+<date>2022-11-04T02:40:00-07:00</date>
+<start>09:40</start>
+<duration>00:30</duration>
+<room>Room 2</room>
+<type>20-Minute Talk</type>
+<language>en</language>
+<slug>909-struggles-and-possible-solutions-of-a-local-free-software-movement</slug>
+<title>Struggles and possible solutions of a local free software movement</title>
+<subtitle>Trying to advocate the free software movement locally has its own struggles and sharing can help the ones who experience similar situations.</subtitle>
+<track>Community</track>
+<abstract>This talk will be based on my experience as a member of the Free Software Association in Turkey. In a local freedom movement, many local factors affect the way that advocacy should be made, such as economical disadvantages, priorities, country dynamics, and the target audience. It is not always feasible to bring software freedom to the table in a country with low digital literacy and major political conflicts. For years, we have defined the problem and come up with some possible solutions, such as inviting already politicised groups to our movement and explaining software freedom in terms of their struggles, that may help other local communities too. Additionally, the Q&amp;A section will allow the audience to share their struggles and discuss possible solutions. The goal of this talk is to help other local communities find possible reasons for their struggles, to show that these struggles are not specific to them, to give them some ideas about possible solutions, and to be inspired by suggestions of the audience.</abstract>
+<description>This talk will be based on my experience as a member of the Free Software Association in Turkey. In a local freedom movement, many local factors affect the way that advocacy should be made, such as economical disadvantages, priorities, country dynamics, and the target audience. It is not always feasible to bring software freedom to the table in a country with low digital literacy and major political conflicts. For years, we have defined the problem and come up with some possible solutions, such as inviting already politicised groups to our movement and explaining software freedom in terms of their struggles, that may help other local communities too. Additionally, the Q&amp;A section will allow the audience to share their struggles and discuss possible solutions. The goal of this talk is to help other local communities find possible reasons for their struggles, to show that these struggles are not specific to them, to give them some ideas about possible solutions, and to be inspired by suggestions of the audience.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1436">Neslihan Turan</person>
+</persons>
+</event>
+<event guid="KSh0klDTQlBCJJoDLZAheA" id="882">
+<date>2022-11-04T03:25:00-07:00</date>
+<start>10:25</start>
+<duration>00:30</duration>
+<room>Room 2</room>
+<type>20-Minute Talk</type>
+<language>en</language>
+<slug>882-free-riders-and-the-motivations-that-keep-oss-developers-writing-code</slug>
+<title>Free-Riders and the Motivations that Keep OSS Developers Writing Code</title>
+<subtitle>A Look at the Collective Action Problem</subtitle>
+<track>Community</track>
+<abstract>Researchers have grown accustomed to exploring the depths of open source software as a public good. The collective action model applies given the nature of provisioning—open source software is non-excludable and non-rivalry (Hippel &amp; Krogh, 2003). Individual contributors author software or code that they and the public at large have free access to utilize as they see fit, while the group can use the software or code without contributing. Given the non-excludability of open source software, this creates free riders—those who benefit from that good on equal terms with those who contribute (Hardin &amp; Cullity, 2003).
+
+As OSS has gained usage momentum beyond small bands of individual contributors into the masses at large, the need to understand how maintainable motivation for those contributors works. In this talk, Justin Ribeiro explores the current state of the research regarding motivations in OSS as well with a look forwards towards the impact of free riders and how their behavior affects the nature of contribution from authors within OSS.
+
+</abstract>
+<description>Researchers have grown accustomed to exploring the depths of open source software as a public good. The collective action model applies given the nature of provisioning—open source software is non-excludable and non-rivalry (Hippel &amp; Krogh, 2003). Individual contributors author software or code that they and the public at large have free access to utilize as they see fit, while the group can use the software or code without contributing. Given the non-excludability of open source software, this creates free riders—those who benefit from that good on equal terms with those who contribute (Hardin &amp; Cullity, 2003).
+
+As OSS has gained usage momentum beyond small bands of individual contributors into the masses at large, the need to understand how maintainable motivation for those contributors works. In this talk, Justin Ribeiro explores the current state of the research regarding motivations in OSS as well with a look forwards towards the impact of free riders and how their behavior affects the nature of contribution from authors within OSS.
+
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1419">justinribeiro</person>
+</persons>
+</event>
+<event guid="6XZrvkEeLselqWXLnk7mwA" id="905">
+<date>2022-11-04T04:55:00-07:00</date>
+<start>11:55</start>
+<duration>00:30</duration>
+<room>Room 2</room>
+<type>20-Minute Talk</type>
+<language>en</language>
+<slug>905-the-internet-is-unusable-the-disabled-view</slug>
+<title>The internet is unusable: The disabled view.</title>
+<subtitle/>
+<track/>
+<abstract>Web accessibility aims at making the web more usable for disabled folks. We tend to think about accessibility from the perspective of only a few groups. Blind screen reader users or deaf users, to name a couple. But there are many different groups, relying on different assistive technologies, who benefit from accessibility. 
+
+I will feature important aspects of accessibility that aren&apos;t as well know as others. And I will use findings from usability testing  as well as quotes from disabled users about the barriers they experience on the web. Because disabled folks are the best people to explain what makes using the web difficult or painful for them.</abstract>
+<description>Web accessibility aims at making the web more usable for disabled folks. We tend to think about accessibility from the perspective of only a few groups. Blind screen reader users or deaf users, to name a couple. But there are many different groups, relying on different assistive technologies, who benefit from accessibility. 
+
+I will feature important aspects of accessibility that aren&apos;t as well know as others. And I will use findings from usability testing  as well as quotes from disabled users about the barriers they experience on the web. Because disabled folks are the best people to explain what makes using the web difficult or painful for them.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1431">vavroom</person>
+</persons>
+</event>
+<event guid="3a2EDmC0LnEle7p08Q--XA" id="887">
+<date>2022-11-04T06:30:00-07:00</date>
+<start>13:30</start>
+<duration>00:30</duration>
+<room>Room 2</room>
+<type>20-Minute Talk</type>
+<language>en</language>
+<slug>887-cross-pollinate-your-volunteering</slug>
+<title>Cross-Pollinate Your Volunteering</title>
+<subtitle/>
+<track/>
+<abstract>Become a better volunteer and maybe even a better person by diversifying the kind of organizations you volunteer for. It sometimes feels like FOSS non-profits are re-inventing the wheel with regards to tasks like outreach, volunteer recruitment and retention, community governance and strategic planning. But mission based work has been around for a long, long time and so there&apos;s a huge community of non-technical practitioners building community. The value of cross-pollination goes both ways, you can help less technical non-profits think clearly about the role technology plays in their work, while learning about the organizational skills that every volunteer-driven project relies on.
+
+The speaker will discuss the joys of mixing up your volunteering for your own benefit and for the benefit of all the places you give your time to. If you&apos;re up for thinking deeply about the kind of volunteer you want to be over the course of your life, then this talk is for you. </abstract>
+<description>Become a better volunteer and maybe even a better person by diversifying the kind of organizations you volunteer for. It sometimes feels like FOSS non-profits are re-inventing the wheel with regards to tasks like outreach, volunteer recruitment and retention, community governance and strategic planning. But mission based work has been around for a long, long time and so there&apos;s a huge community of non-technical practitioners building community. The value of cross-pollination goes both ways, you can help less technical non-profits think clearly about the role technology plays in their work, while learning about the organizational skills that every volunteer-driven project relies on.
+
+The speaker will discuss the joys of mixing up your volunteering for your own benefit and for the benefit of all the places you give your time to. If you&apos;re up for thinking deeply about the kind of volunteer you want to be over the course of your life, then this talk is for you. </description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="32">Deb Nicholson</person>
+</persons>
+</event>
+<event guid="oXHUHN19yPXhDjskM14bUw" id="915">
+<date>2022-11-04T07:15:00-07:00</date>
+<start>14:15</start>
+<duration>00:30</duration>
+<room>Room 2</room>
+<type>20-Minute Talk</type>
+<language>en</language>
+<slug>915-gulls-do-gull-using-node-d3-react-and-occasionally-grep-to-get-insight-into-bird-subspecies-distribution</slug>
+<title>Gulls do gull: Using Node, D3, React and occasionally grep to get insight into bird subspecies distribution</title>
+<subtitle>And why subspecies are just as important as subtitles</subtitle>
+<track>Miscellaneous</track>
+<abstract>Birdwatching is the art of looking at birds; birding is the art of naming them. And subspecies identification is the nerdy Sarlacc pit of bird identification. In this talk, I&apos;ll talk about how I have over-engineered ways of getting bird subspecies distribution data from the community science site eBird, by using Node.js, React.js, D3.js, and occasionally other things like jq, grep, and plain old vim. I&apos;ll talk about how this is hard, as a hobbyist. I&apos;ll also briefly go into what subspecies are, the book I&apos;m working on how to better know a subspecies, and what fun subspecies to look for if you&apos;re in the Seattle area and you like birds. And yes, there will be seagulls. </abstract>
+<description>Birdwatching is the art of looking at birds; birding is the art of naming them. And subspecies identification is the nerdy Sarlacc pit of bird identification. In this talk, I&apos;ll talk about how I have over-engineered ways of getting bird subspecies distribution data from the community science site eBird, by using Node.js, React.js, D3.js, and occasionally other things like jq, grep, and plain old vim. I&apos;ll talk about how this is hard, as a hobbyist. I&apos;ll also briefly go into what subspecies are, the book I&apos;m working on how to better know a subspecies, and what fun subspecies to look for if you&apos;re in the Seattle area and you like birds. And yes, there will be seagulls. </description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1155">Richard Littauer</person>
+</persons>
+</event>
+<event guid="10jpsffpC20EFep7Itw6xA" id="903">
+<date>2022-11-04T08:45:00-07:00</date>
+<start>15:45</start>
+<duration>00:30</duration>
+<room>Room 2</room>
+<type>20-Minute Talk</type>
+<language>en</language>
+<slug>903-firefox-multi-account-containers</slug>
+<title>Firefox: Multi-Account Containers</title>
+<subtitle/>
+<track>Tools</track>
+<abstract>Firefox Multi-Account Containers (FMAC) is a great tool for isolating web sites in a browser session.
+
+FMAC can simplify using accounts on the same multiple web site in the browser.
+
+The addon is from the Firefox project.
+
+FMAC uses containers to block cookies in one tab from accessing cookies in other tabs.
+
+Attendees will know:
+
+* Firefox add-ons
+* Firefox containers
+* browser privacy
+* browser security
+* browser cookies
+* walled garden containers</abstract>
+<description>Firefox Multi-Account Containers (FMAC) is a great tool for isolating web sites in a browser session.
+
+FMAC can simplify using accounts on the same multiple web site in the browser.
+
+The addon is from the Firefox project.
+
+FMAC uses containers to block cookies in one tab from accessing cookies in other tabs.
+
+Attendees will know:
+
+* Firefox add-ons
+* Firefox containers
+* browser privacy
+* browser security
+* browser cookies
+* walled garden containers</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="363">der.hans</person>
+</persons>
+</event>
+</room>
+<room name="Room 1">
+<event guid="4Ott0eLit66geiRfPevYOg" id="883">
+<date>2022-11-04T02:40:00-07:00</date>
+<start>09:40</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>20-Minute Talk</type>
+<language>en</language>
+<slug>883-building-a-cdn-edge-using-open-source</slug>
+<title>Building a CDN edge using open source</title>
+<subtitle>Challenges and solutions to build high-performance and secure CDN proxy nodes</subtitle>
+<track>Performance Art!</track>
+<abstract>Modern CDNs employ various software on their edges: web caching and load
+balancing HTTPS proxies to deliver and cache client content, web application 
+firewalls to block web attacks and typically DPDK- or XDP-based custom
+solutions to mitigate volumetric DDoS attacks.
+
+In this talk we discuss the open source software typically used to build the 
+data plane even on very powerful CDN edges (e.g. Nginx and ModSecurity). While 
+you can quickly build your own CDN edge using the popular open source 
+software, there are limitations and corner use cases, which lead nearly every 
+CDN at some point to deep modifications of Nginx and writing their own XDP- or 
+DPDK-based software.
+
+Tempesta FW is an open source hybrid of an HTTPS accelerator and firewall,
+which was designed specifically for the CDN use cases. Tempesta FW is
+built into the Linux TCP/IP stack, so it perfectly integrates with Linux
+netfilter to provide multi-layer firewalling rules. SIMD-accelerated HTTP
+parser and very fast TLS handshakes allow it to process HTTPS transaction
+with smallest latency. However, it also has its own limitations and it should
+be integrated with other open source software to to get the most powerful CDN
+edges.
+</abstract>
+<description>Modern CDNs employ various software on their edges: web caching and load
+balancing HTTPS proxies to deliver and cache client content, web application 
+firewalls to block web attacks and typically DPDK- or XDP-based custom
+solutions to mitigate volumetric DDoS attacks.
+
+In this talk we discuss the open source software typically used to build the 
+data plane even on very powerful CDN edges (e.g. Nginx and ModSecurity). While 
+you can quickly build your own CDN edge using the popular open source 
+software, there are limitations and corner use cases, which lead nearly every 
+CDN at some point to deep modifications of Nginx and writing their own XDP- or 
+DPDK-based software.
+
+Tempesta FW is an open source hybrid of an HTTPS accelerator and firewall,
+which was designed specifically for the CDN use cases. Tempesta FW is
+built into the Linux TCP/IP stack, so it perfectly integrates with Linux
+netfilter to provide multi-layer firewalling rules. SIMD-accelerated HTTP
+parser and very fast TLS handshakes allow it to process HTTPS transaction
+with smallest latency. However, it also has its own limitations and it should
+be integrated with other open source software to to get the most powerful CDN
+edges.
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1420">Alexander Krizhanovsky</person>
+</persons>
+</event>
+<event guid="pQeUwqqVDMEnW1Rl1eldng" id="886">
+<date>2022-11-04T03:25:00-07:00</date>
+<start>10:25</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>20-Minute Talk</type>
+<language>en</language>
+<slug>886-intermediate-jq-sed-for-json</slug>
+<title>Intermediate jq: sed for json</title>
+<subtitle/>
+<track>Tools</track>
+<abstract>Part 2 of the jq trilogy ( part 1 was given at SeaGL 2021 ).
+
+In this part we cover using jq to change JSON documents from the command line.
+
+Attendees will learn:
+
+* adding and removing entries
+* trimming data
+* map function
+* group_by function
+* combinations function
+
+Today&apos;s APIs and databases feed us lots of JSON.
+It&apos;s a structured, line-independent data format, and our normal line-based tools such as grep, sed and awk fall a bit short.
+
+jq understands JSON document format that&apos;s easy to fit into your data pipeline.
+It can parse, search and manipulate JSON documents.
+
+The first talk introducted jq and covered using it to search JSON objects similar to how grep is used for plain text.</abstract>
+<description>Part 2 of the jq trilogy ( part 1 was given at SeaGL 2021 ).
+
+In this part we cover using jq to change JSON documents from the command line.
+
+Attendees will learn:
+
+* adding and removing entries
+* trimming data
+* map function
+* group_by function
+* combinations function
+
+Today&apos;s APIs and databases feed us lots of JSON.
+It&apos;s a structured, line-independent data format, and our normal line-based tools such as grep, sed and awk fall a bit short.
+
+jq understands JSON document format that&apos;s easy to fit into your data pipeline.
+It can parse, search and manipulate JSON documents.
+
+The first talk introducted jq and covered using it to search JSON objects similar to how grep is used for plain text.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="363">der.hans</person>
+</persons>
+</event>
+<event guid="HBo6BBb7LeY8J-F-I3aVQw" id="916">
+<date>2022-11-04T04:10:00-07:00</date>
+<start>11:10</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>20-Minute Talk</type>
+<language>en</language>
+<slug>916-the-cloud-native-burrito</slug>
+<title>The Cloud Native Burrito</title>
+<subtitle>Explore the Kubernetes universe through Mexican food</subtitle>
+<track>DevOps</track>
+<abstract>Containers! Orchestrators! Service Mesh! Serverless! PodSecurity! You&apos;ve heard all the hype from the many, many projects that call themselves &quot;Cloud Native&quot;, but what does it all mean?  Why would you want to use any of this, and what tools do you actually need, and why does the CNCF have over 120 projects?
+
+Welcome to the Cloud Native Taqueria, where your questions will be answered.  In this talk, we will give you a whirlwind orientation tour of Cloud Native technologies and Mexican food, from Kubernetes to Istio to Tekton to Knative.  We&apos;ll explain each part of the stack, and why you might or might not want to use it, and how to figure out what your options are.
+
+You&apos;ll complete this talk with a better understanding of the Cloud Native universe and what things you want to learn more about.</abstract>
+<description>Containers! Orchestrators! Service Mesh! Serverless! PodSecurity! You&apos;ve heard all the hype from the many, many projects that call themselves &quot;Cloud Native&quot;, but what does it all mean?  Why would you want to use any of this, and what tools do you actually need, and why does the CNCF have over 120 projects?
+
+Welcome to the Cloud Native Taqueria, where your questions will be answered.  In this talk, we will give you a whirlwind orientation tour of Cloud Native technologies and Mexican food, from Kubernetes to Istio to Tekton to Knative.  We&apos;ll explain each part of the stack, and why you might or might not want to use it, and how to figure out what your options are.
+
+You&apos;ll complete this talk with a better understanding of the Cloud Native universe and what things you want to learn more about.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="358">jberkus</person>
+</persons>
+</event>
+<event guid="T3TQZtt26U7jzY8G78FDSw" id="880">
+<date>2022-11-04T04:55:00-07:00</date>
+<start>11:55</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>20-Minute Talk</type>
+<language>en</language>
+<slug>880-the-fediverse-your-library</slug>
+<title>The Fediverse @ Your Library</title>
+<subtitle>A Proposal for Collaboration</subtitle>
+<track>Community</track>
+<abstract>Fediverse enthusiasts and public libraries have a shared interest in preserving privacy, control, and a smaller, more intimate, and non-commercial community for their users, but they&apos;re not collaborating as much as they could on those shared values to provide easy ways for potential Fediverse users to get started, either as a user or as an instance host.
+
+Librarians often lack the technical resources to implement and maintain Fediverse instances on their own, but could work with enthusiasts to help themselves and their users create and manage their own instances of / accounts on the Fediverse. 
+
+This presentation will take a high-level look at how a collaboration might work between a public library and Fediverse enthusiasts, including benefits and possible pain points for both sides along the way.</abstract>
+<description>Fediverse enthusiasts and public libraries have a shared interest in preserving privacy, control, and a smaller, more intimate, and non-commercial community for their users, but they&apos;re not collaborating as much as they could on those shared values to provide easy ways for potential Fediverse users to get started, either as a user or as an instance host.
+
+Librarians often lack the technical resources to implement and maintain Fediverse instances on their own, but could work with enthusiasts to help themselves and their users create and manage their own instances of / accounts on the Fediverse. 
+
+This presentation will take a high-level look at how a collaboration might work between a public library and Fediverse enthusiasts, including benefits and possible pain points for both sides along the way.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1415">Alex Byrne</person>
+</persons>
+</event>
+<event guid="xX4lDuhcr53WQi2Pwt4YHQ" id="912">
+<date>2022-11-04T06:30:00-07:00</date>
+<start>13:30</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>20-Minute Talk</type>
+<language>en</language>
+<slug>912-accessible-data-visualization</slug>
+<title>Accessible Data Visualization </title>
+<subtitle>High-level data visualizations tips, with a focus on accessibility.</subtitle>
+<track>Miscellaneous</track>
+<abstract>More and more people are seeing data visualized every day whether it&apos;s in their weather app, Spotify&apos;s end of the year &quot;Wrapped&quot; report, the latest Covid-19 trends, or in their daily work. Sometimes seeing data take shape can be purely for enjoyment, but other times the stakes are higher and the data influences what choices people make as a business or in their personal lives.
+
+How can we ensure our data is represented in a way that is easily interpreted by all? 
+
+Join this presentation to learn about how we can make data visualizations accessible to those with disabilities or to those who are just new to this. We’ll walk through high-level data visualizations tips, with a focus on accessibility, that can be used within any platform that displays data in graphical form. Let’s make sure everyone is equally able to learn from their data and put it into action!
+</abstract>
+<description>More and more people are seeing data visualized every day whether it&apos;s in their weather app, Spotify&apos;s end of the year &quot;Wrapped&quot; report, the latest Covid-19 trends, or in their daily work. Sometimes seeing data take shape can be purely for enjoyment, but other times the stakes are higher and the data influences what choices people make as a business or in their personal lives.
+
+How can we ensure our data is represented in a way that is easily interpreted by all? 
+
+Join this presentation to learn about how we can make data visualizations accessible to those with disabilities or to those who are just new to this. We’ll walk through high-level data visualizations tips, with a focus on accessibility, that can be used within any platform that displays data in graphical form. Let’s make sure everyone is equally able to learn from their data and put it into action!
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1438">Bradley Molinaro</person>
+</persons>
+</event>
+<event guid="knMVPzYzRwyp9g34qGMXbQ" id="898">
+<date>2022-11-04T07:15:00-07:00</date>
+<start>14:15</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>20-Minute Talk</type>
+<language>en</language>
+<slug>898-mobile-mindset-finding-the-right-tools-for-your-new-job</slug>
+<title>Mobile Mindset: finding the right tools for your new job</title>
+<subtitle/>
+<track>Tech Culture</track>
+<abstract>Mobility is a natural part of working in technology. As well as career changers from outside the industry, people frequently move between generalist and specialist roles, or switch to emerging areas such as DevOps and machine learning. Just as a blender makes a different kind of smoothie to a food processor, your choice of technical tools should depend on the type of job that you&apos;re doing.
+
+All projects involve some degree of uncertainty, no matter how effective the planning phase is. However, one advantage of having experience outside of your current job is that you can bring different frameworks, methodologies, and thought processes to the table. Contributing to open-source software, and involvement in the FOSS community, can be a valuable source of knowledge on ways of working, particularly when you&apos;re working for an organisation that&apos;s on a budget. However, it can be difficult to know how to translate that expertise into a commercial environment, or one where open-source isn&apos;t valued.
+
+So how do we apply lessons from the open-source world at non-FOSS companies? What kinds of questions should we ask to determine the best way to solve problems, and how can we use our expertise to recover from process-induced failure? From latkes to licenses to full-stack applications, let&apos;s break down some different ways to build structures that support us in getting our jobs done.</abstract>
+<description>Mobility is a natural part of working in technology. As well as career changers from outside the industry, people frequently move between generalist and specialist roles, or switch to emerging areas such as DevOps and machine learning. Just as a blender makes a different kind of smoothie to a food processor, your choice of technical tools should depend on the type of job that you&apos;re doing.
+
+All projects involve some degree of uncertainty, no matter how effective the planning phase is. However, one advantage of having experience outside of your current job is that you can bring different frameworks, methodologies, and thought processes to the table. Contributing to open-source software, and involvement in the FOSS community, can be a valuable source of knowledge on ways of working, particularly when you&apos;re working for an organisation that&apos;s on a budget. However, it can be difficult to know how to translate that expertise into a commercial environment, or one where open-source isn&apos;t valued.
+
+So how do we apply lessons from the open-source world at non-FOSS companies? What kinds of questions should we ask to determine the best way to solve problems, and how can we use our expertise to recover from process-induced failure? From latkes to licenses to full-stack applications, let&apos;s break down some different ways to build structures that support us in getting our jobs done.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1143">Dawn Cooper</person>
+</persons>
+</event>
+<event guid="4g9MNX9x3X_qVp4APCsTuA" id="917">
+<date>2022-11-04T08:45:00-07:00</date>
+<start>15:45</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>20-Minute Talk</type>
+<language>en</language>
+<slug>917-choose-your-candidate</slug>
+<title>Choose Your Candidate</title>
+<subtitle>Options for OSS project elections</subtitle>
+<track>Community</track>
+<abstract>Big, popular open source projects have as many elections as Seattle does.  Instead of mailboxes, though, they use online voting platforms. Most of this voting software implements what are called &quot;preference elections&quot; in order to choose the most liked candidate. This started with the venerable CIVS, and now includes several software projects like Helios and Elekto.
+
+We&apos;ll cover what preference elections are, how they work, and why you want them for your project elections.  Then we&apos;ll briefly explore the open source options available for voting software.
+
+Whether you&apos;re already part of a project using voting software and want to know more, looking for a voting platform for your project, or just interested in online ballot systems, you&apos;ll learn a lot about options and implementations.</abstract>
+<description>Big, popular open source projects have as many elections as Seattle does.  Instead of mailboxes, though, they use online voting platforms. Most of this voting software implements what are called &quot;preference elections&quot; in order to choose the most liked candidate. This started with the venerable CIVS, and now includes several software projects like Helios and Elekto.
+
+We&apos;ll cover what preference elections are, how they work, and why you want them for your project elections.  Then we&apos;ll briefly explore the open source options available for voting software.
+
+Whether you&apos;re already part of a project using voting software and want to know more, looking for a voting platform for your project, or just interested in online ballot systems, you&apos;ll learn a lot about options and implementations.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="358">jberkus</person>
+</persons>
+</event>
+</room>
+<room name="Social">
+<event guid="UkR-3___xPiCwjv5pStsug" id="923">
+<date>2022-11-04T08:00:00-07:00</date>
+<start>15:00</start>
+<duration>00:30</duration>
+<room>Social</room>
+<type>Social Event</type>
+<language>en</language>
+<slug>923-afternoon-teagl</slug>
+<title>Afternoon TeaGL</title>
+<subtitle/>
+<track>Social Event</track>
+<abstract>TeaGL</abstract>
+<description>TeaGL</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+</persons>
+</event>
+<event guid="XUbIcGAKfEYHRXiX9Hatkg" id="924">
+<date>2022-11-04T10:30:00-07:00</date>
+<start>17:30</start>
+<duration>00:30</duration>
+<room>Social</room>
+<type>Social Event</type>
+<language>en</language>
+<slug>924-afternoon-trivia</slug>
+<title>Afternoon Trivia</title>
+<subtitle/>
+<track>Social Event</track>
+<abstract>Trivia</abstract>
+<description>Trivia</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+</persons>
+</event>
+</room>
+</day>
+<day date="2022-11-05" index="2">
+<room name="Keynotes">
+<event guid="7mSrD286qYRQsG7ZO_3wzQ" id="922">
+<date>2022-11-05T02:30:00-07:00</date>
+<start>09:30</start>
+<duration>00:25</duration>
+<room>Keynotes</room>
+<type>Opening Keynote</type>
+<language>en</language>
+<slug>922-keynote-lorena-mesa</slug>
+<title>Keynote: Lorena Mesa</title>
+<subtitle/>
+<track>Keynote</track>
+<abstract>Keynote: Lorena Mesa</abstract>
+<description>Keynote: Lorena Mesa</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+</persons>
+</event>
+<event guid="mOo74rm1LpCKtFDLnNUk6A" id="919">
+<date>2022-11-05T09:30:00-07:00</date>
+<start>16:30</start>
+<duration>00:20</duration>
+<room>Keynotes</room>
+<type>Keynote</type>
+<language>en</language>
+<slug>919-keynote-sumana-harihareswara</slug>
+<title>Keynote: Sumana Harihareswara</title>
+<subtitle/>
+<track>Keynote</track>
+<abstract>Keynote: Sumana Harihareswara</abstract>
+<description>Keynote: Sumana Harihareswara</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+</persons>
+</event>
+</room>
+<room name="Room 2">
+<event guid="-FYBJ2w8fDc49MyWcgrqHg" id="889">
+<date>2022-11-05T03:00:00-07:00</date>
+<start>10:00</start>
+<duration>00:30</duration>
+<room>Room 2</room>
+<type>20-Minute Talk</type>
+<language>en</language>
+<slug>889-the-struggle-of-getting-an-open-source-community-off-the-ground</slug>
+<title>The struggle of getting an open-source community off the ground</title>
+<subtitle/>
+<track>Community</track>
+<abstract>
+Having an open-source project is great, but if no one is using it, there doesn’t seem to be much point in working on it, right? Lots of open-source projects are small and easy to integrate into your workflow, and so communities quickly form around them organically. But when you have a bigger project that requires some knowledge and buy-in, and a specific need, how do you get people enthusiastic and involved in your project?
+
+In this talk, we’ll discuss how to start an open-source community from the ground up, and how to leverage your existing users and spaces. Attendees will come away with ideas and plans for how to take their project to the next level and get people excited and involved. 
+</abstract>
+<description>
+Having an open-source project is great, but if no one is using it, there doesn’t seem to be much point in working on it, right? Lots of open-source projects are small and easy to integrate into your workflow, and so communities quickly form around them organically. But when you have a bigger project that requires some knowledge and buy-in, and a specific need, how do you get people enthusiastic and involved in your project?
+
+In this talk, we’ll discuss how to start an open-source community from the ground up, and how to leverage your existing users and spaces. Attendees will come away with ideas and plans for how to take their project to the next level and get people excited and involved. 
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1426">Alanna Burke</person>
+</persons>
+</event>
+<event guid="MO_sBu918qjLP_2kt_WnsQ" id="901">
+<date>2022-11-05T03:45:00-07:00</date>
+<start>10:45</start>
+<duration>00:30</duration>
+<room>Room 2</room>
+<type>20-Minute Talk</type>
+<language>en</language>
+<slug>901-what-s-anonymity-worth</slug>
+<title>What&apos;s Anonymity Worth?</title>
+<subtitle/>
+<track>Security &amp; Privacy</track>
+<abstract>What is anonymity worth? What is lost when people who prefer or need to remain anonymous are excluded? How do platforms and communities respond to anonymity seekers? In this talk, I&apos;ll share results from a series of ten research projects to understand the reasons people seek anonymity, how and why anonymity-seekers are excluded from many online communities, and the value of leaving space for people to remain anonymous while participating. I&apos;ll conclude with an evaluation of the results of community efforts to manage participation from anonymous participants. You&apos;ll leave this talk with a series of specific steps you can take individually, in your community, and in your workplace.</abstract>
+<description>What is anonymity worth? What is lost when people who prefer or need to remain anonymous are excluded? How do platforms and communities respond to anonymity seekers? In this talk, I&apos;ll share results from a series of ten research projects to understand the reasons people seek anonymity, how and why anonymity-seekers are excluded from many online communities, and the value of leaving space for people to remain anonymous while participating. I&apos;ll conclude with an evaluation of the results of community efforts to manage participation from anonymous participants. You&apos;ll leave this talk with a series of specific steps you can take individually, in your community, and in your workplace.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1069">Kaylea Champion</person>
+</persons>
+</event>
+<event guid="FehIW2nKdZlEg6o26UkY0Q" id="888">
+<date>2022-11-05T06:25:00-07:00</date>
+<start>13:25</start>
+<duration>00:30</duration>
+<room>Room 2</room>
+<type>20-Minute Talk</type>
+<language>en</language>
+<slug>888-grow-your-foss-project-with-this-one-weird-trick</slug>
+<title>Grow Your FOSS Project with this One Weird Trick</title>
+<subtitle/>
+<track/>
+<abstract>The best and most reliable way to grow an open source project is to get really, really good at delegating. Maybe you don&apos;t think delegating is for you? New delegators might be tempted to delegate without documenting or without providing context. Or worse to give away the things that new folks can&apos;t or don&apos;t want to do. These behaviors lead to poor outcomes and can even leave projects unwilling to delegate again. 
+
+This talk covers why you want to take the time to learn to delegate well, how to set up your delegees for success and when to start thinking about delegating. Build a bigger, better, happier open source project with this one weird trick!</abstract>
+<description>The best and most reliable way to grow an open source project is to get really, really good at delegating. Maybe you don&apos;t think delegating is for you? New delegators might be tempted to delegate without documenting or without providing context. Or worse to give away the things that new folks can&apos;t or don&apos;t want to do. These behaviors lead to poor outcomes and can even leave projects unwilling to delegate again. 
+
+This talk covers why you want to take the time to learn to delegate well, how to set up your delegees for success and when to start thinking about delegating. Build a bigger, better, happier open source project with this one weird trick!</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="32">Deb Nicholson</person>
+</persons>
+</event>
+<event guid="4bgIdr86udOz5_0U6PIcnA" id="896">
+<date>2022-11-05T07:10:00-07:00</date>
+<start>14:10</start>
+<duration>00:30</duration>
+<room>Room 2</room>
+<type>20-Minute Talk</type>
+<language>en</language>
+<slug>896-programmer-culture-the-odd-phenomenon-of-recreational-programming</slug>
+<title>Programmer Culture: The Odd Phenomenon of Recreational Programming</title>
+<subtitle/>
+<track>Tech Culture</track>
+<abstract>The term &quot;recreational programming&quot; may strike some people as a pure contradiction in terms. However, there are few more effective ways to learn something well than to play with it. Even up until the point that it breaks. Within programmers, there is a odd nexus where such concepts as esoteric languages, polyglot programs, and &quot;code golfing&quot; meet, cross over, and become horribly yet fascinatingly entangled. These pursuits, which strike many outsiders as intrinsically useless, instead reveal what happens when programming becomes, like art, an activity that is pursued for its own sake, and the ridiculous becomes the highest good. If you don&apos;t know how to program but want a deeper glimpse into the minds of those who do, then this talk is for you.
+</abstract>
+<description>The term &quot;recreational programming&quot; may strike some people as a pure contradiction in terms. However, there are few more effective ways to learn something well than to play with it. Even up until the point that it breaks. Within programmers, there is a odd nexus where such concepts as esoteric languages, polyglot programs, and &quot;code golfing&quot; meet, cross over, and become horribly yet fascinatingly entangled. These pursuits, which strike many outsiders as intrinsically useless, instead reveal what happens when programming becomes, like art, an activity that is pursued for its own sake, and the ridiculous becomes the highest good. If you don&apos;t know how to program but want a deeper glimpse into the minds of those who do, then this talk is for you.
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="46">Brian Raiter</person>
+</persons>
+</event>
+<event guid="JW4H_kcn_c8frVpEzS2akg" id="884">
+<date>2022-11-05T07:55:00-07:00</date>
+<start>14:55</start>
+<duration>00:30</duration>
+<room>Room 2</room>
+<type>20-Minute Talk</type>
+<language>en</language>
+<slug>884-the-small-web</slug>
+<title>The Small Web</title>
+<subtitle>How the web got so complex &amp; what we can do about it.</subtitle>
+<track>Security &amp; Privacy</track>
+<abstract>Browser engines, and the expectations we place on them, have become incredibly complex. Leading to a situation where while all the dominant engines are nominally opensource it is impossible for practically anyone to exercise their software freedom over them. Except to make them even more complex, once you&apos;ve wrapped your head around their existing complexity!
+
+This talk will explore existing efforts to address the web&apos;s lack of reasonable scope, and demonstrate my own solution &quot;Rhapsode&quot;. And explore the potential for a web without JavaScript to better protect privacy &amp; work beautifully accross a wider range of devices.</abstract>
+<description>Browser engines, and the expectations we place on them, have become incredibly complex. Leading to a situation where while all the dominant engines are nominally opensource it is impossible for practically anyone to exercise their software freedom over them. Except to make them even more complex, once you&apos;ve wrapped your head around their existing complexity!
+
+This talk will explore existing efforts to address the web&apos;s lack of reasonable scope, and demonstrate my own solution &quot;Rhapsode&quot;. And explore the potential for a web without JavaScript to better protect privacy &amp; work beautifully accross a wider range of devices.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1072">Adrian Cochrane</person>
+</persons>
+</event>
+<event guid="Kay_hD14qWmhcQNveWdVIQ" id="881">
+<date>2022-11-05T08:40:00-07:00</date>
+<start>15:40</start>
+<duration>00:30</duration>
+<room>Room 2</room>
+<type>20-Minute Talk</type>
+<language>en</language>
+<slug>881-self-hosting-simple-web-apps-with-traefik-and-docker-compose</slug>
+<title>Self-hosting Simple Web Apps With Traefik and Docker Compose</title>
+<subtitle/>
+<track/>
+<abstract>In this talk, I will discuss the pros and cons of self-hosting web apps (such as Nextcloud, Airsonic, calibre-web) and how to simplify deployment with Traefik&apos;s reverse proxy implementation and publicly available docker containers.
+
+This presentation is targeted to folks with &quot;beginner to intermediate&quot; level knowledge. Attendees will benefit most if they have a basic understanding of:
+
+- what docker containers are
+- how to run services on a linux server
+- using a domain registrar and setting DNS records
+
+I plan to show and explain/walk-through a sample docker-compose.yml file to tie the abstract concepts to a real-world implementation.</abstract>
+<description>In this talk, I will discuss the pros and cons of self-hosting web apps (such as Nextcloud, Airsonic, calibre-web) and how to simplify deployment with Traefik&apos;s reverse proxy implementation and publicly available docker containers.
+
+This presentation is targeted to folks with &quot;beginner to intermediate&quot; level knowledge. Attendees will benefit most if they have a basic understanding of:
+
+- what docker containers are
+- how to run services on a linux server
+- using a domain registrar and setting DNS records
+
+I plan to show and explain/walk-through a sample docker-compose.yml file to tie the abstract concepts to a real-world implementation.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="921">Charlotte McGraw</person>
+</persons>
+</event>
+</room>
+<room name="Room 1">
+<event guid="eB-xinFpamgM5oUZIdDxFg" id="890">
+<date>2022-11-05T03:00:00-07:00</date>
+<start>10:00</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>20-Minute Talk</type>
+<language>en</language>
+<slug>890-on-growth-tips-to-grow-a-healthy-open-source-community</slug>
+<title> ON GROWTH: TIPS TO GROW A HEALTHY OPEN SOURCE COMMUNITY</title>
+<subtitle>COMMUNITY AS A GATEWAY TO OPEN SOURCE SUSTAINABILITY!</subtitle>
+<track>Community</track>
+<abstract>The success of an Open Source community depends on how healthy the Community is. Hence, It is important when building the right community should be the topmost priority of any open-source organization. It helps achieve a healthy community where the members have equal inclusion.
+
+We often think of a successful open source project as one that just tackles a challenge for the public. This perception has driven several open source project owners to start innovative open source projects without any plans on how to manage the community behind this project. In the end, increasing the number of dormant open source projects already existing. A successful open source project is one that is built on the collaborative effort of a healthy community. A properly coordinated community can plan and build projects and unanimously work together to ensure sustainable project performance. The responsibility of achieving a successful open source community does not rest on the community managers or the program managers alone but also on the whole community. During this session, I will be sharing;
+
+1. How you can accept and implement feedback from members
+2. Improve the onboarding process for your new Contributors
+3. The importance of community first approach in Open Source Community and a lot more.
+</abstract>
+<description>The success of an Open Source community depends on how healthy the Community is. Hence, It is important when building the right community should be the topmost priority of any open-source organization. It helps achieve a healthy community where the members have equal inclusion.
+
+We often think of a successful open source project as one that just tackles a challenge for the public. This perception has driven several open source project owners to start innovative open source projects without any plans on how to manage the community behind this project. In the end, increasing the number of dormant open source projects already existing. A successful open source project is one that is built on the collaborative effort of a healthy community. A properly coordinated community can plan and build projects and unanimously work together to ensure sustainable project performance. The responsibility of achieving a successful open source community does not rest on the community managers or the program managers alone but also on the whole community. During this session, I will be sharing;
+
+1. How you can accept and implement feedback from members
+2. Improve the onboarding process for your new Contributors
+3. The importance of community first approach in Open Source Community and a lot more.
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1151"> Atinuke Kayode</person>
+</persons>
+</event>
+<event guid="KSDKGvQ8bW7EeY93GZugLg" id="918">
+<date>2022-11-05T03:45:00-07:00</date>
+<start>10:45</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>20-Minute Talk</type>
+<language>en</language>
+<slug>918-the-leaky-pipeline</slug>
+<title>The Leaky Pipeline</title>
+<subtitle/>
+<track/>
+<abstract>Women and people of color have always been under-represented in open source and by extension STEM. Somewhere along their educational journey, girls and people of color who initially were interested in STEM are no longer considering it as a career choice. Aarti Ramkrishna is an award-winning educator from the state of Oregon;  who is building equity focused classroom curricula for school districts from Kindergarten - 5th grade. While building this curriculum, Aarti will discuss her observations of children and adults and how racism and misogyny permeates education and why there is a leaky pipeline that blocks potential amazing humans from entering or thriving in STEM. Be prepared for a powerful emotional journey from an expert in DEI.</abstract>
+<description>Women and people of color have always been under-represented in open source and by extension STEM. Somewhere along their educational journey, girls and people of color who initially were interested in STEM are no longer considering it as a career choice. Aarti Ramkrishna is an award-winning educator from the state of Oregon;  who is building equity focused classroom curricula for school districts from Kindergarten - 5th grade. While building this curriculum, Aarti will discuss her observations of children and adults and how racism and misogyny permeates education and why there is a leaky pipeline that blocks potential amazing humans from entering or thriving in STEM. Be prepared for a powerful emotional journey from an expert in DEI.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1601">Aarti Ramkrishna</person>
+</persons>
+</event>
+<event guid="A6HGUqk3UeMBm1lZ2rg30Q" id="900">
+<date>2022-11-05T04:30:00-07:00</date>
+<start>11:30</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>20-Minute Talk</type>
+<language>en</language>
+<slug>900-ten-years-of-seagl</slug>
+<title>Ten years of SeaGL</title>
+<subtitle/>
+<track>Community</track>
+<abstract>Welcome to the Seattle GNU/Linux Conference! We can hardly believe it&apos;s we&apos;ve made it ten years. Come hear how we got here and where we&apos;re going next!</abstract>
+<description>Welcome to the Seattle GNU/Linux Conference! We can hardly believe it&apos;s we&apos;ve made it ten years. Come hear how we got here and where we&apos;re going next!</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="87">Wm Salt Hale</person>
+<person id="32">Deb Nicholson</person>
+<person id="12">Rob Smith</person>
+<person id="9">Adam Monsen</person>
+</persons>
+</event>
+<event guid="0IHZzrK0tLw9om2_fw6S9g" id="913">
+<date>2022-11-05T06:25:00-07:00</date>
+<start>13:25</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>20-Minute Talk</type>
+<language>en</language>
+<slug>913-a-brief-introduction-to-the-fediverse</slug>
+<title>A brief introduction to the Fediverse.</title>
+<subtitle/>
+<track>Community</track>
+<abstract>The Fediverse is a collection of communities that is a bit of a throwback to a smaller, more personal time on the internet.  There are services for short messaging, audio and video sharing, and event organizing, among other things.
+Mastodon is a fully open source social media platform, with no advertising, monetizing, or venture capital.  It is a part of the Fediverse, a social network that is truly a network, by incorporating ideas and protocols that allow users and information to freely spread throughout a wide diaspora of servers and services.  Explore how you might wish to join into the rich, new world that has more of a resemblance of the internet as it was envisioned to be.</abstract>
+<description>The Fediverse is a collection of communities that is a bit of a throwback to a smaller, more personal time on the internet.  There are services for short messaging, audio and video sharing, and event organizing, among other things.
+Mastodon is a fully open source social media platform, with no advertising, monetizing, or venture capital.  It is a part of the Fediverse, a social network that is truly a network, by incorporating ideas and protocols that allow users and information to freely spread throughout a wide diaspora of servers and services.  Explore how you might wish to join into the rich, new world that has more of a resemblance of the internet as it was envisioned to be.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1045">Bob Murphy</person>
+</persons>
+</event>
+<event guid="Nz7m0I6TmcZebb00fgRVIw" id="906">
+<date>2022-11-05T07:10:00-07:00</date>
+<start>14:10</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>20-Minute Talk</type>
+<language>en</language>
+<slug>906-vdo-virtual-data-optimizer</slug>
+<title>VDO - Virtual Data Optimizer</title>
+<subtitle>Advanced Storage Made Easy</subtitle>
+<track>Tools</track>
+<abstract>Introduction to Virtual Data Optimizer (VDO), an advanced storage technology for maximizing drive space. In this presentation we&apos;ll discuss use cases for VDO, advantages &amp; disadvantages, and demo configuring &amp; testing a drive using Virtual Data Optimizer.
+
+I am a new presenter, however, I have given this presentation previously at Phoenix Linux Users Group (PLUG) in August 2022. </abstract>
+<description>Introduction to Virtual Data Optimizer (VDO), an advanced storage technology for maximizing drive space. In this presentation we&apos;ll discuss use cases for VDO, advantages &amp; disadvantages, and demo configuring &amp; testing a drive using Virtual Data Optimizer.
+
+I am a new presenter, however, I have given this presentation previously at Phoenix Linux Users Group (PLUG) in August 2022. </description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1433">Brian Peters</person>
+</persons>
+</event>
+<event guid="LukzuD21EtLREjzCmNO09Q" id="911">
+<date>2022-11-05T07:55:00-07:00</date>
+<start>14:55</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>20-Minute Talk</type>
+<language>en</language>
+<slug>911-tab-completion-for-your-custom-commands</slug>
+<title>Tab completion for your custom commands</title>
+<subtitle>Boost shell performance with your left pinky</subtitle>
+<track>Tools</track>
+<abstract>Tab completion saves time typing keys, and helps you remember those --long-esoteric-options without pulling up a man page. You can create bash completions for your custom tools as well, which can help your coworkers and yourself down the road. We&apos;ll build up simple and advanced bash tab completions so you can build your own and save time!</abstract>
+<description>Tab completion saves time typing keys, and helps you remember those --long-esoteric-options without pulling up a man page. You can create bash completions for your custom tools as well, which can help your coworkers and yourself down the road. We&apos;ll build up simple and advanced bash tab completions so you can build your own and save time!</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="68">Bri Hatch</person>
+</persons>
+</event>
+<event guid="GcdR8KK8e2WVq7iM28OLTw" id="897">
+<date>2022-11-05T08:40:00-07:00</date>
+<start>15:40</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>20-Minute Talk</type>
+<language>en</language>
+<slug>897-til-2022-floss-research-roundup</slug>
+<title>TIL 2022: FLOSS Research Roundup</title>
+<subtitle/>
+<track>Miscellaneous</track>
+<abstract>2022 was another great year for FLOSS research! Academics around the globe study FLOSS communities and their development practices. In this talk, we&apos;ll explore the latest findings and trends in this research. I&apos;ll extract key observations that you can bring to your community and workplace.</abstract>
+<description>2022 was another great year for FLOSS research! Academics around the globe study FLOSS communities and their development practices. In this talk, we&apos;ll explore the latest findings and trends in this research. I&apos;ll extract key observations that you can bring to your community and workplace.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1069">Kaylea Champion</person>
+</persons>
+</event>
+</room>
+<room name="Social">
+<event guid="ul5ap_cOVot9Zku1XOmjxQ" id="926">
+<date>2022-11-05T05:10:00-07:00</date>
+<start>12:10</start>
+<duration>00:30</duration>
+<room>Social</room>
+<type>Social Event</type>
+<language>en</language>
+<slug>926-event-no-cook-lunch-hour</slug>
+<title>Event: No-Cook Lunch Hour</title>
+<subtitle/>
+<track/>
+<abstract>Join us for a social lunch hour with other SeaGL attendees.  Bring your own lunch, order in, or make one of the recipes from our no-cook lunch cookbook here: [https://github.com/SeaGL/social-cookbook](https://github.com/SeaGL/social-cookbook)</abstract>
+<description>Join us for a social lunch hour with other SeaGL attendees.  Bring your own lunch, order in, or make one of the recipes from our no-cook lunch cookbook here: [https://github.com/SeaGL/social-cookbook](https://github.com/SeaGL/social-cookbook)</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+</persons>
+</event>
+<event guid="cS3rybYbJGEIby_ydWuHYA" id="925">
+<date>2022-11-05T10:30:00-07:00</date>
+<start>17:30</start>
+<duration>00:30</duration>
+<room>Social</room>
+<type>Social Event</type>
+<language>en</language>
+<slug>925-evening-mock-cocktails</slug>
+<title>Evening mock/cocktails</title>
+<subtitle/>
+<track/>
+<abstract>Mock/cocktails</abstract>
+<description>Mock/cocktails</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+</persons>
+</event>
+</room>
+</day>
+</schedule>

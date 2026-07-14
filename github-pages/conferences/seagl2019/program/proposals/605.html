@@ -1,0 +1,284 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<title>SeaGL</title>
+<meta content="" name="description">
+<meta content="" name="author">
+<link rel="stylesheet" href="/assets/application-9ebb7e8df4f6abe04ca09a78e84abc751d81a041f3702dfc6c2ebbdd106ceaa0.css" media="all">
+<script src="/assets/application-47ef59ee7b6477ee91a0ce07fca426e369cd7b348258d0db05fed8e81411ccdc.js"></script>
+<meta name="csrf-param" content="authenticity_token">
+
+
+<meta content="Classic Tools for the Modern Age: Introducing Wash, the cloud native shell" property="og:title">
+<meta content="https://osem.seagl.org/conferences/seagl2019/program/proposals/605" property="og:url">
+<meta content="Cloud infrastructure - particularly the focus on distributed systems and micro services - has made it more difficult to understand what's happening across multiple systems, how our systems interact, and even what we're running at this particular moment. More distributed systems have sprung up to help you manage that. We have log and metrics aggregators and distributed tracing systems to help you build a picture of what's going on.
+
+But sometimes setting up those tools is as complicated as the infrastructure you're running. Or they're not flexible in just the way you want. We still spend our days on the command-line, using a suite of tools that do similar things against similar types of infrastructure. But these tools are often inconsistent or inscrutable. Listing what you have, for example, requires you dig through a CLI tools' documentation and learn how their output is formatted and the terminology they use.
+
+What if we more closely followed some of the UNIX philosophy of small programs that do one thing well - in particular re-purposing concepts that already exist - applied to API-centric infrastructure? What underlying abstractions are needed to make them work?
+
+This talk reimagines how we build command-line tools for cloud infrastructure to make them more composable and transferable between systems. I will describe how the Wide-Area Shell (Wash) applies these ideas in designing a new shell experience. I will also share examples of how tools built around this idea can be used in novel ways to help understand your cloud infrastructure.
+" property="og:description">
+<meta content="SeaGL" property="og:site_name">
+<meta content="https://secure.gravatar.com/avatar/3953eba375e44eaebe906f2100c1c603.png?r=PG&amp;s=32" property="og:image">
+<meta content="https://secure.gravatar.com/avatar/3953eba375e44eaebe906f2100c1c603.png?r=PG&amp;s=32" property="og:image:secure_url">
+
+</head>
+<body class="conference-seagl2019">
+<div class="navbar navbar-default navbar-fixed-top nav-osem" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target="#main-nav" data-toggle="collapse" type="button">
+<span class="sr-only">
+Toggle navigation
+</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" title="Open Source Event Manager" href="/">SeaGL</a>
+</div>
+<div class="collapse navbar-collapse" id="main-nav">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown visible-desktop">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<span class="fa-solid fa-user"></span>
+Sign In
+<span class="caret"></span>
+</a>
+<div class="dropdown-menu">
+<form action="/accounts/sign_in" accept-charset="UTF-8" method="post"><input type="text" name="user[login]" id="user_login_dd" class="form-control" placeholder="Username / E-Mail" inert="true">
+<input type="password" name="user[password]" id="user_password_dd" class="form-control" placeholder="Password" inert="true">
+<p class="text-right">
+<small>
+<label for="user_remember_me" inert="true">Remember me</label>
+<input type="checkbox" name="user[remember_me]" id="user_remember_me" value="1" inert="true">
+</small>
+</p>
+<button class="btn btn-success btn-block" inert="true">Sign in</button>
+<p class="text-right">
+<br>
+<a class="small btn btn-xs btn-default" data-target="#navbar-devise-help" data-toggle="collapse">
+Need Help?
+</a>
+</p><div class="collapse" id="navbar-devise-help">
+<a href="/accounts/password/new">Forgot your password?</a>
+<br>
+<a href="/accounts/confirmation/new">Didn't receive confirmation instructions?</a>
+<br>
+
+</div>
+<p></p>
+</form></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="messages">
+<div class="container">
+<noscript>
+<style>
+  #content {
+    display: none;
+  }
+</style>
+<h2>
+JavaScript is not enabled
+</h2>
+<p>
+OSEM requires JavaScript to be enabled to function. Please turn on JavaScript in your browser's settings and reload the page to continue.
+</p>
+</noscript>
+
+</div>
+</div>
+<div id="content">
+<div class="container">
+<div class="row">
+<div class="col-md-12 page-header">
+<h2>
+Classic Tools for the Modern Age: Introducing Wash, the cloud native shell
+<br>
+<small>
+
+</small>
+<div class="btn-group pull-right">
+</div>
+</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-3">
+<h3></h3>
+Presented by:
+<div class="speakerinfo">
+<div class="row">
+<div class="col-md-4">
+<img class="img-responsive img-rounded" src="https://secure.gravatar.com/avatar/3953eba375e44eaebe906f2100c1c603.png?r=PG&amp;s=120">
+</div>
+<div class="col-md-8">
+<h4>
+<a href="/users/895">Michael Smith</a>
+<br>
+<a href="mailto:mikael.t.smith@gmail.com"><i class="fa-solid fa-envelope fa-2x"></i>
+</a></h4>
+<div class="text-muted">
+from
+Puppet, Inc.
+</div>
+</div>
+</div>
+<div class="row speakerbio">
+<div class="col-md-12">
+<p>Software engineer at Puppet building power tools for infrastructure engineers. Before that he built physical systems simulation software at Synopsys. Michael has contributed to a variety of small open-source projects and tries to support and foster open-source work.</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-9">
+<div class="row">
+<div class="col-md-12">
+<div class="lead">
+
+
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<p>
+</p><p>Cloud infrastructure - particularly the focus on distributed systems and micro services - has made it more difficult to understand what's happening across multiple systems, how our systems interact, and even what we're running at this particular moment. More distributed systems have sprung up to help you manage that. We have log and metrics aggregators and distributed tracing systems to help you build a picture of what's going on.</p>
+
+<p>But sometimes setting up those tools is as complicated as the infrastructure you're running. Or they're not flexible in just the way you want. We still spend our days on the command-line, using a suite of tools that do similar things against similar types of infrastructure. But these tools are often inconsistent or inscrutable. Listing what you have, for example, requires you dig through a CLI tools' documentation and learn how their output is formatted and the terminology they use.</p>
+
+<p>What if we more closely followed some of the UNIX philosophy of small programs that do one thing well - in particular re-purposing concepts that already exist - applied to API-centric infrastructure? What underlying abstractions are needed to make them work?</p>
+
+<p>This talk reimagines how we build command-line tools for cloud infrastructure to make them more composable and transferable between systems. I will describe how the Wide-Area Shell (Wash) applies these ideas in designing a new shell experience. I will also share examples of how tools built around this idea can be used in novel ways to help understand your cloud infrastructure.</p>
+
+<p></p>
+</div>
+<dl id="proposal-info">
+<div class="col-md-12">
+<dt>Date:</dt>
+<dd>2019 November 15 - 15:15</dd>
+</div>
+<div class="col-md-12">
+<dt>Duration:</dt>
+<dd>20 min</dd>
+</div>
+<div class="col-md-12">
+<dt>Room:</dt>
+<dd>
+TALKS 3180
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Conference:</dt>
+<dd><a href="/conferences/seagl2019">SeaGL 2019 - A Prime Year for Free Software</a></dd>
+</div>
+<div class="col-md-12">
+<dt>Language:</dt>
+<dd></dd>
+</div>
+<div class="col-md-12">
+<dt>Track:</dt>
+<dd>
+<span class="label" style="background-color: #BED05C; color: black">
+Systems/Ops
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Difficulty:</dt>
+<dd>
+<span class="label" style="background-color: #E6B65B; color: black;">
+Medium
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<hr>
+<h4>Happening at the same time:</h4>
+<ol>
+<li>
+<a href="/conferences/seagl2019/program/proposals/681">More than dabbling in a Security Engineer career
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2019 November 15 15:15
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+TALKS 3179
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2019/program/proposals/632">Building Custom Linux Systems with Yocto
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2019 November 15 15:15
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+TALKS 3183
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2019/program/proposals/661">My Own Private Binary
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2019 November 15 15:15
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+TALKS 3178
+</dd>
+<br>
+</dl>
+</ol>
+</div>
+</dl>
+</div>
+<div class="row">
+<div class="col-md-12">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="footer">
+<div class="container">
+<p class="muted text-center">
+<small>
+This tool is
+<a href="http://www.gnu.org/philosophy/free-sw.html">free software</a>,
+released under the
+<a href="http://opensource.org/licenses/MIT">MIT license</a>.
+You can run, copy, distribute, study, change and improve it.
+The source code and the developers are on
+<a href="https://github.com/openSUSE/osem">GitHub</a>.
+</small>
+</p>
+</div>
+</div>
+
+
+
+
+</body></html>

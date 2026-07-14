@@ -1,0 +1,276 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<title>SeaGL</title>
+<meta content="" name="description">
+<meta content="" name="author">
+<link rel="stylesheet" href="/assets/application-9ebb7e8df4f6abe04ca09a78e84abc751d81a041f3702dfc6c2ebbdd106ceaa0.css" media="all">
+<script src="/assets/application-47ef59ee7b6477ee91a0ce07fca426e369cd7b348258d0db05fed8e81411ccdc.js"></script>
+<meta name="csrf-param" content="authenticity_token">
+
+
+<meta content="Diagrams as Code" property="og:title">
+<meta content="https://osem.seagl.org/conferences/seagl2023/program/proposals/942" property="og:url">
+<meta content="Clear documentation is an important step to encouraging contributions to your open source project. For the visual learners, a diagram can be worth a thousand words. Mermaid is an open source library for generating diagrams from human-readable markdown-style text that can be easily maintained and updated.
+
+In this hands-on demonstration, I will discuss potential benefits of diagrams in your documentation, introduce Mermaid, and code a few example diagrams. Attendees of this demonstration should expect to learn basic Mermaid syntax and usage to add visual diagrams to their markdown documentation and how to find resources for further learning." property="og:description">
+<meta content="SeaGL" property="og:site_name">
+<meta content="https://secure.gravatar.com/avatar/887d4b9a81eece116fbfca540d5503cf.png?r=PG&amp;s=32" property="og:image">
+<meta content="https://secure.gravatar.com/avatar/887d4b9a81eece116fbfca540d5503cf.png?r=PG&amp;s=32" property="og:image:secure_url">
+
+</head>
+<body class="conference-seagl2023">
+<div class="navbar navbar-default navbar-fixed-top nav-osem" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target="#main-nav" data-toggle="collapse" type="button">
+<span class="sr-only">
+Toggle navigation
+</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" title="Open Source Event Manager" href="/">SeaGL</a>
+</div>
+<div class="collapse navbar-collapse" id="main-nav">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown visible-desktop">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<span class="fa-solid fa-user"></span>
+Sign In
+<span class="caret"></span>
+</a>
+<div class="dropdown-menu">
+<form action="/accounts/sign_in" accept-charset="UTF-8" method="post"><input type="text" name="user[login]" id="user_login_dd" class="form-control" placeholder="Username / E-Mail" inert="true">
+<input type="password" name="user[password]" id="user_password_dd" class="form-control" placeholder="Password" inert="true">
+<p class="text-right">
+<small>
+<label for="user_remember_me" inert="true">Remember me</label>
+<input type="checkbox" name="user[remember_me]" id="user_remember_me" value="1" inert="true">
+</small>
+</p>
+<button class="btn btn-success btn-block" inert="true">Sign in</button>
+<p class="text-right">
+<br>
+<a class="small btn btn-xs btn-default" data-target="#navbar-devise-help" data-toggle="collapse">
+Need Help?
+</a>
+</p><div class="collapse" id="navbar-devise-help">
+<a href="/accounts/password/new">Forgot your password?</a>
+<br>
+<a href="/accounts/confirmation/new">Didn't receive confirmation instructions?</a>
+<br>
+
+</div>
+<p></p>
+</form></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="messages">
+<div class="container">
+<noscript>
+<style>
+  #content {
+    display: none;
+  }
+</style>
+<h2>
+JavaScript is not enabled
+</h2>
+<p>
+OSEM requires JavaScript to be enabled to function. Please turn on JavaScript in your browser's settings and reload the page to continue.
+</p>
+</noscript>
+
+</div>
+</div>
+<div id="content">
+<div class="container">
+<div class="row">
+<div class="col-md-12 page-header">
+<h2>
+Diagrams as Code
+<br>
+<small>
+An Intro to Mermaid
+</small>
+<div class="btn-group pull-right">
+<a class="btn btn-success" href="/conferences/seagl2023/schedule">Schedule</a>
+</div>
+</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-3">
+<h3></h3>
+Presented by:
+<div class="speakerinfo">
+<div class="row">
+<div class="col-md-4">
+<img class="img-responsive img-rounded" src="https://secure.gravatar.com/avatar/887d4b9a81eece116fbfca540d5503cf.png?r=PG&amp;s=120">
+</div>
+<div class="col-md-8">
+<h4>
+<a href="/users/1057">Cameron Bielstein</a>
+<br>
+<a href="mailto:ctbielstein@gmail.com"><i class="fa-solid fa-envelope fa-2x"></i>
+</a></h4>
+<div class="text-muted">
+from
+Allen Institute for Brain Science
+</div>
+</div>
+</div>
+<div class="row speakerbio">
+<div class="col-md-12">
+<p>Cameron Bielstein is a software engineering manager at the Allen Institute for Brain Science in Seattle, Washington. He is avid software and computer science mentor, an amateur radio operator, and a developer of some very niche open source projects. He holds a Master of Science in Computer Science from The University of Texas at Austin and is a proud community college graduate. When not writing code, Cameron can be found playing with his dog, eating tacos, or sailing.</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-9">
+<div class="row">
+<div class="col-md-12">
+<div class="lead">
+
+
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<p>
+</p><p>Clear documentation is an important step to encouraging contributions to your open source project. For the visual learners, a diagram can be worth a thousand words. Mermaid is an open source library for generating diagrams from human-readable markdown-style text that can be easily maintained and updated.</p>
+
+<p>In this hands-on demonstration, I will discuss potential benefits of diagrams in your documentation, introduce Mermaid, and code a few example diagrams. Attendees of this demonstration should expect to learn basic Mermaid syntax and usage to add visual diagrams to their markdown documentation and how to find resources for further learning.</p>
+
+<p></p>
+</div>
+<dl id="proposal-info">
+<div class="col-md-12">
+<dt>Date:</dt>
+<dd>2023 November  4 - 11:30</dd>
+</div>
+<div class="col-md-12">
+<dt>Duration:</dt>
+<dd>20 min</dd>
+</div>
+<div class="col-md-12">
+<dt>Room:</dt>
+<dd>
+Room 4
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Conference:</dt>
+<dd><a href="/conferences/seagl2023">SeaGL 2023</a></dd>
+</div>
+<div class="col-md-12">
+<dt>Language:</dt>
+<dd></dd>
+</div>
+<div class="col-md-12">
+<dt>Track:</dt>
+<dd>
+<span class="label" style="background-color: #7B9CD9; color: black">
+Languages and Tools
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Difficulty:</dt>
+<dd>
+<span class="label" style="background-color: #6B3D9E; color: white;">
+Introductory
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<hr>
+<h4>Happening at the same time:</h4>
+<ol>
+<li>
+<a href="/conferences/seagl2023/program/proposals/950">Advanced jq: awk for JSON
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2023 November  4 11:30
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2023/program/proposals/1004">A Gentle Introduction to Fuzzing for Developers
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2023 November  4 11:30
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 2
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2023/program/proposals/938">They told me I couldn't game on Linux, so I started a game hosting company (on Linux) 
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2023 November  4 11:30
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 1
+</dd>
+<br>
+</dl>
+</ol>
+</div>
+</dl>
+</div>
+<div class="row">
+<div class="col-md-12">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="footer">
+<div class="container">
+<p class="muted text-center">
+<small>
+This tool is
+<a href="http://www.gnu.org/philosophy/free-sw.html">free software</a>,
+released under the
+<a href="http://opensource.org/licenses/MIT">MIT license</a>.
+You can run, copy, distribute, study, change and improve it.
+The source code and the developers are on
+<a href="https://github.com/openSUSE/osem">GitHub</a>.
+</small>
+</p>
+</div>
+</div>
+
+
+
+
+</body></html>

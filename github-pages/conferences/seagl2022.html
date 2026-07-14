@@ -1,0 +1,203 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<title>SeaGL 2022
+</title>
+<meta content="" name="description">
+<meta content="" name="author">
+<link rel="stylesheet" href="/assets/application-9ebb7e8df4f6abe04ca09a78e84abc751d81a041f3702dfc6c2ebbdd106ceaa0.css" media="all">
+<script src="/assets/application-47ef59ee7b6477ee91a0ce07fca426e369cd7b348258d0db05fed8e81411ccdc.js"></script>
+<meta name="csrf-param" content="authenticity_token">
+
+<script>
+  var triangle_tcs = tinycolor("#87ceeb").monochromatic();
+  var triangle_colors = triangle_tcs.map(function(t) {
+    return t.toHexString();
+  });
+  $(function () {
+    $(document).ready(function() {
+      var triangle_width = document.body.clientWidth;
+      var triangle_height = ($( "#banner" ).height() + 200 );
+      var pattern = Trianglify({ width: triangle_width,
+                                 height: triangle_height,
+                                 cell_size: 100,
+                                 x_colors: triangle_colors
+                                });
+      $('#banner').css('background-image', 'url("' + pattern.png() + '")');
+    });
+  });
+</script>
+
+<meta content="SeaGL 2022" property="og:title">
+<meta content="SeaGL" property="og:site_name">
+<meta content="" property="og:description">
+<meta content="https://osem.seagl.org/conferences/seagl2022" property="og:url">
+<meta content="SeaGL 2022" property="twitter:title">
+<meta content="" property="twitter:description">
+<meta content="summary" property="twitter:card">
+
+</head>
+<body class="conference-seagl2022">
+<div class="navbar navbar-default navbar-fixed-top nav-osem" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target="#main-nav" data-toggle="collapse" type="button">
+<span class="sr-only">
+Toggle navigation
+</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" title="Open Source Event Manager" href="/">SeaGL</a>
+</div>
+<div class="collapse navbar-collapse" id="main-nav">
+<ul class="nav navbar-nav" id="splash-nav">
+<li>
+<a class="smoothscroll" href="#call">Call For Content</a>
+</li>
+
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown visible-desktop">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<span class="fa-solid fa-user"></span>
+Sign In
+<span class="caret"></span>
+</a>
+<div class="dropdown-menu">
+<form action="/accounts/sign_in" accept-charset="UTF-8" method="post"><input type="text" name="user[login]" id="user_login_dd" class="form-control" placeholder="Username / E-Mail" inert="true">
+<input type="password" name="user[password]" id="user_password_dd" class="form-control" placeholder="Password" inert="true">
+<p class="text-right">
+<small>
+<label for="user_remember_me" inert="true">Remember me</label>
+<input type="checkbox" name="user[remember_me]" id="user_remember_me" value="1" inert="true">
+</small>
+</p>
+<button class="btn btn-success btn-block" inert="true">Sign in</button>
+<p class="text-right">
+<br>
+<a class="small btn btn-xs btn-default" data-target="#navbar-devise-help" data-toggle="collapse">
+Need Help?
+</a>
+</p><div class="collapse" id="navbar-devise-help">
+<a href="/accounts/password/new">Forgot your password?</a>
+<br>
+<a href="/accounts/confirmation/new">Didn't receive confirmation instructions?</a>
+<br>
+
+</div>
+<p></p>
+</form></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="messages">
+<div class="container">
+<noscript>
+<style>
+  #content {
+    display: none;
+  }
+</style>
+<h2>
+JavaScript is not enabled
+</h2>
+<p>
+OSEM requires JavaScript to be enabled to function. Please turn on JavaScript in your browser's settings and reload the page to continue.
+</p>
+</noscript>
+
+</div>
+</div>
+<div id="content">
+<div id="splash">
+<div id="banner">
+<div class="container">
+<div class="row">
+<div class="col-md-8 col-md-offset-2" id="header">
+<div class="row">
+<div class="col-md-4">
+</div>
+<div class="col-md-8">
+<h1>
+SeaGL 2022
+</h1>
+<h3>
+<span class="date text-nowrap">
+November 04 - 05, 2022
+</span>
+<span class="venue text-nowrap">
+<a href="">Virtual</a>
+</span>
+</h3>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<section id="call">
+<div class="container">
+<div class="row">
+</div>
+</div>
+</section>
+
+<section id="social-media">
+<div class="container">
+<div class="row">
+<div class="col-md-12 text-center">
+<a href="https://seagl.org/"><i class="fa-solid fa-square-rss fa-4x"></i>
+</a><a href="https://www.facebook.com/SeattleGnuLinuxConference"><i class="fa-brands fa-facebook fa-4x"></i>
+</a><a href="https://twitter.com/seagl"><i class="fa-brands fa-twitter fa-4x"></i>
+</a><a href="https://mastodon.social/@SeaGL"><i class="fa-brands fa-mastodon fa-4x"></i>
+</a><a href="mailto:info@seagl.org"><i class="fa-solid fa-envelope fa-4x"></i>
+</a></div>
+</div>
+</div>
+</section>
+
+<div class="scroll-top-wrapper">
+<a class="smoothscroll" href="#banner"><i class="fa-solid fa-2x fa-circle-arrow-up"></i>
+</a></div>
+<script>
+  $(function(){
+    $(document).on( 'scroll', function(){
+      if ($(window).scrollTop() > 100) {
+          $('.scroll-top-wrapper').addClass('show');
+      } else {
+          $('.scroll-top-wrapper').removeClass('show');
+      }
+    });
+  });
+</script>
+
+</div>
+
+</div>
+
+<div id="footer">
+<div class="container">
+<p class="muted text-center">
+<small>
+This tool is
+<a href="http://www.gnu.org/philosophy/free-sw.html">free software</a>,
+released under the
+<a href="http://opensource.org/licenses/MIT">MIT license</a>.
+You can run, copy, distribute, study, change and improve it.
+The source code and the developers are on
+<a href="https://github.com/openSUSE/osem">GitHub</a>.
+</small>
+</p>
+</div>
+</div>
+
+
+
+
+</body></html>

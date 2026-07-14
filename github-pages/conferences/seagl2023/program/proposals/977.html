@@ -1,0 +1,320 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<title>SeaGL</title>
+<meta content="" name="description">
+<meta content="" name="author">
+<link rel="stylesheet" href="/assets/application-9ebb7e8df4f6abe04ca09a78e84abc751d81a041f3702dfc6c2ebbdd106ceaa0.css" media="all">
+<script src="/assets/application-47ef59ee7b6477ee91a0ce07fca426e369cd7b348258d0db05fed8e81411ccdc.js"></script>
+<meta name="csrf-param" content="authenticity_token">
+
+
+<meta content="Opening up the World of WebAssembly with Guile Hoot" property="og:title">
+<meta content="https://osem.seagl.org/conferences/seagl2023/program/proposals/977" property="og:url">
+<meta content="Guile Hoot is a free and open source WebAssembly toolchain and Scheme compiler that is opening doors for all programming languages to run within the web browser. The Guile Hoot project is being developed by the Spritely Institute, a 501(c)(3) nonprofit organization, as part of its mission to build the next generation of decentralized infrastructure for networked communities.
+
+In this talk, we'll cover:
+
+* What is WebAssembly and why is it important?
+* What is Guile Hoot and what makes it special compared to other WebAssembly projects?
+* How does building a Scheme compiler help other programming languages such as Python and Ruby?
+* How does Guile Hoot fit into the Spritely Institute's mission?
+* How can I get involved in this effort?
+
+Along the way, we will show several code examples and live demos of applications built with Guile Hoot." property="og:description">
+<meta content="SeaGL" property="og:site_name">
+<meta content="https://secure.gravatar.com/avatar/057d0f1dd4310f64888a8d503247d55d.png?r=PG&amp;s=32" property="og:image">
+<meta content="https://secure.gravatar.com/avatar/057d0f1dd4310f64888a8d503247d55d.png?r=PG&amp;s=32" property="og:image:secure_url">
+
+</head>
+<body class="conference-seagl2023">
+<div class="navbar navbar-default navbar-fixed-top nav-osem" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target="#main-nav" data-toggle="collapse" type="button">
+<span class="sr-only">
+Toggle navigation
+</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" title="Open Source Event Manager" href="/">SeaGL</a>
+</div>
+<div class="collapse navbar-collapse" id="main-nav">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown visible-desktop">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<span class="fa-solid fa-user"></span>
+Sign In
+<span class="caret"></span>
+</a>
+<div class="dropdown-menu">
+<form action="/accounts/sign_in" accept-charset="UTF-8" method="post"><input type="text" name="user[login]" id="user_login_dd" class="form-control" placeholder="Username / E-Mail" inert="true">
+<input type="password" name="user[password]" id="user_password_dd" class="form-control" placeholder="Password" inert="true">
+<p class="text-right">
+<small>
+<label for="user_remember_me" inert="true">Remember me</label>
+<input type="checkbox" name="user[remember_me]" id="user_remember_me" value="1" inert="true">
+</small>
+</p>
+<button class="btn btn-success btn-block" inert="true">Sign in</button>
+<p class="text-right">
+<br>
+<a class="small btn btn-xs btn-default" data-target="#navbar-devise-help" data-toggle="collapse">
+Need Help?
+</a>
+</p><div class="collapse" id="navbar-devise-help">
+<a href="/accounts/password/new">Forgot your password?</a>
+<br>
+<a href="/accounts/confirmation/new">Didn't receive confirmation instructions?</a>
+<br>
+
+</div>
+<p></p>
+</form></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="messages">
+<div class="container">
+<noscript>
+<style>
+  #content {
+    display: none;
+  }
+</style>
+<h2>
+JavaScript is not enabled
+</h2>
+<p>
+OSEM requires JavaScript to be enabled to function. Please turn on JavaScript in your browser's settings and reload the page to continue.
+</p>
+</noscript>
+
+</div>
+</div>
+<div id="content">
+<div class="container">
+<div class="row">
+<div class="col-md-12 page-header">
+<h2>
+Opening up the World of WebAssembly with Guile Hoot
+<br>
+<small>
+How the Guile Hoot project is pushing WebAssembly forward for all dynamic languages
+</small>
+<div class="btn-group pull-right">
+<a class="btn btn-success" href="/conferences/seagl2023/schedule">Schedule</a>
+</div>
+</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-3">
+<h3></h3>
+Presented by:
+<div class="speakerinfo">
+<div class="row">
+<div class="col-md-4">
+<img class="img-responsive img-rounded" src="https://secure.gravatar.com/avatar/057d0f1dd4310f64888a8d503247d55d.png?r=PG&amp;s=120">
+</div>
+<div class="col-md-8">
+<h4>
+<a href="/users/1654">David Thompson</a>
+<br>
+</h4>
+<div class="text-muted">
+from
+Spritely Institute
+</div>
+</div>
+</div>
+<div class="row speakerbio">
+<div class="col-md-12">
+<p>David Thompson is a software engineer and free and open source software advocate who enjoys writing software at every level of the stack.  He is currently the Core Infrastructure Architect at the Spritely Institute. Prior to Spritely, David was a DevOps engineer and full-stack web developer for Vista Higher Learning where he worked on everything from product feature implementation to production infrastructure automation. He is also a former web developer for the Free Software Foundation, has made numerous contributions to free software projects such as Guile and Guix, and has built his own game development and web development tools in Scheme.</p>
+
+</div>
+</div>
+</div>
+<div class="speakerinfo">
+<div class="row">
+<div class="col-md-4">
+<img class="img-responsive img-rounded" src="https://secure.gravatar.com/avatar/d646613777fda569f8842647db325419.png?r=PG&amp;s=120">
+</div>
+<div class="col-md-8">
+<h4>
+<a href="/users/1655">Robin Templeton</a>
+<br>
+</h4>
+<div class="text-muted">
+from
+Spritely Institute
+</div>
+</div>
+</div>
+<div class="row speakerbio">
+<div class="col-md-12">
+<p>Robin Templeton is a free software advocate who enjoys working on compilers, programming language design, and exploring system architecture. Their enduring fascination with Lisp environments and distributed object capability secure programming naturally lead them to an interest in the Spritely Institute, where they currently work as a compiler engineer focused on the Guile Hoot project.</p>
+
+<p>Robin's previous work spans working on compilers at Igalia (including building the JavaScript BigInt implementation in Firefox, used by millions of users every day), building a variant of GNU Emacs which runs on top of GNU Guile, working on game development tools for Tech Drone, and volunteering for HCoop.net (including nine years serving on the board of directors).</p>
+
+<p>If given the opportunity and interest, they will bless an interested listener with a treasure trove of obscure Lisp history.</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-9">
+<div class="row">
+<div class="col-md-12">
+<div class="lead">
+
+
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<p>
+</p><p>Guile Hoot is a free and open source WebAssembly toolchain and Scheme compiler that is opening doors for all programming languages to run within the web browser. The Guile Hoot project is being developed by the Spritely Institute, a 501(c)(3) nonprofit organization, as part of its mission to build the next generation of decentralized infrastructure for networked communities.</p>
+
+<p>In this talk, we'll cover:</p>
+
+<ul>
+<li>What is WebAssembly and why is it important?</li>
+<li>What is Guile Hoot and what makes it special compared to other WebAssembly projects?</li>
+<li>How does building a Scheme compiler help other programming languages such as Python and Ruby?</li>
+<li>How does Guile Hoot fit into the Spritely Institute's mission?</li>
+<li>How can I get involved in this effort?</li>
+</ul>
+
+<p>Along the way, we will show several code examples and live demos of applications built with Guile Hoot.</p>
+
+<p></p>
+</div>
+<dl id="proposal-info">
+<div class="col-md-12">
+<dt>Date:</dt>
+<dd>2023 November  3 - 16:40</dd>
+</div>
+<div class="col-md-12">
+<dt>Duration:</dt>
+<dd>50 min</dd>
+</div>
+<div class="col-md-12">
+<dt>Room:</dt>
+<dd>
+Room 2
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Conference:</dt>
+<dd><a href="/conferences/seagl2023">SeaGL 2023</a></dd>
+</div>
+<div class="col-md-12">
+<dt>Language:</dt>
+<dd></dd>
+</div>
+<div class="col-md-12">
+<dt>Track:</dt>
+<dd>
+<span class="label" style="background-color: #7B9CD9; color: black">
+Languages and Tools
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Difficulty:</dt>
+<dd>
+<span class="label" style="background-color: #40245E; color: white;">
+Open
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<hr>
+<h4>Happening at the same time:</h4>
+<ol>
+<li>
+<a href="/conferences/seagl2023/program/proposals/993">The Art of Organizing a Community Hackathon
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2023 November  3 16:40
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2023/program/proposals/1000">Blender for Beginners
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2023 November  3 16:40
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 1
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2023/program/proposals/999">Cyborg Security
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2023 November  3 17:10
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3
+</dd>
+<br>
+</dl>
+</ol>
+</div>
+</dl>
+</div>
+<div class="row">
+<div class="col-md-12">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="footer">
+<div class="container">
+<p class="muted text-center">
+<small>
+This tool is
+<a href="http://www.gnu.org/philosophy/free-sw.html">free software</a>,
+released under the
+<a href="http://opensource.org/licenses/MIT">MIT license</a>.
+You can run, copy, distribute, study, change and improve it.
+The source code and the developers are on
+<a href="https://github.com/openSUSE/osem">GitHub</a>.
+</small>
+</p>
+</div>
+</div>
+
+
+
+
+</body></html>

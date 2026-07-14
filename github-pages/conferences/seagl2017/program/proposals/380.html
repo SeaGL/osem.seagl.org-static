@@ -1,0 +1,298 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<title>SeaGL</title>
+<meta content="" name="description">
+<meta content="" name="author">
+<link rel="stylesheet" href="/assets/application-9ebb7e8df4f6abe04ca09a78e84abc751d81a041f3702dfc6c2ebbdd106ceaa0.css" media="all">
+<script src="/assets/application-47ef59ee7b6477ee91a0ce07fca426e369cd7b348258d0db05fed8e81411ccdc.js"></script>
+<meta name="csrf-param" content="authenticity_token">
+
+
+<meta content="Introduction to Containers on Linux" property="og:title">
+<meta content="https://osem.seagl.org/conferences/seagl2017/program/proposals/380" property="og:url">
+<meta content="Containers are an increasingly common tool everywhere. They're used in the software development process, debugging, and in production services. As a Linux desktop user you can similarly benefit from technologies built with containers. Like virtual machines they will enable you to install apps, test out a new Linux distro, or simply learn how containers work.
+
+This talk is geared towards users of desktop Linux who have had basic experience with the command-line. It will cover how they can easily explore container technologies such as LXD, Docker, and rkt to try out new technologies, build packages, and run old programs.
+
+By the end of the talk everyone will be able to understand the differences between container technologies, launching and stopping containers, exposing services run inside containers, and creating new containers using Docker." property="og:description">
+<meta content="SeaGL" property="og:site_name">
+<meta content="https://secure.gravatar.com/avatar/76839886b5f8822d58ae565d8d559d91.png?r=PG&amp;s=32" property="og:image">
+<meta content="https://secure.gravatar.com/avatar/76839886b5f8822d58ae565d8d559d91.png?r=PG&amp;s=32" property="og:image:secure_url">
+
+</head>
+<body class="conference-seagl2017">
+<div class="navbar navbar-default navbar-fixed-top nav-osem" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target="#main-nav" data-toggle="collapse" type="button">
+<span class="sr-only">
+Toggle navigation
+</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" title="Open Source Event Manager" href="/">SeaGL</a>
+</div>
+<div class="collapse navbar-collapse" id="main-nav">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown visible-desktop">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<span class="fa-solid fa-user"></span>
+Sign In
+<span class="caret"></span>
+</a>
+<div class="dropdown-menu">
+<form action="/accounts/sign_in" accept-charset="UTF-8" method="post"><input type="text" name="user[login]" id="user_login_dd" class="form-control" placeholder="Username / E-Mail" inert="true">
+<input type="password" name="user[password]" id="user_password_dd" class="form-control" placeholder="Password" inert="true">
+<p class="text-right">
+<small>
+<label for="user_remember_me" inert="true">Remember me</label>
+<input type="checkbox" name="user[remember_me]" id="user_remember_me" value="1" inert="true">
+</small>
+</p>
+<button class="btn btn-success btn-block" inert="true">Sign in</button>
+<p class="text-right">
+<br>
+<a class="small btn btn-xs btn-default" data-target="#navbar-devise-help" data-toggle="collapse">
+Need Help?
+</a>
+</p><div class="collapse" id="navbar-devise-help">
+<a href="/accounts/password/new">Forgot your password?</a>
+<br>
+<a href="/accounts/confirmation/new">Didn't receive confirmation instructions?</a>
+<br>
+
+</div>
+<p></p>
+</form></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="messages">
+<div class="container">
+<noscript>
+<style>
+  #content {
+    display: none;
+  }
+</style>
+<h2>
+JavaScript is not enabled
+</h2>
+<p>
+OSEM requires JavaScript to be enabled to function. Please turn on JavaScript in your browser's settings and reload the page to continue.
+</p>
+</noscript>
+
+</div>
+</div>
+<div id="content">
+<div class="container">
+<div class="row">
+<div class="col-md-12 page-header">
+<h2>
+Introduction to Containers on Linux
+<br>
+<small>
+Using Common Container Runtimes from a User's Perspective
+</small>
+<div class="btn-group pull-right">
+<a class="btn btn-success" href="/conferences/seagl2017/schedule">Schedule</a>
+</div>
+</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-3">
+<h3></h3>
+Presented by:
+<div class="speakerinfo">
+<div class="row">
+<div class="col-md-4">
+<img class="img-responsive img-rounded" src="https://secure.gravatar.com/avatar/76839886b5f8822d58ae565d8d559d91.png?r=PG&amp;s=120">
+</div>
+<div class="col-md-8">
+<h4>
+<a href="/users/373">Ben Kero</a>
+<br>
+</h4>
+<div class="text-muted">
+from
+Ormuco Cloud
+</div>
+</div>
+</div>
+<div class="row speakerbio">
+<div class="col-md-12">
+<p>Ben is a long-time Linux systems engineer and hacker who focuses on Devops topics, embedded Linux, and free software advocate.</p>
+
+<p>Previously he has held positions designing and administering systems at the OSU Open Source Lab, Mozilla, and Red Hat. He specializes in Linux systems, configuration management, and continuous integration.</p>
+
+<p>When he is not deploying and testing new computers he is riding his homemade electric bike, tuning the free software computer in his car, or rebuilding old ThinkPads.</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-9">
+<div class="row">
+<div class="col-md-12">
+<div class="lead">
+
+
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<p>
+</p><p>Containers are an increasingly common tool everywhere. They're used in the software development process, debugging, and in production services. As a Linux desktop user you can similarly benefit from technologies built with containers. Like virtual machines they will enable you to install apps, test out a new Linux distro, or simply learn how containers work.</p>
+
+<p>This talk is geared towards users of desktop Linux who have had basic experience with the command-line. It will cover how they can easily explore container technologies such as LXD, Docker, and rkt to try out new technologies, build packages, and run old programs.</p>
+
+<p>By the end of the talk everyone will be able to understand the differences between container technologies, launching and stopping containers, exposing services run inside containers, and creating new containers using Docker.</p>
+
+<p></p>
+</div>
+<dl id="proposal-info">
+<div class="col-md-12">
+<dt>Date:</dt>
+<dd>2017 October  7 - 10:45</dd>
+</div>
+<div class="col-md-12">
+<dt>Duration:</dt>
+<dd>50 min</dd>
+</div>
+<div class="col-md-12">
+<dt>Room:</dt>
+<dd>
+Room 1113
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Conference:</dt>
+<dd><a href="/conferences/seagl2017">Seattle GNU/Linux Conference 2017</a></dd>
+</div>
+<div class="col-md-12">
+<dt>Language:</dt>
+<dd></dd>
+</div>
+<div class="col-md-12">
+<dt>Track:</dt>
+<dd>
+<span class="label" style="background-color: #F2964F; color: black">
+Systems/Ops
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Difficulty:</dt>
+<dd>
+<span class="label" style="background-color: #70EF69; color: black;">
+Easy
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<hr>
+<h4>Happening at the same time:</h4>
+<ol>
+<li>
+<a href="/conferences/seagl2017/program/proposals/375">Leveraging collaborative mentorship to strengthen your free software community
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2017 October  7 10:45
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 5104
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2017/program/proposals/263">Building a Better Thermostat
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2017 October  7 10:45
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 5102
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2017/program/proposals/314">Open Source From Standing Rock To Your Home Community
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2017 October  7 10:45
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3187
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2017/program/proposals/321">Philosophy in Code
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2017 October  7 10:45
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3199
+</dd>
+<br>
+</dl>
+</ol>
+</div>
+</dl>
+</div>
+<div class="row">
+<div class="col-md-12">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="footer">
+<div class="container">
+<p class="muted text-center">
+<small>
+This tool is
+<a href="http://www.gnu.org/philosophy/free-sw.html">free software</a>,
+released under the
+<a href="http://opensource.org/licenses/MIT">MIT license</a>.
+You can run, copy, distribute, study, change and improve it.
+The source code and the developers are on
+<a href="https://github.com/openSUSE/osem">GitHub</a>.
+</small>
+</p>
+</div>
+</div>
+
+
+
+
+</body></html>

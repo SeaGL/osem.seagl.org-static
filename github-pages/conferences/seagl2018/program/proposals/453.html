@@ -1,0 +1,303 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<title>SeaGL</title>
+<meta content="" name="description">
+<meta content="" name="author">
+<link rel="stylesheet" href="/assets/application-9ebb7e8df4f6abe04ca09a78e84abc751d81a041f3702dfc6c2ebbdd106ceaa0.css" media="all">
+<script src="/assets/application-47ef59ee7b6477ee91a0ce07fca426e369cd7b348258d0db05fed8e81411ccdc.js"></script>
+<meta name="csrf-param" content="authenticity_token">
+
+
+<meta content="A punch card ate my program!" property="og:title">
+<meta content="https://osem.seagl.org/conferences/seagl2018/program/proposals/453" property="og:url">
+<meta content="COBOL is the Rodney Dangerfield of programming languages — it doesn't get any respect. COBOL is routinely denigrated for its verbosity and dismissed as archaic, and for good reason: COBOL bears little to no resemblance to modern programming languages. Yet COBOL is far from a dead language. It processes an estimated 85% of all business
+transactions, and 5 billion lines of new COBOL code are written every year!
+
+In the past I’ve argued that COBOL isn’t such a bad language, but I'm not going to do that here! Instead, we’ll journey deep into the past to recreate a retro bug that could only happen in COBOL! Our travels will include:
+
+* Syntactic white space!
+* Scotch tape!
+* Dueling compiler options!
+* Virtual punch cards!
+* Sentences!
+* Code blocks!
+* Periods!
+
+No punch cards were harmed in the creation of this talk.
+" property="og:description">
+<meta content="SeaGL" property="og:site_name">
+<meta content="https://secure.gravatar.com/avatar/7bc366f53a55c1cf293b758ecf8e0666.png?r=PG&amp;s=32" property="og:image">
+<meta content="https://secure.gravatar.com/avatar/7bc366f53a55c1cf293b758ecf8e0666.png?r=PG&amp;s=32" property="og:image:secure_url">
+
+</head>
+<body class="conference-seagl2018">
+<div class="navbar navbar-default navbar-fixed-top nav-osem" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target="#main-nav" data-toggle="collapse" type="button">
+<span class="sr-only">
+Toggle navigation
+</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" title="Open Source Event Manager" href="/">SeaGL</a>
+</div>
+<div class="collapse navbar-collapse" id="main-nav">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown visible-desktop">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<span class="fa-solid fa-user"></span>
+Sign In
+<span class="caret"></span>
+</a>
+<div class="dropdown-menu">
+<form action="/accounts/sign_in" accept-charset="UTF-8" method="post"><input type="text" name="user[login]" id="user_login_dd" class="form-control" placeholder="Username / E-Mail" inert="true">
+<input type="password" name="user[password]" id="user_password_dd" class="form-control" placeholder="Password" inert="true">
+<p class="text-right">
+<small>
+<label for="user_remember_me" inert="true">Remember me</label>
+<input type="checkbox" name="user[remember_me]" id="user_remember_me" value="1" inert="true">
+</small>
+</p>
+<button class="btn btn-success btn-block" inert="true">Sign in</button>
+<p class="text-right">
+<br>
+<a class="small btn btn-xs btn-default" data-target="#navbar-devise-help" data-toggle="collapse">
+Need Help?
+</a>
+</p><div class="collapse" id="navbar-devise-help">
+<a href="/accounts/password/new">Forgot your password?</a>
+<br>
+<a href="/accounts/confirmation/new">Didn't receive confirmation instructions?</a>
+<br>
+
+</div>
+<p></p>
+</form></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="messages">
+<div class="container">
+<noscript>
+<style>
+  #content {
+    display: none;
+  }
+</style>
+<h2>
+JavaScript is not enabled
+</h2>
+<p>
+OSEM requires JavaScript to be enabled to function. Please turn on JavaScript in your browser's settings and reload the page to continue.
+</p>
+</noscript>
+
+</div>
+</div>
+<div id="content">
+<div class="container">
+<div class="row">
+<div class="col-md-12 page-header">
+<h2>
+A punch card ate my program!
+<br>
+<small>
+
+</small>
+<div class="btn-group pull-right">
+<a class="btn btn-success" href="/conferences/seagl2018/schedule">Schedule</a>
+</div>
+</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-3">
+<h3></h3>
+Presented by:
+<div class="speakerinfo">
+<div class="row">
+<div class="col-md-4">
+<img class="img-responsive img-rounded" src="https://secure.gravatar.com/avatar/7bc366f53a55c1cf293b758ecf8e0666.png?r=PG&amp;s=120">
+</div>
+<div class="col-md-8">
+<h4>
+<a href="/users/750">Walter Mankowski</a>
+<br>
+<a href="mailto:waltman@pobox.com"><i class="fa-solid fa-envelope fa-2x"></i>
+</a></h4>
+<div class="text-muted">
+from
+Syapse
+</div>
+</div>
+</div>
+<div class="row speakerbio">
+<div class="col-md-12">
+<p>Walt Mankowski is a senior software engineer at Syapse, where he helps healthcare providers bring precision medicine to cancer
+patients. Walt's a recovering ivory tower computer scientist who enjoys pointing out things that Perl does better than Python to his
+coworkers. In his past life he spent 10 years as a COBOL programmer at a major cable home shopping network. He enjoys Perl, regular expressions, high-performance computing, and Futurama.</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-9">
+<div class="row">
+<div class="col-md-12">
+<div class="lead">
+
+
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<p>
+</p><p>COBOL is the Rodney Dangerfield of programming languages — it doesn't get any respect. COBOL is routinely denigrated for its verbosity and dismissed as archaic, and for good reason: COBOL bears little to no resemblance to modern programming languages. Yet COBOL is far from a dead language. It processes an estimated 85% of all business
+transactions, and 5 billion lines of new COBOL code are written every year!</p>
+
+<p>In the past I’ve argued that COBOL isn’t such a bad language, but I'm not going to do that here! Instead, we’ll journey deep into the past to recreate a retro bug that could only happen in COBOL! Our travels will include:</p>
+
+<ul>
+<li>Syntactic white space!</li>
+<li>Scotch tape!</li>
+<li>Dueling compiler options!</li>
+<li>Virtual punch cards!</li>
+<li>Sentences!</li>
+<li>Code blocks!</li>
+<li>Periods!</li>
+</ul>
+
+<p>No punch cards were harmed in the creation of this talk.</p>
+
+<p></p>
+</div>
+<dl id="proposal-info">
+<div class="col-md-12">
+<dt>Date:</dt>
+<dd>2018 November  9 - 10:45</dd>
+</div>
+<div class="col-md-12">
+<dt>Duration:</dt>
+<dd>50 min</dd>
+</div>
+<div class="col-md-12">
+<dt>Room:</dt>
+<dd>
+Room 3179
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Conference:</dt>
+<dd><a href="/conferences/seagl2018">Seattle GNU/Linux Conference 2018</a></dd>
+</div>
+<div class="col-md-12">
+<dt>Language:</dt>
+<dd></dd>
+</div>
+<div class="col-md-12">
+<dt>Track:</dt>
+<dd>
+<span class="label" style="background-color: #BED05C; color: black">
+Something different
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Difficulty:</dt>
+<dd>
+<span class="label" style="background-color: #32CB2A; color: black;">
+No experience required
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<hr>
+<h4>Happening at the same time:</h4>
+<ol>
+<li>
+<a href="/conferences/seagl2018/program/proposals/502">Intro to Machine Learning with Scikit-learn
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2018 November  9 10:45
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3180
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2018/program/proposals/541">Basic Licensing Considerations and Compliance for Projects and Companies
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2018 November  9 10:45
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3184
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2018/program/proposals/440">Intro to Sensu - A monitoring and alerting framework
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2018 November  9 10:45
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3183
+</dd>
+<br>
+</dl>
+</ol>
+</div>
+</dl>
+</div>
+<div class="row">
+<div class="col-md-12">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="footer">
+<div class="container">
+<p class="muted text-center">
+<small>
+This tool is
+<a href="http://www.gnu.org/philosophy/free-sw.html">free software</a>,
+released under the
+<a href="http://opensource.org/licenses/MIT">MIT license</a>.
+You can run, copy, distribute, study, change and improve it.
+The source code and the developers are on
+<a href="https://github.com/openSUSE/osem">GitHub</a>.
+</small>
+</p>
+</div>
+</div>
+
+
+
+
+</body></html>

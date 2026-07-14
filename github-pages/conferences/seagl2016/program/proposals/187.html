@@ -1,0 +1,288 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<title>SeaGL</title>
+<meta content="" name="description">
+<meta content="" name="author">
+<link rel="stylesheet" href="/assets/application-9ebb7e8df4f6abe04ca09a78e84abc751d81a041f3702dfc6c2ebbdd106ceaa0.css" media="all">
+<script src="/assets/application-47ef59ee7b6477ee91a0ce07fca426e369cd7b348258d0db05fed8e81411ccdc.js"></script>
+<meta name="csrf-param" content="authenticity_token">
+
+
+<meta content="Exploring System Calls with Strace" property="og:title">
+<meta content="https://osem.seagl.org/conferences/seagl2016/program/proposals/187" property="og:url">
+<meta content="You can learn a lot about what programs are doing under the hood by examining the system calls that they make. In this talk I'll demonstrate how you can use the strace program in GNU/Linux to learn things about what programs are doing. What files are opened, read from and written to? What DNS and MySQL queries are being made? All of these questions can be answered using strace. I'll also show how you can use strace to output timing deltas to identify slow system calls that may be hurting your program's performance. I'll demonstrate how you can attach strace to a running apache or nginx worker process to debug a live website. I'll also spend a bit of time talking about GNU/Linux system calls themselves, and how strace displays the various C data structures (like sockaddr) that are used in interesting system calls like connect(2).
+
+Some of this talk will be a bit of a rehash of my YouTube video on the subject, but this will be a longer, more in-depth dive into the world of GNU/Linux system calls and strace.
+ 
+This talk is finished, but you can [view the slides here](http://www.muppetlabs.com/~mikeh/systemcalls.pdf).
+" property="og:description">
+<meta content="SeaGL" property="og:site_name">
+<meta content="https://secure.gravatar.com/avatar/bc4d151e146fc57fa0bb22ef3743bb81.png?r=PG&amp;s=32" property="og:image">
+<meta content="https://secure.gravatar.com/avatar/bc4d151e146fc57fa0bb22ef3743bb81.png?r=PG&amp;s=32" property="og:image:secure_url">
+
+</head>
+<body class="conference-seagl2016">
+<div class="navbar navbar-default navbar-fixed-top nav-osem" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target="#main-nav" data-toggle="collapse" type="button">
+<span class="sr-only">
+Toggle navigation
+</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" title="Open Source Event Manager" href="/">SeaGL</a>
+</div>
+<div class="collapse navbar-collapse" id="main-nav">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown visible-desktop">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<span class="fa-solid fa-user"></span>
+Sign In
+<span class="caret"></span>
+</a>
+<div class="dropdown-menu">
+<form action="/accounts/sign_in" accept-charset="UTF-8" method="post"><input type="text" name="user[login]" id="user_login_dd" class="form-control" placeholder="Username / E-Mail" inert="true">
+<input type="password" name="user[password]" id="user_password_dd" class="form-control" placeholder="Password" inert="true">
+<p class="text-right">
+<small>
+<label for="user_remember_me" inert="true">Remember me</label>
+<input type="checkbox" name="user[remember_me]" id="user_remember_me" value="1" inert="true">
+</small>
+</p>
+<button class="btn btn-success btn-block" inert="true">Sign in</button>
+<p class="text-right">
+<br>
+<a class="small btn btn-xs btn-default" data-target="#navbar-devise-help" data-toggle="collapse">
+Need Help?
+</a>
+</p><div class="collapse" id="navbar-devise-help">
+<a href="/accounts/password/new">Forgot your password?</a>
+<br>
+<a href="/accounts/confirmation/new">Didn't receive confirmation instructions?</a>
+<br>
+
+</div>
+<p></p>
+</form></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="messages">
+<div class="container">
+<noscript>
+<style>
+  #content {
+    display: none;
+  }
+</style>
+<h2>
+JavaScript is not enabled
+</h2>
+<p>
+OSEM requires JavaScript to be enabled to function. Please turn on JavaScript in your browser's settings and reload the page to continue.
+</p>
+</noscript>
+
+</div>
+</div>
+<div id="content">
+<div class="container">
+<div class="row">
+<div class="col-md-12 page-header">
+<h2>
+Exploring System Calls with Strace
+<br>
+<small>
+
+</small>
+<div class="btn-group pull-right">
+</div>
+</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-3">
+<h3></h3>
+Presented by:
+<div class="speakerinfo">
+<div class="row">
+<div class="col-md-4">
+<img class="img-responsive img-rounded" src="https://secure.gravatar.com/avatar/bc4d151e146fc57fa0bb22ef3743bb81.png?r=PG&amp;s=120">
+</div>
+<div class="col-md-8">
+<h4>
+<a href="/users/365">Mike Hamrick</a>
+<br>
+<a href="mailto:mikeh@muppetlabs.com"><i class="fa-solid fa-envelope fa-2x"></i>
+</a></h4>
+</div>
+</div>
+<div class="row speakerbio">
+<div class="col-md-12">
+<p>I've been a fan and user of GNU/Linux since the mid 90s. In my professional career I've been a programmer, systems administrator, and DBA. I really enjoy finding bugs and solving performance problems using a variety of debugging tools and techniques. I also enjoy programming in C, Python, Go, Perl, and Elisp.</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-9">
+<div class="row">
+<div class="col-md-12">
+<div class="lead">
+
+
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<p>
+</p><p>You can learn a lot about what programs are doing under the hood by examining the system calls that they make. In this talk I'll demonstrate how you can use the strace program in GNU/Linux to learn things about what programs are doing. What files are opened, read from and written to? What DNS and MySQL queries are being made? All of these questions can be answered using strace. I'll also show how you can use strace to output timing deltas to identify slow system calls that may be hurting your program's performance. I'll demonstrate how you can attach strace to a running apache or nginx worker process to debug a live website. I'll also spend a bit of time talking about GNU/Linux system calls themselves, and how strace displays the various C data structures (like sockaddr) that are used in interesting system calls like connect(2).</p>
+
+<p>Some of this talk will be a bit of a rehash of my YouTube video on the subject, but this will be a longer, more in-depth dive into the world of GNU/Linux system calls and strace.</p>
+
+<p>This talk is finished, but you can <a href="http://www.muppetlabs.com/%7Emikeh/systemcalls.pdf" rel="nofollow">view the slides here</a>.</p>
+
+<p></p>
+</div>
+<dl id="proposal-info">
+<div class="col-md-12">
+<dt>Date:</dt>
+<dd>2016 November 11 - 16:30</dd>
+</div>
+<div class="col-md-12">
+<dt>Duration:</dt>
+<dd>1 h</dd>
+</div>
+<div class="col-md-12">
+<dt>Room:</dt>
+<dd>
+Room 3179
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Conference:</dt>
+<dd><a href="/conferences/seagl2016">Seattle GNU/Linux Conference 2016</a></dd>
+</div>
+<div class="col-md-12">
+<dt>Language:</dt>
+<dd></dd>
+</div>
+<div class="col-md-12">
+<dt>Track:</dt>
+<dd>
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Difficulty:</dt>
+<dd>
+<span class="label" style="background-color: #EEEF69; color: black;">
+Medium
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<hr>
+<h4>Happening at the same time:</h4>
+<ol>
+<li>
+<a href="/conferences/seagl2016/program/proposals/236">A brief history of Linux Containers: 1999 to 2016
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2016 November 11 16:30
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3183
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2016/program/proposals/220">Scaling up Startups
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2016 November 11 16:30
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3180
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2016/program/proposals/208">Compiling your First Linux Kernel
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2016 November 11 16:30
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3184
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2016/program/proposals/171">Open Source Isn't Sustainable, but Software Freedom Is
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2016 November 11 16:30
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3178
+</dd>
+<br>
+</dl>
+</ol>
+</div>
+</dl>
+</div>
+<div class="row">
+<div class="col-md-12">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="footer">
+<div class="container">
+<p class="muted text-center">
+<small>
+This tool is
+<a href="http://www.gnu.org/philosophy/free-sw.html">free software</a>,
+released under the
+<a href="http://opensource.org/licenses/MIT">MIT license</a>.
+You can run, copy, distribute, study, change and improve it.
+The source code and the developers are on
+<a href="https://github.com/openSUSE/osem">GitHub</a>.
+</small>
+</p>
+</div>
+</div>
+
+
+
+
+</body></html>

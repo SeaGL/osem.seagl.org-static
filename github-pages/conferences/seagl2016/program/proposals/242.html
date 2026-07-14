@@ -1,0 +1,312 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<title>SeaGL</title>
+<meta content="" name="description">
+<meta content="" name="author">
+<link rel="stylesheet" href="/assets/application-9ebb7e8df4f6abe04ca09a78e84abc751d81a041f3702dfc6c2ebbdd106ceaa0.css" media="all">
+<script src="/assets/application-47ef59ee7b6477ee91a0ce07fca426e369cd7b348258d0db05fed8e81411ccdc.js"></script>
+<meta name="csrf-param" content="authenticity_token">
+
+
+<meta content="MySQL for the system administrator" property="og:title">
+<meta content="https://osem.seagl.org/conferences/seagl2016/program/proposals/242" property="og:url">
+<meta content="There's always a small database somewhere that gets pushed to system administrators without DBA support. Learn some basic skills for maintaining that database. The same skills will help in the middle-ground between sysadmin and DBA.
+
+MySQL is ubiquitous. It will be for many years. A little knowledge will go a long way to having a good MySQL setup. A little knowledge will also leverage your command line knowledge when working with MySQL.
+
+Use shell tools to change the MySQL prompt, run the same query on multiple systems, enable passwordless connection, munge query results and backup/restore databases.
+
+Restorals are paramount, but you can't just backup the database files. Learn about a few useful MySQL backup tools from a system administrator's perspective.
+
+MySQL has grants for controlling access to specific databases, but general system administration tools can be used in addition to the MySQL grants.
+
+It's obvious that the slow query log can be useful for finding long-running queries, but it's not the only place to find useful log information.
+
+The presentation will also cover OS and MySQL changes for good practices that will help the system administrator use and administer MySQL without having to become a DBA." property="og:description">
+<meta content="SeaGL" property="og:site_name">
+<meta content="https://secure.gravatar.com/avatar/26d7f047c161637f6f5459bfad4d5e32.png?r=PG&amp;s=32" property="og:image">
+<meta content="https://secure.gravatar.com/avatar/26d7f047c161637f6f5459bfad4d5e32.png?r=PG&amp;s=32" property="og:image:secure_url">
+
+</head>
+<body class="conference-seagl2016">
+<div class="navbar navbar-default navbar-fixed-top nav-osem" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target="#main-nav" data-toggle="collapse" type="button">
+<span class="sr-only">
+Toggle navigation
+</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" title="Open Source Event Manager" href="/">SeaGL</a>
+</div>
+<div class="collapse navbar-collapse" id="main-nav">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown visible-desktop">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<span class="fa-solid fa-user"></span>
+Sign In
+<span class="caret"></span>
+</a>
+<div class="dropdown-menu">
+<form action="/accounts/sign_in" accept-charset="UTF-8" method="post"><input type="text" name="user[login]" id="user_login_dd" class="form-control" placeholder="Username / E-Mail" inert="true">
+<input type="password" name="user[password]" id="user_password_dd" class="form-control" placeholder="Password" inert="true">
+<p class="text-right">
+<small>
+<label for="user_remember_me" inert="true">Remember me</label>
+<input type="checkbox" name="user[remember_me]" id="user_remember_me" value="1" inert="true">
+</small>
+</p>
+<button class="btn btn-success btn-block" inert="true">Sign in</button>
+<p class="text-right">
+<br>
+<a class="small btn btn-xs btn-default" data-target="#navbar-devise-help" data-toggle="collapse">
+Need Help?
+</a>
+</p><div class="collapse" id="navbar-devise-help">
+<a href="/accounts/password/new">Forgot your password?</a>
+<br>
+<a href="/accounts/confirmation/new">Didn't receive confirmation instructions?</a>
+<br>
+
+</div>
+<p></p>
+</form></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="messages">
+<div class="container">
+<noscript>
+<style>
+  #content {
+    display: none;
+  }
+</style>
+<h2>
+JavaScript is not enabled
+</h2>
+<p>
+OSEM requires JavaScript to be enabled to function. Please turn on JavaScript in your browser's settings and reload the page to continue.
+</p>
+</noscript>
+
+</div>
+</div>
+<div id="content">
+<div class="container">
+<div class="row">
+<div class="col-md-12 page-header">
+<h2>
+MySQL for the system administrator
+<br>
+<small>
+!DBA MySQL goodness
+</small>
+<div class="btn-group pull-right">
+</div>
+</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-3">
+<h3></h3>
+Presented by:
+<div class="speakerinfo">
+<div class="row">
+<div class="col-md-4">
+<img class="img-responsive img-rounded" src="https://secure.gravatar.com/avatar/26d7f047c161637f6f5459bfad4d5e32.png?r=PG&amp;s=120">
+</div>
+<div class="col-md-8">
+<h4>
+<a href="/users/363">der.hans</a>
+<br>
+</h4>
+<div class="text-muted">
+from
+ObjectRocket
+</div>
+</div>
+</div>
+<div class="row speakerbio">
+<div class="col-md-12">
+<p>der.hans is a Free Software, technology and entrepreneurial veteran.</p>
+
+<p>He's chairman of the Phoenix Linux User Group (PLUG), Open Source Careers chair for the Southern California Linux Expo (SCaLE), founder of the Free Software Stammtisch and Stammtisch Job Nights, and chair SeaGL's finance committee and Career Expo.</p>
+
+<p>Currently, he's a database support manager at ObjectRocket. Most likely anything he says publicly was not approved by $dayjob.</p>
+
+<p><a href="https://floss.social/@FLOX_advocate" rel="nofollow">https://floss.social/@FLOX_advocate</a></p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-9">
+<div class="row">
+<div class="col-md-12">
+<div class="lead">
+
+
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<p>
+</p><p>There's always a small database somewhere that gets pushed to system administrators without DBA support. Learn some basic skills for maintaining that database. The same skills will help in the middle-ground between sysadmin and DBA.</p>
+
+<p>MySQL is ubiquitous. It will be for many years. A little knowledge will go a long way to having a good MySQL setup. A little knowledge will also leverage your command line knowledge when working with MySQL.</p>
+
+<p>Use shell tools to change the MySQL prompt, run the same query on multiple systems, enable passwordless connection, munge query results and backup/restore databases.</p>
+
+<p>Restorals are paramount, but you can't just backup the database files. Learn about a few useful MySQL backup tools from a system administrator's perspective.</p>
+
+<p>MySQL has grants for controlling access to specific databases, but general system administration tools can be used in addition to the MySQL grants.</p>
+
+<p>It's obvious that the slow query log can be useful for finding long-running queries, but it's not the only place to find useful log information.</p>
+
+<p>The presentation will also cover OS and MySQL changes for good practices that will help the system administrator use and administer MySQL without having to become a DBA.</p>
+
+<p></p>
+</div>
+<dl id="proposal-info">
+<div class="col-md-12">
+<dt>Date:</dt>
+<dd>2016 November 12 - 16:30</dd>
+</div>
+<div class="col-md-12">
+<dt>Duration:</dt>
+<dd>1 h</dd>
+</div>
+<div class="col-md-12">
+<dt>Room:</dt>
+<dd>
+Room 3184
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Conference:</dt>
+<dd><a href="/conferences/seagl2016">Seattle GNU/Linux Conference 2016</a></dd>
+</div>
+<div class="col-md-12">
+<dt>Language:</dt>
+<dd></dd>
+</div>
+<div class="col-md-12">
+<dt>Track:</dt>
+<dd>
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Difficulty:</dt>
+<dd>
+<span class="label" style="background-color: #EEEF69; color: black;">
+Medium
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<hr>
+<h4>Happening at the same time:</h4>
+<ol>
+<li>
+<a href="/conferences/seagl2016/program/proposals/248">Technology Overload: How makerspaces and libraries can save classrooms from pervasive tech run amok
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2016 November 12 16:30
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3180
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2016/program/proposals/155">i3-wm: Tiling never felt so good
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2016 November 12 16:30
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3178
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2016/program/proposals/186">Free Software Foundation: Volunteer Empire
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2016 November 12 16:30
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3179
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2016/program/proposals/194">Servo's Infrastructure: Building Tomorrow's Browser Engine
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2016 November 12 16:30
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3183
+</dd>
+<br>
+</dl>
+</ol>
+</div>
+</dl>
+</div>
+<div class="row">
+<div class="col-md-12">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="footer">
+<div class="container">
+<p class="muted text-center">
+<small>
+This tool is
+<a href="http://www.gnu.org/philosophy/free-sw.html">free software</a>,
+released under the
+<a href="http://opensource.org/licenses/MIT">MIT license</a>.
+You can run, copy, distribute, study, change and improve it.
+The source code and the developers are on
+<a href="https://github.com/openSUSE/osem">GitHub</a>.
+</small>
+</p>
+</div>
+</div>
+
+
+
+
+</body></html>

@@ -1,0 +1,466 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<title>SeaGL 2019 - A Prime Year for Free Software
+</title>
+<meta content="" name="description">
+<meta content="" name="author">
+<link rel="stylesheet" href="/assets/application-9ebb7e8df4f6abe04ca09a78e84abc751d81a041f3702dfc6c2ebbdd106ceaa0.css" media="all">
+<script src="/assets/application-47ef59ee7b6477ee91a0ce07fca426e369cd7b348258d0db05fed8e81411ccdc.js"></script>
+<meta name="csrf-param" content="authenticity_token">
+
+<script>
+  var triangle_tcs = tinycolor("#d2691e").monochromatic();
+  var triangle_colors = triangle_tcs.map(function(t) {
+    return t.toHexString();
+  });
+  $(function () {
+    $(document).ready(function() {
+      var triangle_width = document.body.clientWidth;
+      var triangle_height = ($( "#banner" ).height() + 200 );
+      var pattern = Trianglify({ width: triangle_width,
+                                 height: triangle_height,
+                                 cell_size: 100,
+                                 x_colors: triangle_colors
+                                });
+      $('#banner').css('background-image', 'url("' + pattern.png() + '")');
+    });
+  });
+</script>
+
+<meta content="SeaGL 2019 - A Prime Year for Free Software" property="og:title">
+<meta content="SeaGL" property="og:site_name">
+<meta content="Seattle's grassroots free/libre/open source software, hardware, and culture summit returns for the seventh year!
+
+Join speakers and participants from around the world for year seven of Seattle's FREE, as in freedom and coffee, GNU/Linux Conference.
+
+With over 50 talks, four keynotes, and the Cascadia Community Builder Award, this year is sure to be a blast!
+
+November 15th and 16th, 2019  
+Seattle Central College campus  
+1701 Broadway, Seattle, WA
+
+Visit [https://SeaGL.org](https://SeaGL.org) for more information." property="og:description">
+<meta content="https://osem.seagl.org/conferences/seagl2019" property="og:url">
+<meta content="SeaGL 2019 - A Prime Year for Free Software" property="twitter:title">
+<meta content="Seattle's grassroots free/libre/open source software, hardware, and culture summit returns for the seventh year!
+
+Join speakers and participants from around the world for year seven of Seattle's FREE, as in freedom and coffee, GNU/Linux Conference.
+
+With over 50 talks, four keynotes, and the Cascadia Community Builder Award, this year is sure to be a blast!
+
+November 15th and 16th, 2019  
+Seattle Central College campus  
+1701 Broadway, Seattle, WA
+
+Visit [https://SeaGL.org](https://SeaGL.org) for more information." property="twitter:description">
+<meta content="summary" property="twitter:card">
+
+</head>
+<body class="conference-seagl2019">
+<div class="navbar navbar-default navbar-fixed-top nav-osem" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target="#main-nav" data-toggle="collapse" type="button">
+<span class="sr-only">
+Toggle navigation
+</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" title="Open Source Event Manager" href="/">SeaGL</a>
+</div>
+<div class="collapse navbar-collapse" id="main-nav">
+<ul class="nav navbar-nav" id="splash-nav">
+<li>
+<a class="smoothscroll" href="#call">Call For Content</a>
+</li>
+<li>
+<a class="smoothscroll" href="#program">Program</a>
+</li>
+<li>
+<a class="smoothscroll" href="#venue">Venue</a>
+</li>
+<li>
+<a class="smoothscroll" href="#sponsors">Sponsors</a>
+</li>
+
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown visible-desktop">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<span class="fa-solid fa-user"></span>
+Sign In
+<span class="caret"></span>
+</a>
+<div class="dropdown-menu">
+<form action="/accounts/sign_in" accept-charset="UTF-8" method="post"><input type="text" name="user[login]" id="user_login_dd" class="form-control" placeholder="Username / E-Mail" inert="true">
+<input type="password" name="user[password]" id="user_password_dd" class="form-control" placeholder="Password" inert="true">
+<p class="text-right">
+<small>
+<label for="user_remember_me" inert="true">Remember me</label>
+<input type="checkbox" name="user[remember_me]" id="user_remember_me" value="1" inert="true">
+</small>
+</p>
+<button class="btn btn-success btn-block" inert="true">Sign in</button>
+<p class="text-right">
+<br>
+<a class="small btn btn-xs btn-default" data-target="#navbar-devise-help" data-toggle="collapse">
+Need Help?
+</a>
+</p><div class="collapse" id="navbar-devise-help">
+<a href="/accounts/password/new">Forgot your password?</a>
+<br>
+<a href="/accounts/confirmation/new">Didn't receive confirmation instructions?</a>
+<br>
+
+</div>
+<p></p>
+</form></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="messages">
+<div class="container">
+<noscript>
+<style>
+  #content {
+    display: none;
+  }
+</style>
+<h2>
+JavaScript is not enabled
+</h2>
+<p>
+OSEM requires JavaScript to be enabled to function. Please turn on JavaScript in your browser's settings and reload the page to continue.
+</p>
+</noscript>
+
+</div>
+</div>
+<div id="content">
+<div id="splash">
+<div id="banner">
+<div class="container">
+<div class="row">
+<div class="col-md-8 col-md-offset-2" id="header">
+<div class="row">
+<div class="col-md-4">
+</div>
+<div class="col-md-8">
+<h1>
+SeaGL 2019 - A Prime Year for Free Software
+</h1>
+<h3>
+<span class="date text-nowrap">
+November 15 - 16, 2019
+</span>
+<span class="venue text-nowrap">
+<a href="https://seattlecentral.edu">Seattle Central College</a>
+</span>
+</h3>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section id="about">
+<div class="container">
+<div class="row">
+<div class="col-md-8 col-md-offset-2">
+<p>Seattle's grassroots free/libre/open source software, hardware, and culture summit returns for the seventh year!</p>
+
+<p>Join speakers and participants from around the world for year seven of Seattle's FREE, as in freedom and coffee, GNU/Linux Conference.</p>
+
+<p>With over 50 talks, four keynotes, and the Cascadia Community Builder Award, this year is sure to be a blast!</p>
+
+<p>November 15th and 16th, 2019<br>
+Seattle Central College campus<br>
+1701 Broadway, Seattle, WA</p>
+
+<p>Visit <a href="https://SeaGL.org" rel="nofollow">https://SeaGL.org</a> for more information.</p>
+
+</div>
+</div>
+</div>
+</section>
+
+<section id="call">
+<div class="container">
+<div class="row">
+</div>
+</div>
+</section>
+
+<section id="program">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<p class="lead text-center">
+<span class="notranslate">
+SeaGL 2019 - A Prime Year for Free Software
+</span>
+has the most awesome program ever!
+</p>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<h3 class="text-center">Tracks</h3>
+</div>
+</div>
+<div class="row row-centered">
+<div class="col-md-3 col-sm-3 col-centered col-top track">
+<div class="thumbnail">
+<div class="caption">
+<h3 class="text-center">
+AI/ML/Data Privacy
+</h3>
+<p class="text-center">
+</p>
+
+</div>
+</div>
+</div>
+<div class="col-md-3 col-sm-3 col-centered col-top track">
+<div class="thumbnail">
+<div class="caption">
+<h3 class="text-center">
+Design/UI/UX/Accessibility
+</h3>
+<p class="text-center">
+</p>
+
+</div>
+</div>
+</div>
+<div class="col-md-3 col-sm-3 col-centered col-top track">
+<div class="thumbnail">
+<div class="caption">
+<h3 class="text-center">
+Documentation
+</h3>
+<p class="text-center">
+</p>
+
+</div>
+</div>
+</div>
+<div class="col-md-3 col-sm-3 col-centered col-top track">
+<div class="thumbnail">
+<div class="caption">
+<h3 class="text-center">
+Education
+</h3>
+<p class="text-center">
+</p>
+
+</div>
+</div>
+</div>
+<div class="col-md-3 col-sm-3 col-centered col-top track">
+<div class="thumbnail">
+<div class="caption">
+<h3 class="text-center">
+Hardware/IOT
+</h3>
+<p class="text-center">
+</p>
+
+</div>
+</div>
+</div>
+<div class="col-md-3 col-sm-3 col-centered col-top track">
+<div class="thumbnail">
+<div class="caption">
+<h3 class="text-center">
+Legal/Licensing
+</h3>
+<p class="text-center">
+</p>
+
+</div>
+</div>
+</div>
+<div class="col-md-3 col-sm-3 col-centered col-top track">
+<div class="thumbnail">
+<div class="caption">
+<h3 class="text-center">
+People
+</h3>
+<p class="text-center">
+</p>
+
+</div>
+</div>
+</div>
+<div class="col-md-3 col-sm-3 col-centered col-top track">
+<div class="thumbnail">
+<div class="caption">
+<h3 class="text-center">
+Programming
+</h3>
+<p class="text-center">
+</p>
+
+</div>
+</div>
+</div>
+<div class="col-md-3 col-sm-3 col-centered col-top track">
+<div class="thumbnail">
+<div class="caption">
+<h3 class="text-center">
+Security/Infosec
+</h3>
+<p class="text-center">
+</p>
+
+</div>
+</div>
+</div>
+<div class="col-md-3 col-sm-3 col-centered col-top track">
+<div class="thumbnail">
+<div class="caption">
+<h3 class="text-center">
+Something Different!
+</h3>
+<p class="text-center">
+</p>
+
+</div>
+</div>
+</div>
+<div class="col-md-3 col-sm-3 col-centered col-top track">
+<div class="thumbnail">
+<div class="caption">
+<h3 class="text-center">
+Systems/Ops
+</h3>
+<p class="text-center">
+</p>
+
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</section>
+
+<section id="venue">
+<div id="map" style="height: 500px;"></div>
+
+</section>
+
+<section id="sponsors">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<h3 class="text-center">
+Want to sponsor?
+<a href="mailto:sponsor@seagl.org?subject=seagl2019%20Sponsorship">Contact us!
+</a></h3>
+</div>
+</div>
+</div>
+</section>
+
+<section id="social-media">
+<div class="container">
+<div class="row">
+<div class="col-md-12 text-center">
+<a href="https://www.facebook.com/SeattleGnuLinuxConference"><i class="fa-brands fa-facebook fa-4x"></i>
+</a><a href="https://twitter.com/seagl"><i class="fa-brands fa-twitter fa-4x"></i>
+</a><a href="mailto:info@seagl.org"><i class="fa-solid fa-envelope fa-4x"></i>
+</a></div>
+</div>
+</div>
+</section>
+
+<div class="scroll-top-wrapper">
+<a class="smoothscroll" href="#banner"><i class="fa-solid fa-2x fa-circle-arrow-up"></i>
+</a></div>
+<script>
+  $(function(){
+    $(document).on( 'scroll', function(){
+      if ($(window).scrollTop() > 100) {
+          $('.scroll-top-wrapper').addClass('show');
+      } else {
+          $('.scroll-top-wrapper').removeClass('show');
+      }
+    });
+  });
+</script>
+
+</div>
+
+</div>
+
+<div id="footer">
+<div class="container">
+<p class="muted text-center">
+<small>
+This tool is
+<a href="http://www.gnu.org/philosophy/free-sw.html">free software</a>,
+released under the
+<a href="http://opensource.org/licenses/MIT">MIT license</a>.
+You can run, copy, distribute, study, change and improve it.
+The source code and the developers are on
+<a href="https://github.com/openSUSE/osem">GitHub</a>.
+</small>
+</p>
+</div>
+</div>
+<script>
+  // create a map in the "map" div, set the view to a given place and zoom
+  var map = L.map('map', { scrollWheelZoom: false }).setView(
+    [
+      47.6661836,
+      -122.3214323
+    ], 11);
+  // add an OpenStreetMap tile layer
+  L.tileLayer('//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: 'Map data &copy; \
+      <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, \
+      <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, \
+      Imagery © <a href="http://mapbox.com">Mapbox</a>',
+    maxZoom: 18
+  }).addTo(map);
+  // add a marker in the given location, attach some popup content to it
+  // and open the popup
+  L.marker([
+    47.6161836,
+    -122.3214323
+  ]).addTo(map)
+    .bindPopup("<h3>Seattle Central College<\/h3>\n<p>\n1701 Broadway\n<br>\nSeattle\n<br>\nUnited States\n<\/p>\n<p class=\'text-center clearfix\'><a href=\"https://seattlecentral.edu\">https://seattlecentral.edu<\/a><\/p>\n")
+    .openPopup();
+  // Turn scrollwheel on when user clicks
+  map.on('focus', function(e) {
+    map.scrollWheelZoom.enable();
+  });
+  // Turn scrollwheel off once the map isn't in the viewport anymore
+  $('#map').waypoint({
+    handler: function(direction) {
+      map.scrollWheelZoom.disable();
+      //alert('map');
+    },
+    offset: '90%'
+  });
+  $('#map').waypoint({
+    handler: function(direction) {
+      map.scrollWheelZoom.disable();
+      //alert('map');
+    },
+    offset: '10%'
+  });
+</script>
+
+
+
+
+</body></html>

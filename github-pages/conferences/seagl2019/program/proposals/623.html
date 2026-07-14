@@ -1,0 +1,318 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<title>SeaGL</title>
+<meta content="" name="description">
+<meta content="" name="author">
+<link rel="stylesheet" href="/assets/application-9ebb7e8df4f6abe04ca09a78e84abc751d81a041f3702dfc6c2ebbdd106ceaa0.css" media="all">
+<script src="/assets/application-47ef59ee7b6477ee91a0ce07fca426e369cd7b348258d0db05fed8e81411ccdc.js"></script>
+<meta name="csrf-param" content="authenticity_token">
+
+
+<meta content="Project Springtime: a DIY backyard hydroponics system developed open-source-style" property="og:title">
+<meta content="https://osem.seagl.org/conferences/seagl2019/program/proposals/623" property="og:url">
+<meta content="Like many, I've recently become fascinated by hydroponics: growing delicious food without soil, right at home, taking up minimal space. Food miles: zero. Freshness: minutes from harvest to plate. Variety: much better than any grocery store. What's not to like?
+
+As a would-be hydroponic food grower, so far, you have two options: either you buy an (expensive) commercial system and remain satisfied with whatever that system lets you grow or do; or you do your own research, build your own and are satisfied with lots of trial and error until your own contraption (maybe) reliably produces the food you want. Can we do better?
+
+Introducing [Project Springtime](https://www.project-springtime.org/): let's apply open-source-style development to building and operating a hydroponics system. While our first system is working quite reliably and well, turning it into an open-source project and evolving it with version control and bug tracking is a new experiment, and I'd like to tell you all about it:
+
+ * We started with a very compact, vertical, backyard, DIY system for the concurrent growing of about 70 plants, mostly copying another system that its creator [documented quite well](https://waterworks-hydro.com/maker-faire-2019.html) on the web.
+ * In several iterations since, we made a number of improvements to mechanical stability, flexibility, avoidance of algae etc.
+ * Since then, we have put the documentation under version control and are publishing it to the web with Hugo and some home-grown code. The docs now contain detailed instructions on how to build the system, how to operate it day to day, troubleshooting and pest control. There are technical drawings for parts, sourcing for the components, 3D-printable parts for further optimization and more.
+
+Given this, anybody with moderate handiman skills (like cutting wood or drilling holes) should be able to set up their own for a few hundred dollars in about a weekend, without having to be an expert in hydroponics.
+
+While not strictly required, electronics and software are under development, and we'll talk about those, too: if the water stopped circulating, or California turns off the power, plants die. So we need sensors, solar power, a battery and mobile phone alerts. If the nutrient and pH numbers move out of range, plants will stop growing. More sensors and alerts. If it's hot, water may need to be replenished. To address these requirements, we now have sensors, an ESP32 and a Raspberry Pi in the loop. One could even add image processing to automatically identify pests and diseases. The sky's the limit if motivated people collaborate, as Linux shows us.
+
+But unlike other open-source projects, with this project, you get not just cool code but delicious veggies! Won't you join us?
+" property="og:description">
+<meta content="SeaGL" property="og:site_name">
+<meta content="https://secure.gravatar.com/avatar/88ded01f5ac55b85bb3dd544dce38989.png?r=PG&amp;s=32" property="og:image">
+<meta content="https://secure.gravatar.com/avatar/88ded01f5ac55b85bb3dd544dce38989.png?r=PG&amp;s=32" property="og:image:secure_url">
+
+</head>
+<body class="conference-seagl2019">
+<div class="navbar navbar-default navbar-fixed-top nav-osem" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target="#main-nav" data-toggle="collapse" type="button">
+<span class="sr-only">
+Toggle navigation
+</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" title="Open Source Event Manager" href="/">SeaGL</a>
+</div>
+<div class="collapse navbar-collapse" id="main-nav">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown visible-desktop">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<span class="fa-solid fa-user"></span>
+Sign In
+<span class="caret"></span>
+</a>
+<div class="dropdown-menu">
+<form action="/accounts/sign_in" accept-charset="UTF-8" method="post"><input type="text" name="user[login]" id="user_login_dd" class="form-control" placeholder="Username / E-Mail" inert="true">
+<input type="password" name="user[password]" id="user_password_dd" class="form-control" placeholder="Password" inert="true">
+<p class="text-right">
+<small>
+<label for="user_remember_me" inert="true">Remember me</label>
+<input type="checkbox" name="user[remember_me]" id="user_remember_me" value="1" inert="true">
+</small>
+</p>
+<button class="btn btn-success btn-block" inert="true">Sign in</button>
+<p class="text-right">
+<br>
+<a class="small btn btn-xs btn-default" data-target="#navbar-devise-help" data-toggle="collapse">
+Need Help?
+</a>
+</p><div class="collapse" id="navbar-devise-help">
+<a href="/accounts/password/new">Forgot your password?</a>
+<br>
+<a href="/accounts/confirmation/new">Didn't receive confirmation instructions?</a>
+<br>
+
+</div>
+<p></p>
+</form></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="messages">
+<div class="container">
+<noscript>
+<style>
+  #content {
+    display: none;
+  }
+</style>
+<h2>
+JavaScript is not enabled
+</h2>
+<p>
+OSEM requires JavaScript to be enabled to function. Please turn on JavaScript in your browser's settings and reload the page to continue.
+</p>
+</noscript>
+
+</div>
+</div>
+<div id="content">
+<div class="container">
+<div class="row">
+<div class="col-md-12 page-header">
+<h2>
+Project Springtime: a DIY backyard hydroponics system developed open-source-style
+<br>
+<small>
+
+</small>
+<div class="btn-group pull-right">
+</div>
+</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-3">
+<h3></h3>
+Presented by:
+<div class="speakerinfo">
+<div class="row">
+<div class="col-md-4">
+<img class="img-responsive img-rounded" src="https://secure.gravatar.com/avatar/88ded01f5ac55b85bb3dd544dce38989.png?r=PG&amp;s=120">
+</div>
+<div class="col-md-8">
+<h4>
+<a href="/users/756">Johannes Ernst</a>
+<br>
+</h4>
+<div class="text-muted">
+from
+Indie Computing Corp.
+</div>
+</div>
+</div>
+<div class="row speakerbio">
+<div class="col-md-12">
+<p>Johannes is an entrepreneurial geek who has built open-source software for almost 20 years, including an identity system, a graph database, a personal knowledge management application, IoT systems and others. He currently works on <a href="https://ubos.net/" rel="nofollow">UBOS</a>, a Linux distribution optimized for self-hosting web applications on hardware controlled by the user. His newest project is Project Springtime.</p>
+
+<p><a href="https://upon2020.com/" rel="nofollow">Blog</a>. <a href="https://indiecomputing.com/" rel="nofollow">Company</a>. <a href="https://www.project-springtime.org/" rel="nofollow">Project</a>. </p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-9">
+<div class="row">
+<div class="col-md-12">
+<div class="lead">
+
+
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<p>
+</p><p>Like many, I've recently become fascinated by hydroponics: growing delicious food without soil, right at home, taking up minimal space. Food miles: zero. Freshness: minutes from harvest to plate. Variety: much better than any grocery store. What's not to like?</p>
+
+<p>As a would-be hydroponic food grower, so far, you have two options: either you buy an (expensive) commercial system and remain satisfied with whatever that system lets you grow or do; or you do your own research, build your own and are satisfied with lots of trial and error until your own contraption (maybe) reliably produces the food you want. Can we do better?</p>
+
+<p>Introducing <a href="https://www.project-springtime.org/" rel="nofollow">Project Springtime</a>: let's apply open-source-style development to building and operating a hydroponics system. While our first system is working quite reliably and well, turning it into an open-source project and evolving it with version control and bug tracking is a new experiment, and I'd like to tell you all about it:</p>
+
+<ul>
+<li>We started with a very compact, vertical, backyard, DIY system for the concurrent growing of about 70 plants, mostly copying another system that its creator <a href="https://waterworks-hydro.com/maker-faire-2019.html" rel="nofollow">documented quite well</a> on the web.</li>
+<li>In several iterations since, we made a number of improvements to mechanical stability, flexibility, avoidance of algae etc.</li>
+<li>Since then, we have put the documentation under version control and are publishing it to the web with Hugo and some home-grown code. The docs now contain detailed instructions on how to build the system, how to operate it day to day, troubleshooting and pest control. There are technical drawings for parts, sourcing for the components, 3D-printable parts for further optimization and more.</li>
+</ul>
+
+<p>Given this, anybody with moderate handiman skills (like cutting wood or drilling holes) should be able to set up their own for a few hundred dollars in about a weekend, without having to be an expert in hydroponics.</p>
+
+<p>While not strictly required, electronics and software are under development, and we'll talk about those, too: if the water stopped circulating, or California turns off the power, plants die. So we need sensors, solar power, a battery and mobile phone alerts. If the nutrient and pH numbers move out of range, plants will stop growing. More sensors and alerts. If it's hot, water may need to be replenished. To address these requirements, we now have sensors, an ESP32 and a Raspberry Pi in the loop. One could even add image processing to automatically identify pests and diseases. The sky's the limit if motivated people collaborate, as Linux shows us.</p>
+
+<p>But unlike other open-source projects, with this project, you get not just cool code but delicious veggies! Won't you join us?</p>
+
+<p></p>
+</div>
+<dl id="proposal-info">
+<div class="col-md-12">
+<dt>Date:</dt>
+<dd>2019 November 16 - 14:00</dd>
+</div>
+<div class="col-md-12">
+<dt>Duration:</dt>
+<dd>20 min</dd>
+</div>
+<div class="col-md-12">
+<dt>Room:</dt>
+<dd>
+TALKS 3179
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Conference:</dt>
+<dd><a href="/conferences/seagl2019">SeaGL 2019 - A Prime Year for Free Software</a></dd>
+</div>
+<div class="col-md-12">
+<dt>Language:</dt>
+<dd></dd>
+</div>
+<div class="col-md-12">
+<dt>Track:</dt>
+<dd>
+<span class="label" style="background-color: #677036; color: white">
+Hardware/IOT
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Difficulty:</dt>
+<dd>
+<span class="label" style="background-color: #32CB2A; color: black;">
+Easy
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<hr>
+<h4>Happening at the same time:</h4>
+<ol>
+<li>
+<a href="/conferences/seagl2019/program/proposals/671">There and Back Again, Reproducibly!
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2019 November 16 14:00
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+TALKS 3178
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2019/program/proposals/676">2019: A Lisp Odyssey
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2019 November 16 14:00
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+TALKS 3180
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2019/program/proposals/670">Once more with style
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2019 November 16 14:00
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+TALKS 3183
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2019/program/proposals/712">TeaGL
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2019 November 16 14:15
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Expo Hall
+</dd>
+<br>
+</dl>
+</ol>
+</div>
+</dl>
+</div>
+<div class="row">
+<div class="col-md-12">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="footer">
+<div class="container">
+<p class="muted text-center">
+<small>
+This tool is
+<a href="http://www.gnu.org/philosophy/free-sw.html">free software</a>,
+released under the
+<a href="http://opensource.org/licenses/MIT">MIT license</a>.
+You can run, copy, distribute, study, change and improve it.
+The source code and the developers are on
+<a href="https://github.com/openSUSE/osem">GitHub</a>.
+</small>
+</p>
+</div>
+</div>
+
+
+
+
+</body></html>

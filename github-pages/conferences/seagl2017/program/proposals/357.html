@@ -1,0 +1,337 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<title>SeaGL</title>
+<meta content="" name="description">
+<meta content="" name="author">
+<link rel="stylesheet" href="/assets/application-9ebb7e8df4f6abe04ca09a78e84abc751d81a041f3702dfc6c2ebbdd106ceaa0.css" media="all">
+<script src="/assets/application-47ef59ee7b6477ee91a0ce07fca426e369cd7b348258d0db05fed8e81411ccdc.js"></script>
+<meta name="csrf-param" content="authenticity_token">
+
+
+<meta content="Hello Gmom!" property="og:title">
+<meta content="https://osem.seagl.org/conferences/seagl2017/program/proposals/357" property="og:url">
+<meta content="#### Abstract
+**Content Warning:** This talk includes references to debilitating illness and death, but the emphasis is on quality of life and family.
+
+After suffering a debilitating stroke, Barbara, my girlfriend's grandmother, was left disabled, bed-bound, and mostly non-verbal. We visited often, and were with her when she passed earlier this year. For Christmas, I built her a web application to be a window into the life of her granddaughter.
+
+Research into providing end-of-life care reveals common feelings of powerlessness, isolation, and loneliness. A small web application provided a sense of connection and relevance, improving the quality of life for both grandmother and granddaughter. The application delivered MMS messages and photos from Barbara's family to a television in her room. The receiving device was a Raspberry Pi Zero. I purchased a phone number through Twilio and created a small Rails application to proxy MMS messages to the Pi Zero via a websocket connection. The tech is ordinary, about as far away from the cutting edge as it gets. I searched for commercial solutions, but couldn't find anything that met her specific situation and abilities. So I built it, and it's now my favorite thing I've ever shipped.
+
+The most important consideration for this project was the UX. For us, the people sending messages, integrating it into an existing communication habit increased the likelihood of regular use. Gmom had some short-term memory impairment, so cycling messages helped her remember them. Her eyesight was great--better than mine--but we still experimented with typography, color contrast, and layout to optimize her reading experience.
+
+Now that she's passed, I'm hoping that the project can be a foundation or inspiration for others to build tools that bring them closer to the people they love. This small project--a $5 computer and some &quot;off-the-shelf&quot; technology--increased the quality of life for all of us. 
+
+#### Goals and Themes
+
+- **UX First**: Technology decisions were made through the lens of UX. Knowing my users well made the product viable.
+- **Off the shelf**: Using off the shelf parts and tools, I was able to increase the quality of life for my family. This is something we can all do.
+- **The power of community**: I was inspired by people I've met through the OSS community.
+
+#### References
+- Rokach, A. (2015) [The Dying and Those Who Care for Them](https://www.omicsonline.org/open-access/the-dying-and-those-who-care-for-them-jpc-1000101.php?aid=66704#5)
+- Ranjana, S. F.R.A.C.P. (2011) [The Loneliness of Visiting](http://www.nejm.org/doi/full/10.1056/NEJMp1013909?query=TOC&amp;)
+- Marie Curie Briefing (undated) [Inequities in palliative care – isolation and loneliness](https://www.mariecurie.org.uk/globalassets/media/documents/policy/briefings-consultations/scotland-briefings/marie-curie-briefing-inequities-isolation-loneliness.pdf)
+" property="og:description">
+<meta content="SeaGL" property="og:site_name">
+<meta content="https://secure.gravatar.com/avatar/bb95f91357bab74a8fc1f9f7d85e2db8.png?r=PG&amp;s=32" property="og:image">
+<meta content="https://secure.gravatar.com/avatar/bb95f91357bab74a8fc1f9f7d85e2db8.png?r=PG&amp;s=32" property="og:image:secure_url">
+
+</head>
+<body class="conference-seagl2017">
+<div class="navbar navbar-default navbar-fixed-top nav-osem" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target="#main-nav" data-toggle="collapse" type="button">
+<span class="sr-only">
+Toggle navigation
+</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" title="Open Source Event Manager" href="/">SeaGL</a>
+</div>
+<div class="collapse navbar-collapse" id="main-nav">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown visible-desktop">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<span class="fa-solid fa-user"></span>
+Sign In
+<span class="caret"></span>
+</a>
+<div class="dropdown-menu">
+<form action="/accounts/sign_in" accept-charset="UTF-8" method="post"><input type="text" name="user[login]" id="user_login_dd" class="form-control" placeholder="Username / E-Mail" inert="true">
+<input type="password" name="user[password]" id="user_password_dd" class="form-control" placeholder="Password" inert="true">
+<p class="text-right">
+<small>
+<label for="user_remember_me" inert="true">Remember me</label>
+<input type="checkbox" name="user[remember_me]" id="user_remember_me" value="1" inert="true">
+</small>
+</p>
+<button class="btn btn-success btn-block" inert="true">Sign in</button>
+<p class="text-right">
+<br>
+<a class="small btn btn-xs btn-default" data-target="#navbar-devise-help" data-toggle="collapse">
+Need Help?
+</a>
+</p><div class="collapse" id="navbar-devise-help">
+<a href="/accounts/password/new">Forgot your password?</a>
+<br>
+<a href="/accounts/confirmation/new">Didn't receive confirmation instructions?</a>
+<br>
+
+</div>
+<p></p>
+</form></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="messages">
+<div class="container">
+<noscript>
+<style>
+  #content {
+    display: none;
+  }
+</style>
+<h2>
+JavaScript is not enabled
+</h2>
+<p>
+OSEM requires JavaScript to be enabled to function. Please turn on JavaScript in your browser's settings and reload the page to continue.
+</p>
+</noscript>
+
+</div>
+</div>
+<div id="content">
+<div class="container">
+<div class="row">
+<div class="col-md-12 page-header">
+<h2>
+Hello Gmom!
+<br>
+<small>
+Pushing back against loneliness in end-of-life care.
+</small>
+<div class="btn-group pull-right">
+<a class="btn btn-success" href="/conferences/seagl2017/schedule">Schedule</a>
+</div>
+</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-3">
+<h3></h3>
+Presented by:
+<div class="speakerinfo">
+<div class="row">
+<div class="col-md-4">
+<img class="img-responsive img-rounded" src="https://secure.gravatar.com/avatar/bb95f91357bab74a8fc1f9f7d85e2db8.png?r=PG&amp;s=120">
+</div>
+<div class="col-md-8">
+<h4>
+<a href="/users/589">Jeremy</a>
+<br>
+</h4>
+</div>
+</div>
+<div class="row speakerbio">
+<div class="col-md-12">
+<p>With a philosophy that eyes technology as the means rather than the end, Jeremy takes a human-centric approach to software development. He utilizes technology as a medium for human expression, building real-world communities, and solving real problems.</p>
+
+<p>He specializes in open-source development using languages like Ruby, JavaScript, and Elixir. Jeremy is also a conference organizer, community advocate, teacher, and world-class hugger.</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-9">
+<div class="row">
+<div class="col-md-12">
+<div class="lead">
+
+
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<p>
+</p><h4>Abstract</h4>
+
+<p><strong>Content Warning:</strong> This talk includes references to debilitating illness and death, but the emphasis is on quality of life and family.</p>
+
+<p>After suffering a debilitating stroke, Barbara, my girlfriend's grandmother, was left disabled, bed-bound, and mostly non-verbal. We visited often, and were with her when she passed earlier this year. For Christmas, I built her a web application to be a window into the life of her granddaughter.</p>
+
+<p>Research into providing end-of-life care reveals common feelings of powerlessness, isolation, and loneliness. A small web application provided a sense of connection and relevance, improving the quality of life for both grandmother and granddaughter. The application delivered MMS messages and photos from Barbara's family to a television in her room. The receiving device was a Raspberry Pi Zero. I purchased a phone number through Twilio and created a small Rails application to proxy MMS messages to the Pi Zero via a websocket connection. The tech is ordinary, about as far away from the cutting edge as it gets. I searched for commercial solutions, but couldn't find anything that met her specific situation and abilities. So I built it, and it's now my favorite thing I've ever shipped.</p>
+
+<p>The most important consideration for this project was the UX. For us, the people sending messages, integrating it into an existing communication habit increased the likelihood of regular use. Gmom had some short-term memory impairment, so cycling messages helped her remember them. Her eyesight was great--better than mine--but we still experimented with typography, color contrast, and layout to optimize her reading experience.</p>
+
+<p>Now that she's passed, I'm hoping that the project can be a foundation or inspiration for others to build tools that bring them closer to the people they love. This small project--a $5 computer and some "off-the-shelf" technology--increased the quality of life for all of us. </p>
+
+<h4>Goals and Themes</h4>
+
+<ul>
+<li>
+<strong>UX First</strong>: Technology decisions were made through the lens of UX. Knowing my users well made the product viable.</li>
+<li>
+<strong>Off the shelf</strong>: Using off the shelf parts and tools, I was able to increase the quality of life for my family. This is something we can all do.</li>
+<li>
+<strong>The power of community</strong>: I was inspired by people I've met through the OSS community.</li>
+</ul>
+
+<h4>References</h4>
+
+<ul>
+<li>Rokach, A. (2015) <a href="https://www.omicsonline.org/open-access/the-dying-and-those-who-care-for-them-jpc-1000101.php?aid=66704#5" rel="nofollow">The Dying and Those Who Care for Them</a>
+</li>
+<li>Ranjana, S. F.R.A.C.P. (2011) <a href="http://www.nejm.org/doi/full/10.1056/NEJMp1013909?query=TOC&amp;" rel="nofollow">The Loneliness of Visiting</a>
+</li>
+<li>Marie Curie Briefing (undated) <a href="https://www.mariecurie.org.uk/globalassets/media/documents/policy/briefings-consultations/scotland-briefings/marie-curie-briefing-inequities-isolation-loneliness.pdf" rel="nofollow">Inequities in palliative care – isolation and loneliness</a>
+</li>
+</ul>
+
+<p></p>
+</div>
+<dl id="proposal-info">
+<div class="col-md-12">
+<dt>Date:</dt>
+<dd>2017 October  7 - 16:30</dd>
+</div>
+<div class="col-md-12">
+<dt>Duration:</dt>
+<dd>50 min</dd>
+</div>
+<div class="col-md-12">
+<dt>Room:</dt>
+<dd>
+Room 5102
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Conference:</dt>
+<dd><a href="/conferences/seagl2017">Seattle GNU/Linux Conference 2017</a></dd>
+</div>
+<div class="col-md-12">
+<dt>Language:</dt>
+<dd></dd>
+</div>
+<div class="col-md-12">
+<dt>Track:</dt>
+<dd>
+<span class="label" style="background-color: #677036; color: white">
+Design/UI/UX/Accessibility
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Difficulty:</dt>
+<dd>
+<span class="label" style="background-color: #70EF69; color: black;">
+Easy
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<hr>
+<h4>Happening at the same time:</h4>
+<ol>
+<li>
+<a href="/conferences/seagl2017/program/proposals/386">Intermediate shell scripting: getting more bash for your $
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2017 October  7 16:30
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 1113
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2017/program/proposals/267">Open Broadcasting Software
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2017 October  7 16:30
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3199
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2017/program/proposals/362">Taking license compatibility semi-seriously
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2017 October  7 16:30
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 5104
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2017/program/proposals/287">How to build a CD pipeline for your systems
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2017 October  7 16:30
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3187
+</dd>
+<br>
+</dl>
+</ol>
+</div>
+</dl>
+</div>
+<div class="row">
+<div class="col-md-12">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="footer">
+<div class="container">
+<p class="muted text-center">
+<small>
+This tool is
+<a href="http://www.gnu.org/philosophy/free-sw.html">free software</a>,
+released under the
+<a href="http://opensource.org/licenses/MIT">MIT license</a>.
+You can run, copy, distribute, study, change and improve it.
+The source code and the developers are on
+<a href="https://github.com/openSUSE/osem">GitHub</a>.
+</small>
+</p>
+</div>
+</div>
+
+
+
+
+</body></html>
