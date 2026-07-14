@@ -1,0 +1,1480 @@
+<schedule>
+<version>41</version>
+<conference>
+<acronym>seagl2021</acronym>
+<title>SeaGL 2021</title>
+<start>2021-11-05</start>
+<end>2021-11-06</end>
+<days>2</days>
+<timeslot_duration>00:05</timeslot_duration>
+</conference>
+<day date="2021-11-05" index="1">
+<room name="Keynotes">
+<event guid="YTGTSPH0u1SqbU9bqBLhKw" id="869">
+<date>2021-11-05T02:00:00-07:00</date>
+<start>09:00</start>
+<duration>00:10</duration>
+<room>Keynotes</room>
+<type>Opening Remarks</type>
+<language/>
+<slug>869-welcome-to-seagl-2021</slug>
+<title>Welcome to SeaGL 2021!</title>
+<subtitle/>
+<track/>
+<abstract>Welcome to SeaGL 2021!</abstract>
+<description>Welcome to SeaGL 2021!</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1211">SeaGL</person>
+</persons>
+</event>
+<event guid="i4SASYUswKNhO6qi6l-lNg" id="865">
+<date>2021-11-05T02:10:00-07:00</date>
+<start>09:10</start>
+<duration>00:20</duration>
+<room>Keynotes</room>
+<type>Keynote</type>
+<language/>
+<slug>865-keynote-hack-the-planet-how-to-get-stuff-done-in-open-source-elana-hashman</slug>
+<title>[Keynote] HACK THE PLANET: how to get stuff done in open source (Elana Hashman)</title>
+<subtitle/>
+<track/>
+<abstract>Keynote Presentation</abstract>
+<description>Keynote Presentation</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1208">Elana Hashman</person>
+</persons>
+</event>
+<event guid="LbShYm0Upt2YDvL9XpubYw" id="871">
+<date>2021-11-05T02:35:00-07:00</date>
+<start>09:35</start>
+<duration>00:20</duration>
+<room>Keynotes</room>
+<type>Keynote</type>
+<language/>
+<slug>871-keynote-marie-nordin</slug>
+<title>[Keynote] (Marie Nordin)</title>
+<subtitle/>
+<track/>
+<abstract>Keynote Presentation</abstract>
+<description>Keynote Presentation</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1222">Marie Nordin</person>
+</persons>
+</event>
+</room>
+<room name="Room 3">
+<event guid="Pi7sQR3AR7AXIy7Zwb0ayg" id="841">
+<date>2021-11-05T03:10:00-07:00</date>
+<start>10:10</start>
+<duration>00:30</duration>
+<room>Room 3</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>841-ssh-from-your-devops-ci-cd-securely</slug>
+<title>SSH from your DevOps CI/CD securely</title>
+<subtitle/>
+<track>DevOps</track>
+<abstract>Your CI/CD pipeline needs to make things happen, and often that means hitting other machines via SSH or rsync. Since no human is at the keyboard to type a password, how do you automate this securely? We&apos;ll show alternatives to passwordless keys in your repository (BAD!!!), describe the security implications, and how you can assure that these keys are usable only for the commands they require.</abstract>
+<description>Your CI/CD pipeline needs to make things happen, and often that means hitting other machines via SSH or rsync. Since no human is at the keyboard to type a password, how do you automate this securely? We&apos;ll show alternatives to passwordless keys in your repository (BAD!!!), describe the security implications, and how you can assure that these keys are usable only for the commands they require.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="68">Bri Hatch</person>
+</persons>
+</event>
+<event guid="V4mTExRYmBk0ojmzKaGB6g" id="843">
+<date>2021-11-05T03:50:00-07:00</date>
+<start>10:50</start>
+<duration>00:30</duration>
+<room>Room 3</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>843-predictive-modeling-and-privacy</slug>
+<title>Predictive Modeling and Privacy</title>
+<subtitle/>
+<track/>
+<abstract>We&apos;re defining predictive modeling as the intentional building of a model to predict someone&apos;s actions and desires. Predictive modeling can be a really useful tool -- it can help us customize environments to our emotional states, anticipate needs, and help us find the things we want even when we don&apos;t know we want them. Predictive modeling can also be a scary violation of privacy, letting others know about our inner desires regardless of what we want to share. Even if someone consents to a model being built from them, it is impossible to understand the ways they might be implemented in the future or the direction of technological development.
+
+In this session we&apos;ll be talking a bit about ow predictive modeling already exists and ways it could develop in the future; why it is something we should be thinking about; and what sorts of things we can do as individuals and collectives.</abstract>
+<description>We&apos;re defining predictive modeling as the intentional building of a model to predict someone&apos;s actions and desires. Predictive modeling can be a really useful tool -- it can help us customize environments to our emotional states, anticipate needs, and help us find the things we want even when we don&apos;t know we want them. Predictive modeling can also be a scary violation of privacy, letting others know about our inner desires regardless of what we want to share. Even if someone consents to a model being built from them, it is impossible to understand the ways they might be implemented in the future or the direction of technological development.
+
+In this session we&apos;ll be talking a bit about ow predictive modeling already exists and ways it could develop in the future; why it is something we should be thinking about; and what sorts of things we can do as individuals and collectives.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="581">Molly de Blanc</person>
+</persons>
+</event>
+<event guid="fhYRb75mwc2t7kWajNqQgA" id="854">
+<date>2021-11-05T06:15:00-07:00</date>
+<start>13:15</start>
+<duration>00:30</duration>
+<room>Room 3</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>854-introduction-to-nextcloud</slug>
+<title>Introduction to Nextcloud</title>
+<subtitle/>
+<track>Virtual Life &amp; Work</track>
+<abstract>Nextcloud for private, secure cloud features such as collaboration tools, Enterprise File Sync and Share and phone syncing.
+
+Your data, your cloud.
+
+Nextcloud integrates with Collabora Online for collaborative office suite.
+
+In addition to the Nextcloud Talk for video calls it integrates with Big Blue Button for full classroom and meeting style video conferencing.
+
+Nextcloud also has options like phone contact and file sync, web forms, project management and password management.
+
+Nextcloud is used by large, enterprise organizations, but can also be self-hosted at home for personal use. There are commercial vendors that offer hosting and some Free Software organizations offer hosting as well.
+
+Nextcloud was created to be Free Software. Using the AGPL helps ensure it will remain Free in the future.
+
+Attendees will learn about:
+
+* Basic features of Nextcloud
+* Integrations with Collabora Online office suite and Big Blue Button
+* Nextcloud apps
+* Nextcloud history
+* Hosting options</abstract>
+<description>Nextcloud for private, secure cloud features such as collaboration tools, Enterprise File Sync and Share and phone syncing.
+
+Your data, your cloud.
+
+Nextcloud integrates with Collabora Online for collaborative office suite.
+
+In addition to the Nextcloud Talk for video calls it integrates with Big Blue Button for full classroom and meeting style video conferencing.
+
+Nextcloud also has options like phone contact and file sync, web forms, project management and password management.
+
+Nextcloud is used by large, enterprise organizations, but can also be self-hosted at home for personal use. There are commercial vendors that offer hosting and some Free Software organizations offer hosting as well.
+
+Nextcloud was created to be Free Software. Using the AGPL helps ensure it will remain Free in the future.
+
+Attendees will learn about:
+
+* Basic features of Nextcloud
+* Integrations with Collabora Online office suite and Big Blue Button
+* Nextcloud apps
+* Nextcloud history
+* Hosting options</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="363">der.hans</person>
+</persons>
+</event>
+<event guid="lYlQ_OCVuBoUg2WRMY-06A" id="861">
+<date>2021-11-05T07:00:00-07:00</date>
+<start>14:00</start>
+<duration>00:30</duration>
+<room>Room 3</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>861-developing-on-nextcloud</slug>
+<title>Developing on Nextcloud</title>
+<subtitle>Building on the Google Workspace Alternative</subtitle>
+<track/>
+<abstract>NextCloud is an open source alternative to Google Workspace. It has document editing, time tracking, project management tools, and many more apps that you might want to use in business or activism, but there&apos;s a lot that could be made better. YOU can help make it better!
+
+This talk will show you what you need to do to get started with improving the core apps for NextCloud or developing your own using PHP and Javascript.</abstract>
+<description>NextCloud is an open source alternative to Google Workspace. It has document editing, time tracking, project management tools, and many more apps that you might want to use in business or activism, but there&apos;s a lot that could be made better. YOU can help make it better!
+
+This talk will show you what you need to do to get started with improving the core apps for NextCloud or developing your own using PHP and Javascript.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="398">Elior Sterling</person>
+</persons>
+</event>
+<event guid="xMDNpVIK7TmRON4x1VtpmQ" id="848">
+<date>2021-11-05T08:30:00-07:00</date>
+<start>15:30</start>
+<duration>00:30</duration>
+<room>Room 3</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>848-building-and-supporting-open-source-communities-through-metrics</slug>
+<title>Building and Supporting Open Source Communities Through Metrics</title>
+<subtitle/>
+<track>Community</track>
+<abstract>Each community is different and therefore requires different metrics for data-driven decisions about building and supporting it. The CHAOSS Project was started to help understand open source communities through metrics. We have had many conversations and realized that everyone cares about a different aspect of the community. This talk will share what we have learned in the CHAOSS Project about having metrics for open source communities. Once the right metrics have been decided on, challenges need to be overcome, both technical and organizational challenges. Finally, this talk will share real-world examples of how open source community metrics have been used to help build and support open source communities.</abstract>
+<description>Each community is different and therefore requires different metrics for data-driven decisions about building and supporting it. The CHAOSS Project was started to help understand open source communities through metrics. We have had many conversations and realized that everyone cares about a different aspect of the community. This talk will share what we have learned in the CHAOSS Project about having metrics for open source communities. Once the right metrics have been decided on, challenges need to be overcome, both technical and organizational challenges. Finally, this talk will share real-world examples of how open source community metrics have been used to help build and support open source communities.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1163">Georg Link</person>
+</persons>
+</event>
+</room>
+<room name="Room 2">
+<event guid="EaPCEBdoDFhuc782FVyeZQ" id="824">
+<date>2021-11-05T03:10:00-07:00</date>
+<start>10:10</start>
+<duration>00:30</duration>
+<room>Room 2</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>824-responding-thoughtfully-to-a-crisis</slug>
+<title>Responding Thoughtfully to a Crisis</title>
+<subtitle/>
+<track/>
+<abstract>Hopefully, you will never need this talk but if you do face a crisis you&apos;ll want a plan -- or at least a plan for making a plan. When a project hits crisis mode, often things will start to move very fast. Thinking about how you want to respond to emergencies and how you want to be seen at the end of the fiasco is worth thinking and talking about in advance. This talk is for folks who suspect that one day it could be their turn to handle a crisis and want to be as prepared as possible when it happens to them. These topics will be covered:
+
+* Preserving your organization&apos;s image 
+* How to work together as a team
+* When to bring in a specialist
+* Learning from what happened
+
+Focusing on the big picture of your organization&apos;s goals and thinking holistically about your relationships before you dive into the details, will help you free your mind from all the &quot;what if we aren&apos;t doing the right thing?&quot; doubts that can creep in during crisis management. This talk will help you sort through your options so you can move forward and offer some advice on taking good care of your team-mates while things are tough. There are also some crucial actions to take as you get to the end of the current crisis that you&apos;ll want to take care of before you declare things &quot;finished!&quot; so you can make sure you&apos;re set up for future success.</abstract>
+<description>Hopefully, you will never need this talk but if you do face a crisis you&apos;ll want a plan -- or at least a plan for making a plan. When a project hits crisis mode, often things will start to move very fast. Thinking about how you want to respond to emergencies and how you want to be seen at the end of the fiasco is worth thinking and talking about in advance. This talk is for folks who suspect that one day it could be their turn to handle a crisis and want to be as prepared as possible when it happens to them. These topics will be covered:
+
+* Preserving your organization&apos;s image 
+* How to work together as a team
+* When to bring in a specialist
+* Learning from what happened
+
+Focusing on the big picture of your organization&apos;s goals and thinking holistically about your relationships before you dive into the details, will help you free your mind from all the &quot;what if we aren&apos;t doing the right thing?&quot; doubts that can creep in during crisis management. This talk will help you sort through your options so you can move forward and offer some advice on taking good care of your team-mates while things are tough. There are also some crucial actions to take as you get to the end of the current crisis that you&apos;ll want to take care of before you declare things &quot;finished!&quot; so you can make sure you&apos;re set up for future success.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="32">Deb Nicholson</person>
+</persons>
+</event>
+<event guid="9No6k_37PHuVt8Nu5sxGcQ" id="832">
+<date>2021-11-05T03:50:00-07:00</date>
+<start>10:50</start>
+<duration>00:30</duration>
+<room>Room 2</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>832-intro-to-jq-grep-for-json</slug>
+<title>Intro to jq: grep for JSON</title>
+<subtitle/>
+<track>Tools</track>
+<abstract>Want to parse JSON on the command line?
+Want a pipeable inline tool for JSON manipulation?
+
+jq is a command line tool, easy to fit into your data pipeline.
+It can parse, search and manipulate JSON documents.
+
+This talk will cover an introduction to jq and using it to search JSON objects similar to how grep is used for plain text.
+
+Attendees will learn:
+
+* basic parts of JSON
+* key search
+* value matching
+* string match
+* using variables with jq
+* date handling
+* conditionals
+* regular expressions
+* prettified JSON output
+* plain JSON output
+* non JSON output</abstract>
+<description>Want to parse JSON on the command line?
+Want a pipeable inline tool for JSON manipulation?
+
+jq is a command line tool, easy to fit into your data pipeline.
+It can parse, search and manipulate JSON documents.
+
+This talk will cover an introduction to jq and using it to search JSON objects similar to how grep is used for plain text.
+
+Attendees will learn:
+
+* basic parts of JSON
+* key search
+* value matching
+* string match
+* using variables with jq
+* date handling
+* conditionals
+* regular expressions
+* prettified JSON output
+* plain JSON output
+* non JSON output</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="363">der.hans</person>
+</persons>
+</event>
+<event guid="0RNtAcO2gLqamgUIgSIN3Q" id="845">
+<date>2021-11-05T06:15:00-07:00</date>
+<start>13:15</start>
+<duration>00:30</duration>
+<room>Room 2</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>845-lessons-learned-from-a-ransomware-attack</slug>
+<title>Lessons Learned from a Ransomware Attack</title>
+<subtitle/>
+<track/>
+<abstract>Please see https://www.usenix.org/conference/lisa21/presentation/kacoroski for a longer version of the talk as I gave it as a Keynote at the LISA 2021 conference.  I would love to have more time, but will fit the key points into 20 minutes if that is all I have. Abstract is:
+
+This talk covers a ransomware attack on medium size school district (23K students, 4K staff). We start with the timeline of the attack that was determined by forensic analysis, cover what was damaged in the attack, and then cover the attack recovery process. Then we&apos;ll discuss changes that were made to avoid and mitigate any future attacks. We wrap up with the lessons learned during this attack in the hope that they will help you to avoid and recover quicker if you do experience a ransomware attack.
+
+After this talk you will have a better understanding of how an attack happens, what kind of alerts may be symptoms of an attack, what to do in case you are attacked, what happens after you are attacked, and what actions you can take now to avoid and mitigate a ransomware attack.
+
+cheers,
+
+ski</abstract>
+<description>Please see https://www.usenix.org/conference/lisa21/presentation/kacoroski for a longer version of the talk as I gave it as a Keynote at the LISA 2021 conference.  I would love to have more time, but will fit the key points into 20 minutes if that is all I have. Abstract is:
+
+This talk covers a ransomware attack on medium size school district (23K students, 4K staff). We start with the timeline of the attack that was determined by forensic analysis, cover what was damaged in the attack, and then cover the attack recovery process. Then we&apos;ll discuss changes that were made to avoid and mitigate any future attacks. We wrap up with the lessons learned during this attack in the hope that they will help you to avoid and recover quicker if you do experience a ransomware attack.
+
+After this talk you will have a better understanding of how an attack happens, what kind of alerts may be symptoms of an attack, what to do in case you are attacked, what happens after you are attacked, and what actions you can take now to avoid and mitigate a ransomware attack.
+
+cheers,
+
+ski</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="38">Ski</person>
+</persons>
+</event>
+<event guid="xyRRYdZDexbaluzJQ08Ysw" id="834">
+<date>2021-11-05T07:00:00-07:00</date>
+<start>14:00</start>
+<duration>00:30</duration>
+<room>Room 2</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>834-the-stories-we-don-t-tell</slug>
+<title>The Stories We Don&apos;t Tell</title>
+<subtitle>How open-source communities can break barriers to entry</subtitle>
+<track>Tech Culture</track>
+<abstract>It&apos;s easy to tell stories about people whose experience in the tech industry is unusual.  Some of those stories are focused on innovators, but others are focused on &apos;trailblazers&apos; from marginalised and under-represented groups.  Articles like these often focus on the characteristics that these trailblazers exhibit - strength, perseverance, resilience.  However, that&apos;s only one part of the story.  The ways in which under-represented people enter, experience, and hopefully thrive in our industry are far more complex.
+
+Very few people advance their careers on positive attributes alone.  For those from marginalised groups, their tech experience depends on the managers, companies, and communities who put in the time and effort to identify, employ, and sponsor them through their careers.  Open-source communities have a role to play in this process; not only are they a frequent first point of contact for young folks and potential career-changers, they&apos;re also a place where people are free to learn and make mistakes outside a formal employment structure, with the support of mentors and long-time community members.
+
+In this talk, we&apos;ll analyse what it means to be successful when nobody in the room looks like you, and break down the narrative of the trailblazers in the tech industry.  Then, we&apos;ll look at the role that technical groups and communities play in increasing diversity and fostering a sense of belonging in the industry.  By the end of the session, you will have learned ways to use your energy to shape open-source communities where difference is both ordinary and celebrated, and also how you can start to translate that into a commercial workplace.</abstract>
+<description>It&apos;s easy to tell stories about people whose experience in the tech industry is unusual.  Some of those stories are focused on innovators, but others are focused on &apos;trailblazers&apos; from marginalised and under-represented groups.  Articles like these often focus on the characteristics that these trailblazers exhibit - strength, perseverance, resilience.  However, that&apos;s only one part of the story.  The ways in which under-represented people enter, experience, and hopefully thrive in our industry are far more complex.
+
+Very few people advance their careers on positive attributes alone.  For those from marginalised groups, their tech experience depends on the managers, companies, and communities who put in the time and effort to identify, employ, and sponsor them through their careers.  Open-source communities have a role to play in this process; not only are they a frequent first point of contact for young folks and potential career-changers, they&apos;re also a place where people are free to learn and make mistakes outside a formal employment structure, with the support of mentors and long-time community members.
+
+In this talk, we&apos;ll analyse what it means to be successful when nobody in the room looks like you, and break down the narrative of the trailblazers in the tech industry.  Then, we&apos;ll look at the role that technical groups and communities play in increasing diversity and fostering a sense of belonging in the industry.  By the end of the session, you will have learned ways to use your energy to shape open-source communities where difference is both ordinary and celebrated, and also how you can start to translate that into a commercial workplace.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1143">Dawn Cooper</person>
+</persons>
+</event>
+<event guid="Fe1ebVQMO9fXC-fOo2tz4A" id="851">
+<date>2021-11-05T08:30:00-07:00</date>
+<start>15:30</start>
+<duration>00:30</duration>
+<room>Room 2</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>851-software-tools-for-collective-self-governance</slug>
+<title>Software Tools for Collective Self-Governance</title>
+<subtitle/>
+<track>Tools</track>
+<abstract>Software systems embed power relationships in their code through their design and in particular through their permissions systems. Even highly collaborative software often relies on the &quot;Benevolent Dictator For Life&quot; model of community and resource management, with a single account given power they may or may not delegate.
+
+While this is the dominant model of governance embedded in technology, it&apos;s certainly not the only model. This talk will provide an overview of software projects - most free/open source - which provide ways for governments, institutions, communities, and even groups of internet strangers to govern themselves and their resources in a more democratic way.</abstract>
+<description>Software systems embed power relationships in their code through their design and in particular through their permissions systems. Even highly collaborative software often relies on the &quot;Benevolent Dictator For Life&quot; model of community and resource management, with a single account given power they may or may not delegate.
+
+While this is the dominant model of governance embedded in technology, it&apos;s certainly not the only model. This talk will provide an overview of software projects - most free/open source - which provide ways for governments, institutions, communities, and even groups of internet strangers to govern themselves and their resources in a more democratic way.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="148">Shauna Gordon-McKeon</person>
+</persons>
+</event>
+</room>
+<room name="Room 1">
+<event guid="lI0d_AQV9Q6VVMrVFRT9kw" id="836">
+<date>2021-11-05T03:10:00-07:00</date>
+<start>10:10</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>836-floss-daily-but-flo-all-the-time</slug>
+<title>FLOSS daily — but FLO all the time</title>
+<subtitle/>
+<track>Tech Culture</track>
+<abstract>The important concepts in technology and collaboration that were pioneered by the Free Software Movement are *also* pertinent *beyond* software. Both the term &quot;Free Software&quot; and the common acronym FLOSS (*Free / Libre / Open Source Software*) are limited to software programs. So, we use the broader term **FLO** to bring our ethical and creative values to a wide range of other areas. FLO values matter in hardware, science and medicine, governance, music and art, and many other domains.
+
+FLO is about people, communities, and cultures rather than about the products themselves. As Cory Doctorow emphasizes, *information* doesn&apos;t want to be free, *people* want to be free. That&apos;s why the FLO movement emphasizes people-first principles. FLO encompasses more than licensing and source availability. The FLO world that we wish to see is one in which all of us are both legally and *practically* able to use, study, adapt, and share creative resources in *all* the different facets of our lives.
+
+This session will address why FLO matters as a term as well as a movement. The discussion will be facilitated by three FLO advocates who have experience with hardware and (FLOSS) software, community development, music education and performance, fundraising, and beyond. The audience is invited to participate via a live dialog while we explore getting &apos;into the FLO&apos;.</abstract>
+<description>The important concepts in technology and collaboration that were pioneered by the Free Software Movement are *also* pertinent *beyond* software. Both the term &quot;Free Software&quot; and the common acronym FLOSS (*Free / Libre / Open Source Software*) are limited to software programs. So, we use the broader term **FLO** to bring our ethical and creative values to a wide range of other areas. FLO values matter in hardware, science and medicine, governance, music and art, and many other domains.
+
+FLO is about people, communities, and cultures rather than about the products themselves. As Cory Doctorow emphasizes, *information* doesn&apos;t want to be free, *people* want to be free. That&apos;s why the FLO movement emphasizes people-first principles. FLO encompasses more than licensing and source availability. The FLO world that we wish to see is one in which all of us are both legally and *practically* able to use, study, adapt, and share creative resources in *all* the different facets of our lives.
+
+This session will address why FLO matters as a term as well as a movement. The discussion will be facilitated by three FLO advocates who have experience with hardware and (FLOSS) software, community development, music education and performance, fundraising, and beyond. The audience is invited to participate via a live dialog while we explore getting &apos;into the FLO&apos;.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="929">Athan Spathas</person>
+<person id="54">Aaron Wolf</person>
+<person id="87">Wm Salt Hale</person>
+</persons>
+</event>
+<event guid="YLCymIn9M_PuNZqN9FcrBg" id="827">
+<date>2021-11-05T03:50:00-07:00</date>
+<start>10:50</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>827-postgresql-participation-in-google-s-summer-of-code</slug>
+<title>PostgreSQL Participation in Google&apos;s Summer of Code</title>
+<subtitle/>
+<track>Community</track>
+<abstract>The [PostgreSQL](https://www.postgresql.org/) community has participated in the international [Google Summer of Code](https://summerofcode.withgoogle.com/) program for many years now.  This program is focused on introducing students with developing open source software.
+
+This presentation gives a brief overview of the program, the software projects that the PostgreSQL community mentored, and the commitment needed to have a successful summer.
+
+The PostgreSQL organization&apos;s projects ranged from command line utilities, Web applications, testing tools, extensions to PostgreSQL and other database related software.
+
+PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.</abstract>
+<description>The [PostgreSQL](https://www.postgresql.org/) community has participated in the international [Google Summer of Code](https://summerofcode.withgoogle.com/) program for many years now.  This program is focused on introducing students with developing open source software.
+
+This presentation gives a brief overview of the program, the software projects that the PostgreSQL community mentored, and the commitment needed to have a successful summer.
+
+The PostgreSQL organization&apos;s projects ranged from command line utilities, Web applications, testing tools, extensions to PostgreSQL and other database related software.
+
+PostgreSQL is a powerful, open source object-relational database system with over 30 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1152">Mark Wong</person>
+</persons>
+</event>
+<event guid="oLzuHZVOlF6iYRQ7TSNr_g" id="868">
+<date>2021-11-05T04:30:00-07:00</date>
+<start>11:30</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>868-lightning-talks</slug>
+<title>Lightning Talks</title>
+<subtitle/>
+<track/>
+<abstract>Lightning Talks</abstract>
+<description>Lightning Talks</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1211">SeaGL</person>
+</persons>
+</event>
+<event guid="CiQ0R2j0m6GcGBtEh8ZzAg" id="821">
+<date>2021-11-05T06:15:00-07:00</date>
+<start>13:15</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>821-json-document-validation-in-mysql-8-0</slug>
+<title>JSON Document Validation in MySQL 8.0</title>
+<subtitle/>
+<track>Tools</track>
+<abstract>JSON is a great free form way of interchanging data with minimal data type checking. Relational databases are strictly structured systems to store data with many types of data checks to make sure the data meets rigorous formatting standard. Most databases now allow you to store that free form data in their structured framework.  So how do you check that free form data for things like required fields, proper data types, and that the data is within a pre-set range?  The wonderful folks at JSON-Schmea.org have devised a way to do all that and we will look at how MySQL implemented their templating system to verify that you JSON document going into your relational database meets your criteria.</abstract>
+<description>JSON is a great free form way of interchanging data with minimal data type checking. Relational databases are strictly structured systems to store data with many types of data checks to make sure the data meets rigorous formatting standard. Most databases now allow you to store that free form data in their structured framework.  So how do you check that free form data for things like required fields, proper data types, and that the data is within a pre-set range?  The wonderful folks at JSON-Schmea.org have devised a way to do all that and we will look at how MySQL implemented their templating system to verify that you JSON document going into your relational database meets your criteria.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="310">davidmstokes</person>
+</persons>
+</event>
+<event guid="Y3uKi6im9rXQIKPhhIwvcQ" id="867">
+<date>2021-11-05T07:45:00-07:00</date>
+<start>14:45</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>Afternoon Break</type>
+<language/>
+<slug>867-friday-booth-crawl</slug>
+<title>Friday Booth Crawl</title>
+<subtitle/>
+<track/>
+<abstract>Visit our lovely virtual expo area in the Social track!</abstract>
+<description>Visit our lovely virtual expo area in the Social track!</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1211">SeaGL</person>
+</persons>
+</event>
+<event guid="6rvVOk4bXVVZbQ97JV91MA" id="839">
+<date>2021-11-05T08:30:00-07:00</date>
+<start>15:30</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>839-good-shell-patterns</slug>
+<title>Good Shell Patterns</title>
+<subtitle/>
+<track>Miscellaneous</track>
+<abstract>We&apos;ll discuss tried-and-true code snippets you can use to make your code more reliable, easier to read, and quicker to debug. Enjoy the elegance of &quot;cd $(dirname $0)&quot;, performing actions only on successful exit, and informational help messages. We&apos;ll cover all those minor changes that continually come up in our code review sessions that reap outsized rewards.</abstract>
+<description>We&apos;ll discuss tried-and-true code snippets you can use to make your code more reliable, easier to read, and quicker to debug. Enjoy the elegance of &quot;cd $(dirname $0)&quot;, performing actions only on successful exit, and informational help messages. We&apos;ll cover all those minor changes that continually come up in our code review sessions that reap outsized rewards.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="68">Bri Hatch</person>
+</persons>
+</event>
+</room>
+<room name="Social">
+<event guid="o9NgJjJBWcsEb1xdRcG6Sg" id="872">
+<date>2021-11-05T09:30:00-07:00</date>
+<start>16:30</start>
+<duration>01:00</duration>
+<room>Social</room>
+<type>Evening Hour</type>
+<language/>
+<slug>872-devops-party-games</slug>
+<title>DevOps Party Games</title>
+<subtitle>SeaGL Edition!</subtitle>
+<track/>
+<abstract>The DevOps part game is coming to SeaGL! Whoo!!
+
+https://devopspartygames.com/
+
+Please take a minute to sign up for Twitch and then join us here, https://www.twitch.tv/devopspartygames </abstract>
+<description>The DevOps part game is coming to SeaGL! Whoo!!
+
+https://devopspartygames.com/
+
+Please take a minute to sign up for Twitch and then join us here, https://www.twitch.tv/devopspartygames </description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1211">SeaGL</person>
+</persons>
+</event>
+<event guid="PQCFg2USDrHXadl8Tcps_g" id="873">
+<date>2021-11-05T10:45:00-07:00</date>
+<start>17:45</start>
+<duration>01:30</duration>
+<room>Social</room>
+<type>Evening Late</type>
+<language/>
+<slug>873-cocktails-and-mocktails-with-mako</slug>
+<title>Cocktails and Mocktails with Mako</title>
+<subtitle>BYO!</subtitle>
+<track/>
+<abstract>[Here&apos;s](https://wiki.mako.cc/SeagGL_Cocktail_Hour_2021) the list of ingredients that you may want to procure in advance -- but you&apos;re also welcome to join and *muddle* through with whatever you already have. Join us in the Social track!</abstract>
+<description>[Here&apos;s](https://wiki.mako.cc/SeagGL_Cocktail_Hour_2021) the list of ingredients that you may want to procure in advance -- but you&apos;re also welcome to join and *muddle* through with whatever you already have. Join us in the Social track!</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1211">SeaGL</person>
+</persons>
+</event>
+</room>
+</day>
+<day date="2021-11-06" index="2">
+<room name="Social">
+<event guid="KnBMBG9HC8bkA94WwxRw3w" id="874">
+<date>2021-11-06T02:15:00-07:00</date>
+<start>09:15</start>
+<duration>00:15</duration>
+<room>Social</room>
+<type>Costume Contest</type>
+<language/>
+<slug>874-costume-contest</slug>
+<title>Costume contest!</title>
+<subtitle>All attendees are welcome</subtitle>
+<track/>
+<abstract>Prizes for 
+- Most Creative 
+- Most Nerdy 
+- Audience choice, don&apos;t forget to vote!
+
+The costume contest is all-ages and should be considered a PG event. 
+
+Winners will be announced right before TeaGL at 2&apos;30pm on Saturday. </abstract>
+<description>Prizes for 
+- Most Creative 
+- Most Nerdy 
+- Audience choice, don&apos;t forget to vote!
+
+The costume contest is all-ages and should be considered a PG event. 
+
+Winners will be announced right before TeaGL at 2&apos;30pm on Saturday. </description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1211">SeaGL</person>
+</persons>
+</event>
+<event guid="P_ZKv5LFe6lg2t7bNHUWiA" id="875">
+<date>2021-11-06T07:30:00-07:00</date>
+<start>14:30</start>
+<duration>00:15</duration>
+<room>Social</room>
+<type>Costume Contest</type>
+<language/>
+<slug>875-winners-announced</slug>
+<title>Winners announced!</title>
+<subtitle>from the morning&apos;s costume contest</subtitle>
+<track/>
+<abstract>Winners announced! Join us in the Social track!
+Prizes for 
+- Most Creative 
+- Most Nerdy 
+- Audience choice, don&apos;t forget to vote!
+
+[Vote here between 10am and 2pm!](https://forms.gle/PP4RN9FwT5dQmwc39)
+
+</abstract>
+<description>Winners announced! Join us in the Social track!
+Prizes for 
+- Most Creative 
+- Most Nerdy 
+- Audience choice, don&apos;t forget to vote!
+
+[Vote here between 10am and 2pm!](https://forms.gle/PP4RN9FwT5dQmwc39)
+
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1211">SeaGL</person>
+</persons>
+</event>
+<event guid="tI10x1sGVxXdbZx4KdBueg" id="870">
+<date>2021-11-06T07:45:00-07:00</date>
+<start>14:45</start>
+<duration>00:30</duration>
+<room>Social</room>
+<type>Afternoon Break</type>
+<language/>
+<slug>870-saturday-teagl</slug>
+<title>Saturday TeaGL</title>
+<subtitle/>
+<track/>
+<abstract>Enjoy some tea drinking and tea talk and meet your swap buddy if you participated in this year&apos;s swap. Join us in the Social track!</abstract>
+<description>Enjoy some tea drinking and tea talk and meet your swap buddy if you participated in this year&apos;s swap. Join us in the Social track!</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1211">SeaGL</person>
+</persons>
+</event>
+<event guid="wG0EjduidpcXYZ20NS_EWg" id="877">
+<date>2021-11-06T10:30:00-07:00</date>
+<start>17:30</start>
+<duration>01:00</duration>
+<room>Social</room>
+<type>Evening Hour</type>
+<language/>
+<slug>877-make-tea-sandwiches-with-molly-and-sri</slug>
+<title>Make Tea Sandwiches with Molly and Sri!</title>
+<subtitle>Learn to make two different sandwiches</subtitle>
+<track/>
+<abstract>The most excellent Molly de Blanc is up first with her tea sandwiches, including vegan options. (She&apos;s making apple brie sandwiches and a smoked not-salmon sandwich with cream cheese and dill, more details are [here.](http://deblanc.net/blog/2021/11/05/teagl-sandwiches/))
+
+Sandwich savvy Sri Ramkrishna follows up with a slightly spicier sandwich. (A classic Indian sandwich with bread, cheese, cucumbers, tomatoes, butter and ketchup. Optional chutney.)
+
+Join us in the Social track!
+Bring your favorite bread and tune in for both of these interactive sandwich demos! </abstract>
+<description>The most excellent Molly de Blanc is up first with her tea sandwiches, including vegan options. (She&apos;s making apple brie sandwiches and a smoked not-salmon sandwich with cream cheese and dill, more details are [here.](http://deblanc.net/blog/2021/11/05/teagl-sandwiches/))
+
+Sandwich savvy Sri Ramkrishna follows up with a slightly spicier sandwich. (A classic Indian sandwich with bread, cheese, cucumbers, tomatoes, butter and ketchup. Optional chutney.)
+
+Join us in the Social track!
+Bring your favorite bread and tune in for both of these interactive sandwich demos! </description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1211">SeaGL</person>
+</persons>
+</event>
+<event guid="K9PDkBcEOm-ei-srdR767w" id="878">
+<date>2021-11-06T11:30:00-07:00</date>
+<start>18:30</start>
+<duration>01:30</duration>
+<room>Social</room>
+<type>Evening Late</type>
+<language/>
+<slug>878-trivia-contest-for-fun-and-prizes</slug>
+<title>Trivia Contest for fun and prizes!</title>
+<subtitle>with Remy DeCausemaker and Elana Hashman</subtitle>
+<track/>
+<abstract>Remy DeCausemaker, open source impresario and man about the virtual FOSS town teams up with Elana Hashman, last year&apos;s reigning trivia champion (and one of our keynotes) will host our second annual Trivia night. This year&apos;s event will involve teams and artisanal handmade graphics and all new questions!
+
+Join us in the Social track!
+
+</abstract>
+<description>Remy DeCausemaker, open source impresario and man about the virtual FOSS town teams up with Elana Hashman, last year&apos;s reigning trivia champion (and one of our keynotes) will host our second annual Trivia night. This year&apos;s event will involve teams and artisanal handmade graphics and all new questions!
+
+Join us in the Social track!
+
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1211">SeaGL</person>
+</persons>
+</event>
+</room>
+<room name="Keynotes">
+<event guid="XAITyhAW8Yk1vvbKZasXvw" id="866">
+<date>2021-11-06T02:30:00-07:00</date>
+<start>09:30</start>
+<duration>00:20</duration>
+<room>Keynotes</room>
+<type>Keynote</type>
+<language/>
+<slug>866-interdisciplinarity-in-foss-keynote-dr-morgan-lemmer-webber-and-christine-lemmer-webber</slug>
+<title>Interdisciplinarity in FOSS [Keynote] (Dr. Morgan Lemmer-Webber and Christine Lemmer-Webber)</title>
+<subtitle/>
+<track/>
+<abstract>Morgan and Chris talk about the skills they&apos;ve learned in their humanities backgrounds and how those have translated into their work within FOSS communities and projects. They&apos;ll then discuss the benefits of seeking out varied skillsets within your communities, the value of looking at problems from multiple lenses, and how to use all of the tools we&apos;ve got to promote our projects.  
+
+Dr. Morgan Lemmer-Webber (she/her) is an art historian, avid crafter, and FOSS user and advocate. She recently completed her PhD in Art History at the University of Wisconsin, Madison. A lifelong exploration of various handcrafts and media inspired her dissertation research on women and textile production in the Roman empire. Morgan is also interested in the intersection of FOSS and academia, particularly in the context of digital humanities research. She built the original digitization of the William Ramsay ledger as a custom static site generator in Python. She looks forward to doing more digital humanities exploration and community engagement within the FOSS world now that her dissertation is complete.
+
+Christine Lemmer-Webber (she/her) is a long-time user freedom advocate. Her degree in interdisciplinary humanities with a focus on philosophy and ethics has informed her approach to free and open source software and free culture. She is mostly known for her work co-authoring and co-editing the ActivityPub distributed social network protocol. In previous times of her life she worked as tech lead at Creative Commons, co-founded MediaGoblin, started and ran the Liberated Pixel Cup, and kicked off the work on CC BY-SA 4.0 and GPL compatibility. These days her primary work is on Spritely, a project to improve the security of federated social networks and bridge them with virtual worlds. When she isn&apos;t programming, she enjoys cooking, sketching, and making ASCII art.</abstract>
+<description>Morgan and Chris talk about the skills they&apos;ve learned in their humanities backgrounds and how those have translated into their work within FOSS communities and projects. They&apos;ll then discuss the benefits of seeking out varied skillsets within your communities, the value of looking at problems from multiple lenses, and how to use all of the tools we&apos;ve got to promote our projects.  
+
+Dr. Morgan Lemmer-Webber (she/her) is an art historian, avid crafter, and FOSS user and advocate. She recently completed her PhD in Art History at the University of Wisconsin, Madison. A lifelong exploration of various handcrafts and media inspired her dissertation research on women and textile production in the Roman empire. Morgan is also interested in the intersection of FOSS and academia, particularly in the context of digital humanities research. She built the original digitization of the William Ramsay ledger as a custom static site generator in Python. She looks forward to doing more digital humanities exploration and community engagement within the FOSS world now that her dissertation is complete.
+
+Christine Lemmer-Webber (she/her) is a long-time user freedom advocate. Her degree in interdisciplinary humanities with a focus on philosophy and ethics has informed her approach to free and open source software and free culture. She is mostly known for her work co-authoring and co-editing the ActivityPub distributed social network protocol. In previous times of her life she worked as tech lead at Creative Commons, co-founded MediaGoblin, started and ran the Liberated Pixel Cup, and kicked off the work on CC BY-SA 4.0 and GPL compatibility. These days her primary work is on Spritely, a project to improve the security of federated social networks and bridge them with virtual worlds. When she isn&apos;t programming, she enjoys cooking, sketching, and making ASCII art.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1210">Christine Lemmer-Webber</person>
+<person id="1209">Dr. Morgan Lemmer-Webber</person>
+</persons>
+</event>
+<event guid="wNmDvCh2In-tm6_8YS5dmQ" id="864">
+<date>2021-11-06T09:30:00-07:00</date>
+<start>16:30</start>
+<duration>00:20</duration>
+<room>Keynotes</room>
+<type>Keynote</type>
+<language/>
+<slug>864-keynote-seize-the-means-of-computation-cory-doctorow</slug>
+<title>[Keynote] Seize the Means of Computation (Cory Doctorow)</title>
+<subtitle>Software Freedom in an Age of Monopoly, Inequality and Crisis</subtitle>
+<track/>
+<abstract>After a year of lockdown, there can no longer be any question as to whether digital rights are human rights. The internet is a single wire that delivers free speech, free assembly, education, family life, romance, parenting, employment, access to politics and civics, to tools and ideas, to community and the public sphere.
+
+And yet, technological self-determination is farther away than ever. Open source means nothing without software freedom (who cares if you can see the source to applications whose essential cloud components you can&apos;t modify?). Interoperability is criminalized in new ways every day. A single corporate account termination can cost you your media, your email archives, your mobile device, and even brick your thermostat and doorbell.
+
+Time is running out to seize the means of computation and safeguard the power of tech to give us more control over our lives.</abstract>
+<description>After a year of lockdown, there can no longer be any question as to whether digital rights are human rights. The internet is a single wire that delivers free speech, free assembly, education, family life, romance, parenting, employment, access to politics and civics, to tools and ideas, to community and the public sphere.
+
+And yet, technological self-determination is farther away than ever. Open source means nothing without software freedom (who cares if you can see the source to applications whose essential cloud components you can&apos;t modify?). Interoperability is criminalized in new ways every day. A single corporate account termination can cost you your media, your email archives, your mobile device, and even brick your thermostat and doorbell.
+
+Time is running out to seize the means of computation and safeguard the power of tech to give us more control over our lives.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1207">Cory Doctorow</person>
+</persons>
+</event>
+</room>
+<room name="Room 3">
+<event guid="o-kgrCR2K1otV7wWKz7veA" id="850">
+<date>2021-11-06T03:00:00-07:00</date>
+<start>10:00</start>
+<duration>00:30</duration>
+<room>Room 3</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>850-know-your-rights-as-a-tech-worker</slug>
+<title>Know Your Rights as a Tech Worker</title>
+<subtitle/>
+<track>Community</track>
+<abstract>If there’s a problem with your code, you can file a bug report. But what do you do when there’s a problem with your workplace? 
+
+All workers, including tech workers, have the right to try and improve our workplaces. This talk will give you an overview of your rights, with a special focus on issues that commonly arise in the tech industry, such as workplace harassment, overuse of non-disclosure agreements and forced arbitration clauses, and misclassification of contractors. We’ll also talk about what you can do when your company does something unethical, following the “Bargaining for the Common Good” model used by workers around the country to fight poverty, systemic racism, and climate change.</abstract>
+<description>If there’s a problem with your code, you can file a bug report. But what do you do when there’s a problem with your workplace? 
+
+All workers, including tech workers, have the right to try and improve our workplaces. This talk will give you an overview of your rights, with a special focus on issues that commonly arise in the tech industry, such as workplace harassment, overuse of non-disclosure agreements and forced arbitration clauses, and misclassification of contractors. We’ll also talk about what you can do when your company does something unethical, following the “Bargaining for the Common Good” model used by workers around the country to fight poverty, systemic racism, and climate change.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="148">Shauna Gordon-McKeon</person>
+</persons>
+</event>
+<event guid="-zQI1vEF9RaJNAUeW-_htg" id="829">
+<date>2021-11-06T03:45:00-07:00</date>
+<start>10:45</start>
+<duration>00:30</duration>
+<room>Room 3</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>829-walking-the-cultural-tightrope</slug>
+<title>Walking The Cultural Tightrope</title>
+<subtitle>Why We Need Codes of Conduct And Why They’re Not Enough</subtitle>
+<track>Community</track>
+<abstract>Aeva, a member of the Kubernetes Code of Conduct (CoC) Committee, will examine difficult topics related to CoC enforcement and provide concrete suggestions on how to implement a CoCC, based on their experience supporting the Kubernetes community through several complex incidents in the past two years.
+
+Standard business approaches to interpersonal risk management (such as “just let HR handle it” and “don’t do anything that could make us liable”) do not translate effectively to open source community management, where liability extends outside organizational authority and interpersonal dynamics are fundamentally different.  Conversely, ignoring community health leads to poor -- sometimes catastrophic -- outcomes for technical projects, and ultimately an increase in business risk in your software supply chain. 
+
+In this talk, Aeva will discuss what it means to shape an open source community through a values-driven approach to leadership, and provide concrete suggestions for open source projects and their corporate sponsors to implement which can improve community health and diversity. These suggestions will be based on real examples, though all identifying details will be anonymized to maintain the confidentiality of those involved.</abstract>
+<description>Aeva, a member of the Kubernetes Code of Conduct (CoC) Committee, will examine difficult topics related to CoC enforcement and provide concrete suggestions on how to implement a CoCC, based on their experience supporting the Kubernetes community through several complex incidents in the past two years.
+
+Standard business approaches to interpersonal risk management (such as “just let HR handle it” and “don’t do anything that could make us liable”) do not translate effectively to open source community management, where liability extends outside organizational authority and interpersonal dynamics are fundamentally different.  Conversely, ignoring community health leads to poor -- sometimes catastrophic -- outcomes for technical projects, and ultimately an increase in business risk in your software supply chain. 
+
+In this talk, Aeva will discuss what it means to shape an open source community through a values-driven approach to leadership, and provide concrete suggestions for open source projects and their corporate sponsors to implement which can improve community health and diversity. These suggestions will be based on real examples, though all identifying details will be anonymized to maintain the confidentiality of those involved.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="911">Aeva Black</person>
+</persons>
+</event>
+<event guid="xdlRvvbWcUJwXhP-dNyXgw" id="828">
+<date>2021-11-06T04:30:00-07:00</date>
+<start>11:30</start>
+<duration>00:30</duration>
+<room>Room 3</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>828-computing-confidentially-in-the-clouds</slug>
+<title>Computing Confidentially in the Clouds</title>
+<subtitle/>
+<track>Security</track>
+<abstract>Someone once said that &quot;a cloud is just someone else&apos;s computer&quot;, implying that you&apos;re trusting that &quot;someone&quot; with your data. You also trust them in ways you may not even realize: to patch their infrastructure against the latest threats, to keep your data in the right country, and to only access it in legally compliant ways.
+
+What if you didn&apos;t have to trust them? What if you could audit the integrity of their systems at any time, isolate your work from cloud admins, and guarantee your data is processed only when and where you want? Sounds good, right?
+
+With new hardware coming online in all major cloud providers, _Confidential Computing_ promises to alter the trust relationship between cloud provider and consumer. However, the tech stack is still young, and it is not integrated in cloud-native scenarios (containers) yet.
+
+In this session, Aeva Black will present a vision towards this goal, introduce a few open source projects which facilitate it, and point interested developers towards community-led projects actively working on building this technology.</abstract>
+<description>Someone once said that &quot;a cloud is just someone else&apos;s computer&quot;, implying that you&apos;re trusting that &quot;someone&quot; with your data. You also trust them in ways you may not even realize: to patch their infrastructure against the latest threats, to keep your data in the right country, and to only access it in legally compliant ways.
+
+What if you didn&apos;t have to trust them? What if you could audit the integrity of their systems at any time, isolate your work from cloud admins, and guarantee your data is processed only when and where you want? Sounds good, right?
+
+With new hardware coming online in all major cloud providers, _Confidential Computing_ promises to alter the trust relationship between cloud provider and consumer. However, the tech stack is still young, and it is not integrated in cloud-native scenarios (containers) yet.
+
+In this session, Aeva Black will present a vision towards this goal, introduce a few open source projects which facilitate it, and point interested developers towards community-led projects actively working on building this technology.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="911">Aeva Black</person>
+</persons>
+</event>
+<event guid="sGZryU0smoGBujBUMavYSA" id="816">
+<date>2021-11-06T06:15:00-07:00</date>
+<start>13:15</start>
+<duration>00:30</duration>
+<room>Room 3</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>816-cross-debugging-on-linux-a-history-current-state-of-the-art-and-coming-improvements</slug>
+<title>Cross debugging on Linux : A history, current state of the art and  coming improvements</title>
+<subtitle/>
+<track>Tools</track>
+<abstract>**Cross debugging**, and more generally, **remote debugging**, is something that 
+may be unknown, or badly used,
+by either beginner engineers, or sometimes even by senior engineers, for 
+several reasons.
+Some people simply do not know that remote debugging tools exists, some 
+might consider the complex
+setup as a show-stopper, some other ones may not trust the tools (_and we 
+can explain why_).
+
+Yet the return of investment of such tools is _significant_, provided that 
+they are used
+appropriately.
+
+This presentation talks about the first-fruits of cross-debugging, going 
+through some
+real experiences, some architecture schemes and functionnal descriptions,
+comparing the existing solutions (eg, **gdb-server** vs **lldb** vs **tcf** ...), 
+and their
+integration in IDEs (**Eclipse**, **VsCode**).
+
+A technical chapter about the debugger mysteries, explains, 
+in particular, why
+_multithread_, or _SMP_ debugging is a complex issue, and how existing debuggers
+deal with it.
+
+A chapter of performance analysis tools (eg, _valgrind_)
+is presented, too, in order to offer a kind of swiss army knife to the 
+listeners.
+
+As a conclusion, a short presentation of the debug tools on another 
+OpenSource OS ([Zephyr](https://www.zephyrproject.org/))
+is done.</abstract>
+<description>**Cross debugging**, and more generally, **remote debugging**, is something that 
+may be unknown, or badly used,
+by either beginner engineers, or sometimes even by senior engineers, for 
+several reasons.
+Some people simply do not know that remote debugging tools exists, some 
+might consider the complex
+setup as a show-stopper, some other ones may not trust the tools (_and we 
+can explain why_).
+
+Yet the return of investment of such tools is _significant_, provided that 
+they are used
+appropriately.
+
+This presentation talks about the first-fruits of cross-debugging, going 
+through some
+real experiences, some architecture schemes and functionnal descriptions,
+comparing the existing solutions (eg, **gdb-server** vs **lldb** vs **tcf** ...), 
+and their
+integration in IDEs (**Eclipse**, **VsCode**).
+
+A technical chapter about the debugger mysteries, explains, 
+in particular, why
+_multithread_, or _SMP_ debugging is a complex issue, and how existing debuggers
+deal with it.
+
+A chapter of performance analysis tools (eg, _valgrind_)
+is presented, too, in order to offer a kind of swiss army knife to the 
+listeners.
+
+As a conclusion, a short presentation of the debug tools on another 
+OpenSource OS ([Zephyr](https://www.zephyrproject.org/))
+is done.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1142">Thierry Bultel</person>
+</persons>
+</event>
+<event guid="8sAnUjJWhbqvND6UH0BROA" id="844">
+<date>2021-11-06T07:00:00-07:00</date>
+<start>14:00</start>
+<duration>00:30</duration>
+<room>Room 3</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>844-birds-by-starlight-tracking-nocturnal-flight-calls-using-open-source-software</slug>
+<title>Birds by Starlight: Tracking Nocturnal Flight Calls Using Open Source Software</title>
+<subtitle/>
+<track>Tools</track>
+<abstract>We all know that Canada Geese migrate. They&apos;re up there, honking away, going somewhere in spring, and then back again in autumn. But what most people don&apos;t know is that all of the cool birds - Cape May Warblers, Semipalmated Sandpipers, Gray-cheeked Thrushes, you name it - also migrate. They do this at night, and they give a lot of little traffic updates to their friends: &quot;Beep beep, I&apos;m over here, don&apos;t hit me.&quot;
+
+In this talk, I&apos;ll talk about how scientists across the world are using Nocturnal Flight Call monitoring stations to listen in on these little tweeters. I&apos;ll talk about how I set up my monitoring stations, and how I both use and write open source software to find, identify, and ultimately record migrating birds for Science™.
+
+And yes, I&apos;ve recorded several species of seagulls.</abstract>
+<description>We all know that Canada Geese migrate. They&apos;re up there, honking away, going somewhere in spring, and then back again in autumn. But what most people don&apos;t know is that all of the cool birds - Cape May Warblers, Semipalmated Sandpipers, Gray-cheeked Thrushes, you name it - also migrate. They do this at night, and they give a lot of little traffic updates to their friends: &quot;Beep beep, I&apos;m over here, don&apos;t hit me.&quot;
+
+In this talk, I&apos;ll talk about how scientists across the world are using Nocturnal Flight Call monitoring stations to listen in on these little tweeters. I&apos;ll talk about how I set up my monitoring stations, and how I both use and write open source software to find, identify, and ultimately record migrating birds for Science™.
+
+And yes, I&apos;ve recorded several species of seagulls.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1155">Richard Littauer</person>
+</persons>
+</event>
+<event guid="0Oft5_5B_ZA8pDjCGw9gdQ" id="849">
+<date>2021-11-06T08:30:00-07:00</date>
+<start>15:30</start>
+<duration>00:30</duration>
+<room>Room 3</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>849-your-bug-tracker-and-you</slug>
+<title>Your bug tracker and you</title>
+<subtitle/>
+<track>Tools</track>
+<abstract>Your project surely has a bug tracker. But what does it tell you? In this talk, you&apos;ll learn how to set up your bug tracker to get the most information you can. You&apos;ll find out what you can learn—and can&apos;t—from mining your bugs.</abstract>
+<description>Your project surely has a bug tracker. But what does it tell you? In this talk, you&apos;ll learn how to set up your bug tracker to get the most information you can. You&apos;ll find out what you can learn—and can&apos;t—from mining your bugs.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1053">Ben Cotton</person>
+</persons>
+</event>
+</room>
+<room name="Room 1">
+<event guid="n7cWIQRjumwsliYHUD4xTg" id="835">
+<date>2021-11-06T03:00:00-07:00</date>
+<start>10:00</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>835-free-security-for-open-source-projects</slug>
+<title>Free Security for Open-Source Projects</title>
+<subtitle/>
+<track>Security</track>
+<abstract>Security is an integral part of software development.  And yet, without a red team or a security budget, securing a non-commercial FOSS project can seem daunting.  If you publish a package that has downstream dependencies, then any security issues can have wide-ranging impact.  Even for standalone software, it can be hard to know where to start.
+
+In order to secure an application end-to-end, you need to understand several different aspects of the pipeline.  While theft of personal data is a very common concern for closed-source projects, open-source projects may be more at risk of malicious code being distributed due to a token compromise, or security issues in upstream dependencies.  Fortunately, if you know where to look, there are lots of free security tools for open-source software.  Some of these tools are open-source themselves, and others are free for use in open-source projects.  In addition, depending on how your project is managed and hosted, you can abstract some aspects of security away by using platforms with built-in tooling.
+
+In this talk, we&apos;ll discuss the basics of security at scale (and on a budget) in open-source projects, and look at the differences between security for open-source and closed-source projects.  Then, we&apos;ll break down a couple of standard workflows for different types of open-source projects, and look at where free security tools may (or may not) fit into a simple solution.</abstract>
+<description>Security is an integral part of software development.  And yet, without a red team or a security budget, securing a non-commercial FOSS project can seem daunting.  If you publish a package that has downstream dependencies, then any security issues can have wide-ranging impact.  Even for standalone software, it can be hard to know where to start.
+
+In order to secure an application end-to-end, you need to understand several different aspects of the pipeline.  While theft of personal data is a very common concern for closed-source projects, open-source projects may be more at risk of malicious code being distributed due to a token compromise, or security issues in upstream dependencies.  Fortunately, if you know where to look, there are lots of free security tools for open-source software.  Some of these tools are open-source themselves, and others are free for use in open-source projects.  In addition, depending on how your project is managed and hosted, you can abstract some aspects of security away by using platforms with built-in tooling.
+
+In this talk, we&apos;ll discuss the basics of security at scale (and on a budget) in open-source projects, and look at the differences between security for open-source and closed-source projects.  Then, we&apos;ll break down a couple of standard workflows for different types of open-source projects, and look at where free security tools may (or may not) fit into a simple solution.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1143">Dawn Cooper</person>
+</persons>
+</event>
+<event guid="a5tvIjR_gR2qMpd_FdwNmg" id="857">
+<date>2021-11-06T03:45:00-07:00</date>
+<start>10:45</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>857-building-cloud-networks-terraform-or-ansible</slug>
+<title>Building cloud networks: Terraform or Ansible?</title>
+<subtitle/>
+<track>Tools</track>
+<abstract>While DevOps folks are deploying cloud apps at cloud speed, traditional network engineers are still hand jamming on their routers&apos; CLI like it&apos;s 1999. Let&apos;s fix that!
+
+In this session, we will show you how to deploy multi-cloud networks in the Infrastructure-as-Code age using modern tooling. And we&apos;ll answer the question in every network engineer&apos;s mind once and for all: Terraform or Ansible?</abstract>
+<description>While DevOps folks are deploying cloud apps at cloud speed, traditional network engineers are still hand jamming on their routers&apos; CLI like it&apos;s 1999. Let&apos;s fix that!
+
+In this session, we will show you how to deploy multi-cloud networks in the Infrastructure-as-Code age using modern tooling. And we&apos;ll answer the question in every network engineer&apos;s mind once and for all: Terraform or Ansible?</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1165">François Caen</person>
+<person id="1166">Troy Perkins</person>
+</persons>
+</event>
+<event guid="p4KOsi_VBckl1cQuu8e55g" id="846">
+<date>2021-11-06T06:15:00-07:00</date>
+<start>13:15</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>846-stories-from-reviving-and-extending-a-university-s-information-security-program</slug>
+<title>Stories from reviving and extending a university&apos;s information security program</title>
+<subtitle/>
+<track>Miscellaneous</track>
+<abstract>In 2019, I was tasked with reviving a university information security program that had been on life support for the last 5 years. Two years on, and I have helped to design and implement several new courses, rewrote from scratch other courses, implemented monthly campus-wide infosec hangout nights, begun a campus-wide infosec awareness campaign, and more.
+
+Join me as I tell stories about what went right, what went wrong, what I might do differently with the benefit of hindsight, and what the future has in store. This talk is designed to give you insights on how you can better engage with and implement infosec awareness and education in your own organizations and help prepare the next generation of security experts.</abstract>
+<description>In 2019, I was tasked with reviving a university information security program that had been on life support for the last 5 years. Two years on, and I have helped to design and implement several new courses, rewrote from scratch other courses, implemented monthly campus-wide infosec hangout nights, begun a campus-wide infosec awareness campaign, and more.
+
+Join me as I tell stories about what went right, what went wrong, what I might do differently with the benefit of hindsight, and what the future has in store. This talk is designed to give you insights on how you can better engage with and implement infosec awareness and education in your own organizations and help prepare the next generation of security experts.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1158">Brian Callahan</person>
+</persons>
+</event>
+<event guid="5K7EQYwKNonEssx4VDjEDQ" id="858">
+<date>2021-11-06T07:00:00-07:00</date>
+<start>14:00</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>858-debugging-reproducible-builds-one-day-at-a-time</slug>
+<title>Debugging Reproducible Builds One Day at a Time</title>
+<subtitle>Patching Your Supply Chain</subtitle>
+<track>Security</track>
+<abstract>Reproducible builds are a set of software development practices that                                                   
+create an independently-verifiable path from source to binary code.  A                                                 
+build is reproducible if given the same source code, build environment                                                 
+and build instructions, any party can recreate bit-by-bit identical                                                    
+copies of all specified artifacts.                                                                                     
+                                                                                                                       
+I&apos;d like to share with you my process for going about fixing                                                           
+Reproducible Builds issues in Debian, though some of the ideas will be                                                 
+applicable to debugging issues of any kind in any environment.                                                         
+                                                                                                                       
+I&apos;ll explore how I go about identifying issues to work on, learn more                                                  
+about the specific issues, recreate the problem locally, isolate the                                                   
+potential causes, dissect the problem into identifiable parts, and                                                      
+adapt the packaging and/or source code to fix the issues.                                                              
+                                                                                                                       
+This will give you an eye into how I think about, struggle with, and                                                   
+eventually fix all sorts of things.                                                                                    
+                                                                                                                       
+Watching this talk should help you go from someone who &quot;knows a bit of                                                 
+code&quot; to someone ready to submit a fix to your favorite free software                                                  
+project!                                                                                                               
+                                                                                                                       
+This talk will mostly focus on the *hows* of Reproducible Builds, not                                                  
+too much on the *whys*, which can be further explored at:                                                              
+                                                                                                                       
+  https://reproducible-builds.org/</abstract>
+<description>Reproducible builds are a set of software development practices that                                                   
+create an independently-verifiable path from source to binary code.  A                                                 
+build is reproducible if given the same source code, build environment                                                 
+and build instructions, any party can recreate bit-by-bit identical                                                    
+copies of all specified artifacts.                                                                                     
+                                                                                                                       
+I&apos;d like to share with you my process for going about fixing                                                           
+Reproducible Builds issues in Debian, though some of the ideas will be                                                 
+applicable to debugging issues of any kind in any environment.                                                         
+                                                                                                                       
+I&apos;ll explore how I go about identifying issues to work on, learn more                                                  
+about the specific issues, recreate the problem locally, isolate the                                                   
+potential causes, dissect the problem into identifiable parts, and                                                      
+adapt the packaging and/or source code to fix the issues.                                                              
+                                                                                                                       
+This will give you an eye into how I think about, struggle with, and                                                   
+eventually fix all sorts of things.                                                                                    
+                                                                                                                       
+Watching this talk should help you go from someone who &quot;knows a bit of                                                 
+code&quot; to someone ready to submit a fix to your favorite free software                                                  
+project!                                                                                                               
+                                                                                                                       
+This talk will mostly focus on the *hows* of Reproducible Builds, not                                                  
+too much on the *whys*, which can be further explored at:                                                              
+                                                                                                                       
+  https://reproducible-builds.org/</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="353">Vagrant Cascadian</person>
+</persons>
+</event>
+<event guid="t_Ezrcofic82GpQN0EV7wQ" id="826">
+<date>2021-11-06T08:30:00-07:00</date>
+<start>15:30</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>826-expressive-security</slug>
+<title>Expressive Security</title>
+<subtitle>Vulnerabilities with Emoji</subtitle>
+<track>Security</track>
+<abstract>Emoji are an interesting beast. Once an obscure part of the Unicode standard, they are now so popular you can buy Emoji Poop Slippers (yes, I&apos;m serious).
+
+However, now that emoji are saturating our systems so, there are interesting side effects. Follow along as we discover how some systems do not like emoji, which systems can handle the odd non-standard character, and if we can find any security vulnerabilities only using the humble smiley-face.
+
+In this talk, we will cover many aspects, including: 
+
+ * a short history of emoji
+ * the year of emoji convergence
+ * how to identify your operating system based on how emoji appear
+ * how one WordPress fix saved a quarter of the internet from XSS through emoji
+
+By the end of this talk, you will appreciate how complex human expression is, and why ensuring unicode compatibility will help your systems. </abstract>
+<description>Emoji are an interesting beast. Once an obscure part of the Unicode standard, they are now so popular you can buy Emoji Poop Slippers (yes, I&apos;m serious).
+
+However, now that emoji are saturating our systems so, there are interesting side effects. Follow along as we discover how some systems do not like emoji, which systems can handle the odd non-standard character, and if we can find any security vulnerabilities only using the humble smiley-face.
+
+In this talk, we will cover many aspects, including: 
+
+ * a short history of emoji
+ * the year of emoji convergence
+ * how to identify your operating system based on how emoji appear
+ * how one WordPress fix saved a quarter of the internet from XSS through emoji
+
+By the end of this talk, you will appreciate how complex human expression is, and why ensuring unicode compatibility will help your systems. </description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="752">Katie McLaughlin</person>
+</persons>
+</event>
+</room>
+<room name="Room 2">
+<event guid="0xkY5_mU6oWbg9g1us3Bqg" id="818">
+<date>2021-11-06T03:00:00-07:00</date>
+<start>10:00</start>
+<duration>00:30</duration>
+<room>Room 2</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>818-understanding-the-mysql-authentication-process</slug>
+<title>Understanding the MySQL Authentication Process</title>
+<subtitle/>
+<track>Tools</track>
+<abstract>MySQL is a popular database but few understand that sometimes the authentication process actually works, that it can be too permissive, and sometimes too many have dangerous permissions provided to them. This session will cover how the server decides which  accounts are allowed to access the server, password options, how to use roles, set up dual passwords, setting functional limits on accounts, and more.  </abstract>
+<description>MySQL is a popular database but few understand that sometimes the authentication process actually works, that it can be too permissive, and sometimes too many have dangerous permissions provided to them. This session will cover how the server decides which  accounts are allowed to access the server, password options, how to use roles, set up dual passwords, setting functional limits on accounts, and more.  </description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="310">davidmstokes</person>
+</persons>
+</event>
+<event guid="z7mAcISUUGDPFdfNjIUPxQ" id="838">
+<date>2021-11-06T03:45:00-07:00</date>
+<start>10:45</start>
+<duration>00:30</duration>
+<room>Room 2</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>838-does-open-source-need-its-own-priority-of-constituencies</slug>
+<title>Does open source need its own Priority of Constituencies?</title>
+<subtitle/>
+<track>Tech Culture</track>
+<abstract>From its inception, open source—and free software before it—was built around ethical notions: give people agency and power over their software so they could use, modify, and share it as they pleased to accomplish whatever it is that they wanted to do with it.
+
+In a world where running software required programming skills, there was a lot of overlap between users and developers of open source, and so this rather simple framework was sufficient to deal with open source’s different constituencies.
+
+Since then, open source has become ubiquitous. As a result, the number of constituencies has ballooned: there are indie and corporate contributors and maintainers, open source software vendors, developers building proprietary code on top of open source, end-users who don’t know anything about software, people impacted by open source software who are not even using it, cloud providers, etc., etc.
+
+When the interests of these different actors are in conflict, which one of them do we favor and why? Neither the Four Freedoms nor the Open Source Definition (OSD) really helps us answer that question.
+
+Faced with similar issues, other communities have designed really effective frameworks to guide their decision-making processes. W3C’s “priority of constituencies” is such a framework.
+
+In this talk we’ll dig into what W3C’s priority of constituencies is, outline its benefits, but also its limits.
+
+We’ll then see how we could apply the priority of constituencies to open source, what that reveals about the complexity of the open source ecosystem, and in particular how the parts that are difficult to fit in such a framework are precisely those that have made the news in the past few years.</abstract>
+<description>From its inception, open source—and free software before it—was built around ethical notions: give people agency and power over their software so they could use, modify, and share it as they pleased to accomplish whatever it is that they wanted to do with it.
+
+In a world where running software required programming skills, there was a lot of overlap between users and developers of open source, and so this rather simple framework was sufficient to deal with open source’s different constituencies.
+
+Since then, open source has become ubiquitous. As a result, the number of constituencies has ballooned: there are indie and corporate contributors and maintainers, open source software vendors, developers building proprietary code on top of open source, end-users who don’t know anything about software, people impacted by open source software who are not even using it, cloud providers, etc., etc.
+
+When the interests of these different actors are in conflict, which one of them do we favor and why? Neither the Four Freedoms nor the Open Source Definition (OSD) really helps us answer that question.
+
+Faced with similar issues, other communities have designed really effective frameworks to guide their decision-making processes. W3C’s “priority of constituencies” is such a framework.
+
+In this talk we’ll dig into what W3C’s priority of constituencies is, outline its benefits, but also its limits.
+
+We’ll then see how we could apply the priority of constituencies to open source, what that reveals about the complexity of the open source ecosystem, and in particular how the parts that are difficult to fit in such a framework are precisely those that have made the news in the past few years.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1153">Tobie Langel</person>
+</persons>
+</event>
+<event guid="BoR4kIdFpmNgJdjOFs027w" id="859">
+<date>2021-11-06T06:15:00-07:00</date>
+<start>13:15</start>
+<duration>00:30</duration>
+<room>Room 2</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>859-open-source-governance-six-types-and-three-models</slug>
+<title>Open Source Governance: Six Types and Three Models</title>
+<subtitle/>
+<track/>
+<abstract>So, your open source project needs to adopt some kind of governance. But what kind? And are there models you can copy from?  When you first contemplate governance, it seems baffling and random, but on analysis it turns out there are some great standard options and prior art.  This session will help you understand, and then choose.
+
+Based on work done by OSPOs and the CNCF Governance Working Group, we will explain:
+
+1. What governance really is
+2. The six types of OSS project governance
+3. Three models you can copy for your project
+
+After this brief presentation you will be ready to start on writing or revising your own project&apos;s governance.
+
+
+</abstract>
+<description>So, your open source project needs to adopt some kind of governance. But what kind? And are there models you can copy from?  When you first contemplate governance, it seems baffling and random, but on analysis it turns out there are some great standard options and prior art.  This session will help you understand, and then choose.
+
+Based on work done by OSPOs and the CNCF Governance Working Group, we will explain:
+
+1. What governance really is
+2. The six types of OSS project governance
+3. Three models you can copy for your project
+
+After this brief presentation you will be ready to start on writing or revising your own project&apos;s governance.
+
+
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="358">jberkus</person>
+</persons>
+</event>
+<event guid="y9T1rRl0-LI-qOWjuDMZoQ" id="819">
+<date>2021-11-06T07:00:00-07:00</date>
+<start>14:00</start>
+<duration>00:30</duration>
+<room>Room 2</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>819-open-source-business-practices</slug>
+<title>Open Source Business Practices</title>
+<subtitle/>
+<track/>
+<abstract>The Open Source Initiative partnered with Brandeis University to deliver a series of micro courses about open source software. This Open Source Technology Management program includes several sub-topics. In early 2021, Jim taught the micro courses about Open Source Business Practices and how to Establish an Open Source Program Office.
+
+This talk will share highlights from Open Source Business practices, including how organizations can use open source to run their business, pros and cons of licenses, and engaging with the community.
+
+For example, a business might include open source software as part of their overall stack, such as in a Cloud offering. Or a business might include code licensed under a permissive license like BSD, to build a proprietary product. Or a business might release a proprietary product as open source software. Or they might use open source in some other way. This micro course helped people understand the issues in using or adopting open source, and how to do it right. (A key point in the course was &quot;If you use open source to run your business, you should *invest* in that open source software.&quot; Don&apos;t just take; you need to contribute back.</abstract>
+<description>The Open Source Initiative partnered with Brandeis University to deliver a series of micro courses about open source software. This Open Source Technology Management program includes several sub-topics. In early 2021, Jim taught the micro courses about Open Source Business Practices and how to Establish an Open Source Program Office.
+
+This talk will share highlights from Open Source Business practices, including how organizations can use open source to run their business, pros and cons of licenses, and engaging with the community.
+
+For example, a business might include open source software as part of their overall stack, such as in a Cloud offering. Or a business might include code licensed under a permissive license like BSD, to build a proprietary product. Or a business might release a proprietary product as open source software. Or they might use open source in some other way. This micro course helped people understand the issues in using or adopting open source, and how to do it right. (A key point in the course was &quot;If you use open source to run your business, you should *invest* in that open source software.&quot; Don&apos;t just take; you need to contribute back.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="751">Jim Hall</person>
+</persons>
+</event>
+<event guid="aDop0PgzDm5iEM1OgonGqA" id="822">
+<date>2021-11-06T08:30:00-07:00</date>
+<start>15:30</start>
+<duration>00:30</duration>
+<room>Room 2</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>822-technically-biased-taking-free-software-s-niche-appeal-mainstream</slug>
+<title>Technically Biased: Taking Free Software&apos;s Niche Appeal Mainstream</title>
+<subtitle>A Lesson From My Grandma</subtitle>
+<track>Tech Culture</track>
+<abstract>The Free Software movement&apos;s ideals are egalitarian. We aim to bring the benefits of computing freedom to all users. However, we often overlook an uncomfortable inequality: Software Freedom disproportionately empowers programmers and those wealthy enough to hire them.
+
+For today&apos;s average &quot;end users&quot;, freedomware leaves them with basically the same options as proprietary freeware: use it as-is, or politely ask the developer and hope for the best. In my opinion, this is a key reason why it&apos;s difficult to convince the wider public to care; it&apos;s why Software Freedom largely remains a movement by and for programmers.
+
+In this talk, I&apos;ll argue that:
+
+- Programming education policy is the most important area for Software Freedom advocacy.
+
+- Designing for &quot;nontechnical users&quot; is an existential threat to Free Software.
+
+- Scriptable interfaces are a great way to make software more accessible to tech-illiterate users.
+</abstract>
+<description>The Free Software movement&apos;s ideals are egalitarian. We aim to bring the benefits of computing freedom to all users. However, we often overlook an uncomfortable inequality: Software Freedom disproportionately empowers programmers and those wealthy enough to hire them.
+
+For today&apos;s average &quot;end users&quot;, freedomware leaves them with basically the same options as proprietary freeware: use it as-is, or politely ask the developer and hope for the best. In my opinion, this is a key reason why it&apos;s difficult to convince the wider public to care; it&apos;s why Software Freedom largely remains a movement by and for programmers.
+
+In this talk, I&apos;ll argue that:
+
+- Programming education policy is the most important area for Software Freedom advocacy.
+
+- Designing for &quot;nontechnical users&quot; is an existential threat to Free Software.
+
+- Scriptable interfaces are a great way to make software more accessible to tech-illiterate users.
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1148">Stephen Michel</person>
+</persons>
+</event>
+</room>
+<room name="Room 4">
+<event guid="XLZnJks_9LMH03ozBeJkuw" id="856">
+<date>2021-11-06T07:00:00-07:00</date>
+<start>14:00</start>
+<duration>00:30</duration>
+<room>Room 4</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>856-sounds-of-open-source-archaeology-processing-sound-with-sox</slug>
+<title>Sounds of Open Source archaeology: processing sound with sox</title>
+<subtitle/>
+<track>Tools</track>
+<abstract>It&apos;s indeed useful to get out of your comfort zone from time to time and apply
+your engineering skills in some new area. Once upon a time I&apos;ve got interested
+about what kind of simple sound processing one could do using only command line
+tools at hand. Knowing nothing about the subject it proved to be a challenge
+for a total newbie like me, but an exciting one with pretty interesting
+results. The final knowledge was not only tips and tricks about tooling, but
+also the story of projects behind those tools, which I would love to share with
+you.</abstract>
+<description>It&apos;s indeed useful to get out of your comfort zone from time to time and apply
+your engineering skills in some new area. Once upon a time I&apos;ve got interested
+about what kind of simple sound processing one could do using only command line
+tools at hand. Knowing nothing about the subject it proved to be a challenge
+for a total newbie like me, but an exciting one with pretty interesting
+results. The final knowledge was not only tips and tricks about tooling, but
+also the story of projects behind those tools, which I would love to share with
+you.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1164">Dmitry Dolgov</person>
+</persons>
+</event>
+</room>
+</day>
+</schedule>

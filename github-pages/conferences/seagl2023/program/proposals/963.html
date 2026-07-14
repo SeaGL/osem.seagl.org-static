@@ -1,0 +1,271 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<title>SeaGL</title>
+<meta content="" name="description">
+<meta content="" name="author">
+<link rel="stylesheet" href="/assets/application-9ebb7e8df4f6abe04ca09a78e84abc751d81a041f3702dfc6c2ebbdd106ceaa0.css" media="all">
+<script src="/assets/application-47ef59ee7b6477ee91a0ce07fca426e369cd7b348258d0db05fed8e81411ccdc.js"></script>
+<meta name="csrf-param" content="authenticity_token">
+
+
+<meta content="Free Software Policy with Semi-Firm Firmware" property="og:title">
+<meta content="https://osem.seagl.org/conferences/seagl2023/program/proposals/963" property="og:url">
+<meta content="Somewhere between hardware and software, is firmware. It was originally called that precisely because it straddled those two worlds.
+
+Yet most firmware is no longer firm, it's more like tofu and exists in firm, semi-firm, and soft states. Current FSF policy that allows proprietary firmware is based on burned-on-chip, write-once firmware from a few decades ago. Most firmware today is field-upgradable and closer to software. This talk will discuss how the modern state of &quot;firm&quot;ware demands new free software policy, and start a discussion on what that policy could be. " property="og:description">
+<meta content="SeaGL" property="og:site_name">
+<meta content="https://secure.gravatar.com/avatar/3a51bcfc17e8a434286213c781e51e1a.png?r=PG&amp;s=32" property="og:image">
+<meta content="https://secure.gravatar.com/avatar/3a51bcfc17e8a434286213c781e51e1a.png?r=PG&amp;s=32" property="og:image:secure_url">
+
+</head>
+<body class="conference-seagl2023">
+<div class="navbar navbar-default navbar-fixed-top nav-osem" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target="#main-nav" data-toggle="collapse" type="button">
+<span class="sr-only">
+Toggle navigation
+</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" title="Open Source Event Manager" href="/">SeaGL</a>
+</div>
+<div class="collapse navbar-collapse" id="main-nav">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown visible-desktop">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<span class="fa-solid fa-user"></span>
+Sign In
+<span class="caret"></span>
+</a>
+<div class="dropdown-menu">
+<form action="/accounts/sign_in" accept-charset="UTF-8" method="post"><input type="text" name="user[login]" id="user_login_dd" class="form-control" placeholder="Username / E-Mail" inert="true">
+<input type="password" name="user[password]" id="user_password_dd" class="form-control" placeholder="Password" inert="true">
+<p class="text-right">
+<small>
+<label for="user_remember_me" inert="true">Remember me</label>
+<input type="checkbox" name="user[remember_me]" id="user_remember_me" value="1" inert="true">
+</small>
+</p>
+<button class="btn btn-success btn-block" inert="true">Sign in</button>
+<p class="text-right">
+<br>
+<a class="small btn btn-xs btn-default" data-target="#navbar-devise-help" data-toggle="collapse">
+Need Help?
+</a>
+</p><div class="collapse" id="navbar-devise-help">
+<a href="/accounts/password/new">Forgot your password?</a>
+<br>
+<a href="/accounts/confirmation/new">Didn't receive confirmation instructions?</a>
+<br>
+
+</div>
+<p></p>
+</form></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="messages">
+<div class="container">
+<noscript>
+<style>
+  #content {
+    display: none;
+  }
+</style>
+<h2>
+JavaScript is not enabled
+</h2>
+<p>
+OSEM requires JavaScript to be enabled to function. Please turn on JavaScript in your browser's settings and reload the page to continue.
+</p>
+</noscript>
+
+</div>
+</div>
+<div id="content">
+<div class="container">
+<div class="row">
+<div class="col-md-12 page-header">
+<h2>
+Free Software Policy with Semi-Firm Firmware
+<br>
+<small>
+
+</small>
+<div class="btn-group pull-right">
+<a class="btn btn-success" href="/conferences/seagl2023/schedule">Schedule</a>
+</div>
+</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-3">
+<h3></h3>
+Presented by:
+<div class="speakerinfo">
+<div class="row">
+<div class="col-md-4">
+<img class="img-responsive img-rounded" src="https://secure.gravatar.com/avatar/3a51bcfc17e8a434286213c781e51e1a.png?r=PG&amp;s=120">
+</div>
+<div class="col-md-8">
+<h4>
+<a href="/users/1640">Kyle Rankin</a>
+<br>
+</h4>
+</div>
+</div>
+<div class="row speakerbio">
+<div class="col-md-12">
+<p>Kyle Rankin has over two decades of professional Linux experience. He is the author of The Best of Hack and /: Linux Admin Crash Course, Linux Hardening in Hostile Networks, DevOps Troubleshooting, The Official Ubuntu Server Book, Third Edition, Knoppix Hacks, 2nd Edition, and Ubuntu Hacks, among other books. Rankin was an award-winning columnist and tech editor for Linux Journal, and speaks frequently on Free and Open Source software including at SCALE, FOSDEM, O’Reilly Security Conference, Linux Fest NorthWest, OpenWest, BSidesLV, CactusCon, OSCON, Linux World Expo, and Penguicon.</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-9">
+<div class="row">
+<div class="col-md-12">
+<div class="lead">
+
+
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<p>
+</p><p>Somewhere between hardware and software, is firmware. It was originally called that precisely because it straddled those two worlds.</p>
+
+<p>Yet most firmware is no longer firm, it's more like tofu and exists in firm, semi-firm, and soft states. Current FSF policy that allows proprietary firmware is based on burned-on-chip, write-once firmware from a few decades ago. Most firmware today is field-upgradable and closer to software. This talk will discuss how the modern state of "firm"ware demands new free software policy, and start a discussion on what that policy could be. </p>
+
+<p></p>
+</div>
+<dl id="proposal-info">
+<div class="col-md-12">
+<dt>Date:</dt>
+<dd>2023 November  4 - 13:50</dd>
+</div>
+<div class="col-md-12">
+<dt>Duration:</dt>
+<dd>50 min</dd>
+</div>
+<div class="col-md-12">
+<dt>Room:</dt>
+<dd>
+Room 2
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Conference:</dt>
+<dd><a href="/conferences/seagl2023">SeaGL 2023</a></dd>
+</div>
+<div class="col-md-12">
+<dt>Language:</dt>
+<dd></dd>
+</div>
+<div class="col-md-12">
+<dt>Track:</dt>
+<dd>
+<span class="label" style="background-color: #3563B9; color: white">
+Hardware
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Difficulty:</dt>
+<dd>
+<span class="label" style="background-color: #9A71C8; color: black;">
+Intermediate
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<hr>
+<h4>Happening at the same time:</h4>
+<ol>
+<li>
+<a href="/conferences/seagl2023/program/proposals/955">The Digital Bindery
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2023 November  4 13:50
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2023/program/proposals/941">Programming an OS distribution
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2023 November  4 13:50
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 4
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2023/program/proposals/994">Open Source Observability with the OpenTelemetry Collector
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2023 November  4 14:20
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 4
+</dd>
+<br>
+</dl>
+</ol>
+</div>
+</dl>
+</div>
+<div class="row">
+<div class="col-md-12">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="footer">
+<div class="container">
+<p class="muted text-center">
+<small>
+This tool is
+<a href="http://www.gnu.org/philosophy/free-sw.html">free software</a>,
+released under the
+<a href="http://opensource.org/licenses/MIT">MIT license</a>.
+You can run, copy, distribute, study, change and improve it.
+The source code and the developers are on
+<a href="https://github.com/openSUSE/osem">GitHub</a>.
+</small>
+</p>
+</div>
+</div>
+
+
+
+
+</body></html>

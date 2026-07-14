@@ -1,0 +1,293 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<title>SeaGL</title>
+<meta content="" name="description">
+<meta content="" name="author">
+<link rel="stylesheet" href="/assets/application-9ebb7e8df4f6abe04ca09a78e84abc751d81a041f3702dfc6c2ebbdd106ceaa0.css" media="all">
+<script src="/assets/application-47ef59ee7b6477ee91a0ce07fca426e369cd7b348258d0db05fed8e81411ccdc.js"></script>
+<meta name="csrf-param" content="authenticity_token">
+
+
+<meta content="Automatic Chicken Door HOWTO" property="og:title">
+<meta content="https://osem.seagl.org/conferences/seagl2017/program/proposals/290" property="og:url">
+<meta content="In this talk I'll show you how I created a raspberry pi-powered chicken door using only Free Software. You can use this knowledge to get inspired to create your own automated hardware+software systems. I'll go over these features:
+
+* hardware interleave gravity lock mechanism
+* instant-read photoresistor poll door actuation trigger
+* photoresistor signal analog to digital conversion
+* worm gear 12V DC motor controlled via L9110 motor driver chip
+* dual hall-effect magnetic door position sensors
+* fallback door status mitigating magnetic sensor failure
+* night-vision wide-angle camera with motion-triggered video capture
+* C + bash + python polyglot control code with standardized output convention
+* offline operation with 2.4Ghz wifi for monitoring and maintenance
+
+I'm a hardware beginner, so this is a beginner talk in terms of hardware. I know just enough about hardware to ask someone smarter how to not make everything start smoking.
+
+I've been writing software for about 20 years, so I want to get into some detail about the software.
+
+This talk isn't about carpentry--you'll have to ask my wife about that.
+
+* [slides](https://github.com/meonkeys/seagl2017-rpi-talk)
+* [video](https://archive.org/details/AutomaticChickenDoorHOWTOATalkByAdamMonsenAtSeaGL2017)
+* [source code for door controller](https://github.com/meonkeys/rpi-chx-code)
+* [follow-up blog post](http://adammonsen.com/post/1425)" property="og:description">
+<meta content="SeaGL" property="og:site_name">
+<meta content="https://secure.gravatar.com/avatar/0458eb0a01a197b5ab476c956e243e8d.png?r=PG&amp;s=32" property="og:image">
+<meta content="https://secure.gravatar.com/avatar/0458eb0a01a197b5ab476c956e243e8d.png?r=PG&amp;s=32" property="og:image:secure_url">
+
+</head>
+<body class="conference-seagl2017">
+<div class="navbar navbar-default navbar-fixed-top nav-osem" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target="#main-nav" data-toggle="collapse" type="button">
+<span class="sr-only">
+Toggle navigation
+</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" title="Open Source Event Manager" href="/">SeaGL</a>
+</div>
+<div class="collapse navbar-collapse" id="main-nav">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown visible-desktop">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<span class="fa-solid fa-user"></span>
+Sign In
+<span class="caret"></span>
+</a>
+<div class="dropdown-menu">
+<form action="/accounts/sign_in" accept-charset="UTF-8" method="post"><input type="text" name="user[login]" id="user_login_dd" class="form-control" placeholder="Username / E-Mail" inert="true">
+<input type="password" name="user[password]" id="user_password_dd" class="form-control" placeholder="Password" inert="true">
+<p class="text-right">
+<small>
+<label for="user_remember_me" inert="true">Remember me</label>
+<input type="checkbox" name="user[remember_me]" id="user_remember_me" value="1" inert="true">
+</small>
+</p>
+<button class="btn btn-success btn-block" inert="true">Sign in</button>
+<p class="text-right">
+<br>
+<a class="small btn btn-xs btn-default" data-target="#navbar-devise-help" data-toggle="collapse">
+Need Help?
+</a>
+</p><div class="collapse" id="navbar-devise-help">
+<a href="/accounts/password/new">Forgot your password?</a>
+<br>
+<a href="/accounts/confirmation/new">Didn't receive confirmation instructions?</a>
+<br>
+
+</div>
+<p></p>
+</form></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="messages">
+<div class="container">
+<noscript>
+<style>
+  #content {
+    display: none;
+  }
+</style>
+<h2>
+JavaScript is not enabled
+</h2>
+<p>
+OSEM requires JavaScript to be enabled to function. Please turn on JavaScript in your browser's settings and reload the page to continue.
+</p>
+</noscript>
+
+</div>
+</div>
+<div id="content">
+<div class="container">
+<div class="row">
+<div class="col-md-12 page-header">
+<h2>
+Automatic Chicken Door HOWTO
+<br>
+<small>
+No, it will not hurt the chicken
+</small>
+<div class="btn-group pull-right">
+<a class="btn btn-success" href="/conferences/seagl2017/schedule">Schedule</a>
+</div>
+</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-3">
+<h3></h3>
+Presented by:
+<div class="speakerinfo">
+<div class="row">
+<div class="col-md-4">
+<img class="img-responsive img-rounded" src="https://secure.gravatar.com/avatar/0458eb0a01a197b5ab476c956e243e8d.png?r=PG&amp;s=120">
+</div>
+<div class="col-md-8">
+<h4>
+<a href="/users/9">Adam Monsen</a>
+<br>
+</h4>
+<div class="text-muted">
+from
+SeaGL
+</div>
+</div>
+</div>
+<div class="row speakerbio">
+<div class="col-md-12">
+<p>SeaGL founder. Into <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software" rel="nofollow">FLOSS</a>. Seattleite. <a href="https://www.csats.com/about-us" rel="nofollow">VP Engineering at C-SATS</a>. Baker, biker, father of two.</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-9">
+<div class="row">
+<div class="col-md-12">
+<div class="lead">
+
+
+</div>
+<p></p>
+<div class="flexvideo">
+
+
+</div>
+
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<p>
+</p><p>In this talk I'll show you how I created a raspberry pi-powered chicken door using only Free Software. You can use this knowledge to get inspired to create your own automated hardware+software systems. I'll go over these features:</p>
+
+<ul>
+<li>hardware interleave gravity lock mechanism</li>
+<li>instant-read photoresistor poll door actuation trigger</li>
+<li>photoresistor signal analog to digital conversion</li>
+<li>worm gear 12V DC motor controlled via L9110 motor driver chip</li>
+<li>dual hall-effect magnetic door position sensors</li>
+<li>fallback door status mitigating magnetic sensor failure</li>
+<li>night-vision wide-angle camera with motion-triggered video capture</li>
+<li>C + bash + python polyglot control code with standardized output convention</li>
+<li>offline operation with 2.4Ghz wifi for monitoring and maintenance</li>
+</ul>
+
+<p>I'm a hardware beginner, so this is a beginner talk in terms of hardware. I know just enough about hardware to ask someone smarter how to not make everything start smoking.</p>
+
+<p>I've been writing software for about 20 years, so I want to get into some detail about the software.</p>
+
+<p>This talk isn't about carpentry--you'll have to ask my wife about that.</p>
+
+<ul>
+<li><a href="https://github.com/meonkeys/seagl2017-rpi-talk" rel="nofollow">slides</a></li>
+<li><a href="https://archive.org/details/AutomaticChickenDoorHOWTOATalkByAdamMonsenAtSeaGL2017" rel="nofollow">video</a></li>
+<li><a href="https://github.com/meonkeys/rpi-chx-code" rel="nofollow">source code for door controller</a></li>
+<li><a href="http://adammonsen.com/post/1425" rel="nofollow">follow-up blog post</a></li>
+</ul>
+
+<p></p>
+</div>
+<dl id="proposal-info">
+<div class="col-md-12">
+<dt>Date:</dt>
+<dd>2017 October  6 - 13:00</dd>
+</div>
+<div class="col-md-12">
+<dt>Duration:</dt>
+<dd>20 min</dd>
+</div>
+<div class="col-md-12">
+<dt>Room:</dt>
+<dd>
+Room 1113
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Conference:</dt>
+<dd><a href="/conferences/seagl2017">Seattle GNU/Linux Conference 2017</a></dd>
+</div>
+<div class="col-md-12">
+<dt>Language:</dt>
+<dd></dd>
+</div>
+<div class="col-md-12">
+<dt>Track:</dt>
+<dd>
+<span class="label" style="background-color: #E52D8E; color: white">
+Hardware/IoT
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Difficulty:</dt>
+<dd>
+<span class="label" style="background-color: #EEEF69; color: black;">
+Medium
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<hr>
+<h4>Happening at the same time:</h4>
+<ol>
+<li>
+<a href="/conferences/seagl2017/program/proposals/325">Python Packaging and Dependency Management in the Real World
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2017 October  6 13:00
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3199
+</dd>
+<br>
+</dl>
+</ol>
+</div>
+</dl>
+</div>
+<div class="row">
+<div class="col-md-12">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="footer">
+<div class="container">
+<p class="muted text-center">
+<small>
+This tool is
+<a href="http://www.gnu.org/philosophy/free-sw.html">free software</a>,
+released under the
+<a href="http://opensource.org/licenses/MIT">MIT license</a>.
+You can run, copy, distribute, study, change and improve it.
+The source code and the developers are on
+<a href="https://github.com/openSUSE/osem">GitHub</a>.
+</small>
+</p>
+</div>
+</div>
+
+
+
+
+</body></html>

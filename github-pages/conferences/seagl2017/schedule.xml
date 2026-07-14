@@ -1,0 +1,2166 @@
+<schedule>
+<version>114</version>
+<conference>
+<acronym>seagl2017</acronym>
+<title>Seattle GNU/Linux Conference 2017</title>
+<start>2017-10-06</start>
+<end>2017-10-07</end>
+<days>2</days>
+<timeslot_duration>00:05</timeslot_duration>
+</conference>
+<day date="2017-10-06" index="1">
+<room name="Expo Hall">
+<event guid="7Cu7oywYoDakSzLCzxPBWw" id="397">
+<date>2017-10-06T02:00:00-07:00</date>
+<start>09:00</start>
+<duration>00:30</duration>
+<room>Expo Hall</room>
+<type>30 minute coffee</type>
+<language/>
+<slug>397-expo-hall-open-coffee-on-friday-morning</slug>
+<title>Expo hall open! Coffee on Friday morning</title>
+<subtitle/>
+<track/>
+<abstract>Brought to you by PogoLinux</abstract>
+<description>Brought to you by PogoLinux</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="9">Adam Monsen</person>
+</persons>
+</event>
+<event guid="d1kiZG-PELGm0wcqceb4eg" id="398">
+<date>2017-10-06T03:30:00-07:00</date>
+<start>10:30</start>
+<duration>00:15</duration>
+<room>Expo Hall</room>
+<type>15 minute coffee</type>
+<language/>
+<slug>398-friday-second-coffee</slug>
+<title>Friday second coffee</title>
+<subtitle/>
+<track/>
+<abstract>Brought to you by PogoLinux</abstract>
+<description>Brought to you by PogoLinux</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="9">Adam Monsen</person>
+</persons>
+</event>
+<event guid="obfmf-vK_ZaCFe8t0pt4gA" id="399">
+<date>2017-10-06T08:00:00-07:00</date>
+<start>15:00</start>
+<duration>00:30</duration>
+<room>Expo Hall</room>
+<type>30 minute coffee</type>
+<language/>
+<slug>399-friday-afternoon-coffee</slug>
+<title>Friday afternoon coffee</title>
+<subtitle/>
+<track/>
+<abstract>Brought to you by PogoLinux</abstract>
+<description>Brought to you by PogoLinux</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="9">Adam Monsen</person>
+</persons>
+</event>
+<event guid="-FENmkBVV1rG507jFaq6OQ" id="400">
+<date>2017-10-06T10:30:00-07:00</date>
+<start>17:30</start>
+<duration>00:30</duration>
+<room>Expo Hall</room>
+<type>Cleanup</type>
+<language/>
+<slug>400-friday-cleanup</slug>
+<title>Friday cleanup</title>
+<subtitle/>
+<track/>
+<abstract>Clean up</abstract>
+<description>Clean up</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="9">Adam Monsen</person>
+</persons>
+</event>
+</room>
+<room name="Theatre">
+<event guid="svso23lOH99vRGTHFqBX_w" id="405">
+<date>2017-10-06T02:30:00-07:00</date>
+<start>09:30</start>
+<duration>01:00</duration>
+<room>Theatre</room>
+<type>Keynote</type>
+<language/>
+<slug>405-keynote-nithya-ruff</slug>
+<title>Keynote: Nithya Ruff</title>
+<subtitle/>
+<track/>
+<abstract>Nithya has been a passionate advocate and a speaker for opening doors to new people in Open Source for many years. She has also been a promoter of valuing diverse ways of contributing to open source such as in marketing, legal and community. You can often find her on social media promoting dialogue on diversity and open source. She has spoken at multiple conferences such as LinuxCon, OSCON, All Things Open, SCALE, Grace Hopper, OpenStack and Red Hat Summit on the business and community of open source. In recognition of her work in open source both on the business and community side, she was named to CIO magazine’s most influential women in open source list. And most recently, the O’Reilly Conference awarded Nithya the 2017 Open Source award for exceptional contributions to open source software. You can follow her on twitter: @nithyaruff</abstract>
+<description>Nithya has been a passionate advocate and a speaker for opening doors to new people in Open Source for many years. She has also been a promoter of valuing diverse ways of contributing to open source such as in marketing, legal and community. You can often find her on social media promoting dialogue on diversity and open source. She has spoken at multiple conferences such as LinuxCon, OSCON, All Things Open, SCALE, Grace Hopper, OpenStack and Red Hat Summit on the business and community of open source. In recognition of her work in open source both on the business and community side, she was named to CIO magazine’s most influential women in open source list. And most recently, the O’Reilly Conference awarded Nithya the 2017 Open Source award for exceptional contributions to open source software. You can follow her on twitter: @nithyaruff</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="382">nithyaruff</person>
+</persons>
+</event>
+</room>
+<room name="Room 3187">
+<event guid="qKffShnvDETA6dAkXkoZ_g" id="299">
+<date>2017-10-06T03:45:00-07:00</date>
+<start>10:45</start>
+<duration>00:50</duration>
+<room>Room 3187</room>
+<type>Longer Talk</type>
+<language/>
+<slug>299-passing-the-baton-succession-planning-for-foss-leadership</slug>
+<title>Passing the Baton: Succession planning for FOSS leadership</title>
+<subtitle/>
+<track>People</track>
+<abstract>While sharing of and collaborating on software has been around as long as there&apos;s been code, the open source concept and movement only came into being in the late 1990s. There are many who remember a time before open source. Of those, most helped to shape the philosophy, laws, governance, and policies which are the foundation of the free and open source movement we enjoy today.
+
+But what happens when these people decide to retire? Who will carry the baton and lead the movement?
+
+Thankfully these people are still with us, helping to craft and lead FOSS, but there are very few younger individuals among their ranks. As we look at the next horizon for FOSS, we must consider who will take us there. While we have these founders in our midst, we must take the time to do succession planning for free and open source leadership.
+
+This talk will cover:
+
+* Succession planning: what it is &amp; why we need it
+* What new leaders must know &amp; learn
+* Steps we can take to develop the FOSS leaders of the future
+</abstract>
+<description>While sharing of and collaborating on software has been around as long as there&apos;s been code, the open source concept and movement only came into being in the late 1990s. There are many who remember a time before open source. Of those, most helped to shape the philosophy, laws, governance, and policies which are the foundation of the free and open source movement we enjoy today.
+
+But what happens when these people decide to retire? Who will carry the baton and lead the movement?
+
+Thankfully these people are still with us, helping to craft and lead FOSS, but there are very few younger individuals among their ranks. As we look at the next horizon for FOSS, we must consider who will take us there. While we have these founders in our midst, we must take the time to do succession planning for free and open source leadership.
+
+This talk will cover:
+
+* Succession planning: what it is &amp; why we need it
+* What new leaders must know &amp; learn
+* Steps we can take to develop the FOSS leaders of the future
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="321">VM (Vicky) Brasseur</person>
+</persons>
+</event>
+<event guid="ZiILpjDYoyCxraa1w2Nz8Q" id="298">
+<date>2017-10-06T06:30:00-07:00</date>
+<start>13:30</start>
+<duration>00:20</duration>
+<room>Room 3187</room>
+<type>Shorter Talk</type>
+<language/>
+<slug>298-programming-in-prison-web-development-behind-bars</slug>
+<title>Programming in Prison: Web Development behind Bars</title>
+<subtitle/>
+<track>Education</track>
+<abstract>In a plain-looking computer room sits 30+ men wearing khaki-colored shirts and pants, each staring intently at their monitors. Some young, some old, some with tattoos, all with different life stories. These men--many of which have never been on the Internet-- are learning computer programming while serving time at Washington State&apos;s second largest prison. 
+
+Gaining employment upon release from prison is one of the largest indicators of successful re-entry into society. With today’s booming tech market, these currently incarcerated men hope to gain the skills needed to obtain web development jobs upon release. 
+
+However, learning programming inside a prison isn’t easy. Each student computer is highly locked-down with limited software and absolutely no Internet access. While most programmers enjoy the benefits of Google and StackOverflow, these students must work with what is available on the classroom’s local network and in the outdated computer manuals available in the facility library.
+
+My name is Sarabeth Jaffe and I teach computer programming at Monroe Correctional Complex. In this talk, I will discuss the many challenges of teaching web development without the web, the Open Source technology that makes it possible, and the many opportunities we--as technologists--have to spread the benefits of the technical knowledge to disadvantaged populations.</abstract>
+<description>In a plain-looking computer room sits 30+ men wearing khaki-colored shirts and pants, each staring intently at their monitors. Some young, some old, some with tattoos, all with different life stories. These men--many of which have never been on the Internet-- are learning computer programming while serving time at Washington State&apos;s second largest prison. 
+
+Gaining employment upon release from prison is one of the largest indicators of successful re-entry into society. With today’s booming tech market, these currently incarcerated men hope to gain the skills needed to obtain web development jobs upon release. 
+
+However, learning programming inside a prison isn’t easy. Each student computer is highly locked-down with limited software and absolutely no Internet access. While most programmers enjoy the benefits of Google and StackOverflow, these students must work with what is available on the classroom’s local network and in the outdated computer manuals available in the facility library.
+
+My name is Sarabeth Jaffe and I teach computer programming at Monroe Correctional Complex. In this talk, I will discuss the many challenges of teaching web development without the web, the Open Source technology that makes it possible, and the many opportunities we--as technologists--have to spread the benefits of the technical knowledge to disadvantaged populations.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="588">Sarabeth Jaffe</person>
+</persons>
+</event>
+<event guid="MLJ9xs918dlny5wr4Chu3A" id="343">
+<date>2017-10-06T07:00:00-07:00</date>
+<start>14:00</start>
+<duration>00:50</duration>
+<room>Room 3187</room>
+<type>Longer Talk</type>
+<language/>
+<slug>343-history-of-control</slug>
+<title>History of Control</title>
+<subtitle>The Past and Future of Digital Restrictions Management</subtitle>
+<track>Education</track>
+<abstract># Abstract
+
+The talk will give an overview of the history of Digital Restrictions Management (DRM), from codes and passwords for ancient video games to remote attestation spyware and beyond. It will provide the listener with a perspective on the true purpose of DRM, which throughout its history has always been control over the user. While nominally DRM has something to do with copyright, in each step throughout its story we find again and again that domination of the user is its only &apos;success&apos; and ultimate goal. This fact becomes glaringly obvious as we move to the era of DRM enforcement of laws, where governments try to control citizens by rewriting digital reality. The talk will conclude with what we are doing at the FSF to fight back, and what you can do to help.
+
+
+# Donald Robertson, III, Licensing &amp; Compliance Manager
+
+Donald is an attorney, and speaks on free software legal issues and activism. He handles licensing education &amp; GPL compliance at the FSF. He resides in the Pacific Northwest. Previous speaking engagements:
+
+* Respecting Freedom: Free software license compliance for hardware devices, at LinuxfestNW 2017 &lt;https://www.linuxfestnorthwest.org/2017/sessions/respecting-freedom-free-software-license-compliance-hardware-devices&gt;
+* FSF: Volunteer Empire, Seagl 2016
+* From TPP to saving WiFi, the FSF fights for you, at LinuxfestNW 2016 &lt;https://www.linuxfestnorthwest.org/2016/sessions/tpp-saving-wifi-fsf-fights-you&gt;
+* Trading Freedom: The Threat of International &quot;Trade&quot; Agreements Like TPP, TTIP, and TISA, at SeaGL 2015 &lt;http://seagl.org/schedule/2015.html&gt;
+* The Free Software Foundation Licensing &amp; Compliance Lab; We Fight for the User, at LinuxFest Northwest 2015 &lt;http://linuxfestnorthwest.org/2015/sessions/free-software-foundation-licensing-compliance-lab-we-fight-user&gt;
+* From Creation to Compliance: A Free Software Legal Primer at, Linuxfest Northwest 2014 &lt;http://linuxfestnorthwest.org/2014/sessions/creation-compliance-free-software-legal-primer&gt;
+* Seminar on GPL Enforcement and Legal Ethics 2014 &lt;https://www.fsf.org/events/seminar-on-gpl-enforcement-and-legal-ethics&gt;
+* Software License Compliance Audits: Establishing Audit Protocol in the Agreement and in Practice at ACI:Software Agreements - Cloud, SaaS, Open Source &amp; Licensing 2013 &lt;http://www.americanconference.com/softwarelic/agenda&gt;
+* Licensing &amp; compliance: a collective effort, at Libreplanet 2013 &lt;https://libreplanet.org/wiki/LibrePlanet:Conference/2013/Sessions&gt;</abstract>
+<description># Abstract
+
+The talk will give an overview of the history of Digital Restrictions Management (DRM), from codes and passwords for ancient video games to remote attestation spyware and beyond. It will provide the listener with a perspective on the true purpose of DRM, which throughout its history has always been control over the user. While nominally DRM has something to do with copyright, in each step throughout its story we find again and again that domination of the user is its only &apos;success&apos; and ultimate goal. This fact becomes glaringly obvious as we move to the era of DRM enforcement of laws, where governments try to control citizens by rewriting digital reality. The talk will conclude with what we are doing at the FSF to fight back, and what you can do to help.
+
+
+# Donald Robertson, III, Licensing &amp; Compliance Manager
+
+Donald is an attorney, and speaks on free software legal issues and activism. He handles licensing education &amp; GPL compliance at the FSF. He resides in the Pacific Northwest. Previous speaking engagements:
+
+* Respecting Freedom: Free software license compliance for hardware devices, at LinuxfestNW 2017 &lt;https://www.linuxfestnorthwest.org/2017/sessions/respecting-freedom-free-software-license-compliance-hardware-devices&gt;
+* FSF: Volunteer Empire, Seagl 2016
+* From TPP to saving WiFi, the FSF fights for you, at LinuxfestNW 2016 &lt;https://www.linuxfestnorthwest.org/2016/sessions/tpp-saving-wifi-fsf-fights-you&gt;
+* Trading Freedom: The Threat of International &quot;Trade&quot; Agreements Like TPP, TTIP, and TISA, at SeaGL 2015 &lt;http://seagl.org/schedule/2015.html&gt;
+* The Free Software Foundation Licensing &amp; Compliance Lab; We Fight for the User, at LinuxFest Northwest 2015 &lt;http://linuxfestnorthwest.org/2015/sessions/free-software-foundation-licensing-compliance-lab-we-fight-user&gt;
+* From Creation to Compliance: A Free Software Legal Primer at, Linuxfest Northwest 2014 &lt;http://linuxfestnorthwest.org/2014/sessions/creation-compliance-free-software-legal-primer&gt;
+* Seminar on GPL Enforcement and Legal Ethics 2014 &lt;https://www.fsf.org/events/seminar-on-gpl-enforcement-and-legal-ethics&gt;
+* Software License Compliance Audits: Establishing Audit Protocol in the Agreement and in Practice at ACI:Software Agreements - Cloud, SaaS, Open Source &amp; Licensing 2013 &lt;http://www.americanconference.com/softwarelic/agenda&gt;
+* Licensing &amp; compliance: a collective effort, at Libreplanet 2013 &lt;https://libreplanet.org/wiki/LibrePlanet:Conference/2013/Sessions&gt;</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="80">Donald R. Robertson</person>
+</persons>
+</event>
+<event guid="auPhohdPAu0wtn2LWDajZw" id="389">
+<date>2017-10-06T08:30:00-07:00</date>
+<start>15:30</start>
+<duration>00:50</duration>
+<room>Room 3187</room>
+<type>Longer Talk</type>
+<language/>
+<slug>389-introduction-to-the-godot-game-engine</slug>
+<title>Introduction to the Godot Game Engine</title>
+<subtitle/>
+<track>Something different</track>
+<abstract>Ever wanted to learn how to build your own game? There&apos;s never been a better time to start. While most of the industry is focused on proprietary engines, there are also a number of free software game engines that don&apos;t get nearly as much press.
+
+This talk will introduce you to Godot, a capable and fully-featured game engine, 100% free and open source, under active development, with excellent support for the Linux platform. I will introduce you to the game engine&apos;s editor, scripting language, and I will guide you through the engine&apos;s most important concepts (and around some of its most common pitfalls). Even if you&apos;ve never used a game engine before, at the end of this talk you&apos;ll be armed with enough basic knowledge to write your first game.
+</abstract>
+<description>Ever wanted to learn how to build your own game? There&apos;s never been a better time to start. While most of the industry is focused on proprietary engines, there are also a number of free software game engines that don&apos;t get nearly as much press.
+
+This talk will introduce you to Godot, a capable and fully-featured game engine, 100% free and open source, under active development, with excellent support for the Linux platform. I will introduce you to the game engine&apos;s editor, scripting language, and I will guide you through the engine&apos;s most important concepts (and around some of its most common pitfalls). Even if you&apos;ve never used a game engine before, at the end of this talk you&apos;ll be armed with enough basic knowledge to write your first game.
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="46">Brian Raiter</person>
+</persons>
+</event>
+<event guid="R2pzxnAkb-_guaAoI7yioA" id="326">
+<date>2017-10-06T09:30:00-07:00</date>
+<start>16:30</start>
+<duration>00:50</duration>
+<room>Room 3187</room>
+<type>Longer Talk</type>
+<language/>
+<slug>326-uefi-what-is-it-and-how-can-we-exploit-it-for-fun-and-profit</slug>
+<title>UEFI: What Is It and How Can We Exploit It For Fun And Profit</title>
+<subtitle>How I Made a Bootloader In 300 Lines of Python</subtitle>
+<track>Something different</track>
+<abstract>UEFI carries with it a lot of negative connotations. While it&apos;s far from perfect, it&apos;s certainly not the overarching evil thing that a lot of us make it out to be. Here we&apos;ll discuss the facts and faction surrounding UEFI and the difference between it and other related technologies like Secure Boot, Coreboot, BIOS, and others. 
+
+After this we&apos;ll take a look at a direct comparison between booting a computer using both UEFI and the Legacy BIOS. And we&apos;ll have a look at some of the really neat things the UEFI Environment lets us do, such as playing games without an OS, updating system firmware without DOS, and even writing bootloaders in 300 lines of Python.</abstract>
+<description>UEFI carries with it a lot of negative connotations. While it&apos;s far from perfect, it&apos;s certainly not the overarching evil thing that a lot of us make it out to be. Here we&apos;ll discuss the facts and faction surrounding UEFI and the difference between it and other related technologies like Secure Boot, Coreboot, BIOS, and others. 
+
+After this we&apos;ll take a look at a direct comparison between booting a computer using both UEFI and the Legacy BIOS. And we&apos;ll have a look at some of the really neat things the UEFI Environment lets us do, such as playing games without an OS, updating system firmware without DOS, and even writing bootloaders in 300 lines of Python.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="607">Ian Santopietro</person>
+</persons>
+</event>
+</room>
+<room name="Room 5104">
+<event guid="5Tw2h5A6B93Y1NHYgXm-sw" id="294">
+<date>2017-10-06T03:45:00-07:00</date>
+<start>10:45</start>
+<duration>00:50</duration>
+<room>Room 5104</room>
+<type>Longer Talk</type>
+<language/>
+<slug>294-a-division-of-labor-attempting-to-measure-free-software</slug>
+<title>A division of labor: Attempting to measure free software</title>
+<subtitle/>
+<track>People</track>
+<abstract>We like to think that diversity has increased over time--contributors have stuck around as they age, students are excited to get started, initiatives are making space for people of color, trans* individuals, women, and other groups underrepresented in free software. We like to think we are doing better at recognizing the wide range of contributions and that more people are getting involved from all spheres of skill type, level, and experience.  
+
+But is this true? Molly de Blanc, a free software activist with a fondness for numbers and data, analyzed the results from four community surveys from 2003, 2013, 2016, and 2017 (as well as other bits of data around the internet). With fourteen (incomplete) years of community data, she&apos;ll attempt to quantify the ways the make up of free software has changed, where we&apos;re not doing as well as we&apos;d like, and how we can do better. 
+
+We&apos;ll be asking (and answering) questions like: 
+
+- Is more non-coding work being done by women?
+- Are people coding and also doing other things?
+- Who is not coding? Who is doing nothing &quot;technical?&quot;
+- Are we doing a good job trying to understand our community?
+
+</abstract>
+<description>We like to think that diversity has increased over time--contributors have stuck around as they age, students are excited to get started, initiatives are making space for people of color, trans* individuals, women, and other groups underrepresented in free software. We like to think we are doing better at recognizing the wide range of contributions and that more people are getting involved from all spheres of skill type, level, and experience.  
+
+But is this true? Molly de Blanc, a free software activist with a fondness for numbers and data, analyzed the results from four community surveys from 2003, 2013, 2016, and 2017 (as well as other bits of data around the internet). With fourteen (incomplete) years of community data, she&apos;ll attempt to quantify the ways the make up of free software has changed, where we&apos;re not doing as well as we&apos;d like, and how we can do better. 
+
+We&apos;ll be asking (and answering) questions like: 
+
+- Is more non-coding work being done by women?
+- Are people coding and also doing other things?
+- Who is not coding? Who is doing nothing &quot;technical?&quot;
+- Are we doing a good job trying to understand our community?
+
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="581">Molly de Blanc</person>
+</persons>
+</event>
+<event guid="_dELE9AN1gLDupNIvN7CCQ" id="318">
+<date>2017-10-06T06:30:00-07:00</date>
+<start>13:30</start>
+<duration>00:20</duration>
+<room>Room 5104</room>
+<type>Shorter Talk</type>
+<language/>
+<slug>318-you-can-t-launch-a-spaceship-if-all-you-hire-are-astronauts-other-jobs-in-technology</slug>
+<title>You Can&apos;t Launch a Spaceship if All You Hire Are Astronauts: Other Jobs in Technology</title>
+<subtitle/>
+<track>People</track>
+<abstract>We talk so much about computer science and programming when we talk about tech that we tend to forget other career opportunities. I&apos;ll discuss the possibilities for using your computer science degree in other parts of technology as well as opportunities that are available in tech to people without computer science degrees. Let&apos;s make more way for people who aren&apos;t interested in programming to join this field and ways to retain people who started in development work and burn out or lose interest.</abstract>
+<description>We talk so much about computer science and programming when we talk about tech that we tend to forget other career opportunities. I&apos;ll discuss the possibilities for using your computer science degree in other parts of technology as well as opportunities that are available in tech to people without computer science degrees. Let&apos;s make more way for people who aren&apos;t interested in programming to join this field and ways to retain people who started in development work and burn out or lose interest.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="301">Carol Smith</person>
+</persons>
+</event>
+<event guid="P5vWmgwEqld_Oq-MEmWKxA" id="372">
+<date>2017-10-06T07:00:00-07:00</date>
+<start>14:00</start>
+<duration>00:50</duration>
+<room>Room 5104</room>
+<type>Longer Talk</type>
+<language/>
+<slug>372-roi-return-on-inclusion</slug>
+<title>ROI:  Return on Inclusion</title>
+<subtitle/>
+<track>People</track>
+<abstract>FLOSS community leaders and participants seeking to promote diversity and inclusion within their community must contend with the collective inertia of the status quo.  How much should committed communities be prepared to invest in order to overcome this inertia? And, how can they measure and justify their success? 
+
+My presentation will examine the social and financial costs FLOSS communities have incurred when promoting diversity and inclusion, and the return on those investments.  I will focus on the experiences of a particular FLOSS project, and discuss their challenges and successes.  </abstract>
+<description>FLOSS community leaders and participants seeking to promote diversity and inclusion within their community must contend with the collective inertia of the status quo.  How much should committed communities be prepared to invest in order to overcome this inertia? And, how can they measure and justify their success? 
+
+My presentation will examine the social and financial costs FLOSS communities have incurred when promoting diversity and inclusion, and the return on those investments.  I will focus on the experiences of a particular FLOSS project, and discuss their challenges and successes.  </description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="620">Tony Sebro</person>
+</persons>
+</event>
+<event guid="hFAvWdf_YzQ72zVoSMoPkw" id="266">
+<date>2017-10-06T08:30:00-07:00</date>
+<start>15:30</start>
+<duration>00:50</duration>
+<room>Room 5104</room>
+<type>Longer Talk</type>
+<language/>
+<slug>266-open-source-worldwide-communities</slug>
+<title>Open Source: Worldwide Communities</title>
+<subtitle/>
+<track>People</track>
+<abstract>In this talk I&apos;ll tell you my story about contributing to an Open Source community from abroad. Nowadays, communities have a lot of people from all around the world. What&apos;s their perspective? How do you deal with timezones? How do you get involved and get others from around the world involved? And how does culture in each area affect the community? Learn this and much more.</abstract>
+<description>In this talk I&apos;ll tell you my story about contributing to an Open Source community from abroad. Nowadays, communities have a lot of people from all around the world. What&apos;s their perspective? How do you deal with timezones? How do you get involved and get others from around the world involved? And how does culture in each area affect the community? Learn this and much more.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="333">Jose Antonio Rey</person>
+</persons>
+</event>
+<event guid="9Zk0OivJaWbgZGAQMHQLIQ" id="272">
+<date>2017-10-06T09:30:00-07:00</date>
+<start>16:30</start>
+<duration>00:50</duration>
+<room>Room 5104</room>
+<type>Longer Talk</type>
+<language/>
+<slug>272-hackers-gotta-eat</slug>
+<title>Hackers Gotta Eat</title>
+<subtitle>Building a Company Around an Open Source Project</subtitle>
+<track>People</track>
+<abstract>Creating and leading an open source project can be both rewarding and frustrating. It is rewarding to see the project grow and people contribute, but it can become frustrating and burdensome when your side-project comes to dominate your free time. If you&apos;re fortunate, you might be employed to work full-time on your open source project or even start a company around the project; then what? What is your new relationship &quot;with the community?&quot; How do you balance the motivations of various contributors, yourself included, within the project? 
+
+In this talk we&apos;ll look at the history of the Jenkins project, from its origins as a side-project at Sun Microsystems to the growth of the project and on to the relationship with CloudBees, Inc. We&apos;ll look at what has and, perhaps more importantly, what hasn&apos;t worked well as CloudBees has grown in tandem with the Jenkins project. We will examine the evolving cultural dynamics of the project and the challenges of wearing two hats: corporate and open source.
+</abstract>
+<description>Creating and leading an open source project can be both rewarding and frustrating. It is rewarding to see the project grow and people contribute, but it can become frustrating and burdensome when your side-project comes to dominate your free time. If you&apos;re fortunate, you might be employed to work full-time on your open source project or even start a company around the project; then what? What is your new relationship &quot;with the community?&quot; How do you balance the motivations of various contributors, yourself included, within the project? 
+
+In this talk we&apos;ll look at the history of the Jenkins project, from its origins as a side-project at Sun Microsystems to the growth of the project and on to the relationship with CloudBees, Inc. We&apos;ll look at what has and, perhaps more importantly, what hasn&apos;t worked well as CloudBees has grown in tandem with the Jenkins project. We will examine the evolving cultural dynamics of the project and the challenges of wearing two hats: corporate and open source.
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="348">Liam Newman</person>
+</persons>
+</event>
+</room>
+<room name="Room 5102">
+<event guid="utEF608O7LOG0zx4NYjEEg" id="340">
+<date>2017-10-06T03:45:00-07:00</date>
+<start>10:45</start>
+<duration>00:50</duration>
+<room>Room 5102</room>
+<type>Longer Talk</type>
+<language/>
+<slug>340-keepassing-your-credentials-synced-and-under-control</slug>
+<title>Keepassing your credentials synced and under control</title>
+<subtitle/>
+<track>Security/InfoSec</track>
+<abstract>Do you use the same few passwords over and over? Is there a piece of paper with hard-to-remember ones somewhere? How about a file that lives on five different devices and is never up-to-date?
+
+Even the most secure passwords can be broken with a $5 wrench. Long forgotten websites are frequently compromised. Files can be stored in The Cloud, but is that really where such sensitive data should be?
+
+By the end of this presentation, you will be able to combine keepassx and git-annex to maintain and synchronize all of your secure credentials.</abstract>
+<description>Do you use the same few passwords over and over? Is there a piece of paper with hard-to-remember ones somewhere? How about a file that lives on five different devices and is never up-to-date?
+
+Even the most secure passwords can be broken with a $5 wrench. Long forgotten websites are frequently compromised. Files can be stored in The Cloud, but is that really where such sensitive data should be?
+
+By the end of this presentation, you will be able to combine keepassx and git-annex to maintain and synchronize all of your secure credentials.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="87">Wm Salt Hale</person>
+</persons>
+</event>
+<event guid="2Re7l5DUjntiwPnncuUOAg" id="339">
+<date>2017-10-06T06:30:00-07:00</date>
+<start>13:30</start>
+<duration>00:20</duration>
+<room>Room 5102</room>
+<type>Shorter Talk</type>
+<language/>
+<slug>339-from-al-qaeda-to-shia-labeouf-how-crowdsourced-intelligence-analysis-removed-any-idea-of-privacy</slug>
+<title>From Al-Qaeda to Shia LaBeouf - How Crowdsourced Intelligence Analysis Removed Any Idea Of Privacy</title>
+<subtitle>Finding What Doesn&apos;t Want To Be Found</subtitle>
+<track>Security/InfoSec</track>
+<abstract>Individuals on various online forums have begun to realize that they can find just about anything, just about anywhere in the world using publicly-available tools. With enough digging and research, random strangers sitting in basements around the world have worked together to
+
+ * Locate terrorist training camps inside of ISIS-controlled areas in the Syrian Civil War by making diagrams and maps based off of released training videos, and using various online, public mapping systems to pinpoint the locations.
+ * Find and steal a livestreamed art installation using weather patterns, star maps, and rumors.
+ * Locate and report a woman who threw puppies into a river to drown.
+ * And many more such instances.
+
+This talk will go into detail about some of the techniques used, some of the individuals doing it, and, most importantly, what this means for personal privacy. With this sort of intelligence analysis weapon in public hands, anybody can have their privacy completely compromised by a few nerds on the Internet.
+
+Is there a picture of you on at a rooftop party? Is there a photograph of your back yard? Did you post a meme about one of your teachers to an obscure website a few years ago? Any one of these could be the single weak link that leads to the rest of your private life being open to the entire public to read.
+
+This talk is a talk about how total privacy is really just a pipe dream, and there is no real way to ensure that you have covered every base.
+
+
+
+A recording of this talk is available here: https://archive.org/details/crowdsourced-intel-analysis-seagl-2017</abstract>
+<description>Individuals on various online forums have begun to realize that they can find just about anything, just about anywhere in the world using publicly-available tools. With enough digging and research, random strangers sitting in basements around the world have worked together to
+
+ * Locate terrorist training camps inside of ISIS-controlled areas in the Syrian Civil War by making diagrams and maps based off of released training videos, and using various online, public mapping systems to pinpoint the locations.
+ * Find and steal a livestreamed art installation using weather patterns, star maps, and rumors.
+ * Locate and report a woman who threw puppies into a river to drown.
+ * And many more such instances.
+
+This talk will go into detail about some of the techniques used, some of the individuals doing it, and, most importantly, what this means for personal privacy. With this sort of intelligence analysis weapon in public hands, anybody can have their privacy completely compromised by a few nerds on the Internet.
+
+Is there a picture of you on at a rooftop party? Is there a photograph of your back yard? Did you post a meme about one of your teachers to an obscure website a few years ago? Any one of these could be the single weak link that leads to the rest of your private life being open to the entire public to read.
+
+This talk is a talk about how total privacy is really just a pipe dream, and there is no real way to ensure that you have covered every base.
+
+
+
+A recording of this talk is available here: https://archive.org/details/crowdsourced-intel-analysis-seagl-2017</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="614">Omar Ravenhurst</person>
+</persons>
+</event>
+<event guid="Y05uNbEHrwr8VsJjX3CI3g" id="300">
+<date>2017-10-06T07:00:00-07:00</date>
+<start>14:00</start>
+<duration>00:50</duration>
+<room>Room 5102</room>
+<type>Longer Talk</type>
+<language/>
+<slug>300-bowerbirds-of-technology</slug>
+<title>Bowerbirds of Technology</title>
+<subtitle>Architecture and Operations at Less-Than-Google Scale</subtitle>
+<track>People</track>
+<abstract>Facebook, Google, Uber, LinkedIn, and friends are the rarefied heights of software engineering. They encounter and solve problems at scales shared by few others, and as a result, their priorities in production engineering and architecture are just a bit different from the rest of us down here in the other 99% of services. Even as a lead engineer for Twilio, I rarely dealt with the same uncharted territories of scale explored by these truly massive systems. Through deconstructing a few blog posts from these giants, we’ll evaluate just what is it that they’re thinking about when they build systems, why they make the choices they do, and whether any of those choices are relevant to those of us operating at high scale yet still something less than millions of requests per second.
+
+This talk will go into depth on how to evaluate, choose, and deploy technology to meet your customers’ requirements without requiring a small army of engineers to answer 2 AM pages. We’ll go through what you should think about when picking open-source systems (as well as hosted PaaS/IaaS/SaaS providers) to meet your needs: maintainership, extensibility, security, stability, and more.
+
+We’ll also talk about how to pick realistic goals for your project and business: what are the implications of claiming five nines for the person carrying the pager? How will you communicate with your customers when you’re throwing errors and breaking SLAs? What does disaster recovery mean for your systems, and how much effort will it require to implement and test your DR plan (ahead of time!)?
+
+With these guidelines in mind, you should be better equipped to say no (or yes!) the next time your team’s software hipster proposes moving everything to the Next Big Thing.</abstract>
+<description>Facebook, Google, Uber, LinkedIn, and friends are the rarefied heights of software engineering. They encounter and solve problems at scales shared by few others, and as a result, their priorities in production engineering and architecture are just a bit different from the rest of us down here in the other 99% of services. Even as a lead engineer for Twilio, I rarely dealt with the same uncharted territories of scale explored by these truly massive systems. Through deconstructing a few blog posts from these giants, we’ll evaluate just what is it that they’re thinking about when they build systems, why they make the choices they do, and whether any of those choices are relevant to those of us operating at high scale yet still something less than millions of requests per second.
+
+This talk will go into depth on how to evaluate, choose, and deploy technology to meet your customers’ requirements without requiring a small army of engineers to answer 2 AM pages. We’ll go through what you should think about when picking open-source systems (as well as hosted PaaS/IaaS/SaaS providers) to meet your needs: maintainership, extensibility, security, stability, and more.
+
+We’ll also talk about how to pick realistic goals for your project and business: what are the implications of claiming five nines for the person carrying the pager? How will you communicate with your customers when you’re throwing errors and breaking SLAs? What does disaster recovery mean for your systems, and how much effort will it require to implement and test your DR plan (ahead of time!)?
+
+With these guidelines in mind, you should be better equipped to say no (or yes!) the next time your team’s software hipster proposes moving everything to the Next Big Thing.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="590">Sam Kitajima-Kimbrel</person>
+</persons>
+</event>
+<event guid="fGLuykmoRGhC8l3l2Rue5w" id="374">
+<date>2017-10-06T08:30:00-07:00</date>
+<start>15:30</start>
+<duration>00:50</duration>
+<room>Room 5102</room>
+<type>Longer Talk</type>
+<language/>
+<slug>374-detecting-badbios-evil-maids-bootkits-and-other-firmware-malware</slug>
+<title>Detecting BadBIOS, Evil Maids, Bootkits, and Other Firmware Malware</title>
+<subtitle>Systems/Ops, Hardware/IoT, Security/InfoSec</subtitle>
+<track>Security/InfoSec</track>
+<abstract>For attackers, platform firmware is the new Software. Most systems include hundreds of firmwares - UEFI or BIOS, PCIe expansion ROMs, USB controller drivers, storage controller host and disk/SSD drivers. Firmware-level hosted malware, bare-metal or virtualized, is nearly invisible to normal security detection tools, has full control of your system, and can often continue running even when the system is &quot;powered off&quot;. Security Firms (eg, &quot;Hacking Team&quot; sell UEFI 0days to the highest bidder), and government agencies include firmware-level malware (eg, Wikileak&apos;ed Vault7 CIA EFI malware). Defenders need to catch-up, and learn to defend their systems against firmware-level malware. In this presentation, we&apos;ll cover the NIST SP (147,147b,155,193) secure firmware guidance, for citizens, rather than vendors/enterprises. We&apos;ll discuss the problem of firmware-level malware, and cover some open source tools (FlashROM, CHIPSEC, etc.) to help detect malware on your system. We&apos;ll be discussing a new open source tool we&apos;ve just released to help make it easier for you to do this check. You&apos;ll also get a nice paper tri-fold copy of our CHIPSEC Quick Reference for Sysadmins [note: we&apos;re all sysadmins for our own personal systems(!)], and some scary looking BadBIOS stickers for your laptop.</abstract>
+<description>For attackers, platform firmware is the new Software. Most systems include hundreds of firmwares - UEFI or BIOS, PCIe expansion ROMs, USB controller drivers, storage controller host and disk/SSD drivers. Firmware-level hosted malware, bare-metal or virtualized, is nearly invisible to normal security detection tools, has full control of your system, and can often continue running even when the system is &quot;powered off&quot;. Security Firms (eg, &quot;Hacking Team&quot; sell UEFI 0days to the highest bidder), and government agencies include firmware-level malware (eg, Wikileak&apos;ed Vault7 CIA EFI malware). Defenders need to catch-up, and learn to defend their systems against firmware-level malware. In this presentation, we&apos;ll cover the NIST SP (147,147b,155,193) secure firmware guidance, for citizens, rather than vendors/enterprises. We&apos;ll discuss the problem of firmware-level malware, and cover some open source tools (FlashROM, CHIPSEC, etc.) to help detect malware on your system. We&apos;ll be discussing a new open source tool we&apos;ve just released to help make it easier for you to do this check. You&apos;ll also get a nice paper tri-fold copy of our CHIPSEC Quick Reference for Sysadmins [note: we&apos;re all sysadmins for our own personal systems(!)], and some scary looking BadBIOS stickers for your laptop.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="57">Paul English</person>
+</persons>
+</event>
+<event guid="B-UpMhyhIrR-aVXHad3sMQ" id="285">
+<date>2017-10-06T09:30:00-07:00</date>
+<start>16:30</start>
+<duration>00:50</duration>
+<room>Room 5102</room>
+<type>Longer Talk</type>
+<language/>
+<slug>285-ransomware-history-analysis-mitigation</slug>
+<title>Ransomware: History, Analysis, &amp; Mitigation</title>
+<subtitle>This humorous and entertaining talk teaches everyone, from Mom and Pops to large enterprise organizations what&apos;s really happening and how to protect themselves.</subtitle>
+<track>Security/InfoSec</track>
+<abstract>Just as the title says, we go over the humble origins, touch on the notable variants of yesteryear, the big hitters of today, and discuss the future of ransomware. It&apos;s no longer just for windows anymore. Linux, Mac and Mobile platforms are all ripe for extortion. This humorous and entertaining talk teaches everyone, from Mom and Pops to large enterprise organizations what&apos;s really happening and how to protect themselves.</abstract>
+<description>Just as the title says, we go over the humble origins, touch on the notable variants of yesteryear, the big hitters of today, and discuss the future of ransomware. It&apos;s no longer just for windows anymore. Linux, Mac and Mobile platforms are all ripe for extortion. This humorous and entertaining talk teaches everyone, from Mom and Pops to large enterprise organizations what&apos;s really happening and how to protect themselves.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="579">Andy Thompson</person>
+</persons>
+</event>
+</room>
+<room name="Room 1113">
+<event guid="tWG40hYyICSuN1PXKZcWZg" id="354">
+<date>2017-10-06T03:45:00-07:00</date>
+<start>10:45</start>
+<duration>00:50</duration>
+<room>Room 1113</room>
+<type>Longer Talk</type>
+<language/>
+<slug>354-ssh-and-the-shell-go-forth-securely</slug>
+<title>SSH and the shell: go forth securely</title>
+<subtitle/>
+<track>Systems/Ops</track>
+<abstract>SSH is the go to tool for sysadmins and developers for interactive connections to remote machines. It creates secure, encrypted connections between computers, even across hostile networks. Unless you accept keys without verification (DON&apos;T DO THAT!!!).
+
+SSH can also create tunnels for encapsulating other connections, including other protocols and data. Sysadmins can bridge protocols across networks for ease of access such as a one-off data sync. Devs can present the dev database on their desktop to ease use of graphical development tools.
+
+After attending this session, audience members will be able to create a local tunnel from client to server, a remote tunnel from server to client, and do simple analysis of local vs remote evaluation of a command. Attendees will be able to use tunnels for SSH or sample other protocols (MySQL and HTTP), and tunneling via a third party system. They will also be familiar with dynamic SOCKS proxies and using SSH to tunnel graphical applications. Finally, attendees will also learn SSH configuration and command line tips for convenience of use, including using forced command to restrict an SSH key to one purpose.</abstract>
+<description>SSH is the go to tool for sysadmins and developers for interactive connections to remote machines. It creates secure, encrypted connections between computers, even across hostile networks. Unless you accept keys without verification (DON&apos;T DO THAT!!!).
+
+SSH can also create tunnels for encapsulating other connections, including other protocols and data. Sysadmins can bridge protocols across networks for ease of access such as a one-off data sync. Devs can present the dev database on their desktop to ease use of graphical development tools.
+
+After attending this session, audience members will be able to create a local tunnel from client to server, a remote tunnel from server to client, and do simple analysis of local vs remote evaluation of a command. Attendees will be able to use tunnels for SSH or sample other protocols (MySQL and HTTP), and tunneling via a third party system. They will also be familiar with dynamic SOCKS proxies and using SSH to tunnel graphical applications. Finally, attendees will also learn SSH configuration and command line tips for convenience of use, including using forced command to restrict an SSH key to one purpose.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="363">der.hans</person>
+</persons>
+</event>
+<event guid="GVT19uw4soMycmq-Kpzkyw" id="290">
+<date>2017-10-06T06:00:00-07:00</date>
+<start>13:00</start>
+<duration>00:20</duration>
+<room>Room 1113</room>
+<type>Shorter Talk</type>
+<language/>
+<slug>290-automatic-chicken-door-howto</slug>
+<title>Automatic Chicken Door HOWTO</title>
+<subtitle>No, it will not hurt the chicken</subtitle>
+<track>Hardware/IoT</track>
+<abstract>In this talk I&apos;ll show you how I created a raspberry pi-powered chicken door using only Free Software. You can use this knowledge to get inspired to create your own automated hardware+software systems. I&apos;ll go over these features:
+
+* hardware interleave gravity lock mechanism
+* instant-read photoresistor poll door actuation trigger
+* photoresistor signal analog to digital conversion
+* worm gear 12V DC motor controlled via L9110 motor driver chip
+* dual hall-effect magnetic door position sensors
+* fallback door status mitigating magnetic sensor failure
+* night-vision wide-angle camera with motion-triggered video capture
+* C + bash + python polyglot control code with standardized output convention
+* offline operation with 2.4Ghz wifi for monitoring and maintenance
+
+I&apos;m a hardware beginner, so this is a beginner talk in terms of hardware. I know just enough about hardware to ask someone smarter how to not make everything start smoking.
+
+I&apos;ve been writing software for about 20 years, so I want to get into some detail about the software.
+
+This talk isn&apos;t about carpentry--you&apos;ll have to ask my wife about that.
+
+* [slides](https://github.com/meonkeys/seagl2017-rpi-talk)
+* [video](https://archive.org/details/AutomaticChickenDoorHOWTOATalkByAdamMonsenAtSeaGL2017)
+* [source code for door controller](https://github.com/meonkeys/rpi-chx-code)
+* [follow-up blog post](http://adammonsen.com/post/1425)</abstract>
+<description>In this talk I&apos;ll show you how I created a raspberry pi-powered chicken door using only Free Software. You can use this knowledge to get inspired to create your own automated hardware+software systems. I&apos;ll go over these features:
+
+* hardware interleave gravity lock mechanism
+* instant-read photoresistor poll door actuation trigger
+* photoresistor signal analog to digital conversion
+* worm gear 12V DC motor controlled via L9110 motor driver chip
+* dual hall-effect magnetic door position sensors
+* fallback door status mitigating magnetic sensor failure
+* night-vision wide-angle camera with motion-triggered video capture
+* C + bash + python polyglot control code with standardized output convention
+* offline operation with 2.4Ghz wifi for monitoring and maintenance
+
+I&apos;m a hardware beginner, so this is a beginner talk in terms of hardware. I know just enough about hardware to ask someone smarter how to not make everything start smoking.
+
+I&apos;ve been writing software for about 20 years, so I want to get into some detail about the software.
+
+This talk isn&apos;t about carpentry--you&apos;ll have to ask my wife about that.
+
+* [slides](https://github.com/meonkeys/seagl2017-rpi-talk)
+* [video](https://archive.org/details/AutomaticChickenDoorHOWTOATalkByAdamMonsenAtSeaGL2017)
+* [source code for door controller](https://github.com/meonkeys/rpi-chx-code)
+* [follow-up blog post](http://adammonsen.com/post/1425)</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="9">Adam Monsen</person>
+</persons>
+</event>
+<event guid="01skz_lzwQwiEYn8hTETOg" id="309">
+<date>2017-10-06T06:30:00-07:00</date>
+<start>13:30</start>
+<duration>00:20</duration>
+<room>Room 1113</room>
+<type>Shorter Talk</type>
+<language/>
+<slug>309-using-a-chromebook-as-your-daily-driver-linux-laptop</slug>
+<title>Using a Chromebook as Your &quot;Daily Driver&quot; Linux Laptop</title>
+<subtitle/>
+<track>Hardware/IoT</track>
+<abstract>ChromeOS is running on a Linux kernel under the hood already, but it doesn&apos;t expose that to end users by default. However, there are a number of options for getting a familiar software toolset running on your Chromebook.
+
+We&apos;ll talk about reasons why (_and why not_) you might want to consider Chromebooks as a hardware choice, take a look at the choices for using the hardware as a platform for running Linux software with a particular bent towards development and sysadmin type usage, and talk about some of the trade-offs between the options.
+</abstract>
+<description>ChromeOS is running on a Linux kernel under the hood already, but it doesn&apos;t expose that to end users by default. However, there are a number of options for getting a familiar software toolset running on your Chromebook.
+
+We&apos;ll talk about reasons why (_and why not_) you might want to consider Chromebooks as a hardware choice, take a look at the choices for using the hardware as a platform for running Linux software with a particular bent towards development and sysadmin type usage, and talk about some of the trade-offs between the options.
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="566">Andrew Beyer</person>
+</persons>
+</event>
+<event guid="kaDHIKjBSq56xrWzuZXlYA" id="351">
+<date>2017-10-06T07:00:00-07:00</date>
+<start>14:00</start>
+<duration>00:50</duration>
+<room>Room 1113</room>
+<type>Longer Talk</type>
+<language/>
+<slug>351-distributed-systems-with-docker-swarm</slug>
+<title>Distributed Systems With Docker Swarm</title>
+<subtitle/>
+<track>Systems/Ops</track>
+<abstract>Recent versions of Docker support a clustering feature called swarm.
+Swarm allows a set of machines running Docker to form a cluster.
+Together with Docker Compose, swarm simplifies the task of deploying
+a set of services to multiple hosts and provides DNS based service
+discovery and load balancing without the need to run additional software.
+
+During this talk you&apos;ll learn how to:
+
+* Package applications as docker images
+* Deploy multiple containers together using compose
+* Use swarm mode to communicate between containers
+* Scale your system to multiple machines
+
+A full demo of the running system will be included.
+
+This talk assumes basic knowledge of Linux, but does not assume
+prior experience with containers. A GitHub repo with all source
+code referenced during the talk will be provided.
+</abstract>
+<description>Recent versions of Docker support a clustering feature called swarm.
+Swarm allows a set of machines running Docker to form a cluster.
+Together with Docker Compose, swarm simplifies the task of deploying
+a set of services to multiple hosts and provides DNS based service
+discovery and load balancing without the need to run additional software.
+
+During this talk you&apos;ll learn how to:
+
+* Package applications as docker images
+* Deploy multiple containers together using compose
+* Use swarm mode to communicate between containers
+* Scale your system to multiple machines
+
+A full demo of the running system will be included.
+
+This talk assumes basic knowledge of Linux, but does not assume
+prior experience with containers. A GitHub repo with all source
+code referenced during the talk will be provided.
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="615">James Cooper</person>
+</persons>
+</event>
+<event guid="GxlsXT5vy7BjhYj2_HwTMA" id="279">
+<date>2017-10-06T08:30:00-07:00</date>
+<start>15:30</start>
+<duration>00:50</duration>
+<room>Room 1113</room>
+<type>Longer Talk</type>
+<language/>
+<slug>279-a-brief-history-of-i-o</slug>
+<title>A Brief History of I/O</title>
+<subtitle>A short walk down the data path</subtitle>
+<track>Systems/Ops</track>
+<abstract>Whether it’s video and keyboards, disks and network interfaces, or touch screens and cellular modems all computers do some form of input and output. The ways in which I/O happens have changed massively over the years though.
+
+On the hardware side we’ve gone from paper tape to punch cards to tape to many generations of hard drives and now various forms of solid-state storage. We’ve also gone from serial lines and modems to 2.5Mbps Ethernet all the way up to 100Gbps and beyond not to mention Wi-Fi. On the software side there have been many different ways to communicate with the POSIX file APIs and Berkeley socket APIs looming over much of it.
+
+This session will give you an overview of historical hardware I/O mechanisms and how they’ve evolved into the mechanisms we have today. It will also look at the software side of things starting with mainframe I/O mechanisms and looking at the progression from there to the modern POSIX APIs. Lastly it will look at some of the ways I/O is changing and what the future of I/O may hold.
+</abstract>
+<description>Whether it’s video and keyboards, disks and network interfaces, or touch screens and cellular modems all computers do some form of input and output. The ways in which I/O happens have changed massively over the years though.
+
+On the hardware side we’ve gone from paper tape to punch cards to tape to many generations of hard drives and now various forms of solid-state storage. We’ve also gone from serial lines and modems to 2.5Mbps Ethernet all the way up to 100Gbps and beyond not to mention Wi-Fi. On the software side there have been many different ways to communicate with the POSIX file APIs and Berkeley socket APIs looming over much of it.
+
+This session will give you an overview of historical hardware I/O mechanisms and how they’ve evolved into the mechanisms we have today. It will also look at the software side of things starting with mainframe I/O mechanisms and looking at the progression from there to the modern POSIX APIs. Lastly it will look at some of the ways I/O is changing and what the future of I/O may hold.
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="564">Benno Rice</person>
+</persons>
+</event>
+<event guid="PqJJFEoeZd4GBJ0OERcnag" id="338">
+<date>2017-10-06T09:30:00-07:00</date>
+<start>16:30</start>
+<duration>00:50</duration>
+<room>Room 1113</room>
+<type>Longer Talk</type>
+<language/>
+<slug>338-a-filesystem-and-disk-i-o-deep-dive-using-blktrace-and-debugfs</slug>
+<title>A filesystem and disk I/O deep dive using blktrace and debugfs</title>
+<subtitle/>
+<track>Systems/Ops</track>
+<abstract>Programs like `iostat` and `iotop` can tell you all sorts of interesting things about what&apos;s happening on your block devices. You can answer questions like: &quot;How busy are my disks?&quot; &quot;What&apos;s my average latency?&quot; &quot;How many blocks per second am I writing?&quot; &quot;Which processes are doing the most disk I/O?&quot;
+
+What do you do when that information isn&apos;t detailed enough? While it&apos;s great to have statistics on how your disks are performing and which processes are responsible for generating most of the I/O, how do you answer a question like: &quot;Which files are most actively being written to or read from and by whom?&quot; 
+
+This question can be answered by `blktrace`, a block layer IO tracing mechanism which, among other things, provides detailed information about every logical block address (LBA) that is read and written from your disk. In this talk I&apos;ll show you how to run `blktrace` and how to interpret some of it&apos;s cryptic output. Using some arithmetic and `debugfs` I&apos;ll show you how to go from an LBA, to a disk partition, to a filesystem block, to an inode, and finally to a filename.
+
+In this talk we&apos;ll also cover some fun things about the GNU/Linux &apos;ext&apos; family of filesystems. &quot;What&apos;s an inode?&quot; &quot;How are files broken up and organized into multiple disk blocks?&quot; We&apos;ll explore these concepts using the `debugfs` tool, which we&apos;ll use to help us read file contents straight off the disk using `dd`. How cool is that? </abstract>
+<description>Programs like `iostat` and `iotop` can tell you all sorts of interesting things about what&apos;s happening on your block devices. You can answer questions like: &quot;How busy are my disks?&quot; &quot;What&apos;s my average latency?&quot; &quot;How many blocks per second am I writing?&quot; &quot;Which processes are doing the most disk I/O?&quot;
+
+What do you do when that information isn&apos;t detailed enough? While it&apos;s great to have statistics on how your disks are performing and which processes are responsible for generating most of the I/O, how do you answer a question like: &quot;Which files are most actively being written to or read from and by whom?&quot; 
+
+This question can be answered by `blktrace`, a block layer IO tracing mechanism which, among other things, provides detailed information about every logical block address (LBA) that is read and written from your disk. In this talk I&apos;ll show you how to run `blktrace` and how to interpret some of it&apos;s cryptic output. Using some arithmetic and `debugfs` I&apos;ll show you how to go from an LBA, to a disk partition, to a filesystem block, to an inode, and finally to a filename.
+
+In this talk we&apos;ll also cover some fun things about the GNU/Linux &apos;ext&apos; family of filesystems. &quot;What&apos;s an inode?&quot; &quot;How are files broken up and organized into multiple disk blocks?&quot; We&apos;ll explore these concepts using the `debugfs` tool, which we&apos;ll use to help us read file contents straight off the disk using `dd`. How cool is that? </description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="365">Mike Hamrick</person>
+</persons>
+</event>
+</room>
+<room name="Room 3199">
+<event guid="1CjeBOeU26_n38FPOIECtg" id="392">
+<date>2017-10-06T03:45:00-07:00</date>
+<start>10:45</start>
+<duration>00:50</duration>
+<room>Room 3199</room>
+<type>Longer Talk</type>
+<language/>
+<slug>392-clojure-for-unix-hackers</slug>
+<title>Clojure for Unix Hackers</title>
+<subtitle>Or how I learned to stop hating and love node.js</subtitle>
+<track>Programming</track>
+<abstract>## Intended Audience
+Unix hackers, sysadmins, and developers; especially those skeptical of the JVM and node.js. Anyone interested in functional programming, lisps, or data oriented programming.
+
+## Audience Takeaways
+- Basic understanding of Clojure and functional programming
+- Appreciation of sympathetic philosphies between Unix and Clojure
+- Introduction to scripting with Clojurescript
+
+## Motivation
+Clojure is a modern functional, expressive, and data-oriented lisp. However it runs atop the JVM, CLR, and Javascript runtimes. Sometimes seen as bloated, slow, and &quot;something we have to install for developers&quot;, this talk aims to show that not only is Clojure(script) fun, performant, and pragmatic, but it also has a lot in common with Unix and can be a useful tool for scripting, server-side devlepment, UI work, and more!
+
+## Outline
+### Intro to Clojure
+- Intro and motivation
+- Brief history of Lisp
+- Whirlwind tour of Clojure
+- Functional Programming
+
+### Comparisons to Unix
+- REPL driven development
+- Data oriented programming
+- Pipelines and unix philosophy
+
+### Scripting with Clojurescript
+- Intro to Clojurescript
+- Bootstrapped Clojurescript and Planck/Lumo
+- Script Examples
+
+### Beyond Scripting
+- Browser
+- Electron
+- Server
+- React Native
+
+### Conclusion and References
+</abstract>
+<description>## Intended Audience
+Unix hackers, sysadmins, and developers; especially those skeptical of the JVM and node.js. Anyone interested in functional programming, lisps, or data oriented programming.
+
+## Audience Takeaways
+- Basic understanding of Clojure and functional programming
+- Appreciation of sympathetic philosphies between Unix and Clojure
+- Introduction to scripting with Clojurescript
+
+## Motivation
+Clojure is a modern functional, expressive, and data-oriented lisp. However it runs atop the JVM, CLR, and Javascript runtimes. Sometimes seen as bloated, slow, and &quot;something we have to install for developers&quot;, this talk aims to show that not only is Clojure(script) fun, performant, and pragmatic, but it also has a lot in common with Unix and can be a useful tool for scripting, server-side devlepment, UI work, and more!
+
+## Outline
+### Intro to Clojure
+- Intro and motivation
+- Brief history of Lisp
+- Whirlwind tour of Clojure
+- Functional Programming
+
+### Comparisons to Unix
+- REPL driven development
+- Data oriented programming
+- Pipelines and unix philosophy
+
+### Scripting with Clojurescript
+- Intro to Clojurescript
+- Bootstrapped Clojurescript and Planck/Lumo
+- Script Examples
+
+### Beyond Scripting
+- Browser
+- Electron
+- Server
+- React Native
+
+### Conclusion and References
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="610">Wes Payne</person>
+</persons>
+</event>
+<event guid="_wsKSymcj-nIkhhy2_9Npg" id="325">
+<date>2017-10-06T06:00:00-07:00</date>
+<start>13:00</start>
+<duration>00:20</duration>
+<room>Room 3199</room>
+<type>Shorter Talk</type>
+<language/>
+<slug>325-python-packaging-and-dependency-management-in-the-real-world</slug>
+<title>Python Packaging and Dependency Management in the Real World</title>
+<subtitle/>
+<track>Programming</track>
+<abstract>One of Python&apos;s greatest strengths is the large and diverse set of existing code bases that you can build on to accomplish your goals. Unfortunately, as projects grow, managing your dependencies can become a constant headache.
+
+Unwinding which transitive dependency update now conflicts with other dependencies or is simply broken then somehow preventing that version of the dependency from being used is a common issue that needs to be addressed. Other issues include ensuring the correct system packages are installed so that Python packages can be built and link against system libs properly. Consistently reproducing an installation across more that one machine is surprisingly difficult. Python packages can and do execute arbitrary code on the build machines. Pip does not have a proper dependency resolver. The list goes on and on.
+
+As part of running a continuous integration system that installs Python packages tens of thousands of times per day the OpenStack project has learned how to deal with many of these issues. I will talk about how we use tools from PyPa (like pip constraints) and tools we have built (Bindep, PBR) to reliably perform Python package installs that are consistent and reproducible in the real world.</abstract>
+<description>One of Python&apos;s greatest strengths is the large and diverse set of existing code bases that you can build on to accomplish your goals. Unfortunately, as projects grow, managing your dependencies can become a constant headache.
+
+Unwinding which transitive dependency update now conflicts with other dependencies or is simply broken then somehow preventing that version of the dependency from being used is a common issue that needs to be addressed. Other issues include ensuring the correct system packages are installed so that Python packages can be built and link against system libs properly. Consistently reproducing an installation across more that one machine is surprisingly difficult. Python packages can and do execute arbitrary code on the build machines. Pip does not have a proper dependency resolver. The list goes on and on.
+
+As part of running a continuous integration system that installs Python packages tens of thousands of times per day the OpenStack project has learned how to deal with many of these issues. I will talk about how we use tools from PyPa (like pip constraints) and tools we have built (Bindep, PBR) to reliably perform Python package installs that are consistent and reproducible in the real world.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="605">Clark Boylan</person>
+</persons>
+</event>
+<event guid="3pRaT_Dkv4cPmgB2cjh8ng" id="378">
+<date>2017-10-06T06:30:00-07:00</date>
+<start>13:30</start>
+<duration>00:20</duration>
+<room>Room 3199</room>
+<type>Shorter Talk</type>
+<language/>
+<slug>378-how-to-learn-rust</slug>
+<title>How To Learn Rust</title>
+<subtitle/>
+<track>Programming</track>
+<abstract>Rust is a systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety. This talk will answer the question &quot;When should I use Rust?&quot;, and introduce you to the fabulous world of educational resources created by friendly Rustaceans to accompany you on your adventure into safe systems programming.</abstract>
+<description>Rust is a systems programming language that runs blazingly fast, prevents segfaults, and guarantees thread safety. This talk will answer the question &quot;When should I use Rust?&quot;, and introduce you to the fabulous world of educational resources created by friendly Rustaceans to accompany you on your adventure into safe systems programming.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="45">edunham</person>
+</persons>
+</event>
+<event guid="H6FEf5NH5dzP54CPPH23mQ" id="365">
+<date>2017-10-06T07:00:00-07:00</date>
+<start>14:00</start>
+<duration>00:50</duration>
+<room>Room 3199</room>
+<type>Longer Talk</type>
+<language/>
+<slug>365-logs-are-magic</slug>
+<title>Logs Are Magic</title>
+<subtitle>Why Git Workflows and Commit Structure Should Matter To You</subtitle>
+<track>Programming</track>
+<abstract>Git is a powerful, critical, yet poorly understood tool that virtually all Open Source developers use. One of the key features that git provides is a powerful and comprehensive log that displays the history of all the changes that have happened in a project, including potential developments that weren&apos;t ever merged, details about former versions of software that can inform future development, and even such mundane details as whether development on feature A started before or after development of bugfix B.
+
+Despite the power and utility of git&apos;s log, few developers take full advantage of it. Worse, some common practices that developers have adopted in the name of convenience (or just plain cargo culting) can actually destroy this useful information. Moreover, if developers are following the common exhortation to &quot;commit often&quot;, they may end up with logs full of uninteresting noise, as all the details of debugging attempts and experiments are inadvertently recorded.
+
+This talk will:
+
+* detail the potential benefits of having informative and well structured logs
+* discuss common developer habits that can make logs less useful
+* explain techniques to preserve informative development history
+</abstract>
+<description>Git is a powerful, critical, yet poorly understood tool that virtually all Open Source developers use. One of the key features that git provides is a powerful and comprehensive log that displays the history of all the changes that have happened in a project, including potential developments that weren&apos;t ever merged, details about former versions of software that can inform future development, and even such mundane details as whether development on feature A started before or after development of bugfix B.
+
+Despite the power and utility of git&apos;s log, few developers take full advantage of it. Worse, some common practices that developers have adopted in the name of convenience (or just plain cargo culting) can actually destroy this useful information. Moreover, if developers are following the common exhortation to &quot;commit often&quot;, they may end up with logs full of uninteresting noise, as all the details of debugging attempts and experiments are inadvertently recorded.
+
+This talk will:
+
+* detail the potential benefits of having informative and well structured logs
+* discuss common developer habits that can make logs less useful
+* explain techniques to preserve informative development history
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="355">John SJ Anderson</person>
+</persons>
+</event>
+<event guid="rkpqG2mIEaDIcM85ppwC8Q" id="260">
+<date>2017-10-06T08:30:00-07:00</date>
+<start>15:30</start>
+<duration>00:50</duration>
+<room>Room 3199</room>
+<type>Longer Talk</type>
+<language/>
+<slug>260-what-s-new-in-python-3-6-and-some-of-the-factors-to-consider-when-upgrading-from-python-3-5-or-python-2-7</slug>
+<title>What&apos;s new in Python 3.6 and some of the factors to consider when upgrading from Python 3.5 or Python 2.7</title>
+<subtitle>Python tends to have a &quot;scorched earth&quot; policy.  You don&apos;t need to be burned</subtitle>
+<track>Programming</track>
+<abstract>Python 3.6 has a bunch of cool features, but you have to know what they are if you are going to take advantage of them.  My talk is going to focus on what is new and why they are &quot;cool&quot; and you should use them.
+
+I am also going to discuss the decision criteria you should use when making the decision about what which version to use when implementing your python software projects.
+
+</abstract>
+<description>Python 3.6 has a bunch of cool features, but you have to know what they are if you are going to take advantage of them.  My talk is going to focus on what is new and why they are &quot;cool&quot; and you should use them.
+
+I am also going to discuss the decision criteria you should use when making the decision about what which version to use when implementing your python software projects.
+
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="569">Jeff Silverman</person>
+</persons>
+</event>
+<event guid="TtkRHpolOp3bsA3RJT6yXg" id="347">
+<date>2017-10-06T09:30:00-07:00</date>
+<start>16:30</start>
+<duration>00:50</duration>
+<room>Room 3199</room>
+<type>Longer Talk</type>
+<language/>
+<slug>347-verbose-mode-an-exploration-of-programming-languages-and-craft</slug>
+<title>Verbose mode: an exploration of programming languages and craft</title>
+<subtitle/>
+<track>Programming</track>
+<abstract>I want to talk about knitting technical writing and how it has changed based on the education level we provide in schools, and what that means for technology.
+The reason mainstream patterns are hard is because they assume a base level of knowledge in their users, and because they are so concerned about brevity that they omit context. This talk explains how the meaning of &quot;common knowledge&quot; changes, but our standards for interfaces and documentation don&apos;t keep up. 
+
+Come to this talk because you want to learn about how analytics can make your life easier, what that has to do with documentation, and my top tips for gauging your audience&apos;s experience and comfort level. 
+
+This talk is an analysis of how education, assumptions, and technological constraints can make systems of learning accessible or impenetrable, and what we can do about it.
+</abstract>
+<description>I want to talk about knitting technical writing and how it has changed based on the education level we provide in schools, and what that means for technology.
+The reason mainstream patterns are hard is because they assume a base level of knowledge in their users, and because they are so concerned about brevity that they omit context. This talk explains how the meaning of &quot;common knowledge&quot; changes, but our standards for interfaces and documentation don&apos;t keep up. 
+
+Come to this talk because you want to learn about how analytics can make your life easier, what that has to do with documentation, and my top tips for gauging your audience&apos;s experience and comfort level. 
+
+This talk is an analysis of how education, assumptions, and technological constraints can make systems of learning accessible or impenetrable, and what we can do about it.
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="308">hwaterhouse</person>
+</persons>
+</event>
+</room>
+</day>
+<day date="2017-10-07" index="2">
+<room name="Expo Hall">
+<event guid="ZHBL0wPvGguoPijmaBILnA" id="401">
+<date>2017-10-07T02:00:00-07:00</date>
+<start>09:00</start>
+<duration>00:30</duration>
+<room>Expo Hall</room>
+<type>30 minute coffee</type>
+<language/>
+<slug>401-expo-hall-open-coffee-on-saturday-morning</slug>
+<title>Expo hall open! Coffee on Saturday morning</title>
+<subtitle/>
+<track/>
+<abstract>Brought to you by PogoLinux</abstract>
+<description>Brought to you by PogoLinux</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="9">Adam Monsen</person>
+</persons>
+</event>
+<event guid="JLp3BllfjgbR81Q0psjE7w" id="403">
+<date>2017-10-07T03:30:00-07:00</date>
+<start>10:30</start>
+<duration>00:15</duration>
+<room>Expo Hall</room>
+<type>15 minute coffee</type>
+<language/>
+<slug>403-saturday-second-coffee</slug>
+<title>Saturday second coffee</title>
+<subtitle/>
+<track/>
+<abstract>Brought to you by PogoLinux</abstract>
+<description>Brought to you by PogoLinux</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="9">Adam Monsen</person>
+</persons>
+</event>
+<event guid="kak5DCFSreD_2gw7Xhfojg" id="408">
+<date>2017-10-07T04:45:00-07:00</date>
+<start>11:45</start>
+<duration>01:15</duration>
+<room>Expo Hall</room>
+<type>Lunch</type>
+<language/>
+<slug>408-lunch-provided</slug>
+<title>Lunch! (provided)</title>
+<subtitle/>
+<track/>
+<abstract>Pizza party! Free!</abstract>
+<description>Pizza party! Free!</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="9">Adam Monsen</person>
+</persons>
+</event>
+<event guid="Vz-NoKr6XPeKjSZDjnzYUQ" id="402">
+<date>2017-10-07T08:00:00-07:00</date>
+<start>15:00</start>
+<duration>00:30</duration>
+<room>Expo Hall</room>
+<type>30 minute coffee</type>
+<language/>
+<slug>402-saturday-afternoon-coffee</slug>
+<title>Saturday afternoon coffee</title>
+<subtitle/>
+<track/>
+<abstract>Brought to you by PogoLinux</abstract>
+<description>Brought to you by PogoLinux</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="9">Adam Monsen</person>
+</persons>
+</event>
+<event guid="CGv_QNicoDeQVWqqrpfzsg" id="404">
+<date>2017-10-07T10:30:00-07:00</date>
+<start>17:30</start>
+<duration>00:30</duration>
+<room>Expo Hall</room>
+<type>Cleanup</type>
+<language/>
+<slug>404-saturday-cleanup</slug>
+<title>Saturday cleanup</title>
+<subtitle/>
+<track/>
+<abstract>Brought to you by Adam Monsen</abstract>
+<description>Brought to you by Adam Monsen</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="9">Adam Monsen</person>
+</persons>
+</event>
+</room>
+<room name="Theatre">
+<event guid="TGn-9C4P5j6wR0NfXuN4Jw" id="406">
+<date>2017-10-07T02:30:00-07:00</date>
+<start>09:30</start>
+<duration>01:00</duration>
+<room>Theatre</room>
+<type>Keynote</type>
+<language/>
+<slug>406-keynote-rikki-endsley</slug>
+<title>Keynote: Rikki Endsley</title>
+<subtitle/>
+<track/>
+<abstract>Rikki is an editor and community manager for Opensource.com where she mentors writers and helps people tell their tech stories. Previously she worked as a community evangelist on the Open Source and Standards team at Red Hat. Other hats she has worn include: tech journalist; community manager for the USENIX Association; associate publisher of Linux Pro Magazine, ADMIN, and Ubuntu User; and managing editor of Sys Admin magazine and UnixReview.com. In 2016 she won an O’Reilly Open Source Award for her tireless work to build a vibrant, creative and well-documented open source community. Follow her on Twitter: @rikkiends</abstract>
+<description>Rikki is an editor and community manager for Opensource.com where she mentors writers and helps people tell their tech stories. Previously she worked as a community evangelist on the Open Source and Standards team at Red Hat. Other hats she has worn include: tech journalist; community manager for the USENIX Association; associate publisher of Linux Pro Magazine, ADMIN, and Ubuntu User; and managing editor of Sys Admin magazine and UnixReview.com. In 2016 she won an O’Reilly Open Source Award for her tireless work to build a vibrant, creative and well-documented open source community. Follow her on Twitter: @rikkiends</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="337">Rikki Endsley</person>
+</persons>
+</event>
+</room>
+<room name="Room 5104">
+<event guid="ZiIrgcQd9SNkxEua2DlTsg" id="375">
+<date>2017-10-07T03:45:00-07:00</date>
+<start>10:45</start>
+<duration>00:50</duration>
+<room>Room 5104</room>
+<type>Longer Talk</type>
+<language/>
+<slug>375-leveraging-collaborative-mentorship-to-strengthen-your-free-software-community</slug>
+<title>Leveraging collaborative mentorship to strengthen your free software community</title>
+<subtitle>A case study for discussion</subtitle>
+<track>People</track>
+<abstract>There has been much discussion over the past several years about improving the quality of free software communities in terms of increasing participation and reducing burnout. Numerous explanations and suggestions have been offered in order to make lasting improvements. Indeed, building and strengthening your community should be recognized as a core mission for all free software project leaders. However, this requires learning a skill set not traditionally associated with technical project management. We will present the successes and failures of one free software community in establishing a collaborative mentorship program as a case study in community improvement and as a springboard for further discussion.
+
+Our efforts in establishing a number of mentor-mentee collaborations between experienced developers and newcomers to free software provides a wealth of hard-won knowledge and experience in free software community building and maintenance. Additionally, as this community is primarily composed of those who are historically under-represented in technology, the successes and failures are likely to be unique and potentially counter-intuitive to those used to engaging with more mainstream free software communities.
+
+We hope sharing these experiences will serve as a source for critical reflection for attendees in gauging the relative effectiveness of their own community building initiatives. Successful free software communities are as varied as their associated projects, and we hope the lessons we share will inspire others to make their communities just that much more successful.</abstract>
+<description>There has been much discussion over the past several years about improving the quality of free software communities in terms of increasing participation and reducing burnout. Numerous explanations and suggestions have been offered in order to make lasting improvements. Indeed, building and strengthening your community should be recognized as a core mission for all free software project leaders. However, this requires learning a skill set not traditionally associated with technical project management. We will present the successes and failures of one free software community in establishing a collaborative mentorship program as a case study in community improvement and as a springboard for further discussion.
+
+Our efforts in establishing a number of mentor-mentee collaborations between experienced developers and newcomers to free software provides a wealth of hard-won knowledge and experience in free software community building and maintenance. Additionally, as this community is primarily composed of those who are historically under-represented in technology, the successes and failures are likely to be unique and potentially counter-intuitive to those used to engaging with more mainstream free software communities.
+
+We hope sharing these experiences will serve as a source for critical reflection for attendees in gauging the relative effectiveness of their own community building initiatives. Successful free software communities are as varied as their associated projects, and we hope the lessons we share will inspire others to make their communities just that much more successful.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="621">Brian Callahan</person>
+<person id="386">Lisa Marie Maginnis</person>
+</persons>
+</event>
+<event guid="wUFW01Cuut0UFjxGe1YM9Q" id="384">
+<date>2017-10-07T06:00:00-07:00</date>
+<start>13:00</start>
+<duration>00:20</duration>
+<room>Room 5104</room>
+<type>Shorter Talk</type>
+<language/>
+<slug>384-snowdrift-coop-5-years-of-a-work-in-progress</slug>
+<title>Snowdrift.coop: 5 years of a work-in-progress</title>
+<subtitle/>
+<track>Something different</track>
+<abstract>In 2012, an optimistic programmer convinced his friend to *do* something about his complaints and ideas around economic injustice and market-failures in free/libre/open (FLO) culture and software. Five years later, Snowdrift.coop has a concrete vision, a global community of volunteers, and a valuable collection of writings and research about sustainable funding for FLO projects.
+
+Still, Snowdrift.coop needs further work to reach a full launch. Through that story, this talk will summarize the challenges in building a cooperative, ethical web platform and reflect on the relevant changes (both good and bad) in the overall FLO ecosystem over the past five years.</abstract>
+<description>In 2012, an optimistic programmer convinced his friend to *do* something about his complaints and ideas around economic injustice and market-failures in free/libre/open (FLO) culture and software. Five years later, Snowdrift.coop has a concrete vision, a global community of volunteers, and a valuable collection of writings and research about sustainable funding for FLO projects.
+
+Still, Snowdrift.coop needs further work to reach a full launch. Through that story, this talk will summarize the challenges in building a cooperative, ethical web platform and reflect on the relevant changes (both good and bad) in the overall FLO ecosystem over the past five years.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="54">Aaron Wolf</person>
+</persons>
+</event>
+<event guid="_AK7qJM59AcRaW0WPbV2fA" id="366">
+<date>2017-10-07T06:30:00-07:00</date>
+<start>13:30</start>
+<duration>00:20</duration>
+<room>Room 5104</room>
+<type>Shorter Talk</type>
+<language/>
+<slug>366-a-static-site-generator-should-be-your-next-language-learning-project</slug>
+<title>A static site generator should be your next language learning project</title>
+<subtitle/>
+<track>Programming</track>
+<abstract>When learning a new language, some folks prefer to read the language documentation, or work through simple exercises like you might find on http://exercism.io -- but I prefer to have something more like an actual project. I find that holds my focus a little better, and that I do a better job of absorbing the new language syntax and features if I&apos;m using them for something *real*.
+
+In this talk, I&apos;m going to outline why writing a static website generator is the perfect task for this sort of language learning project. I&apos;ll cover the code you&apos;ll need to write in order to develop a simple template-based website generation system, and show how this particular project actually manages to hit all the points you need to understand to claim basic understanding of a language.
+</abstract>
+<description>When learning a new language, some folks prefer to read the language documentation, or work through simple exercises like you might find on http://exercism.io -- but I prefer to have something more like an actual project. I find that holds my focus a little better, and that I do a better job of absorbing the new language syntax and features if I&apos;m using them for something *real*.
+
+In this talk, I&apos;m going to outline why writing a static website generator is the perfect task for this sort of language learning project. I&apos;ll cover the code you&apos;ll need to write in order to develop a simple template-based website generation system, and show how this particular project actually manages to hit all the points you need to understand to claim basic understanding of a language.
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="355">John SJ Anderson</person>
+</persons>
+</event>
+<event guid="Fed8JOKsOYADXSQqBIjIRA" id="358">
+<date>2017-10-07T07:00:00-07:00</date>
+<start>14:00</start>
+<duration>00:50</duration>
+<room>Room 5104</room>
+<type>Longer Talk</type>
+<language/>
+<slug>358-giving-the-public-what-they-pay-for</slug>
+<title>Giving The Public What They Pay For</title>
+<subtitle>Opening Government Funded Research</subtitle>
+<track>People</track>
+<abstract>The United States and other governments spend tens, if not hundreds of billions of dollars per year funding research for the benefit of their own populations and of mankind. This research results in large amounts of software technology in bleeding edge areas that is ripe for development into disruptive products. However, much of this research is opaque and unavailable to the common software developer, being dished out to those parties known to have an interest in it rather than widespread dissemination and collaboration like the Open Source world enjoys.
+
+Bringing modern Open Source practices into institutional research provides a better means of spreading, utilizing and commercializing these technologies and fulfilling the basic charters of these institutions. I have spent the last year and a half changing how government research interfaces with the Open Source world in order to take advantage of these new, superior models. I would like to share my tactics, my successes, my setbacks and my vision for where we are going and how it will change the world.
+</abstract>
+<description>The United States and other governments spend tens, if not hundreds of billions of dollars per year funding research for the benefit of their own populations and of mankind. This research results in large amounts of software technology in bleeding edge areas that is ripe for development into disruptive products. However, much of this research is opaque and unavailable to the common software developer, being dished out to those parties known to have an interest in it rather than widespread dissemination and collaboration like the Open Source world enjoys.
+
+Bringing modern Open Source practices into institutional research provides a better means of spreading, utilizing and commercializing these technologies and fulfilling the basic charters of these institutions. I have spent the last year and a half changing how government research interfaces with the Open Source world in order to take advantage of these new, superior models. I would like to share my tactics, my successes, my setbacks and my vision for where we are going and how it will change the world.
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="309">Paul Berg</person>
+</persons>
+</event>
+<event guid="fn5JBqWtCdz8X3_ICMKErA" id="363">
+<date>2017-10-07T08:30:00-07:00</date>
+<start>15:30</start>
+<duration>00:50</duration>
+<room>Room 5104</room>
+<type>Longer Talk</type>
+<language/>
+<slug>363-software-patents-global-trends</slug>
+<title>Software Patents: Global Trends</title>
+<subtitle/>
+<track>Something different</track>
+<abstract>In the developer community, nobody cares where their collaborators are physically located. It&apos;s a completely different story for legal practitioners and others who look at the licenses, patents and treaties that dictate what&apos;s feasible, what&apos;s expensive and what&apos;s impossible -- or even illegal. Software production has become rapid, diverse and global and in many instances, regulators have been struggling to keep up. While lawmakers, treaty drafters and standards setting organizations may feel ready for action, many of their proposed actions need considerably more input from global free and software projects and companies. 
+
+Project leaders and company executives need a high level understanding of the complex interplay between patents and copyright, the varying scope of patentability in different regions, as well as the impact of governmental and international bodies seeking to simplify or regulate the international production and use of software. This talk will give the audience a feel for current trends and offer resources for further education on many of the specific issues. With a global understanding of where things are headed, the free software community will be ready to impactfully address and respond to proposed policy decisions.</abstract>
+<description>In the developer community, nobody cares where their collaborators are physically located. It&apos;s a completely different story for legal practitioners and others who look at the licenses, patents and treaties that dictate what&apos;s feasible, what&apos;s expensive and what&apos;s impossible -- or even illegal. Software production has become rapid, diverse and global and in many instances, regulators have been struggling to keep up. While lawmakers, treaty drafters and standards setting organizations may feel ready for action, many of their proposed actions need considerably more input from global free and software projects and companies. 
+
+Project leaders and company executives need a high level understanding of the complex interplay between patents and copyright, the varying scope of patentability in different regions, as well as the impact of governmental and international bodies seeking to simplify or regulate the international production and use of software. This talk will give the audience a feel for current trends and offer resources for further education on many of the specific issues. With a global understanding of where things are headed, the free software community will be ready to impactfully address and respond to proposed policy decisions.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="32">Deb Nicholson</person>
+</persons>
+</event>
+<event guid="olzSrCDHTgEoWW7m8zx1xA" id="362">
+<date>2017-10-07T09:30:00-07:00</date>
+<start>16:30</start>
+<duration>00:50</duration>
+<room>Room 5104</room>
+<type>Longer Talk</type>
+<language/>
+<slug>362-taking-license-compatibility-semi-seriously</slug>
+<title>Taking license compatibility semi-seriously</title>
+<subtitle/>
+<track>Something different</track>
+<abstract>License compatibility refers to the problem of creating combined works out of code under different, seemingly clashing FLOSS licenses. It most often arises where at least one of the licenses is in the GPL family.
+
+A surprising amount of intellectual energy, by developers, users, lawyers and &quot;compliance professionals&quot;, has been devoted to dealing with the topic of license compatibility. Incompatibility is often spoken of as a significant open source compliance issue. But there has been very little critical analysis of the assumptions behind received wisdom about license compatibility. Where such analysis occurs, it seems to have little to do with the real-world behavior of developers and projects. 
+
+This talk attempts to make some sense out of the topic of license compatibility, noting where it makes sense and where it doesn&apos;t. We&apos;ll discuss some interesting historical and contemporary cases, like ZFS and Linux. The talk will propose ways of adjusting how we think about license interpretation so that compatibility doctrine is on more solid ground and in line with the realities of community development.</abstract>
+<description>License compatibility refers to the problem of creating combined works out of code under different, seemingly clashing FLOSS licenses. It most often arises where at least one of the licenses is in the GPL family.
+
+A surprising amount of intellectual energy, by developers, users, lawyers and &quot;compliance professionals&quot;, has been devoted to dealing with the topic of license compatibility. Incompatibility is often spoken of as a significant open source compliance issue. But there has been very little critical analysis of the assumptions behind received wisdom about license compatibility. Where such analysis occurs, it seems to have little to do with the real-world behavior of developers and projects. 
+
+This talk attempts to make some sense out of the topic of license compatibility, noting where it makes sense and where it doesn&apos;t. We&apos;ll discuss some interesting historical and contemporary cases, like ZFS and Linux. The talk will propose ways of adjusting how we think about license interpretation so that compatibility doctrine is on more solid ground and in line with the realities of community development.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="51">Richard Fontana</person>
+</persons>
+</event>
+</room>
+<room name="Room 5102">
+<event guid="aapcyoF5sXfAoj5H1AJZOw" id="263">
+<date>2017-10-07T03:45:00-07:00</date>
+<start>10:45</start>
+<duration>00:50</duration>
+<room>Room 5102</room>
+<type>Longer Talk</type>
+<language/>
+<slug>263-building-a-better-thermostat</slug>
+<title>Building a Better Thermostat</title>
+<subtitle/>
+<track>Hardware/IoT</track>
+<abstract>After returning from a recent trip that occurred during the middle of a heat wave. I arrived home to find my apartment quite hot, at least 45C inside. Needless to say it wasn’t the most comfortable way to come home after 15 days out of town, I decided it was time for me to do something about it to address this so I didn&apos;t come home to that unpleasant surprise again. Normally, this problem is solved by having a thermostat which controls the air conditioning. However, my apartment did not have a thermostat. So I decided to build one using open source software.
+
+This talk will cover how I went about solving my problem using existing software and protocols like home-assistant, MQTT, and also some new software that was created for this. It&apos;ll also discuss how using open software and home automation I was able to solve my issue but also make cooling my apartment smarter.</abstract>
+<description>After returning from a recent trip that occurred during the middle of a heat wave. I arrived home to find my apartment quite hot, at least 45C inside. Needless to say it wasn’t the most comfortable way to come home after 15 days out of town, I decided it was time for me to do something about it to address this so I didn&apos;t come home to that unpleasant surprise again. Normally, this problem is solved by having a thermostat which controls the air conditioning. However, my apartment did not have a thermostat. So I decided to build one using open source software.
+
+This talk will cover how I went about solving my problem using existing software and protocols like home-assistant, MQTT, and also some new software that was created for this. It&apos;ll also discuss how using open software and home automation I was able to solve my issue but also make cooling my apartment smarter.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="570">Matthew Treinish</person>
+</persons>
+</event>
+<event guid="m_OksFfoRrwv5OvgEy2D8w" id="273">
+<date>2017-10-07T06:30:00-07:00</date>
+<start>13:30</start>
+<duration>00:20</duration>
+<room>Room 5102</room>
+<type>Shorter Talk</type>
+<language/>
+<slug>273-automatically-watching-the-most-interesting-twitch-streams</slug>
+<title>Automatically Watching the Most Interesting Twitch Streams</title>
+<subtitle>Entertainment without Burden</subtitle>
+<track>Something different</track>
+<abstract>It can be tedious to watch multiple twitch streams at once, as streamers are constantly moving in and out of games, reading their subscriber messages, and doing other audience engagement tasks in the downtime. What if a viewer wants to just see the uptime, or the most interesting parts of live streams automatically?
+
+My solution to this problem (for one game at least) is called pubgredzone. It applies the NFL RedZone concept to an incredibly popular battle royale game called PlayerUnknown&apos;s BattleGrounds. This game starts with 100 players alive and lets them battle it out until one player remains, while constantly displaying the number of alive players in the top right corner of the screen. pubgredzone will poll Twitch for popular streams of this game, grab a frame from each of these streams, crop each frame down to just the number of players alive, and do OCR on these numbers to determine which stream has the fewest number of players alive. The website will then automatically switch to the determined &quot;best&quot; stream using LiveJS, that way the viewer only sees the interesting parts of the streams (people battling it out at the end to win. analgous to only seeing Touchdowns in NFL RedZone).
+
+I will give a high level overview of the game and the problem solved, how I built the webapp and plans for the future.
+Technologies used:
+
+- ImageMagick (crop images)
+- Tesseract (Object Character recognition)
+- ffmpeg (take a frame from a recorded Twtich stream)
+- livestreamer (library for recording Twitch streams)
+- LiveJS (automagically refresh viewers&apos; browser tabs when stream changes)
+- jq (parse json received from Twitch API).</abstract>
+<description>It can be tedious to watch multiple twitch streams at once, as streamers are constantly moving in and out of games, reading their subscriber messages, and doing other audience engagement tasks in the downtime. What if a viewer wants to just see the uptime, or the most interesting parts of live streams automatically?
+
+My solution to this problem (for one game at least) is called pubgredzone. It applies the NFL RedZone concept to an incredibly popular battle royale game called PlayerUnknown&apos;s BattleGrounds. This game starts with 100 players alive and lets them battle it out until one player remains, while constantly displaying the number of alive players in the top right corner of the screen. pubgredzone will poll Twitch for popular streams of this game, grab a frame from each of these streams, crop each frame down to just the number of players alive, and do OCR on these numbers to determine which stream has the fewest number of players alive. The website will then automatically switch to the determined &quot;best&quot; stream using LiveJS, that way the viewer only sees the interesting parts of the streams (people battling it out at the end to win. analgous to only seeing Touchdowns in NFL RedZone).
+
+I will give a high level overview of the game and the problem solved, how I built the webapp and plans for the future.
+Technologies used:
+
+- ImageMagick (crop images)
+- Tesseract (Object Character recognition)
+- ffmpeg (take a frame from a recorded Twtich stream)
+- livestreamer (library for recording Twitch streams)
+- LiveJS (automagically refresh viewers&apos; browser tabs when stream changes)
+- jq (parse json received from Twitch API).</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="574">Cullen Taylor</person>
+</persons>
+</event>
+<event guid="uo7ydzS2pK20iO2fsWu34g" id="278">
+<date>2017-10-07T07:00:00-07:00</date>
+<start>14:00</start>
+<duration>00:50</duration>
+<room>Room 5102</room>
+<type>Longer Talk</type>
+<language/>
+<slug>278-brewing-beer-with-linux-python-and-a-raspberrypi</slug>
+<title>Brewing Beer with Linux, Python and a RaspberryPi </title>
+<subtitle/>
+<track>Hardware/IoT</track>
+<abstract>Making beer with open software is a blast! There are a host of open source programs available for driving the hardware required to brew awesome beer. This presentation will include an overview of the most popular brewing software available with special attention paid to the python-based project &quot;CraftBeerPi&quot;. There will also be a detailed review of the system Christopher has been brewing beer with, including all-electric kettles and a temperature controlled fermentation chamber. </abstract>
+<description>Making beer with open software is a blast! There are a host of open source programs available for driving the hardware required to brew awesome beer. This presentation will include an overview of the most popular brewing software available with special attention paid to the python-based project &quot;CraftBeerPi&quot;. There will also be a detailed review of the system Christopher has been brewing beer with, including all-electric kettles and a temperature controlled fermentation chamber. </description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="577">Christopher Aedo</person>
+</persons>
+</event>
+<event guid="WeQxk24tx6WE_QZ-C3n4jQ" id="353">
+<date>2017-10-07T08:30:00-07:00</date>
+<start>15:30</start>
+<duration>00:50</duration>
+<room>Room 5102</room>
+<type>Longer Talk</type>
+<language/>
+<slug>353-your-solution-is-not-my-problem</slug>
+<title>Your Solution Is Not My Problem</title>
+<subtitle/>
+<track>Systems/Ops</track>
+<abstract>When you attend a conference, you&apos;re likely to see some really inspiring talks about how the speaker uses a particular technology or infrastructure stack. &quot;Wow!&quot; you think, &quot;I&apos;m going to go back to the office and try that out just like the speaker did it!&quot;
+
+Before you do that, come see THIS talk. It hopefully will convince you that while your current infrastructure or solution isn&apos;t perfect, it may be exactly what you need while the shiny new solution you just learned about may not be a good fit at all.
+
+This talk will teach you:
+    
+    * How to discover the pain points in your infrastructure
+    * How to determine the needs of your company &amp; your team
+    * How to apply this information to make an informed technology judgement call</abstract>
+<description>When you attend a conference, you&apos;re likely to see some really inspiring talks about how the speaker uses a particular technology or infrastructure stack. &quot;Wow!&quot; you think, &quot;I&apos;m going to go back to the office and try that out just like the speaker did it!&quot;
+
+Before you do that, come see THIS talk. It hopefully will convince you that while your current infrastructure or solution isn&apos;t perfect, it may be exactly what you need while the shiny new solution you just learned about may not be a good fit at all.
+
+This talk will teach you:
+    
+    * How to discover the pain points in your infrastructure
+    * How to determine the needs of your company &amp; your team
+    * How to apply this information to make an informed technology judgement call</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="77">Gareth J. Greenaway</person>
+</persons>
+</event>
+<event guid="hJT5T7OicEmguG_7DYfLnw" id="357">
+<date>2017-10-07T09:30:00-07:00</date>
+<start>16:30</start>
+<duration>00:50</duration>
+<room>Room 5102</room>
+<type>Longer Talk</type>
+<language/>
+<slug>357-hello-gmom</slug>
+<title>Hello Gmom!</title>
+<subtitle>Pushing back against loneliness in end-of-life care.</subtitle>
+<track>Design/UI/UX/Accessibility</track>
+<abstract>#### Abstract
+**Content Warning:** This talk includes references to debilitating illness and death, but the emphasis is on quality of life and family.
+
+After suffering a debilitating stroke, Barbara, my girlfriend&apos;s grandmother, was left disabled, bed-bound, and mostly non-verbal. We visited often, and were with her when she passed earlier this year. For Christmas, I built her a web application to be a window into the life of her granddaughter.
+
+Research into providing end-of-life care reveals common feelings of powerlessness, isolation, and loneliness. A small web application provided a sense of connection and relevance, improving the quality of life for both grandmother and granddaughter. The application delivered MMS messages and photos from Barbara&apos;s family to a television in her room. The receiving device was a Raspberry Pi Zero. I purchased a phone number through Twilio and created a small Rails application to proxy MMS messages to the Pi Zero via a websocket connection. The tech is ordinary, about as far away from the cutting edge as it gets. I searched for commercial solutions, but couldn&apos;t find anything that met her specific situation and abilities. So I built it, and it&apos;s now my favorite thing I&apos;ve ever shipped.
+
+The most important consideration for this project was the UX. For us, the people sending messages, integrating it into an existing communication habit increased the likelihood of regular use. Gmom had some short-term memory impairment, so cycling messages helped her remember them. Her eyesight was great--better than mine--but we still experimented with typography, color contrast, and layout to optimize her reading experience.
+
+Now that she&apos;s passed, I&apos;m hoping that the project can be a foundation or inspiration for others to build tools that bring them closer to the people they love. This small project--a $5 computer and some &quot;off-the-shelf&quot; technology--increased the quality of life for all of us. 
+
+#### Goals and Themes
+
+- **UX First**: Technology decisions were made through the lens of UX. Knowing my users well made the product viable.
+- **Off the shelf**: Using off the shelf parts and tools, I was able to increase the quality of life for my family. This is something we can all do.
+- **The power of community**: I was inspired by people I&apos;ve met through the OSS community.
+
+#### References
+- Rokach, A. (2015) [The Dying and Those Who Care for Them](https://www.omicsonline.org/open-access/the-dying-and-those-who-care-for-them-jpc-1000101.php?aid=66704#5)
+- Ranjana, S. F.R.A.C.P. (2011) [The Loneliness of Visiting](http://www.nejm.org/doi/full/10.1056/NEJMp1013909?query=TOC&amp;)
+- Marie Curie Briefing (undated) [Inequities in palliative care – isolation and loneliness](https://www.mariecurie.org.uk/globalassets/media/documents/policy/briefings-consultations/scotland-briefings/marie-curie-briefing-inequities-isolation-loneliness.pdf)
+</abstract>
+<description>#### Abstract
+**Content Warning:** This talk includes references to debilitating illness and death, but the emphasis is on quality of life and family.
+
+After suffering a debilitating stroke, Barbara, my girlfriend&apos;s grandmother, was left disabled, bed-bound, and mostly non-verbal. We visited often, and were with her when she passed earlier this year. For Christmas, I built her a web application to be a window into the life of her granddaughter.
+
+Research into providing end-of-life care reveals common feelings of powerlessness, isolation, and loneliness. A small web application provided a sense of connection and relevance, improving the quality of life for both grandmother and granddaughter. The application delivered MMS messages and photos from Barbara&apos;s family to a television in her room. The receiving device was a Raspberry Pi Zero. I purchased a phone number through Twilio and created a small Rails application to proxy MMS messages to the Pi Zero via a websocket connection. The tech is ordinary, about as far away from the cutting edge as it gets. I searched for commercial solutions, but couldn&apos;t find anything that met her specific situation and abilities. So I built it, and it&apos;s now my favorite thing I&apos;ve ever shipped.
+
+The most important consideration for this project was the UX. For us, the people sending messages, integrating it into an existing communication habit increased the likelihood of regular use. Gmom had some short-term memory impairment, so cycling messages helped her remember them. Her eyesight was great--better than mine--but we still experimented with typography, color contrast, and layout to optimize her reading experience.
+
+Now that she&apos;s passed, I&apos;m hoping that the project can be a foundation or inspiration for others to build tools that bring them closer to the people they love. This small project--a $5 computer and some &quot;off-the-shelf&quot; technology--increased the quality of life for all of us. 
+
+#### Goals and Themes
+
+- **UX First**: Technology decisions were made through the lens of UX. Knowing my users well made the product viable.
+- **Off the shelf**: Using off the shelf parts and tools, I was able to increase the quality of life for my family. This is something we can all do.
+- **The power of community**: I was inspired by people I&apos;ve met through the OSS community.
+
+#### References
+- Rokach, A. (2015) [The Dying and Those Who Care for Them](https://www.omicsonline.org/open-access/the-dying-and-those-who-care-for-them-jpc-1000101.php?aid=66704#5)
+- Ranjana, S. F.R.A.C.P. (2011) [The Loneliness of Visiting](http://www.nejm.org/doi/full/10.1056/NEJMp1013909?query=TOC&amp;)
+- Marie Curie Briefing (undated) [Inequities in palliative care – isolation and loneliness](https://www.mariecurie.org.uk/globalassets/media/documents/policy/briefings-consultations/scotland-briefings/marie-curie-briefing-inequities-isolation-loneliness.pdf)
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="589">Jeremy</person>
+</persons>
+</event>
+</room>
+<room name="Room 3187">
+<event guid="ie2xkeXmPujSMZtZoPmEdA" id="314">
+<date>2017-10-07T03:45:00-07:00</date>
+<start>10:45</start>
+<duration>00:50</duration>
+<room>Room 3187</room>
+<type>Longer Talk</type>
+<language/>
+<slug>314-open-source-from-standing-rock-to-your-home-community</slug>
+<title>Open Source From Standing Rock To Your Home Community</title>
+<subtitle>Technology for protecting water, earth, and people</subtitle>
+<track>Something different</track>
+<abstract>At Standing Rock we had as many as 20,000 people living in open fields, along a hillside, and tucked behind a grove of trees, all without the modern infrastructure that makes a city of that size function today. The community at the camps had to generate our own electricity, bring Internet from 10 miles away without access to the fiber lines, boost cell phone signals from far away, communicate over handheld radios, get safe water to everyone, manage waste, and generally stay warm and well fed even through the harsh winter. We did all this while sustaining serious attacks on our equipment from private security infiltrators. The lessons from that experience can be useful whether you are joining one of the many currently active water protector camps around the US or trying to find ways to be more sustainable in your own community.
+
+Consider a variety of methods for power generation, and why some won out at Standing Rock but others may be better elsewhere. How do you keep electricity use within your generation capacit? Every community needs to choose its trade-offs, but lots of money or lots of time can give you almost anything you want. LED holiday lights are super useful, too.
+
+Internet connectivity is a must, but how do you get it? Hint: Satellite probably isn&apos;t the answer, unless you have a sponsor with VERY deep pockets. Ubiquiti gear is one good option if you have an ISP that will work with you to extend their reach to your camp or community. 4GLTE may work for your camp or community, too, and a few boosting techniques can make it reach a larger area AND improve speed (to a point). Local caching of frequently needed pages can help decrease total bandwidth usage to the ISP, and a local Intranet can give you even more advantages: A Mumble server for encrypted comms, Discord for local conversations, a community news site with calendar of events, and/or locally hosted resources for students in your school(s).
+
+Get your Ham license. It&apos;s way more useful than you imagine, even if it isn&apos;t &quot;private&quot; at all. Better still, you can use your Ham license to build and pilot better drones than the ones you can get off the shelf.
+
+It may not seem glamorous, but getting safe water and managing waste is really important, too. There are low-tech and higher-tech solutions for the sustainability-minded hacktivist.
+
+As a special bonus, learn the wonderful game of &quot;A--hole or Infiltrator&quot;, because, let&apos;s face it, we all do stupid things.</abstract>
+<description>At Standing Rock we had as many as 20,000 people living in open fields, along a hillside, and tucked behind a grove of trees, all without the modern infrastructure that makes a city of that size function today. The community at the camps had to generate our own electricity, bring Internet from 10 miles away without access to the fiber lines, boost cell phone signals from far away, communicate over handheld radios, get safe water to everyone, manage waste, and generally stay warm and well fed even through the harsh winter. We did all this while sustaining serious attacks on our equipment from private security infiltrators. The lessons from that experience can be useful whether you are joining one of the many currently active water protector camps around the US or trying to find ways to be more sustainable in your own community.
+
+Consider a variety of methods for power generation, and why some won out at Standing Rock but others may be better elsewhere. How do you keep electricity use within your generation capacit? Every community needs to choose its trade-offs, but lots of money or lots of time can give you almost anything you want. LED holiday lights are super useful, too.
+
+Internet connectivity is a must, but how do you get it? Hint: Satellite probably isn&apos;t the answer, unless you have a sponsor with VERY deep pockets. Ubiquiti gear is one good option if you have an ISP that will work with you to extend their reach to your camp or community. 4GLTE may work for your camp or community, too, and a few boosting techniques can make it reach a larger area AND improve speed (to a point). Local caching of frequently needed pages can help decrease total bandwidth usage to the ISP, and a local Intranet can give you even more advantages: A Mumble server for encrypted comms, Discord for local conversations, a community news site with calendar of events, and/or locally hosted resources for students in your school(s).
+
+Get your Ham license. It&apos;s way more useful than you imagine, even if it isn&apos;t &quot;private&quot; at all. Better still, you can use your Ham license to build and pilot better drones than the ones you can get off the shelf.
+
+It may not seem glamorous, but getting safe water and managing waste is really important, too. There are low-tech and higher-tech solutions for the sustainability-minded hacktivist.
+
+As a special bonus, learn the wonderful game of &quot;A--hole or Infiltrator&quot;, because, let&apos;s face it, we all do stupid things.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="398">Elior Sterling</person>
+</persons>
+</event>
+<event guid="2L6mAEJDxsUNz2vUiztxQQ" id="337">
+<date>2017-10-07T06:30:00-07:00</date>
+<start>13:30</start>
+<duration>00:20</duration>
+<room>Room 3187</room>
+<type>Shorter Talk</type>
+<language/>
+<slug>337-diverse-t-shirts-for-diverse-people</slug>
+<title>Diverse T-Shirts for Diverse People</title>
+<subtitle/>
+<track>Something different</track>
+<abstract>Did you know that most people are not the same as most other people? I know, it surprised me too.
+
+It turns out, that the differences that people share also affect the sort of clothing that fits them. Different people have different shapes. Different people like different colours. 
+
+T-shirt manufacturers, however, aren&apos;t always great at reflecting this diversity. Fewer colours are available in &quot;women&apos;s cuts&quot; than in &quot;men&apos;s cuts&quot;. The colours available in larger sizes are not the colours available in smaller sizes. Some women do not fit into the same sorts of fitted t-shirt as other women. Not all men want &quot;men&apos;s cut&quot; shirts.
+
+People in tech love t-shirts, and they can be a great way to get people to do free advertising for you. But for that to work, you need people to actually want to wear your shirt.
+
+Over the last few years, the conferences that I&apos;ve run have started working on ways to make our attendees enjoy their conference t-shirts more, with excellent results. I&apos;d like to share these strategies with you so that we can fit more people into more excellent t-shirts.
+</abstract>
+<description>Did you know that most people are not the same as most other people? I know, it surprised me too.
+
+It turns out, that the differences that people share also affect the sort of clothing that fits them. Different people have different shapes. Different people like different colours. 
+
+T-shirt manufacturers, however, aren&apos;t always great at reflecting this diversity. Fewer colours are available in &quot;women&apos;s cuts&quot; than in &quot;men&apos;s cuts&quot;. The colours available in larger sizes are not the colours available in smaller sizes. Some women do not fit into the same sorts of fitted t-shirt as other women. Not all men want &quot;men&apos;s cut&quot; shirts.
+
+People in tech love t-shirts, and they can be a great way to get people to do free advertising for you. But for that to work, you need people to actually want to wear your shirt.
+
+Over the last few years, the conferences that I&apos;ve run have started working on ways to make our attendees enjoy their conference t-shirts more, with excellent results. I&apos;d like to share these strategies with you so that we can fit more people into more excellent t-shirts.
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="613">Christopher Neugebauer</person>
+</persons>
+</event>
+<event guid="YbG2-oCvYDTdwiNqK1_xEA" id="350">
+<date>2017-10-07T07:00:00-07:00</date>
+<start>14:00</start>
+<duration>00:50</duration>
+<room>Room 3187</room>
+<type>Longer Talk</type>
+<language/>
+<slug>350-the-rhythm-of-patterns</slug>
+<title>The Rhythm of Patterns</title>
+<subtitle/>
+<track>Something different</track>
+<abstract>Human beings have evolved to recognise patterns: In weather, in plants, in stellar movements.  We do this intuitively to make order out of the abstract. Patterns are so ingrained that, even without knowing, we imbue patterns in everything we create - to make order out of what would otherwise be chaos.
+
+In this talk I’ll use music and rhythm to introduce you to the power of patterns and how they affect your thinking and the software you build and use. There will be a brief demo, and then the audience and I will create a Balinese Monkey Chant together to demonstrate how simple patterns interweave to make more complex creations and how you can apply this thinking to software development.
+
+You’ll learn:
+
+- The shared pattern characteristics of music and software.
+
+- How simple patterns layer into complex creations.
+
+- Balinese Monkey music is fun.
+</abstract>
+<description>Human beings have evolved to recognise patterns: In weather, in plants, in stellar movements.  We do this intuitively to make order out of the abstract. Patterns are so ingrained that, even without knowing, we imbue patterns in everything we create - to make order out of what would otherwise be chaos.
+
+In this talk I’ll use music and rhythm to introduce you to the power of patterns and how they affect your thinking and the software you build and use. There will be a brief demo, and then the audience and I will create a Balinese Monkey Chant together to demonstrate how simple patterns interweave to make more complex creations and how you can apply this thinking to software development.
+
+You’ll learn:
+
+- The shared pattern characteristics of music and software.
+
+- How simple patterns layer into complex creations.
+
+- Balinese Monkey music is fun.
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="616">Susan Harris</person>
+</persons>
+</event>
+<event guid="nVlAiF7iV22FZ7W_JK9PuA" id="385">
+<date>2017-10-07T08:30:00-07:00</date>
+<start>15:30</start>
+<duration>00:50</duration>
+<room>Room 3187</room>
+<type>Longer Talk</type>
+<language/>
+<slug>385-keep-it-secret-keep-it-safe</slug>
+<title>Keep it Secret! Keep it Safe!</title>
+<subtitle>Who&apos;s In Control Of Your Medical Data?</subtitle>
+<track>Something different</track>
+<abstract>The high-tech industry has revolutionized healthcare, ushering in an amazing new era of medicine, but both providers and patients have struggled to keep up with changes in how we track healthcare data. Widespread digitization of medical records has the promise to be a step forward in the advancement of treatment, but there are several pitfalls that we must avoid to ensure that patients retain control over personal data, are empowered to use open formats, and can access data using FOSS tools.
+
+- How much do you know about Electronic Health Records (EHR/EMR)?
+- Do you have a local digital copy of your family&apos;s medical records?
+- How confident are you that your doctors _can_ and _will_ keep your personal information private and secure?
+
+This talk will provide an introduction to EHR systems, healthcare apps, and both open &amp; closed formats for medical data. We&apos;ll discuss legal aspects of medical data, HIPAA, genetic rights, and suggest ways to increase privacy, reduce personal risk, and retain greater control over _who_ gets to see _which_ of your records (and _when_!)</abstract>
+<description>The high-tech industry has revolutionized healthcare, ushering in an amazing new era of medicine, but both providers and patients have struggled to keep up with changes in how we track healthcare data. Widespread digitization of medical records has the promise to be a step forward in the advancement of treatment, but there are several pitfalls that we must avoid to ensure that patients retain control over personal data, are empowered to use open formats, and can access data using FOSS tools.
+
+- How much do you know about Electronic Health Records (EHR/EMR)?
+- Do you have a local digital copy of your family&apos;s medical records?
+- How confident are you that your doctors _can_ and _will_ keep your personal information private and secure?
+
+This talk will provide an introduction to EHR systems, healthcare apps, and both open &amp; closed formats for medical data. We&apos;ll discuss legal aspects of medical data, HIPAA, genetic rights, and suggest ways to increase privacy, reduce personal risk, and retain greater control over _who_ gets to see _which_ of your records (and _when_!)</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="86">Robinson Tryon</person>
+</persons>
+</event>
+<event guid="h3ZfIfnQtVWLel-PKU7FZQ" id="287">
+<date>2017-10-07T09:30:00-07:00</date>
+<start>16:30</start>
+<duration>00:50</duration>
+<room>Room 3187</room>
+<type>Longer Talk</type>
+<language/>
+<slug>287-how-to-build-a-cd-pipeline-for-your-systems</slug>
+<title>How to build a CD pipeline for your systems</title>
+<subtitle/>
+<track>Systems/Ops</track>
+<abstract>Show how to use pipeline tools such as Jenkins in conjunction with
+configuration management and testing software to build a CD pipeline for
+systems. Will cover the ideas behind building a CD pipeline, what types
+of testing are used and at what stages. The talk will be vendor neutral
+with regards to how this is achieved along with practical guides to
+commonly used software for each step.</abstract>
+<description>Show how to use pipeline tools such as Jenkins in conjunction with
+configuration management and testing software to build a CD pipeline for
+systems. Will cover the ideas behind building a CD pipeline, what types
+of testing are used and at what stages. The talk will be vendor neutral
+with regards to how this is achieved along with practical guides to
+commonly used software for each step.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="67">garrett honeycutt</person>
+</persons>
+</event>
+</room>
+<room name="Room 3199">
+<event guid="5syaziya5K7bPA6T-BNFlw" id="321">
+<date>2017-10-07T03:45:00-07:00</date>
+<start>10:45</start>
+<duration>00:50</duration>
+<room>Room 3199</room>
+<type>Longer Talk</type>
+<language/>
+<slug>321-philosophy-in-code</slug>
+<title>Philosophy in Code</title>
+<subtitle>I Kant Even</subtitle>
+<track>Programming</track>
+<abstract>Coding in practice is a perpetual learning experience.  It can be daunting when first tackling a new language, framework, legacy codebase, etc. Immanuel Kant outlined some thought tools for making sense of vast new intellectual territory and eventually conquering them.  I have found the application of these insights enormously helpful over the years. This talk will aim to pass along those tools and techniques, and hopefully make the beginning of future challenges less intimidating.</abstract>
+<description>Coding in practice is a perpetual learning experience.  It can be daunting when first tackling a new language, framework, legacy codebase, etc. Immanuel Kant outlined some thought tools for making sense of vast new intellectual territory and eventually conquering them.  I have found the application of these insights enormously helpful over the years. This talk will aim to pass along those tools and techniques, and hopefully make the beginning of future challenges less intimidating.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="602">Margaret</person>
+</persons>
+</event>
+<event guid="Pi_UZZjPiNbL6QGbAnJB5w" id="316">
+<date>2017-10-07T06:00:00-07:00</date>
+<start>13:00</start>
+<duration>00:20</duration>
+<room>Room 3199</room>
+<type>Shorter Talk</type>
+<language/>
+<slug>316-you-can-t-unit-test-c-right</slug>
+<title>You Can&apos;t Unit Test C, Right?</title>
+<subtitle/>
+<track>Programming</track>
+<abstract>Testing is a wonderful thing. Code with good tests is so much easier to work
+with and change due to the comfort the tests provide that you haven&apos;t broken
+anything you didn&apos;t expect to break.
+
+C can be a tricky language to work in. It compiles to static code. It&apos;s
+incredibly low-level compared to many of the languages people use these days.
+It also comes with a delightfully bewildering and wide array of ways to very effectively
+shoot yourself in the foot. On top of that the POSIX API implementations C code
+often relies on don&apos;t lend themselves to easy testing, especially of unhappy
+paths. Which means that while we should absolutely be testing our C code it
+should be really hard to unit test, right?
+
+Join me for a quick overview of the ways in which C can be unit tested,
+including ways to push around the POSIX APIs, and how you too can increase your
+C code&apos;s level of comfort.</abstract>
+<description>Testing is a wonderful thing. Code with good tests is so much easier to work
+with and change due to the comfort the tests provide that you haven&apos;t broken
+anything you didn&apos;t expect to break.
+
+C can be a tricky language to work in. It compiles to static code. It&apos;s
+incredibly low-level compared to many of the languages people use these days.
+It also comes with a delightfully bewildering and wide array of ways to very effectively
+shoot yourself in the foot. On top of that the POSIX API implementations C code
+often relies on don&apos;t lend themselves to easy testing, especially of unhappy
+paths. Which means that while we should absolutely be testing our C code it
+should be really hard to unit test, right?
+
+Join me for a quick overview of the ways in which C can be unit tested,
+including ways to push around the POSIX APIs, and how you too can increase your
+C code&apos;s level of comfort.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="564">Benno Rice</person>
+</persons>
+</event>
+<event guid="iVxA-9aS4Sqoy_x02ZqxzQ" id="315">
+<date>2017-10-07T06:30:00-07:00</date>
+<start>13:30</start>
+<duration>00:20</duration>
+<room>Room 3199</room>
+<type>Shorter Talk</type>
+<language/>
+<slug>315-how-to-get-a-cross-project-feature-landed-in-openstack</slug>
+<title>How to get a cross-project feature landed in OpenStack</title>
+<subtitle>Or how I plotted to obtain success...</subtitle>
+<track>Programming</track>
+<abstract>A little over two years ago, I was told in a Vancouver conference center meeting room, &quot;Two others have tried to propose that feature, but they have both failed&quot;. I knew it was the right path to take. I knew people in the room and the larger community wanted to go in that direction. The question was how?
+
+In this this talk, I&apos;ll cover my experience building consensus on design, setting expectations across the community, and rallying people together to reach critical mass to land a complex cross project feature in a project such as OpenStack.
+</abstract>
+<description>A little over two years ago, I was told in a Vancouver conference center meeting room, &quot;Two others have tried to propose that feature, but they have both failed&quot;. I knew it was the right path to take. I knew people in the room and the larger community wanted to go in that direction. The question was how?
+
+In this this talk, I&apos;ll cover my experience building consensus on design, setting expectations across the community, and rallying people together to reach critical mass to land a complex cross project feature in a project such as OpenStack.
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="596">Julia Kreger</person>
+</persons>
+</event>
+<event guid="ladLTKcE1jzLhXO0ifRLTg" id="257">
+<date>2017-10-07T07:00:00-07:00</date>
+<start>14:00</start>
+<duration>00:50</duration>
+<room>Room 3199</room>
+<type>Longer Talk</type>
+<language/>
+<slug>257-scaling-applications-with-redis</slug>
+<title>Scaling applications with Redis</title>
+<subtitle>practical lessons from real world experience</subtitle>
+<track>Data/AI/ML</track>
+<abstract>Using Redis for 
+
+- Caching
+- As queue for running background jobs
+- Storing rapidly changing data
+
+I will be sharing real world examples of practical solutions to scale applications.  It will be intermediate to advanced level talk.  It is best to have some Redis experience and understanding of key/value data stores, caching and queues.  Or exposure to alternative technologies such as Memcache or RabbitMQ.  
+
+Checkout https://www.meetup.com/Seattle-Redis for more Redis info.  
+
+For those of you who could not attend, here are the slides https://docs.google.com/presentation/d/1ohEaLzaUMDy5uA2VcdEw4WtdZyqroOhK8a_W32bU_T8/edit?usp=sharing</abstract>
+<description>Using Redis for 
+
+- Caching
+- As queue for running background jobs
+- Storing rapidly changing data
+
+I will be sharing real world examples of practical solutions to scale applications.  It will be intermediate to advanced level talk.  It is best to have some Redis experience and understanding of key/value data stores, caching and queues.  Or exposure to alternative technologies such as Memcache or RabbitMQ.  
+
+Checkout https://www.meetup.com/Seattle-Redis for more Redis info.  
+
+For those of you who could not attend, here are the slides https://docs.google.com/presentation/d/1ohEaLzaUMDy5uA2VcdEw4WtdZyqroOhK8a_W32bU_T8/edit?usp=sharing</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="563">Dmitry Polyakovsky</person>
+</persons>
+</event>
+<event guid="aTemo74pSnr1IcmH8VC2yA" id="396">
+<date>2017-10-07T08:30:00-07:00</date>
+<start>15:30</start>
+<duration>00:50</duration>
+<room>Room 3199</room>
+<type>Longer Talk</type>
+<language/>
+<slug>396-platform-agnostic-and-self-organizing-software-packages</slug>
+<title>Platform Agnostic and Self Organizing Software Packages</title>
+<subtitle/>
+<track>Systems/Ops</track>
+<abstract>One of the dreams of development is to build a software package once, then be able to deploy it anywhere. With current Open Source projects this dream is closer than ever. Come to this talk to learn how to create software packages that run (almost) anywhere. You will see how the same application can be run on bare metal, on a VM, or in a container - with everything needed to automate that application already built into the package itself. This even works with a mixed infrastructure - metal for your static compute heavy loads, vms for your persistent data stores, and ephemeral short lived containers for you applications managed by Kubernetes or other container scheduling services.
+
+Come to this talk to also learn how to build and deploy these packages with the intelligence to self organize into topologies, no central orchestrator needed. Learn how the dream of platform agnostic and self organizing packages is fulfilled today and where it will evolve in the future.</abstract>
+<description>One of the dreams of development is to build a software package once, then be able to deploy it anywhere. With current Open Source projects this dream is closer than ever. Come to this talk to learn how to create software packages that run (almost) anywhere. You will see how the same application can be run on bare metal, on a VM, or in a container - with everything needed to automate that application already built into the package itself. This even works with a mixed infrastructure - metal for your static compute heavy loads, vms for your persistent data stores, and ephemeral short lived containers for you applications managed by Kubernetes or other container scheduling services.
+
+Come to this talk to also learn how to build and deploy these packages with the intelligence to self organize into topologies, no central orchestrator needed. Learn how the dream of platform agnostic and self organizing packages is fulfilled today and where it will evolve in the future.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="634">Nell Shamrell</person>
+</persons>
+</event>
+<event guid="C3OW5D4dnq9R6SmdbeKQBQ" id="267">
+<date>2017-10-07T09:30:00-07:00</date>
+<start>16:30</start>
+<duration>00:50</duration>
+<room>Room 3199</room>
+<type>Longer Talk</type>
+<language/>
+<slug>267-open-broadcasting-software</slug>
+<title>Open Broadcasting Software</title>
+<subtitle/>
+<track>Something different</track>
+<abstract>OBS Studio is a FLOSS application that puts you in the directors chair for live streaming or recording. It is built as an application to help video game or creative streamers share their computer screens with a live audience, but it&apos;s power goes beyond that. Anyone who is using their computer to tell a story can benefit from the professional touch that OBS can provide. It can manage multiple capture devices, independently combine captured window areas, and overlay text and graphics. I&apos;ll show you what this software can do and what you can do with it. A simple example: Presenters often like to include their twitter handle on their slides. When the presenter goes to the terminal, the twitter handle isn&apos;t displayed. If the presenter uses obs studio to control the projector display, obs studio can trivially be configured to overlay a twitter handle, company graphic, whatever. 
+
+~~~~~ notes for committee ~~~~~~
+
+Hi!!! I&apos;m Spencer. Get hype for SeaGL hyperoni!
+
+I&apos;m going to talk about what OBS was built for, and how to do some basic things with it. Then I&apos;ll talk about the other applications I&apos;ve discovered and started using: booth displays, conference presentations, etc. 
+
+I&apos;ll also spend a little bit talking about how OBS Studio is not a typical FLOSS application. Their install base is massive, their twitter account has over 70k followers, the application was built for windows first, but works on Linux. If you go to a computer parts store and look at high-to-medium end webcams and microphones, they have &apos;works with OBS&apos; stamped on the box. Not since the Tux stickers have we seen that on consumer electronics.
+
+
+goals: how can a meetup group use this to stream the presentation
+</abstract>
+<description>OBS Studio is a FLOSS application that puts you in the directors chair for live streaming or recording. It is built as an application to help video game or creative streamers share their computer screens with a live audience, but it&apos;s power goes beyond that. Anyone who is using their computer to tell a story can benefit from the professional touch that OBS can provide. It can manage multiple capture devices, independently combine captured window areas, and overlay text and graphics. I&apos;ll show you what this software can do and what you can do with it. A simple example: Presenters often like to include their twitter handle on their slides. When the presenter goes to the terminal, the twitter handle isn&apos;t displayed. If the presenter uses obs studio to control the projector display, obs studio can trivially be configured to overlay a twitter handle, company graphic, whatever. 
+
+~~~~~ notes for committee ~~~~~~
+
+Hi!!! I&apos;m Spencer. Get hype for SeaGL hyperoni!
+
+I&apos;m going to talk about what OBS was built for, and how to do some basic things with it. Then I&apos;ll talk about the other applications I&apos;ve discovered and started using: booth displays, conference presentations, etc. 
+
+I&apos;ll also spend a little bit talking about how OBS Studio is not a typical FLOSS application. Their install base is massive, their twitter account has over 70k followers, the application was built for windows first, but works on Linux. If you go to a computer parts store and look at high-to-medium end webcams and microphones, they have &apos;works with OBS&apos; stamped on the box. Not since the Tux stickers have we seen that on consumer electronics.
+
+
+goals: how can a meetup group use this to stream the presentation
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="49">Spencer Krum</person>
+</persons>
+</event>
+</room>
+<room name="Room 1113">
+<event guid="knmPEWcRgZlgNoK3R7HM3w" id="380">
+<date>2017-10-07T03:45:00-07:00</date>
+<start>10:45</start>
+<duration>00:50</duration>
+<room>Room 1113</room>
+<type>Longer Talk</type>
+<language/>
+<slug>380-introduction-to-containers-on-linux</slug>
+<title>Introduction to Containers on Linux</title>
+<subtitle>Using Common Container Runtimes from a User&apos;s Perspective</subtitle>
+<track>Systems/Ops</track>
+<abstract>Containers are an increasingly common tool everywhere. They&apos;re used in the software development process, debugging, and in production services. As a Linux desktop user you can similarly benefit from technologies built with containers. Like virtual machines they will enable you to install apps, test out a new Linux distro, or simply learn how containers work.
+
+This talk is geared towards users of desktop Linux who have had basic experience with the command-line. It will cover how they can easily explore container technologies such as LXD, Docker, and rkt to try out new technologies, build packages, and run old programs.
+
+By the end of the talk everyone will be able to understand the differences between container technologies, launching and stopping containers, exposing services run inside containers, and creating new containers using Docker.</abstract>
+<description>Containers are an increasingly common tool everywhere. They&apos;re used in the software development process, debugging, and in production services. As a Linux desktop user you can similarly benefit from technologies built with containers. Like virtual machines they will enable you to install apps, test out a new Linux distro, or simply learn how containers work.
+
+This talk is geared towards users of desktop Linux who have had basic experience with the command-line. It will cover how they can easily explore container technologies such as LXD, Docker, and rkt to try out new technologies, build packages, and run old programs.
+
+By the end of the talk everyone will be able to understand the differences between container technologies, launching and stopping containers, exposing services run inside containers, and creating new containers using Docker.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="373">Ben Kero</person>
+</persons>
+</event>
+<event guid="Qk0Y1NWnFXszdAGvYF_h6A" id="329">
+<date>2017-10-07T06:30:00-07:00</date>
+<start>13:30</start>
+<duration>00:20</duration>
+<room>Room 1113</room>
+<type>Shorter Talk</type>
+<language/>
+<slug>329-the-journey-to-open-source-the-net-documentation</slug>
+<title>The journey to open source the .NET documentation</title>
+<subtitle>Building community around docs</subtitle>
+<track>Documentation</track>
+<abstract>Is it possible to build an open source community around docs?
+Microsoft, and more specifically the .NET team, have completely embraced open source for all things .NET! Not just the products and tools, but also its documentation.
+
+In this presentation, attendees will learn about the journey to open source the .NET documentation, including its API reference. You’ll learn how to apply the lessons we’ve learned building a community around a product and its documentation. You’ll become more involved with your customer base, delighting them with your efforts.</abstract>
+<description>Is it possible to build an open source community around docs?
+Microsoft, and more specifically the .NET team, have completely embraced open source for all things .NET! Not just the products and tools, but also its documentation.
+
+In this presentation, attendees will learn about the journey to open source the .NET documentation, including its API reference. You’ll learn how to apply the lessons we’ve learned building a community around a product and its documentation. You’ll become more involved with your customer base, delighting them with your efforts.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="600">Maira Wenzel</person>
+</persons>
+</event>
+<event guid="SFom4tK3Kl-9UzTbSy4-BQ" id="261">
+<date>2017-10-07T07:00:00-07:00</date>
+<start>14:00</start>
+<duration>00:50</duration>
+<room>Room 1113</room>
+<type>Longer Talk</type>
+<language/>
+<slug>261-creating-fresh-kernels</slug>
+<title>Creating Fresh Kernels</title>
+<subtitle/>
+<track>Systems/Ops</track>
+<abstract>The kernel is an important part of every Linux system. The Linux kernel releases a new version approximately every 3 months and brings in a large number of changes with each release. There are a variety of choices distributions can make for kernels, from choosing a single kernel version to support for many years to updating to the newest version as soon as it comes out. This talk is designed to give an overview of what goes in to choosing a kernel for a distribution. Topics will include how the kernel development process works, how that can drive decisions about what kernel version to use, and how users can influence the kernel process.</abstract>
+<description>The kernel is an important part of every Linux system. The Linux kernel releases a new version approximately every 3 months and brings in a large number of changes with each release. There are a variety of choices distributions can make for kernels, from choosing a single kernel version to support for many years to updating to the newest version as soon as it comes out. This talk is designed to give an overview of what goes in to choosing a kernel for a distribution. Topics will include how the kernel development process works, how that can drive decisions about what kernel version to use, and how users can influence the kernel process.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="496">labbott</person>
+</persons>
+</event>
+<event guid="iwAM3w1kx9IB8Qh1aObewA" id="369">
+<date>2017-10-07T08:30:00-07:00</date>
+<start>15:30</start>
+<duration>00:50</duration>
+<room>Room 1113</room>
+<type>Longer Talk</type>
+<language/>
+<slug>369-writing-the-next-great-tech-book</slug>
+<title>Writing the Next Great Tech Book</title>
+<subtitle>From Idea to Successful Publication</subtitle>
+<track>Documentation</track>
+<abstract>You have an idea for the next great technical book. Maybe you&apos;re excited about a new technology that nobody&apos;s written about yet. Maybe you&apos;re unimpressed with the books that are out there on your favorite topic. Maybe writing a book is on your bucket list. This session will help your idea reach its potential as a published book. Technical publishing is an opaque process with a lot of moving parts, which can be confusing for outsiders to navigate. This session will guide you through the steps you should take to turn an idea into a proposal that a publisher will accept, and what to expect from the publishing experience.
+
+Creating a great technical book takes more than a good idea. It also requires a knowledge of the market, to determine whether there&apos;s an audience willing to buy, or whether the space is too crowded to accept new entries. Publishers vary in their approach and target markets, so you need to determine which one will provide the best chance of success. Self-publishing is an option, but carries its own risks and benefits. Doing the setup work that you may not have thought about yet will help you create a proposal that will appeal to publishers, and will also make the writing process easier. 
+
+Once you have a contract with a publisher, or have decided to self-publish, it&apos;s more than just a matter of putting the words in order. Finding the right environment, setting a schedule, and communicating with your editor are all critical to success. This session will explain how the process works, highlight the parts you may not know, and give you advice on how not to get overwhelmed by your project.
+
+This talk will cover:
+
+- The various motivations for writing a tech book
+- Traditional vs. self-publishing
+- How to craft a quality proposal
+- What to expect from the publishing process
+- How to make writing easier and more enjoyable</abstract>
+<description>You have an idea for the next great technical book. Maybe you&apos;re excited about a new technology that nobody&apos;s written about yet. Maybe you&apos;re unimpressed with the books that are out there on your favorite topic. Maybe writing a book is on your bucket list. This session will help your idea reach its potential as a published book. Technical publishing is an opaque process with a lot of moving parts, which can be confusing for outsiders to navigate. This session will guide you through the steps you should take to turn an idea into a proposal that a publisher will accept, and what to expect from the publishing experience.
+
+Creating a great technical book takes more than a good idea. It also requires a knowledge of the market, to determine whether there&apos;s an audience willing to buy, or whether the space is too crowded to accept new entries. Publishers vary in their approach and target markets, so you need to determine which one will provide the best chance of success. Self-publishing is an option, but carries its own risks and benefits. Doing the setup work that you may not have thought about yet will help you create a proposal that will appeal to publishers, and will also make the writing process easier. 
+
+Once you have a contract with a publisher, or have decided to self-publish, it&apos;s more than just a matter of putting the words in order. Finding the right environment, setting a schedule, and communicating with your editor are all critical to success. This session will explain how the process works, highlight the parts you may not know, and give you advice on how not to get overwhelmed by your project.
+
+This talk will cover:
+
+- The various motivations for writing a tech book
+- Traditional vs. self-publishing
+- How to craft a quality proposal
+- What to expect from the publishing process
+- How to make writing easier and more enjoyable</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="598">Brian MacDonald</person>
+</persons>
+</event>
+<event guid="_4gt5kvdE4W9NR-7IlFSwQ" id="386">
+<date>2017-10-07T09:30:00-07:00</date>
+<start>16:30</start>
+<duration>00:50</duration>
+<room>Room 1113</room>
+<type>Longer Talk</type>
+<language/>
+<slug>386-intermediate-shell-scripting-getting-more-bash-for-your</slug>
+<title>Intermediate shell scripting: getting more bash for your $</title>
+<subtitle/>
+<track>Systems/Ops</track>
+<abstract>Want to take your shell scripting to the next level? Interested in adding string manipulation and arrays to your arsenal? In shell math?
+
+Shell still has the best system integration for stringing together our favorite command line tools such as ls, grep and sed. Better yet is doing some of that work in the shell without reaching for a forked program, especially inside loops. This presentation will cover intermediate scripting techniques and useful command line tips.
+
+After attending this session, audience members will understand string operators, in shell math, indexed arrays and associative arrays. They will also be familiar with regular expressions, globbing and differences between the two. Finally, attendees will be familiar with useful builtin variables.</abstract>
+<description>Want to take your shell scripting to the next level? Interested in adding string manipulation and arrays to your arsenal? In shell math?
+
+Shell still has the best system integration for stringing together our favorite command line tools such as ls, grep and sed. Better yet is doing some of that work in the shell without reaching for a forked program, especially inside loops. This presentation will cover intermediate scripting techniques and useful command line tips.
+
+After attending this session, audience members will understand string operators, in shell math, indexed arrays and associative arrays. They will also be familiar with regular expressions, globbing and differences between the two. Finally, attendees will be familiar with useful builtin variables.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="363">der.hans</person>
+</persons>
+</event>
+</room>
+<room name="Silver Cloud Inn">
+<event guid="UDMM7geQix7Y67Da4ZmfRQ" id="407">
+<date>2017-10-07T11:00:00-07:00</date>
+<start>18:00</start>
+<duration>03:45</duration>
+<room>Silver Cloud Inn</room>
+<type>Party</type>
+<language/>
+<slug>407-official-seagl-2017-party</slug>
+<title>Official SeaGL 2017 Party</title>
+<subtitle/>
+<track/>
+<abstract>* Silver Cloud Hotel
+    * 1100 Broadway
+    * Seattle, WA 98122
+* Entertainment
+* Refreshments
+* Snacks
+* All Ages Welcome</abstract>
+<description>* Silver Cloud Hotel
+    * 1100 Broadway
+    * Seattle, WA 98122
+* Entertainment
+* Refreshments
+* Snacks
+* All Ages Welcome</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="9">Adam Monsen</person>
+</persons>
+</event>
+</room>
+</day>
+</schedule>

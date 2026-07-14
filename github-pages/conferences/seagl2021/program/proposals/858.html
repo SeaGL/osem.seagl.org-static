@@ -1,0 +1,321 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<title>SeaGL</title>
+<meta content="" name="description">
+<meta content="" name="author">
+<link rel="stylesheet" href="/assets/application-9ebb7e8df4f6abe04ca09a78e84abc751d81a041f3702dfc6c2ebbdd106ceaa0.css" media="all">
+<script src="/assets/application-47ef59ee7b6477ee91a0ce07fca426e369cd7b348258d0db05fed8e81411ccdc.js"></script>
+<meta name="csrf-param" content="authenticity_token">
+
+
+<meta content="Debugging Reproducible Builds One Day at a Time" property="og:title">
+<meta content="https://osem.seagl.org/conferences/seagl2021/program/proposals/858" property="og:url">
+<meta content="Reproducible builds are a set of software development practices that                                                   
+create an independently-verifiable path from source to binary code.  A                                                 
+build is reproducible if given the same source code, build environment                                                 
+and build instructions, any party can recreate bit-by-bit identical                                                    
+copies of all specified artifacts.                                                                                     
+                                                                                                                       
+I'd like to share with you my process for going about fixing                                                           
+Reproducible Builds issues in Debian, though some of the ideas will be                                                 
+applicable to debugging issues of any kind in any environment.                                                         
+                                                                                                                       
+I'll explore how I go about identifying issues to work on, learn more                                                  
+about the specific issues, recreate the problem locally, isolate the                                                   
+potential causes, dissect the problem into identifiable parts, and                                                      
+adapt the packaging and/or source code to fix the issues.                                                              
+                                                                                                                       
+This will give you an eye into how I think about, struggle with, and                                                   
+eventually fix all sorts of things.                                                                                    
+                                                                                                                       
+Watching this talk should help you go from someone who &quot;knows a bit of                                                 
+code&quot; to someone ready to submit a fix to your favorite free software                                                  
+project!                                                                                                               
+                                                                                                                       
+This talk will mostly focus on the *hows* of Reproducible Builds, not                                                  
+too much on the *whys*, which can be further explored at:                                                              
+                                                                                                                       
+  https://reproducible-builds.org/" property="og:description">
+<meta content="SeaGL" property="og:site_name">
+<meta content="https://secure.gravatar.com/avatar/c1d2ee04b413cf2fbbb4d639a1862d93.png?r=PG&amp;s=32" property="og:image">
+<meta content="https://secure.gravatar.com/avatar/c1d2ee04b413cf2fbbb4d639a1862d93.png?r=PG&amp;s=32" property="og:image:secure_url">
+
+</head>
+<body class="conference-seagl2021">
+<div class="navbar navbar-default navbar-fixed-top nav-osem" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target="#main-nav" data-toggle="collapse" type="button">
+<span class="sr-only">
+Toggle navigation
+</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" title="Open Source Event Manager" href="/">SeaGL</a>
+</div>
+<div class="collapse navbar-collapse" id="main-nav">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown visible-desktop">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<span class="fa-solid fa-user"></span>
+Sign In
+<span class="caret"></span>
+</a>
+<div class="dropdown-menu">
+<form action="/accounts/sign_in" accept-charset="UTF-8" method="post"><input type="text" name="user[login]" id="user_login_dd" class="form-control" placeholder="Username / E-Mail" inert="true">
+<input type="password" name="user[password]" id="user_password_dd" class="form-control" placeholder="Password" inert="true">
+<p class="text-right">
+<small>
+<label for="user_remember_me" inert="true">Remember me</label>
+<input type="checkbox" name="user[remember_me]" id="user_remember_me" value="1" inert="true">
+</small>
+</p>
+<button class="btn btn-success btn-block" inert="true">Sign in</button>
+<p class="text-right">
+<br>
+<a class="small btn btn-xs btn-default" data-target="#navbar-devise-help" data-toggle="collapse">
+Need Help?
+</a>
+</p><div class="collapse" id="navbar-devise-help">
+<a href="/accounts/password/new">Forgot your password?</a>
+<br>
+<a href="/accounts/confirmation/new">Didn't receive confirmation instructions?</a>
+<br>
+
+</div>
+<p></p>
+</form></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="messages">
+<div class="container">
+<noscript>
+<style>
+  #content {
+    display: none;
+  }
+</style>
+<h2>
+JavaScript is not enabled
+</h2>
+<p>
+OSEM requires JavaScript to be enabled to function. Please turn on JavaScript in your browser's settings and reload the page to continue.
+</p>
+</noscript>
+
+</div>
+</div>
+<div id="content">
+<div class="container">
+<div class="row">
+<div class="col-md-12 page-header">
+<h2>
+Debugging Reproducible Builds One Day at a Time
+<br>
+<small>
+Patching Your Supply Chain
+</small>
+<div class="btn-group pull-right">
+<a class="btn btn-success" href="/conferences/seagl2021/schedule">Schedule</a>
+</div>
+</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-3">
+<h3></h3>
+Presented by:
+<div class="speakerinfo">
+<div class="row">
+<div class="col-md-4">
+<img class="img-responsive img-rounded" src="https://secure.gravatar.com/avatar/c1d2ee04b413cf2fbbb4d639a1862d93.png?r=PG&amp;s=120">
+</div>
+<div class="col-md-8">
+<h4>
+<a href="/users/353">Vagrant Cascadian</a>
+<br>
+</h4>
+<div class="text-muted">
+from
+Reproducible Builds, Debian, Aikidev
+</div>
+</div>
+</div>
+<div class="row speakerbio">
+<div class="col-md-12">
+<p>Vagrant is a free software developer involved in the the Debian project, a system administrator for an ARM build farm for Reproducible Builds, and gets thrown around repeatedly as a hobby. You can find vagrant on social networks such as the OpenPGP web of trust and the Debian Bug Tracking system!</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-9">
+<div class="row">
+<div class="col-md-12">
+<div class="lead">
+
+
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<p>
+</p><p>Reproducible builds are a set of software development practices that<br>
+create an independently-verifiable path from source to binary code.  A<br>
+build is reproducible if given the same source code, build environment<br>
+and build instructions, any party can recreate bit-by-bit identical<br>
+copies of all specified artifacts.                                                                                     </p>
+
+<p>I'd like to share with you my process for going about fixing<br>
+Reproducible Builds issues in Debian, though some of the ideas will be<br>
+applicable to debugging issues of any kind in any environment.                                                         </p>
+
+<p>I'll explore how I go about identifying issues to work on, learn more<br>
+about the specific issues, recreate the problem locally, isolate the<br>
+potential causes, dissect the problem into identifiable parts, and<br>
+adapt the packaging and/or source code to fix the issues.                                                              </p>
+
+<p>This will give you an eye into how I think about, struggle with, and<br>
+eventually fix all sorts of things.                                                                                    </p>
+
+<p>Watching this talk should help you go from someone who "knows a bit of<br>
+code" to someone ready to submit a fix to your favorite free software<br>
+project!                                                                                                               </p>
+
+<p>This talk will mostly focus on the <em>hows</em> of Reproducible Builds, not<br>
+too much on the <em>whys</em>, which can be further explored at:                                                              </p>
+
+<p><a href="https://reproducible-builds.org/" rel="nofollow">https://reproducible-builds.org/</a></p>
+
+<p></p>
+</div>
+<dl id="proposal-info">
+<div class="col-md-12">
+<dt>Date:</dt>
+<dd>2021 November  6 - 14:00</dd>
+</div>
+<div class="col-md-12">
+<dt>Duration:</dt>
+<dd>30 min</dd>
+</div>
+<div class="col-md-12">
+<dt>Room:</dt>
+<dd>
+Room 1
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Conference:</dt>
+<dd><a href="/conferences/seagl2021">SeaGL 2021</a></dd>
+</div>
+<div class="col-md-12">
+<dt>Language:</dt>
+<dd></dd>
+</div>
+<div class="col-md-12">
+<dt>Track:</dt>
+<dd>
+<span class="label" style="background-color: #8153A7; color: white">
+Security
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Difficulty:</dt>
+<dd>
+<span class="label" style="background-color: #E6B65B; color: black;">
+Medium
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<hr>
+<h4>Happening at the same time:</h4>
+<ol>
+<li>
+<a href="/conferences/seagl2021/program/proposals/844">Birds by Starlight: Tracking Nocturnal Flight Calls Using Open Source Software
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2021 November  6 14:00
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2021/program/proposals/819">Open Source Business Practices
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2021 November  6 14:00
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 2
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2021/program/proposals/856">Sounds of Open Source archaeology: processing sound with sox
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2021 November  6 14:00
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 4
+</dd>
+<br>
+</dl>
+</ol>
+</div>
+</dl>
+</div>
+<div class="row">
+<div class="col-md-12">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="footer">
+<div class="container">
+<p class="muted text-center">
+<small>
+This tool is
+<a href="http://www.gnu.org/philosophy/free-sw.html">free software</a>,
+released under the
+<a href="http://opensource.org/licenses/MIT">MIT license</a>.
+You can run, copy, distribute, study, change and improve it.
+The source code and the developers are on
+<a href="https://github.com/openSUSE/osem">GitHub</a>.
+</small>
+</p>
+</div>
+</div>
+
+
+
+
+</body></html>

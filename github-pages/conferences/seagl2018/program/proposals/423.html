@@ -1,0 +1,315 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<title>SeaGL</title>
+<meta content="" name="description">
+<meta content="" name="author">
+<link rel="stylesheet" href="/assets/application-9ebb7e8df4f6abe04ca09a78e84abc751d81a041f3702dfc6c2ebbdd106ceaa0.css" media="all">
+<script src="/assets/application-47ef59ee7b6477ee91a0ce07fca426e369cd7b348258d0db05fed8e81411ccdc.js"></script>
+<meta name="csrf-param" content="authenticity_token">
+
+
+<meta content="Open Source DocOps: How Open Data Kit Writes, Tests, and Publishes Documentation" property="og:title">
+<meta content="https://osem.seagl.org/conferences/seagl2018/program/proposals/423" property="og:url">
+<meta content="Free and Open Source projects are notorious for incomplete and poorly written documentation. 
+
+[GitHub's 2017 Open Source Survey](http://opensourcesurvey.org/2017/) found that &quot;documentation is highly valued, but often overlooked&quot; with 93% of respondents agreeing that &quot;incomplete or outdated documentation is a pervasive problem.&quot;
+
+In attempt to solve that problem, many FOSS projects try to make doc writing &quot;easier&quot; and less formal --- using wikis, lightweight site generators, and Markdown. Some people claim that this enables &quot;non coders&quot; (that is, people who aren't familiar with command lines and versino control systems) to contribute.
+
+This is a mistake.
+
+Any project larger than a small utility library needs *real* documentation tools. &quot;Quick&quot; tools like wikis and Jekyll blogs contribute to documentation debt as a organizing, editing, and adding content slowly become more onerous and disconnected from the developer experience.
+
+The solution is to treat Docs like Code, to treat your documentation like a first class product --- an engineering product. By not ignoring the lessons we've learned about how to write, test, and deploy code together, we can get better at writing, testing, and deploying documentation together.
+
+Additionally, far from scaring off &quot;non-coders&quot;, this approach encourages potential contributors to learn basic open source contribution skills in a less complicated, easier to understand context. (Because typos don't cause impossible to debug compilation errors, and documentation is less prone to merge conflicts.)
+
+This talk will walk through how Open Data Kit uses the common tools, processes, and platforms of modern open source development --- git, GitHub, automated testing, continuous integration --- to produce high quality documentation and empower new open source contributors." property="og:description">
+<meta content="SeaGL" property="og:site_name">
+<meta content="https://secure.gravatar.com/avatar/3af4194cc38fbc6d4e68fbe7536347d5.png?r=PG&amp;s=32" property="og:image">
+<meta content="https://secure.gravatar.com/avatar/3af4194cc38fbc6d4e68fbe7536347d5.png?r=PG&amp;s=32" property="og:image:secure_url">
+
+</head>
+<body class="conference-seagl2018">
+<div class="navbar navbar-default navbar-fixed-top nav-osem" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target="#main-nav" data-toggle="collapse" type="button">
+<span class="sr-only">
+Toggle navigation
+</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" title="Open Source Event Manager" href="/">SeaGL</a>
+</div>
+<div class="collapse navbar-collapse" id="main-nav">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown visible-desktop">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<span class="fa-solid fa-user"></span>
+Sign In
+<span class="caret"></span>
+</a>
+<div class="dropdown-menu">
+<form action="/accounts/sign_in" accept-charset="UTF-8" method="post"><input type="text" name="user[login]" id="user_login_dd" class="form-control" placeholder="Username / E-Mail" inert="true">
+<input type="password" name="user[password]" id="user_password_dd" class="form-control" placeholder="Password" inert="true">
+<p class="text-right">
+<small>
+<label for="user_remember_me" inert="true">Remember me</label>
+<input type="checkbox" name="user[remember_me]" id="user_remember_me" value="1" inert="true">
+</small>
+</p>
+<button class="btn btn-success btn-block" inert="true">Sign in</button>
+<p class="text-right">
+<br>
+<a class="small btn btn-xs btn-default" data-target="#navbar-devise-help" data-toggle="collapse">
+Need Help?
+</a>
+</p><div class="collapse" id="navbar-devise-help">
+<a href="/accounts/password/new">Forgot your password?</a>
+<br>
+<a href="/accounts/confirmation/new">Didn't receive confirmation instructions?</a>
+<br>
+
+</div>
+<p></p>
+</form></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="messages">
+<div class="container">
+<noscript>
+<style>
+  #content {
+    display: none;
+  }
+</style>
+<h2>
+JavaScript is not enabled
+</h2>
+<p>
+OSEM requires JavaScript to be enabled to function. Please turn on JavaScript in your browser's settings and reload the page to continue.
+</p>
+</noscript>
+
+</div>
+</div>
+<div id="content">
+<div class="container">
+<div class="row">
+<div class="col-md-12 page-header">
+<h2>
+Open Source DocOps: How Open Data Kit Writes, Tests, and Publishes Documentation
+<br>
+<small>
+
+</small>
+<div class="btn-group pull-right">
+<a class="btn btn-success" href="/conferences/seagl2018/schedule">Schedule</a>
+</div>
+</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-3">
+<h3></h3>
+Presented by:
+<div class="speakerinfo">
+<div class="row">
+<div class="col-md-4">
+<img class="img-responsive img-rounded" src="https://secure.gravatar.com/avatar/3af4194cc38fbc6d4e68fbe7536347d5.png?r=PG&amp;s=120">
+</div>
+<div class="col-md-8">
+<h4>
+<a href="/users/731">Adam Michael Wood</a>
+<br>
+<a href="mailto:adam.michael.wood@gmail.com"><i class="fa-solid fa-envelope fa-2x"></i>
+</a></h4>
+<div class="text-muted">
+from
+Open Data Kit
+</div>
+</div>
+</div>
+<div class="row speakerbio">
+<div class="col-md-12">
+<p>Adam is a technical writer, Python developer, and open source advocate. He is the lead maintainer of the documentation for Open Data Kit, a set of open source data collection tools used by NGOs, government agencies, and academic researchers around the world. Adam blogs about tech writing and Python at hackwrite.com. In addition to his work in tech, Adam is a church musician and composer, and is working on an open source music theory library for Python.</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-9">
+<div class="row">
+<div class="col-md-12">
+<div class="lead">
+
+
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<p>
+</p><p>Free and Open Source projects are notorious for incomplete and poorly written documentation. </p>
+
+<p><a href="http://opensourcesurvey.org/2017/" rel="nofollow">GitHub's 2017 Open Source Survey</a> found that "documentation is highly valued, but often overlooked" with 93% of respondents agreeing that "incomplete or outdated documentation is a pervasive problem."</p>
+
+<p>In attempt to solve that problem, many FOSS projects try to make doc writing "easier" and less formal --- using wikis, lightweight site generators, and Markdown. Some people claim that this enables "non coders" (that is, people who aren't familiar with command lines and versino control systems) to contribute.</p>
+
+<p>This is a mistake.</p>
+
+<p>Any project larger than a small utility library needs <em>real</em> documentation tools. "Quick" tools like wikis and Jekyll blogs contribute to documentation debt as a organizing, editing, and adding content slowly become more onerous and disconnected from the developer experience.</p>
+
+<p>The solution is to treat Docs like Code, to treat your documentation like a first class product --- an engineering product. By not ignoring the lessons we've learned about how to write, test, and deploy code together, we can get better at writing, testing, and deploying documentation together.</p>
+
+<p>Additionally, far from scaring off "non-coders", this approach encourages potential contributors to learn basic open source contribution skills in a less complicated, easier to understand context. (Because typos don't cause impossible to debug compilation errors, and documentation is less prone to merge conflicts.)</p>
+
+<p>This talk will walk through how Open Data Kit uses the common tools, processes, and platforms of modern open source development --- git, GitHub, automated testing, continuous integration --- to produce high quality documentation and empower new open source contributors.</p>
+
+<p></p>
+</div>
+<dl id="proposal-info">
+<div class="col-md-12">
+<dt>Date:</dt>
+<dd>2018 November 10 - 15:00</dd>
+</div>
+<div class="col-md-12">
+<dt>Duration:</dt>
+<dd>50 min</dd>
+</div>
+<div class="col-md-12">
+<dt>Room:</dt>
+<dd>
+Room 3178
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Conference:</dt>
+<dd><a href="/conferences/seagl2018">Seattle GNU/Linux Conference 2018</a></dd>
+</div>
+<div class="col-md-12">
+<dt>Language:</dt>
+<dd></dd>
+</div>
+<div class="col-md-12">
+<dt>Track:</dt>
+<dd>
+<span class="label" style="background-color: #74D9E6; color: black">
+Documentation
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Difficulty:</dt>
+<dd>
+<span class="label" style="background-color: #32CB2A; color: black;">
+No experience required
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<hr>
+<h4>Happening at the same time:</h4>
+<ol>
+<li>
+<a href="/conferences/seagl2018/program/proposals/529">Exploring Security of IoT Devices
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2018 November 10 15:00
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3184
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2018/program/proposals/465">Client Side Video Editing - Lessons in WebAssembly and FFmpeg
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2018 November 10 15:00
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3180
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2018/program/proposals/555">You got chocolate in my peanut butter! .NET on Mac &amp; Linux
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2018 November 10 15:00
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3179
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2018/program/proposals/520">Monitoring and Alerting: Knowing the Unknown 
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2018 November 10 15:00
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3183
+</dd>
+<br>
+</dl>
+</ol>
+</div>
+</dl>
+</div>
+<div class="row">
+<div class="col-md-12">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="footer">
+<div class="container">
+<p class="muted text-center">
+<small>
+This tool is
+<a href="http://www.gnu.org/philosophy/free-sw.html">free software</a>,
+released under the
+<a href="http://opensource.org/licenses/MIT">MIT license</a>.
+You can run, copy, distribute, study, change and improve it.
+The source code and the developers are on
+<a href="https://github.com/openSUSE/osem">GitHub</a>.
+</small>
+</p>
+</div>
+</div>
+
+
+
+
+</body></html>

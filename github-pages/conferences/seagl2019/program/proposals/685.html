@@ -1,0 +1,349 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<title>SeaGL</title>
+<meta content="" name="description">
+<meta content="" name="author">
+<link rel="stylesheet" href="/assets/application-9ebb7e8df4f6abe04ca09a78e84abc751d81a041f3702dfc6c2ebbdd106ceaa0.css" media="all">
+<script src="/assets/application-47ef59ee7b6477ee91a0ce07fca426e369cd7b348258d0db05fed8e81411ccdc.js"></script>
+<meta name="csrf-param" content="authenticity_token">
+
+
+<meta content="Building Your Own Keyboard with Free Software" property="og:title">
+<meta content="https://osem.seagl.org/conferences/seagl2019/program/proposals/685" property="og:url">
+<meta content="Mechanical keyboards are soaring in popularity recently. This talk explains why you might be interested in them as well.
+
+The following topics will be covered:
+
+- Case/plate/PCB
+- Switches
+- Caps
+- Freedom of hardware
+- A brief note on soldering
+- Freedom of software
+- GPL firmware: QMK
+- Questions
+
+**Case/plate/PCB**
+
+Full size, tenkeyless, 75%, 65%, 60%, 40%, split, ortholinear, this talk covers all the different sizes in a hope to show you how your imagination is the limit when it comes to keyboards. I will go into detail about each size and why you might be interested in that size.
+
+**Switches**
+
+Tactile, linear, clicky. Cherry, Kailh, Gateron. I will cover all the major switch types, and what their pros and cons are.
+
+**Caps**
+
+Then I will discuss the various keycap profiles in detail with pictures.
+
+**Freedom of hardware**
+
+This immense freedom of hardware choice lends itself well to folks that are concerned with controlling their tools, as keyboards are one of the primary tools for people who do computer stuff.
+
+**A brief note on soldering**
+
+I want to dispel myths about soldering and reassure people that even those with zero prior hardware experience (like me!) can successfully build their own keyboard
+
+**Freedom of software**
+
+Software freedom! Perhaps the most relevant part, I will discuss the high level view of the QMK firmware that powers most custom keyboards. It is a GPL licensed C program that generates incredibly powerful customized firmware.
+
+**GPL firmware: QMK**
+
+I will go over how to build it yourself both online or on your local machine, and describe some of QMK’s more advanced features that set it apart from proprietary keyboard firmwares.
+
+**Questions**
+
+I expect that with so much to cover and this being such a hot but mysterious topic, there will be lots of questions, so I want to make sure to leave lots of time for those." property="og:description">
+<meta content="SeaGL" property="og:site_name">
+<meta content="https://secure.gravatar.com/avatar/dff23e342737740b9c22562733b50a90.png?r=PG&amp;s=32" property="og:image">
+<meta content="https://secure.gravatar.com/avatar/dff23e342737740b9c22562733b50a90.png?r=PG&amp;s=32" property="og:image:secure_url">
+
+</head>
+<body class="conference-seagl2019">
+<div class="navbar navbar-default navbar-fixed-top nav-osem" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target="#main-nav" data-toggle="collapse" type="button">
+<span class="sr-only">
+Toggle navigation
+</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" title="Open Source Event Manager" href="/">SeaGL</a>
+</div>
+<div class="collapse navbar-collapse" id="main-nav">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown visible-desktop">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<span class="fa-solid fa-user"></span>
+Sign In
+<span class="caret"></span>
+</a>
+<div class="dropdown-menu">
+<form action="/accounts/sign_in" accept-charset="UTF-8" method="post"><input type="text" name="user[login]" id="user_login_dd" class="form-control" placeholder="Username / E-Mail" inert="true">
+<input type="password" name="user[password]" id="user_password_dd" class="form-control" placeholder="Password" inert="true">
+<p class="text-right">
+<small>
+<label for="user_remember_me" inert="true">Remember me</label>
+<input type="checkbox" name="user[remember_me]" id="user_remember_me" value="1" inert="true">
+</small>
+</p>
+<button class="btn btn-success btn-block" inert="true">Sign in</button>
+<p class="text-right">
+<br>
+<a class="small btn btn-xs btn-default" data-target="#navbar-devise-help" data-toggle="collapse">
+Need Help?
+</a>
+</p><div class="collapse" id="navbar-devise-help">
+<a href="/accounts/password/new">Forgot your password?</a>
+<br>
+<a href="/accounts/confirmation/new">Didn't receive confirmation instructions?</a>
+<br>
+
+</div>
+<p></p>
+</form></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="messages">
+<div class="container">
+<noscript>
+<style>
+  #content {
+    display: none;
+  }
+</style>
+<h2>
+JavaScript is not enabled
+</h2>
+<p>
+OSEM requires JavaScript to be enabled to function. Please turn on JavaScript in your browser's settings and reload the page to continue.
+</p>
+</noscript>
+
+</div>
+</div>
+<div id="content">
+<div class="container">
+<div class="row">
+<div class="col-md-12 page-header">
+<h2>
+Building Your Own Keyboard with Free Software
+<br>
+<small>
+
+</small>
+<div class="btn-group pull-right">
+</div>
+</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-3">
+<h3></h3>
+Presented by:
+<div class="speakerinfo">
+<div class="row">
+<div class="col-md-4">
+<img class="img-responsive img-rounded" src="https://secure.gravatar.com/avatar/dff23e342737740b9c22562733b50a90.png?r=PG&amp;s=120">
+</div>
+<div class="col-md-8">
+<h4>
+<a href="/users/899">Brian Mock</a>
+<br>
+<a href="mailto:mock.brian@gmail.com"><i class="fa-solid fa-envelope fa-2x"></i>
+</a></h4>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-9">
+<div class="row">
+<div class="col-md-12">
+<div class="lead">
+
+
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<p>
+</p><p>Mechanical keyboards are soaring in popularity recently. This talk explains why you might be interested in them as well.</p>
+
+<p>The following topics will be covered:</p>
+
+<ul>
+<li>Case/plate/PCB</li>
+<li>Switches</li>
+<li>Caps</li>
+<li>Freedom of hardware</li>
+<li>A brief note on soldering</li>
+<li>Freedom of software</li>
+<li>GPL firmware: QMK</li>
+<li>Questions</li>
+</ul>
+
+<p><strong>Case/plate/PCB</strong></p>
+
+<p>Full size, tenkeyless, 75%, 65%, 60%, 40%, split, ortholinear, this talk covers all the different sizes in a hope to show you how your imagination is the limit when it comes to keyboards. I will go into detail about each size and why you might be interested in that size.</p>
+
+<p><strong>Switches</strong></p>
+
+<p>Tactile, linear, clicky. Cherry, Kailh, Gateron. I will cover all the major switch types, and what their pros and cons are.</p>
+
+<p><strong>Caps</strong></p>
+
+<p>Then I will discuss the various keycap profiles in detail with pictures.</p>
+
+<p><strong>Freedom of hardware</strong></p>
+
+<p>This immense freedom of hardware choice lends itself well to folks that are concerned with controlling their tools, as keyboards are one of the primary tools for people who do computer stuff.</p>
+
+<p><strong>A brief note on soldering</strong></p>
+
+<p>I want to dispel myths about soldering and reassure people that even those with zero prior hardware experience (like me!) can successfully build their own keyboard</p>
+
+<p><strong>Freedom of software</strong></p>
+
+<p>Software freedom! Perhaps the most relevant part, I will discuss the high level view of the QMK firmware that powers most custom keyboards. It is a GPL licensed C program that generates incredibly powerful customized firmware.</p>
+
+<p><strong>GPL firmware: QMK</strong></p>
+
+<p>I will go over how to build it yourself both online or on your local machine, and describe some of QMK’s more advanced features that set it apart from proprietary keyboard firmwares.</p>
+
+<p><strong>Questions</strong></p>
+
+<p>I expect that with so much to cover and this being such a hot but mysterious topic, there will be lots of questions, so I want to make sure to leave lots of time for those.</p>
+
+<p></p>
+</div>
+<dl id="proposal-info">
+<div class="col-md-12">
+<dt>Date:</dt>
+<dd>2019 November 16 - 13:00</dd>
+</div>
+<div class="col-md-12">
+<dt>Duration:</dt>
+<dd>50 min</dd>
+</div>
+<div class="col-md-12">
+<dt>Room:</dt>
+<dd>
+TALKS 3183
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Conference:</dt>
+<dd><a href="/conferences/seagl2019">SeaGL 2019 - A Prime Year for Free Software</a></dd>
+</div>
+<div class="col-md-12">
+<dt>Language:</dt>
+<dd></dd>
+</div>
+<div class="col-md-12">
+<dt>Track:</dt>
+<dd>
+<span class="label" style="background-color: #677036; color: white">
+Hardware/IOT
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Difficulty:</dt>
+<dd>
+<span class="label" style="background-color: #32CB2A; color: black;">
+Easy
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<hr>
+<h4>Happening at the same time:</h4>
+<ol>
+<li>
+<a href="/conferences/seagl2019/program/proposals/695">Bash 101: platforms, user-space, and built-ins
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2019 November 16 13:00
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+TALKS 3180
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2019/program/proposals/659">Open Source Won, but Software Freedom Hasn't Yet: A Guide &amp; Commiseration Session for FOSS activists
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2019 November 16 13:00
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+TALKS 3179
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2019/program/proposals/709">Digital Painting in Krita
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2019 November 16 13:00
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+TALKS 3178
+</dd>
+<br>
+</dl>
+</ol>
+</div>
+</dl>
+</div>
+<div class="row">
+<div class="col-md-12">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="footer">
+<div class="container">
+<p class="muted text-center">
+<small>
+This tool is
+<a href="http://www.gnu.org/philosophy/free-sw.html">free software</a>,
+released under the
+<a href="http://opensource.org/licenses/MIT">MIT license</a>.
+You can run, copy, distribute, study, change and improve it.
+The source code and the developers are on
+<a href="https://github.com/openSUSE/osem">GitHub</a>.
+</small>
+</p>
+</div>
+</div>
+
+
+
+
+</body></html>

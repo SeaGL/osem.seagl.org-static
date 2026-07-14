@@ -1,0 +1,1572 @@
+<schedule>
+<version>81</version>
+<conference>
+<acronym>seagl2020</acronym>
+<title>SeaGL 2020</title>
+<start>2020-11-13</start>
+<end>2020-11-14</end>
+<days>2</days>
+<timeslot_duration>00:05</timeslot_duration>
+</conference>
+<day date="2020-11-13" index="1">
+<room name="Keynotes">
+<event guid="8XhI5d6298F5rzpbzjuEUg" id="805">
+<date>2020-11-13T01:10:00-08:00</date>
+<start>09:10</start>
+<duration>00:20</duration>
+<room>Keynotes</room>
+<type>Keynote</type>
+<language/>
+<slug>805-keynote-1-mairin-duffy</slug>
+<title>KEYNOTE 1 - Máirín Duffy</title>
+<subtitle/>
+<track/>
+<abstract>keynote</abstract>
+<description>keynote</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="789">Rachel Kelly</person>
+</persons>
+</event>
+<event guid="YqseRJqs3JwPSF42kw-D-A" id="806">
+<date>2020-11-13T01:35:00-08:00</date>
+<start>09:35</start>
+<duration>00:20</duration>
+<room>Keynotes</room>
+<type>Keynote</type>
+<language/>
+<slug>806-keynote-2-daniel-takamori</slug>
+<title>KEYNOTE 2 - Daniel Takamori</title>
+<subtitle/>
+<track/>
+<abstract>Keynote</abstract>
+<description>Keynote</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="789">Rachel Kelly</person>
+</persons>
+</event>
+</room>
+<room name="Room 1">
+<event guid="Y8HWk7TArz0ANn4AnVzxtg" id="725">
+<date>2020-11-13T02:10:00-08:00</date>
+<start>10:10</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>725-oops-i-became-an-open-source-maintainer</slug>
+<title>Oops! I Became an Open Source Maintainer!</title>
+<subtitle/>
+<track>Community</track>
+<abstract>I consider myself relatively new to the open source world; my first open source contribution was in summer of 2016. Pretty soon I found myself being given commit rights to other people’s open source projects. Being a new open source maintainer brings a set of unique challenges that I was not fully prepared for. In this talk, I will share my journey and the things I’ve learned along the way, and some advice for other aspiring open source maintainers and contributors.</abstract>
+<description>I consider myself relatively new to the open source world; my first open source contribution was in summer of 2016. Pretty soon I found myself being given commit rights to other people’s open source projects. Being a new open source maintainer brings a set of unique challenges that I was not fully prepared for. In this talk, I will share my journey and the things I’ve learned along the way, and some advice for other aspiring open source maintainers and contributors.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="622">Mariatta Wijaya</person>
+</persons>
+</event>
+<event guid="8ED0U_a1tsv07XhFefGjmw" id="739">
+<date>2020-11-13T02:45:00-08:00</date>
+<start>10:45</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>739-a-beginner-inclusive-approach-to-open-source</slug>
+<title>A Beginner-Inclusive Approach to Open Source</title>
+<subtitle>My Open Source Experience</subtitle>
+<track>Community</track>
+<abstract>The feeling of being accepted, guided, and given the opportunity to improve irrespective of current abilities is priceless. 
+
+There&apos;s a need to set up a specialized team in open source communities and organizations whose primary goal is advocating, embracing, and integrating beginners into OSS. This team should focus on implementing roadmaps and personal guides with an inclusive and accessible approach to address the challenges first-timers face when joining OSS projects.
+
+There has been massive progress in the acceptance and practice of open source globally, but we have lagged in teaching the ideology of contributing to and taking advantage of open source with beginners.
+
+Data from two Twitter polls on open source contribution show: 
+
+- 42.1% of people do not know how to contribute.[Here](https://bit.ly/3gxtm4n)
+
+- 40.3% of senior developers do not contribute at all.[Here](https://bit.ly/3e5Q4iy)
+ 
+I&apos;m convinced that the difficulties contributing to open source projects fuel these trends. We&apos;ve missed out on their input, creativity, and impact on developing products to improve the world.
+With an analysis of the challenges involved, a sustainable plan of effective and beginner-friendly guidance by open source communities will educate beginners to contribute to open source.
+
+As a beginner, I&apos;m in a good position to relate and talk about the challenges beginners face when trying to understand and contribute to open source. 
+
+
+
+
+
+
+
+
+</abstract>
+<description>The feeling of being accepted, guided, and given the opportunity to improve irrespective of current abilities is priceless. 
+
+There&apos;s a need to set up a specialized team in open source communities and organizations whose primary goal is advocating, embracing, and integrating beginners into OSS. This team should focus on implementing roadmaps and personal guides with an inclusive and accessible approach to address the challenges first-timers face when joining OSS projects.
+
+There has been massive progress in the acceptance and practice of open source globally, but we have lagged in teaching the ideology of contributing to and taking advantage of open source with beginners.
+
+Data from two Twitter polls on open source contribution show: 
+
+- 42.1% of people do not know how to contribute.[Here](https://bit.ly/3gxtm4n)
+
+- 40.3% of senior developers do not contribute at all.[Here](https://bit.ly/3e5Q4iy)
+ 
+I&apos;m convinced that the difficulties contributing to open source projects fuel these trends. We&apos;ve missed out on their input, creativity, and impact on developing products to improve the world.
+With an analysis of the challenges involved, a sustainable plan of effective and beginner-friendly guidance by open source communities will educate beginners to contribute to open source.
+
+As a beginner, I&apos;m in a good position to relate and talk about the challenges beginners face when trying to understand and contribute to open source. 
+
+
+
+
+
+
+
+
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1044">Ruth Ikegah</person>
+</persons>
+</event>
+<event guid="-ffEPSmx6yavX6ywlHobxQ" id="747">
+<date>2020-11-13T03:30:00-08:00</date>
+<start>11:30</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>747-floss-and-you</slug>
+<title>FLOSS and you</title>
+<subtitle>A consideration of user freedom</subtitle>
+<track>Community</track>
+<abstract>User freedom addresses software licensing from the perspective of those using the software.
+
+What are advantages and disadvantages of different licensing models in relation to user freedom?
+
+How does licensing impact individuals, organizations and businesses as we use software?
+
+How does software distribution ( packages, cloud, bundled in a product ) impact user freedom?
+
+The presentation and ensuing conversation is about user freedom and the impact of the software we choose to use.
+
+It&apos;s a consideration of the everyperson relationship with software licensing.
+
+Attendees will consider how the following relate to them:
+
+* software usage models
+* the four freedoms of Free Software
+* the open source development model
+* strong and weak copyleft</abstract>
+<description>User freedom addresses software licensing from the perspective of those using the software.
+
+What are advantages and disadvantages of different licensing models in relation to user freedom?
+
+How does licensing impact individuals, organizations and businesses as we use software?
+
+How does software distribution ( packages, cloud, bundled in a product ) impact user freedom?
+
+The presentation and ensuing conversation is about user freedom and the impact of the software we choose to use.
+
+It&apos;s a consideration of the everyperson relationship with software licensing.
+
+Attendees will consider how the following relate to them:
+
+* software usage models
+* the four freedoms of Free Software
+* the open source development model
+* strong and weak copyleft</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="363">der.hans</person>
+</persons>
+</event>
+<event guid="B6pAdmbwDQOiBNX56CdcdA" id="740">
+<date>2020-11-13T05:15:00-08:00</date>
+<start>13:15</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>740-democratizing-documentation</slug>
+<title>Democratizing Documentation</title>
+<subtitle>DIY Ethic in Open Source Publishing</subtitle>
+<track>Tech Culture</track>
+<abstract>Democratizing knowledge has always been a core value of open source and activist communities alike. However, as open source has grown into an institution in its own right, the norms of each community have become cemented, and thus barriers to participation built.
+
+
+As these barriers have become increasingly apparent, we have seen the rise of a new kind of technical content- zines, which have long been used in activist communities to interrogate, subvert, and topple exclusion via the free sharing of information which has traditionally been available to a privileged few.
+
+
+In this high level talk, attendees will learn about:
+
+
+- Where zines came from
+- Zine culture as an implementation of the “New Hacker Ethic”
+- The strengths of zines as a source of technical knowledge
+- How to find, read, and start making zines of our own</abstract>
+<description>Democratizing knowledge has always been a core value of open source and activist communities alike. However, as open source has grown into an institution in its own right, the norms of each community have become cemented, and thus barriers to participation built.
+
+
+As these barriers have become increasingly apparent, we have seen the rise of a new kind of technical content- zines, which have long been used in activist communities to interrogate, subvert, and topple exclusion via the free sharing of information which has traditionally been available to a privileged few.
+
+
+In this high level talk, attendees will learn about:
+
+
+- Where zines came from
+- Zine culture as an implementation of the “New Hacker Ethic”
+- The strengths of zines as a source of technical knowledge
+- How to find, read, and start making zines of our own</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="783">Megan Guiney</person>
+</persons>
+</event>
+<event guid="pNjmXtln02KUWuB09dkmgw" id="751">
+<date>2020-11-13T06:00:00-08:00</date>
+<start>14:00</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>751-demystifying-contributor-culture-irc-mailing-lists-and-netiquette-for-the-21st-century</slug>
+<title>Demystifying Contributor Culture: IRC, Mailing Lists, and Netiquette for the 21st Century</title>
+<subtitle/>
+<track/>
+<abstract>Want to contribute to an Open Source project, but don&apos;t know what to expect or how to navigate the new contributor process? You&apos;re not alone! Much of the culture and tools used to participate in upstream communities is often shrouded behind in-knowledge and unfamiliar to new contributors. This session will draw back the curtain on these topics so that new developers and experienced professionals alike can make their first Open Source contributions with confidence.
+
+Attendees will get answers to questions like:
+* Aren&apos;t Open Source communities just a bunch of strangers on the internet? How do you communicate and get anything done?
+* IRC and mailing lists? Does anyone really still use those things anymore?
+* No one is responding to my messages/posts/PRs, what gives?
+* What is a day in the life of a project maintainer like?</abstract>
+<description>Want to contribute to an Open Source project, but don&apos;t know what to expect or how to navigate the new contributor process? You&apos;re not alone! Much of the culture and tools used to participate in upstream communities is often shrouded behind in-knowledge and unfamiliar to new contributors. This session will draw back the curtain on these topics so that new developers and experienced professionals alike can make their first Open Source contributions with confidence.
+
+Attendees will get answers to questions like:
+* Aren&apos;t Open Source communities just a bunch of strangers on the internet? How do you communicate and get anything done?
+* IRC and mailing lists? Does anyone really still use those things anymore?
+* No one is responding to my messages/posts/PRs, what gives?
+* What is a day in the life of a project maintainer like?</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1051">Jill Rouleau</person>
+</persons>
+</event>
+<event guid="ZGxZOq5PVZN25xhohvLX2w" id="732">
+<date>2020-11-13T07:30:00-08:00</date>
+<start>15:30</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>732-stand-up-comedy-about-floss</slug>
+<title>Stand-up comedy about FLOSS</title>
+<subtitle/>
+<track>Performance Art!</track>
+<abstract>What off-the-wall licenses should the OSI consider next? Where&apos;s the fine line between maintainer success and maintainer burnout? Should we alias `git reset --hard` to `git regret --hard`?
+
+I&apos;ve been in free and open source software for years, and I perform stand-up comedy. Sit back and enjoy 20 minutes of jokes about our field.</abstract>
+<description>What off-the-wall licenses should the OSI consider next? Where&apos;s the fine line between maintainer success and maintainer burnout? Should we alias `git reset --hard` to `git regret --hard`?
+
+I&apos;ve been in free and open source software for years, and I perform stand-up comedy. Sit back and enjoy 20 minutes of jokes about our field.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1033">Sumana Harihareswara</person>
+</persons>
+</event>
+</room>
+<room name="Room 2">
+<event guid="2ilaFBWfDTMKDlI2b_i-lA" id="726">
+<date>2020-11-13T02:10:00-08:00</date>
+<start>10:10</start>
+<duration>00:30</duration>
+<room>Room 2</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>726-rise-up-for-free-software-in-schools</slug>
+<title>Rise up for free software in schools!</title>
+<subtitle/>
+<track/>
+<abstract>U.S. public education systems are failing students and teachers in our digital world. Increasingly, teachers and students are told to use proprietary software, so they do, without much of a choice and without enough resources to consider the repercussions or alternatives. Unfortunately, this negatively impacts Black and Brown young people the most and our community needs to better address this.
+
+This talk will briefly introduce why free software is important in education, give examples of how proprietary software is rapidly deployed in schools and credit people who are rising up against this injustice, big and small.
+
+It is imperative to reach out to the education community about these issues. There are real, actionable solutions!
+
+Learn about this ongoing crisis and how YOU can join the effort in a meaningful, inclusive way. Time and resources will be acknowledged for skill sharing as well.
+
+</abstract>
+<description>U.S. public education systems are failing students and teachers in our digital world. Increasingly, teachers and students are told to use proprietary software, so they do, without much of a choice and without enough resources to consider the repercussions or alternatives. Unfortunately, this negatively impacts Black and Brown young people the most and our community needs to better address this.
+
+This talk will briefly introduce why free software is important in education, give examples of how proprietary software is rapidly deployed in schools and credit people who are rising up against this injustice, big and small.
+
+It is imperative to reach out to the education community about these issues. There are real, actionable solutions!
+
+Learn about this ongoing crisis and how YOU can join the effort in a meaningful, inclusive way. Time and resources will be acknowledged for skill sharing as well.
+
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="599">mariah villarreal</person>
+</persons>
+</event>
+<event guid="9t9WFkY67Yf295k1Y5IaFw" id="735">
+<date>2020-11-13T02:45:00-08:00</date>
+<start>10:45</start>
+<duration>00:30</duration>
+<room>Room 2</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>735-the-open-digital-photography-workflow</slug>
+<title>The Open Digital Photography Workflow</title>
+<subtitle/>
+<track/>
+<abstract>The photographic workflow of a photographer using Open Source tools and Open Source friendly hardware. 
+
+With consolidation of the photographic space by a few large companies, photographers have been funneled in to proprietary workflows 
+
+Using hardware supporting open standards and open source software we’ll walk through how to move out of the proprietary photography workflow, take ownership of the photographer’s own data and art.</abstract>
+<description>The photographic workflow of a photographer using Open Source tools and Open Source friendly hardware. 
+
+With consolidation of the photographic space by a few large companies, photographers have been funneled in to proprietary workflows 
+
+Using hardware supporting open standards and open source software we’ll walk through how to move out of the proprietary photography workflow, take ownership of the photographer’s own data and art.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="851">Stephen Wilson</person>
+</persons>
+</event>
+<event guid="zyI4Ts92BX97fsZUz5gV6w" id="756">
+<date>2020-11-13T03:30:00-08:00</date>
+<start>11:30</start>
+<duration>00:30</duration>
+<room>Room 2</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>756-introducing-foss-culture-at-universities</slug>
+<title>Introducing FOSS Culture at Universities</title>
+<subtitle/>
+<track/>
+<abstract>Name - Suraj Kumar Mahto  
+Major - Information Technology (2018-22)  
+University - BIT Sindri, Dhanbad, India  
+Location - Ranchi, Jharkhand, India  
+Timezone - GMT+5:30  
+FOSS Experience - GNU/Linux user since from 2+ years. Individual Contributor at KDE(Web)
+
+Hello everyone, this is Suraj Kumar Mahto from BIT Sindri majoring in Information Technology. I have just completed my sophomore year. I am one of the leads in a developer club in my college. Since our advent as a developer club, we have started up numerous initiatives to inculcate Open Source as a culture in our institution. So I would like to express my experience and opinion on that.
+
+Some keynote points that should be discussed in such sessions are:
+
+- INTRO SESSIONS : How would you introduce Open Source to a freshmen?
+Most of the freshmen in college have a quite vague knowledge about Open Source technologies especially when they are heavily surrounded by Proprietary softwares from early school. Students can be explained in layman terms about the ‘Free’ and Open Source as a recipe as described by Richard Stallman and FOSS can be described as a recipe which can be improvised and shared while still having the original recipe with you inducing a type of free culture. Free as if Freedom.
+
+- TROUBLESHOOTING - The major hurdle new users face the general procedure on troubleshooting. How they should proceed on various issues.
+
+- SEARCH ENGINE USAGE- Using a search engine is considered an art. Students can be introduced to this art.
+
+- LINUX INSTALLATION FESTS - Engage &amp; Enquire
+
+    - Students will be provided bootable devices and live help sessions to install GNU/Linux.
+
+    - Fun awareness events to engage and inform participants about the FOSS history.
+
+    - Talk sessions by prominent speakers in the Open Source field.
+
+    - Encouraging the students to use GNU/Linux as a daily driver.
+
+- MONTHLY FOSS JAM SESSIONS
+
+    - Monthly meetups to showcase Open Source projects and discuss upon that.
+    - Support groups to provide help 24\*7 for the new users.
+
+- AT UNIVERSITY LEVEL
+
+    - Encouraging the use of Open Source Softwares as their daily driver.
+
+    - Explaining the pros of using FOSS technologies over proprietary ones like privacy, active community support etc
+
+    - Implementing these over Faculty as well as students.
+
+    - Explaining students about various open source programs such as GSoC, Rails Summer of Code.
+</abstract>
+<description>Name - Suraj Kumar Mahto  
+Major - Information Technology (2018-22)  
+University - BIT Sindri, Dhanbad, India  
+Location - Ranchi, Jharkhand, India  
+Timezone - GMT+5:30  
+FOSS Experience - GNU/Linux user since from 2+ years. Individual Contributor at KDE(Web)
+
+Hello everyone, this is Suraj Kumar Mahto from BIT Sindri majoring in Information Technology. I have just completed my sophomore year. I am one of the leads in a developer club in my college. Since our advent as a developer club, we have started up numerous initiatives to inculcate Open Source as a culture in our institution. So I would like to express my experience and opinion on that.
+
+Some keynote points that should be discussed in such sessions are:
+
+- INTRO SESSIONS : How would you introduce Open Source to a freshmen?
+Most of the freshmen in college have a quite vague knowledge about Open Source technologies especially when they are heavily surrounded by Proprietary softwares from early school. Students can be explained in layman terms about the ‘Free’ and Open Source as a recipe as described by Richard Stallman and FOSS can be described as a recipe which can be improvised and shared while still having the original recipe with you inducing a type of free culture. Free as if Freedom.
+
+- TROUBLESHOOTING - The major hurdle new users face the general procedure on troubleshooting. How they should proceed on various issues.
+
+- SEARCH ENGINE USAGE- Using a search engine is considered an art. Students can be introduced to this art.
+
+- LINUX INSTALLATION FESTS - Engage &amp; Enquire
+
+    - Students will be provided bootable devices and live help sessions to install GNU/Linux.
+
+    - Fun awareness events to engage and inform participants about the FOSS history.
+
+    - Talk sessions by prominent speakers in the Open Source field.
+
+    - Encouraging the students to use GNU/Linux as a daily driver.
+
+- MONTHLY FOSS JAM SESSIONS
+
+    - Monthly meetups to showcase Open Source projects and discuss upon that.
+    - Support groups to provide help 24\*7 for the new users.
+
+- AT UNIVERSITY LEVEL
+
+    - Encouraging the use of Open Source Softwares as their daily driver.
+
+    - Explaining the pros of using FOSS technologies over proprietary ones like privacy, active community support etc
+
+    - Implementing these over Faculty as well as students.
+
+    - Explaining students about various open source programs such as GSoC, Rails Summer of Code.
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1054">Suraj Kumar Mahto</person>
+</persons>
+</event>
+<event guid="EHIazGXdMW0jsuQjOKzTOw" id="803">
+<date>2020-11-13T05:15:00-08:00</date>
+<start>13:15</start>
+<duration>00:30</duration>
+<room>Room 2</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>803-gaming-for-good-using-passions-and-technology-for-social-change</slug>
+<title>Gaming for Good: Using Passions and Technology for Social Change</title>
+<subtitle/>
+<track>Community</track>
+<abstract>
+I&apos;d love to give a talk about using the technology around us and our personal interests to make a social impact, and the ways that open doors to make broader change in unexpected ways. Using Intelligame as an example, I&apos;d like to talk about starting a criticism website using Wordpress and beginning my career as a streamer, but also talk about the social contracts and policies I put together to build the community into a conscious, progressive collective that&apos;s raised over $20,000 for charities. Learning streaming also opened a space for me to work with organizations like the ACLU to help them organize online events, which powers even more activism. I think anyone can use the skills they have and the interests they enjoy to help make a difference so long as they connect with the right people and keep an open mind.</abstract>
+<description>
+I&apos;d love to give a talk about using the technology around us and our personal interests to make a social impact, and the ways that open doors to make broader change in unexpected ways. Using Intelligame as an example, I&apos;d like to talk about starting a criticism website using Wordpress and beginning my career as a streamer, but also talk about the social contracts and policies I put together to build the community into a conscious, progressive collective that&apos;s raised over $20,000 for charities. Learning streaming also opened a space for me to work with organizations like the ACLU to help them organize online events, which powers even more activism. I think anyone can use the skills they have and the interests they enjoy to help make a difference so long as they connect with the right people and keep an open mind.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1077">Josh Boykin</person>
+</persons>
+</event>
+<event guid="i0CD1uLpujhijqZkYy5DgA" id="737">
+<date>2020-11-13T06:00:00-08:00</date>
+<start>14:00</start>
+<duration>00:30</duration>
+<room>Room 2</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>737-let-s-make-games-with-rust</slug>
+<title>Let&apos;s Make Games with Rust</title>
+<subtitle/>
+<track/>
+<abstract>In this talk we will write a small game in Rust using the Amethyst game engine. You will learn about Rust as well as some basic game programming principles like the Entity, Component, System (ECS). You will not need prior experience with games programming, Rust, nor Amethyst, but a passing familiarity with Rust will give you a head start.
+
+Game&apos;s industry software is largely dominated by C and C++. These languages are fast and productive, but they can also be buggy and prone to catastrophic programming errors.
+
+Enter: the Rust Programming Language. Rust is a safe yet powerful systems programming language. Rust looks and acts a lot like C++, but guarantees safety from pesky memory bugs that countless RFCs have been written about.
+
+Rust&apos;s safety is most critical in device drivers and life support software, where a crash can mean life and death, but we can also use it to make games?
+
+Enter: the Amethyst Game Engine. Amethyst is a fully open source game engine written in Rust. Amethyst provides tools for writing 2D and 3D games and implements many industry standards like an ECS framework, and data-driven design. Not sure what those works mean? Come find out!</abstract>
+<description>In this talk we will write a small game in Rust using the Amethyst game engine. You will learn about Rust as well as some basic game programming principles like the Entity, Component, System (ECS). You will not need prior experience with games programming, Rust, nor Amethyst, but a passing familiarity with Rust will give you a head start.
+
+Game&apos;s industry software is largely dominated by C and C++. These languages are fast and productive, but they can also be buggy and prone to catastrophic programming errors.
+
+Enter: the Rust Programming Language. Rust is a safe yet powerful systems programming language. Rust looks and acts a lot like C++, but guarantees safety from pesky memory bugs that countless RFCs have been written about.
+
+Rust&apos;s safety is most critical in device drivers and life support software, where a crash can mean life and death, but we can also use it to make games?
+
+Enter: the Amethyst Game Engine. Amethyst is a fully open source game engine written in Rust. Amethyst provides tools for writing 2D and 3D games and implements many industry standards like an ECS framework, and data-driven design. Not sure what those works mean? Come find out!</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="369">Elijah C. Voigt</person>
+</persons>
+</event>
+<event guid="yN9FWHvxdbz9kfceuxIabQ" id="782">
+<date>2020-11-13T07:30:00-08:00</date>
+<start>15:30</start>
+<duration>00:30</duration>
+<room>Room 2</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>782-how-to-build-a-zombie-detector-identifying-software-quality-problems</slug>
+<title>How to build a zombie detector: Identifying software quality problems</title>
+<subtitle/>
+<track/>
+<abstract>How do we measure and track the quality of the open source software we rely on? When a project is in trouble, how do we know? What have past approaches to this question gotten right, where have they gone astray, and what&apos;s still a mystery?
+
+Predicting and measuring software quality is a subject of substantial academic research but not always discussed with the people who actually make software. To help close that gap, we sifted hundreds of research articles that proposed, assessed, and sometimes verified different metrics of software quality. In this talk, I&apos;ll summarize the current state of the software quality field, and explore the map of known approaches: from by-hand inspections through repository mining and machine learning. What can these approaches tell us? I&apos;ll share both the best, most-validated metrics we found and the weakest, least-proven ones.
+
+Finally, I&apos;ll share a proposed measurement strategy, drawn from work in multiple disciplines -- informed by practical experience as well as computer science, information systems, and social science. I&apos;ll share our preliminary results from a project to measure the relative health of thousands of open source projects, and what that might mean for the future of our shared digital infrastructure.
+
+After hearing these approaches to measuring quality and some of the results of using them, I hope you&apos;ll offer your feedback: what zombies have you seen, slain, or run away from? Do the academic approaches I&apos;ve described make sense here among the living -- in the everyday experiences of development and systems administration?
+</abstract>
+<description>How do we measure and track the quality of the open source software we rely on? When a project is in trouble, how do we know? What have past approaches to this question gotten right, where have they gone astray, and what&apos;s still a mystery?
+
+Predicting and measuring software quality is a subject of substantial academic research but not always discussed with the people who actually make software. To help close that gap, we sifted hundreds of research articles that proposed, assessed, and sometimes verified different metrics of software quality. In this talk, I&apos;ll summarize the current state of the software quality field, and explore the map of known approaches: from by-hand inspections through repository mining and machine learning. What can these approaches tell us? I&apos;ll share both the best, most-validated metrics we found and the weakest, least-proven ones.
+
+Finally, I&apos;ll share a proposed measurement strategy, drawn from work in multiple disciplines -- informed by practical experience as well as computer science, information systems, and social science. I&apos;ll share our preliminary results from a project to measure the relative health of thousands of open source projects, and what that might mean for the future of our shared digital infrastructure.
+
+After hearing these approaches to measuring quality and some of the results of using them, I hope you&apos;ll offer your feedback: what zombies have you seen, slain, or run away from? Do the academic approaches I&apos;ve described make sense here among the living -- in the everyday experiences of development and systems administration?
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1069">Kaylea Champion</person>
+</persons>
+</event>
+</room>
+<room name="Room 3 ">
+<event guid="zty1SeYDQOaHHNuI026mqw" id="731">
+<date>2020-11-13T02:10:00-08:00</date>
+<start>10:10</start>
+<duration>00:30</duration>
+<room>Room 3 </room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>731-patently-obvious</slug>
+<title>Patently Obvious</title>
+<subtitle>The year the lawyers came to FOSS</subtitle>
+<track/>
+<abstract>In August 2019, GNOME was notified that it was being sued in the state of California over a broad patent which allegedly covered Shotwell, a photo management application. The plaintiff? A prolific filer of patent suits, and a patent assertion entity. This was the first time that a FOSS project has been sued for patent infringement.
+
+This talk is the story from the Executive Director of the GNOME Foundation, on how he responded and the strategies taken to not only defeat the suit, but to secure a ground-breaking agreement which means that this particular PAE will never be able to sue any FOSS project ever again.</abstract>
+<description>In August 2019, GNOME was notified that it was being sued in the state of California over a broad patent which allegedly covered Shotwell, a photo management application. The plaintiff? A prolific filer of patent suits, and a patent assertion entity. This was the first time that a FOSS project has been sued for patent infringement.
+
+This talk is the story from the Executive Director of the GNOME Foundation, on how he responded and the strategies taken to not only defeat the suit, but to secure a ground-breaking agreement which means that this particular PAE will never be able to sue any FOSS project ever again.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="733">Neil McGovern</person>
+</persons>
+</event>
+<event guid="nyC-ittjbuuZWmJ4_8Pa3g" id="763">
+<date>2020-11-13T03:30:00-08:00</date>
+<start>11:30</start>
+<duration>00:30</duration>
+<room>Room 3 </room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>763-open-source-secrets-management</slug>
+<title>Open Source Secrets Management</title>
+<subtitle/>
+<track/>
+<abstract>One common problem that all organizations need to solve when planning out their infrastructure is the need for storing secrets, such as passwords, credentials, API keys, and other sensitive data.  Often this information is used for application deployments or simply running company applications.  But it might need to be segmented by environment or use, with only certain groups or individuals having access.  Fortunately there are many free &amp; open source solutions to secrets management.
+In this talk:
+- We&apos;ll look at the various free &amp; open source solutions that are available.
+- We&apos;ll look at some pluses and minuses for each of them.
+- Finally we&apos;ll look at using some of these solutions in a real world scenario.</abstract>
+<description>One common problem that all organizations need to solve when planning out their infrastructure is the need for storing secrets, such as passwords, credentials, API keys, and other sensitive data.  Often this information is used for application deployments or simply running company applications.  But it might need to be segmented by environment or use, with only certain groups or individuals having access.  Fortunately there are many free &amp; open source solutions to secrets management.
+In this talk:
+- We&apos;ll look at the various free &amp; open source solutions that are available.
+- We&apos;ll look at some pluses and minuses for each of them.
+- Finally we&apos;ll look at using some of these solutions in a real world scenario.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="77">Gareth J. Greenaway</person>
+</persons>
+</event>
+<event guid="clL24ksAwDdV6hccIhLL8Q" id="746">
+<date>2020-11-13T05:15:00-08:00</date>
+<start>13:15</start>
+<duration>00:30</duration>
+<room>Room 3 </room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>746-features-of-a-modern-terminal-emulator</slug>
+<title>Features of a Modern Terminal Emulator</title>
+<subtitle/>
+<track/>
+<abstract>Depending on your computing platform, there are a dizzying array of terminal emulators from which to choose. Which one will suit you best depends on which features and capabilities you require. Terminals and terminal emulators have come a long way since the teletype, the VT100, and even the relatively modern xterm. In this talk we&apos;ll explore the landscape of capabilities and features offered by the modern terminal emulator including:
+
+- Font handling: unicode, icon fonts, fallbacks &amp; more
+- SGR escape sequences for italics, bold, underline, strike-through, etc
+- Xterm mouse support
+- System clipboard integration via OSC-52
+- Paste bracketing
+- 24-bit color
+- Bit-mapped graphics support
+
+Whether you&apos;re looking for new ideas to improve your terminal workflow, or to simply freshen up your 80x24 look -- if you spend more than few minutes a day in the terminal this talk is for you!
+</abstract>
+<description>Depending on your computing platform, there are a dizzying array of terminal emulators from which to choose. Which one will suit you best depends on which features and capabilities you require. Terminals and terminal emulators have come a long way since the teletype, the VT100, and even the relatively modern xterm. In this talk we&apos;ll explore the landscape of capabilities and features offered by the modern terminal emulator including:
+
+- Font handling: unicode, icon fonts, fallbacks &amp; more
+- SGR escape sequences for italics, bold, underline, strike-through, etc
+- Xterm mouse support
+- System clipboard integration via OSC-52
+- Paste bracketing
+- 24-bit color
+- Bit-mapped graphics support
+
+Whether you&apos;re looking for new ideas to improve your terminal workflow, or to simply freshen up your 80x24 look -- if you spend more than few minutes a day in the terminal this talk is for you!
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="365">Mike Hamrick</person>
+</persons>
+</event>
+<event guid="zMoU5M6kEP8PThBWPhiRDQ" id="730">
+<date>2020-11-13T07:30:00-08:00</date>
+<start>15:30</start>
+<duration>00:30</duration>
+<room>Room 3 </room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>730-overclocking-for-your-mind-and-body</slug>
+<title>Overclocking for Your Mind and Body</title>
+<subtitle>Martial arts applications for keyboard kung fu practitioners</subtitle>
+<track>Miscellaneous</track>
+<abstract>You’ve tweaked your cooling setup to overclock your CPU, how can you increase the flow rate of your own central nervous system?  Learn to apply traditional martial arts techniques and get every last bit of juice from your wetware.  Join this session to learn how to benchmark your system and identify and remove blockages and I/O bottlenecks.  Practice traditional techniques with modern applications that help prevent RSI and keep your mind and body fresh and productive throughout your most grueling software development sessions.
+
+Presented by Oom Yung Doe Northwest, a 501(c)(3) non-profit Traditional Martial Arts school with a mission to bring health and wellness to our community through Traditional Martial Arts training.  http://oomyungdoe-nw.com/</abstract>
+<description>You’ve tweaked your cooling setup to overclock your CPU, how can you increase the flow rate of your own central nervous system?  Learn to apply traditional martial arts techniques and get every last bit of juice from your wetware.  Join this session to learn how to benchmark your system and identify and remove blockages and I/O bottlenecks.  Practice traditional techniques with modern applications that help prevent RSI and keep your mind and body fresh and productive throughout your most grueling software development sessions.
+
+Presented by Oom Yung Doe Northwest, a 501(c)(3) non-profit Traditional Martial Arts school with a mission to bring health and wellness to our community through Traditional Martial Arts training.  http://oomyungdoe-nw.com/</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="494">Rowin Andruscavage</person>
+</persons>
+</event>
+</room>
+<room name="Social">
+<event guid="sBzYNfVSJUPQ-r8erDNHqg" id="804">
+<date>2020-11-13T06:45:00-08:00</date>
+<start>14:45</start>
+<duration>00:30</duration>
+<room>Social</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>804-friday-teagl</slug>
+<title>Friday TeaGL</title>
+<subtitle/>
+<track/>
+<abstract>TeaGL is a tea swap where participants have mailed each other different kinds of tea to make and chat about during TeaGL on Friday afternoon!  Black/green/white/herbal/whatever, all teas are welcome!  Free as in Tea!</abstract>
+<description>TeaGL is a tea swap where participants have mailed each other different kinds of tea to make and chat about during TeaGL on Friday afternoon!  Black/green/white/herbal/whatever, all teas are welcome!  Free as in Tea!</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="789">Rachel Kelly</person>
+</persons>
+</event>
+<event guid="udfeNEvEAfG8ALWFO5vTTw" id="811">
+<date>2020-11-13T08:30:00-08:00</date>
+<start>16:30</start>
+<duration>01:30</duration>
+<room>Social</room>
+<type>Friday Virtual Party</type>
+<language/>
+<slug>811-cocktails-and-mocktails-evening-social</slug>
+<title>Cocktails and Mocktails Evening Social</title>
+<subtitle/>
+<track/>
+<abstract>I&apos;m going to be making a series of GNU/Linux themed cocktails. The good news is that the source for the cocktails is available! The bad news is that you&apos;ll have to compile these drinks yourself.
+
+I&apos;ve listed the night&apos;s menu below here from easiest to most difficult. There are four drinks including one non-alcoholic drink (marked EtOH-free). If you planning on making drinks with me, you&apos;ll probably need to shop for ingredients. My advice it to chose what you want have and shop just for that drink. Or just bring a beer or glass of wine a cup of tea to watch and hang out!
+
+### Cocktail 1: XOFF ignored, mumble mumble [Easiest]
+
+Ingredients:
+
+* 6 oz IPA [Something local!]
+* 1½ oz Campari
+
+[PREPARATION AHEAD OF TIME] 
+
+Assemble your tools including: 
+
+* Something to pour your drink into! I recommend a lowball/DOF glass
+* Something to measure your ingredients with
+* Ice!
+
+### Cocktail 2: Not a typewriter [EtOH-free]
+
+Ingredients:
+
+* 1 oz Lemon juice
+* 1 ¼ oz Rosemary simple syrup
+* 3 oz sparkling water
+
+Optional ingredients (if you&apos;re not into the whole EtOH-free thing):
+
+* 1½ oz Gin
+
+[PREPARATION AHEAD OF TIME] 
+
+Preparing the rosemary simple syrup involves boiling 150g sugar, 150g water, 2-3 tablespoons of rosemary (fresh or dry). Then let cool.
+
+Assemble your tools including:
+
+* Something to juice your lemons with
+* Something to pour your drink into! I recommend a highball glass
+* Something to measure your ingredients with
+* Ice!
+
+Based on: Dish Walk Cooler, Benjamin Mako Hill, Seattle
+
+### Cocktail 3: lp0 on fire [intermediate]
+
+Ingredients:
+
+* 1½ oz Gin
+* ¾ oz Elderflower liqueur (St. Elder or St. Germain)
+* ½ oz Campari
+* ½ oz Lemon juice
+
+[PREPARATION AHEAD OF TIME] 
+
+Assemble your tools including:
+
+* Something to juice your lemons with
+* Something to pour your drink into! I recommend a coupe/cocktail glass
+* Something to measure your ingredients with
+* Ice!
+
+Based on: Bitter Elder; History is complicated but see Kindred Cocktails for more details
+
+### Cocktail 4: Bailing out, you are on your own. Good luck! [Advanced]
+
+*Note:* This one will require an NO2 whipper and you will be making foam for 4-5 drinks.
+
+The drink:
+
+* 3 oz Rye
+* 3 dash Peychaud&apos;s bitters
+
+Also... ingredients for the lemon maple foam:
+
+* 4 egg whites
+* 2 oz lemon juice
+* 4 oz maple syrup
+* 6 oz water
+
+[PREPARATION AHEAD OF TIME] 
+
+Assemble your tools including:
+
+* A whipcream charger (like an iSi Whipper)
+* Something to juice your lemons with
+* Something to serve it in: ideally a lowball/DOF glass
+* Something to measure your ingredients with
+* Ice!
+    
+Based on: Vessel 75, Jamie Boudreau, Canon, Seattle
+
+### Afterparty
+
+I&apos;ll be walking you through one of my favorite cocktails:
+
+You&apos;ll need: (a) a whole egg; and (b) a bottle of [Cynar](https://en.wikipedia.org/wiki/Cynar); and (c) something to shake your drink in.</abstract>
+<description>I&apos;m going to be making a series of GNU/Linux themed cocktails. The good news is that the source for the cocktails is available! The bad news is that you&apos;ll have to compile these drinks yourself.
+
+I&apos;ve listed the night&apos;s menu below here from easiest to most difficult. There are four drinks including one non-alcoholic drink (marked EtOH-free). If you planning on making drinks with me, you&apos;ll probably need to shop for ingredients. My advice it to chose what you want have and shop just for that drink. Or just bring a beer or glass of wine a cup of tea to watch and hang out!
+
+### Cocktail 1: XOFF ignored, mumble mumble [Easiest]
+
+Ingredients:
+
+* 6 oz IPA [Something local!]
+* 1½ oz Campari
+
+[PREPARATION AHEAD OF TIME] 
+
+Assemble your tools including: 
+
+* Something to pour your drink into! I recommend a lowball/DOF glass
+* Something to measure your ingredients with
+* Ice!
+
+### Cocktail 2: Not a typewriter [EtOH-free]
+
+Ingredients:
+
+* 1 oz Lemon juice
+* 1 ¼ oz Rosemary simple syrup
+* 3 oz sparkling water
+
+Optional ingredients (if you&apos;re not into the whole EtOH-free thing):
+
+* 1½ oz Gin
+
+[PREPARATION AHEAD OF TIME] 
+
+Preparing the rosemary simple syrup involves boiling 150g sugar, 150g water, 2-3 tablespoons of rosemary (fresh or dry). Then let cool.
+
+Assemble your tools including:
+
+* Something to juice your lemons with
+* Something to pour your drink into! I recommend a highball glass
+* Something to measure your ingredients with
+* Ice!
+
+Based on: Dish Walk Cooler, Benjamin Mako Hill, Seattle
+
+### Cocktail 3: lp0 on fire [intermediate]
+
+Ingredients:
+
+* 1½ oz Gin
+* ¾ oz Elderflower liqueur (St. Elder or St. Germain)
+* ½ oz Campari
+* ½ oz Lemon juice
+
+[PREPARATION AHEAD OF TIME] 
+
+Assemble your tools including:
+
+* Something to juice your lemons with
+* Something to pour your drink into! I recommend a coupe/cocktail glass
+* Something to measure your ingredients with
+* Ice!
+
+Based on: Bitter Elder; History is complicated but see Kindred Cocktails for more details
+
+### Cocktail 4: Bailing out, you are on your own. Good luck! [Advanced]
+
+*Note:* This one will require an NO2 whipper and you will be making foam for 4-5 drinks.
+
+The drink:
+
+* 3 oz Rye
+* 3 dash Peychaud&apos;s bitters
+
+Also... ingredients for the lemon maple foam:
+
+* 4 egg whites
+* 2 oz lemon juice
+* 4 oz maple syrup
+* 6 oz water
+
+[PREPARATION AHEAD OF TIME] 
+
+Assemble your tools including:
+
+* A whipcream charger (like an iSi Whipper)
+* Something to juice your lemons with
+* Something to serve it in: ideally a lowball/DOF glass
+* Something to measure your ingredients with
+* Ice!
+    
+Based on: Vessel 75, Jamie Boudreau, Canon, Seattle
+
+### Afterparty
+
+I&apos;ll be walking you through one of my favorite cocktails:
+
+You&apos;ll need: (a) a whole egg; and (b) a bottle of [Cynar](https://en.wikipedia.org/wiki/Cynar); and (c) something to shake your drink in.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="79">Benjamin Mako Hill</person>
+</persons>
+</event>
+</room>
+</day>
+<day date="2020-11-14" index="2">
+<room name="Keynotes">
+<event guid="UnnvjNrCr--TZU1IBEpe9g" id="807">
+<date>2020-11-14T01:30:00-08:00</date>
+<start>09:30</start>
+<duration>00:20</duration>
+<room>Keynotes</room>
+<type>Keynote</type>
+<language/>
+<slug>807-keynote-3-kathy-giori</slug>
+<title>KEYNOTE 3 - Kathy Giori</title>
+<subtitle/>
+<track/>
+<abstract>keynote</abstract>
+<description>keynote</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="789">Rachel Kelly</person>
+</persons>
+</event>
+<event guid="DaoOMb-GUwPNZcpSCgQJFA" id="809">
+<date>2020-11-14T08:30:00-08:00</date>
+<start>16:30</start>
+<duration>00:30</duration>
+<room>Keynotes</room>
+<type>Closing Keynote</type>
+<language/>
+<slug>809-keynote-5-closing-vm-brasseur</slug>
+<title>KEYNOTE 5 (CLOSING) - VM Brasseur</title>
+<subtitle/>
+<track/>
+<abstract>keynote</abstract>
+<description>keynote</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="789">Rachel Kelly</person>
+</persons>
+</event>
+</room>
+<room name="Room 2">
+<event guid="oZp1HBA0g1DOQfFfVy8l7w" id="769">
+<date>2020-11-14T02:00:00-08:00</date>
+<start>10:00</start>
+<duration>00:30</duration>
+<room>Room 2</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>769-building-free-ci-cd-with-github-actions</slug>
+<title>Building Free CI/CD with GitHub Actions</title>
+<subtitle/>
+<track>DevOps</track>
+<abstract>Build free CI/CD for your open source repository!
+
+Continuous integration and continuous deployment (CI/CD) is a popular DevOps method of ensuring software quality and velocity in a modern development environment through automated builds, tests, and deployments.
+
+GitHub Actions is GitHub&apos;s built-in workflow framework for tasks such as CI/CD and more. It is fully integrated with GitHub repositories and, best of all, it is completely free for open source!
+
+This hands-on demonstration will go from zero to fully functional CI/CD pipeline in under 20 minutes using GitHub Actions. Attendees will come away with the skills and knowledge (and sample code) necessary to configure automated PR builds, test runs, and continuous deployment for own projects.
+
+This talk is an introductory talk to GitHub&apos;s CI/CD offering and is suitable for all experience levels. Content will include introductions of concepts, a &quot;live&quot; coding demonstration of building a GitHub Actions, and time for questions and answers.
+</abstract>
+<description>Build free CI/CD for your open source repository!
+
+Continuous integration and continuous deployment (CI/CD) is a popular DevOps method of ensuring software quality and velocity in a modern development environment through automated builds, tests, and deployments.
+
+GitHub Actions is GitHub&apos;s built-in workflow framework for tasks such as CI/CD and more. It is fully integrated with GitHub repositories and, best of all, it is completely free for open source!
+
+This hands-on demonstration will go from zero to fully functional CI/CD pipeline in under 20 minutes using GitHub Actions. Attendees will come away with the skills and knowledge (and sample code) necessary to configure automated PR builds, test runs, and continuous deployment for own projects.
+
+This talk is an introductory talk to GitHub&apos;s CI/CD offering and is suitable for all experience levels. Content will include introductions of concepts, a &quot;live&quot; coding demonstration of building a GitHub Actions, and time for questions and answers.
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1057">Cameron Bielstein</person>
+</persons>
+</event>
+<event guid="-W5vOubizH6XN_tKiYJo1A" id="813">
+<date>2020-11-14T02:45:00-08:00</date>
+<start>10:45</start>
+<duration>00:30</duration>
+<room>Room 2</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>813-introduction-to-ethics-from-an-ethicist-in-training</slug>
+<title>Introduction to Ethics from an Ethicist-in-Training</title>
+<subtitle/>
+<track/>
+<abstract>Have you ever asked yourself: What is my responsibility to the people using the technology I make? How do I make decisions about what is right and wrong when choosing to work on something? What even is right and wrong? 
+
+Well, let&apos;s find some answers (or, really, more questions). This whirlwind tour of philosophical inquiry is designed for the FOSS community by the FOSS community. Our focus will be on moral responsibility. I&apos;ll even throw in a few Trolley Problems for good measure. </abstract>
+<description>Have you ever asked yourself: What is my responsibility to the people using the technology I make? How do I make decisions about what is right and wrong when choosing to work on something? What even is right and wrong? 
+
+Well, let&apos;s find some answers (or, really, more questions). This whirlwind tour of philosophical inquiry is designed for the FOSS community by the FOSS community. Our focus will be on moral responsibility. I&apos;ll even throw in a few Trolley Problems for good measure. </description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="345">deblanc</person>
+</persons>
+</event>
+<event guid="ckTXpMuWFFQQJ7-UkAzQsw" id="792">
+<date>2020-11-14T05:15:00-08:00</date>
+<start>13:15</start>
+<duration>00:30</duration>
+<room>Room 2</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>792-when-does-a-service-take-away-your-software-freedom</slug>
+<title>When does a service take away your software freedom?</title>
+<subtitle/>
+<track>Community</track>
+<abstract>A lesser known tenet of the free software movement: &quot;You can have
+control over a program someone else wrote (if it&apos;s free), but you can
+never have control over a service someone else runs, so never use a
+service where in principle a program would do.&quot; -
+[gnu.org/philosophy](https://www.gnu.org/philosophy/who-does-that-server-really-serve.en.html)
+
+But when exactly would a program do? I will dig into the details and
+examine popular services so that you can gain confidence in evaluating
+services you encounter.
+
+Finally, I will dip into other dimensions of judging services, such as
+how they treat your data.
+</abstract>
+<description>A lesser known tenet of the free software movement: &quot;You can have
+control over a program someone else wrote (if it&apos;s free), but you can
+never have control over a service someone else runs, so never use a
+service where in principle a program would do.&quot; -
+[gnu.org/philosophy](https://www.gnu.org/philosophy/who-does-that-server-really-serve.en.html)
+
+But when exactly would a program do? I will dig into the details and
+examine popular services so that you can gain confidence in evaluating
+services you encounter.
+
+Finally, I will dip into other dimensions of judging services, such as
+how they treat your data.
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="446">Ian Kelling</person>
+</persons>
+</event>
+<event guid="8yhC_uB5kem65pXsXP_6Gg" id="796">
+<date>2020-11-14T06:00:00-08:00</date>
+<start>14:00</start>
+<duration>00:30</duration>
+<room>Room 2</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>796-software-freedom-through-collective-action</slug>
+<title>Software freedom through collective action</title>
+<subtitle/>
+<track/>
+<abstract>For even the most tech-savvy, achieving software freedom today is no easy task. And so much of our free software serves primarily as upstream foundations for *proprietary* end-user software companies with huge teams funded by SaaSS paywalls and third-party ads.
+
+The trickle-down model of software freedom does not work. End-users being able to contribute patches helps but is not enough. What can we do? To see widespread freedom, we must *center end-user voices* and fund *end-user* focused free software well enough to out-compete proprietary options.
+
+This talk will not focus on the specific solutions we&apos;re working on at Snowdrift.coop. Instead, I will describe the economic and political reasons why the free software movement needs stronger end-user orientation and why it&apos;s so hard to build the necessary solidarity. The impact will be successful whether people want to join our efforts or figure out how to apply this orientation elsewhere in the movement.</abstract>
+<description>For even the most tech-savvy, achieving software freedom today is no easy task. And so much of our free software serves primarily as upstream foundations for *proprietary* end-user software companies with huge teams funded by SaaSS paywalls and third-party ads.
+
+The trickle-down model of software freedom does not work. End-users being able to contribute patches helps but is not enough. What can we do? To see widespread freedom, we must *center end-user voices* and fund *end-user* focused free software well enough to out-compete proprietary options.
+
+This talk will not focus on the specific solutions we&apos;re working on at Snowdrift.coop. Instead, I will describe the economic and political reasons why the free software movement needs stronger end-user orientation and why it&apos;s so hard to build the necessary solidarity. The impact will be successful whether people want to join our efforts or figure out how to apply this orientation elsewhere in the movement.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="54">Aaron Wolf</person>
+</persons>
+</event>
+<event guid="f7htog-Q9Xy5JZZMezqcTw" id="752">
+<date>2020-11-14T07:30:00-08:00</date>
+<start>15:30</start>
+<duration>00:30</duration>
+<room>Room 2</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>752-scheduling-your-open-source-project</slug>
+<title>Scheduling your open source project</title>
+<subtitle/>
+<track/>
+<abstract>You can’t release on time if you don’t know what “on time” means. This talk covers several ways to build release schedules for projects — calendar-based, feature-based, and “meh, it’s done I guess”. Attendees will learn what considerations should go into planning a release schedule, how to deal with exceptions. It will also cover some tools that can be used to give the schedule a physical representation.</abstract>
+<description>You can’t release on time if you don’t know what “on time” means. This talk covers several ways to build release schedules for projects — calendar-based, feature-based, and “meh, it’s done I guess”. Attendees will learn what considerations should go into planning a release schedule, how to deal with exceptions. It will also cover some tools that can be used to give the schedule a physical representation.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1053">Ben Cotton</person>
+</persons>
+</event>
+</room>
+<room name="Room 1">
+<event guid="VtepkV-mYdv0Tsf6l3VzaQ" id="765">
+<date>2020-11-14T02:00:00-08:00</date>
+<start>10:00</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>765-open-source-on-the-mainframe-in-1960-1999-and-today</slug>
+<title>Open Source on the Mainframe in 1960, 1999, and Today</title>
+<subtitle/>
+<track/>
+<abstract>In what could be called a grandfather of open source user groups, SHARE, the first enterprise IT user group, was formed in 1955. By 1960 they had collaboratively adopted and released the SHARE Operating System. This laid the groundwork for what was to become a tight relationship between the mainframe and users who collaboratively got together to develop and share software.
+
+In this talk we’ll explore this history, and where the mainframe is today with relation to the modern open source movement by talking about the latest developments in the realm of Linux for the mainframe and projects maintained by the Open Mainframe Project.</abstract>
+<description>In what could be called a grandfather of open source user groups, SHARE, the first enterprise IT user group, was formed in 1955. By 1960 they had collaboratively adopted and released the SHARE Operating System. This laid the groundwork for what was to become a tight relationship between the mainframe and users who collaboratively got together to develop and share software.
+
+In this talk we’ll explore this history, and where the mainframe is today with relation to the modern open source movement by talking about the latest developments in the realm of Linux for the mainframe and projects maintained by the Open Mainframe Project.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1027">Elizabeth K. Joseph</person>
+</persons>
+</event>
+<event guid="SHkNPB5zIWMgKCo4eCXTZg" id="764">
+<date>2020-11-14T02:45:00-08:00</date>
+<start>10:45</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>764-10-vim-tricks</slug>
+<title>10 Vim Tricks</title>
+<subtitle/>
+<track/>
+<abstract>Some times you need to write software to solve problems and automate systems. But sometimes all you really need is a good editor and a few tricks up your sleeves.
+
+I find myself frequently turning to vim to handle repetitive tasks, and create commands I&apos;ll run from the command line. Why write python when some efficient macros will do, or an occasional `:%s` will save you time?
+
+And naturally we will cover that godsend of typos, xp.
+
+Bring your ideas or needs - we will be both interactive and have show and tell.
+</abstract>
+<description>Some times you need to write software to solve problems and automate systems. But sometimes all you really need is a good editor and a few tricks up your sleeves.
+
+I find myself frequently turning to vim to handle repetitive tasks, and create commands I&apos;ll run from the command line. Why write python when some efficient macros will do, or an occasional `:%s` will save you time?
+
+And naturally we will cover that godsend of typos, xp.
+
+Bring your ideas or needs - we will be both interactive and have show and tell.
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="68">Bri Hatch</person>
+</persons>
+</event>
+<event guid="qeQBXtOadrQlrxxBNjA75A" id="814">
+<date>2020-11-14T03:30:00-08:00</date>
+<start>11:30</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>814-ama-ask-me-anything-about-kubernetes-with-elana-hashman</slug>
+<title>AMA (Ask Me Anything) About Kubernetes with Elana Hashman!</title>
+<subtitle/>
+<track/>
+<abstract>Ask the Chair of Kubernetes SIG Instrumentation anything about Kubernetes!  Rachel Kelly will be moderating and passing the questions from the audience up to Elana!</abstract>
+<description>Ask the Chair of Kubernetes SIG Instrumentation anything about Kubernetes!  Rachel Kelly will be moderating and passing the questions from the audience up to Elana!</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="789">Rachel Kelly</person>
+</persons>
+</event>
+<event guid="s8h_ylQ2satgBH5OzjVOfA" id="748">
+<date>2020-11-14T05:15:00-08:00</date>
+<start>13:15</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>748-move-slow-and-try-not-to-break-each-other</slug>
+<title>Move Slow and Try Not to Break Each Other</title>
+<subtitle/>
+<track>Tech Culture</track>
+<abstract>Sustainable open source starts with building sustainable communities. If our workplaces and our communities aren&apos;t sustainable then our projects won&apos;t be either. Constant chaos and breakneck speeds can only occasionally create sustainable projects, by accident. The next generation of software production will need to lean into relationship building, mission sharing and strategic planning. This talk will explore:
+
+* How projects can get ready for the long haul 
+* Why resiliency starts with inter-dependency
+* How slower structures enable stronger communities
+
+Many of us are doing many of the things that help build sustainable projects already, but what if we could be more intentional? Certain structures and norms can make it hard to implement positive changes even when good ideas come up. Shared leadership and mission-driven organizations offer solid structures for sustainable communities and sustainable software development. Mutual respect and humane working conditions are how we&apos;ll create a culture that values both experience and institutional memory while encouraging new people and new ideas. Let&apos;s slow down for sustainability!</abstract>
+<description>Sustainable open source starts with building sustainable communities. If our workplaces and our communities aren&apos;t sustainable then our projects won&apos;t be either. Constant chaos and breakneck speeds can only occasionally create sustainable projects, by accident. The next generation of software production will need to lean into relationship building, mission sharing and strategic planning. This talk will explore:
+
+* How projects can get ready for the long haul 
+* Why resiliency starts with inter-dependency
+* How slower structures enable stronger communities
+
+Many of us are doing many of the things that help build sustainable projects already, but what if we could be more intentional? Certain structures and norms can make it hard to implement positive changes even when good ideas come up. Shared leadership and mission-driven organizations offer solid structures for sustainable communities and sustainable software development. Mutual respect and humane working conditions are how we&apos;ll create a culture that values both experience and institutional memory while encouraging new people and new ideas. Let&apos;s slow down for sustainability!</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="32">Deb Nicholson</person>
+</persons>
+</event>
+<event guid="G1adlJQjwWK6QfgXa6DV0A" id="794">
+<date>2020-11-14T06:00:00-08:00</date>
+<start>14:00</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>794-the-united-states-history-with-free-software-and-what-we-can-do-to-improve-the-future</slug>
+<title>The United States&apos; History with Free Software and what we can do to improve the Future</title>
+<subtitle/>
+<track/>
+<abstract>Properly caring for and protecting citizen data requires the use of free software, but few public institutions adhere to this standard. Incidents like the breakdown of technology at this year’s democratic party caucuses in Iowa have (rightfully) made many citizens more wary of any government technology when it comes to our electoral processes. Encouraging the development and use of open source software has the potential to make technology developers more accountable and technology users more secure. 
+
+However, the government does not explicitly seek to convert software to free or see the need for doing so at most levels. In 2016, the United States instituted a source-code policy requiring 20% of code developed for or by an agency of the government to be released as open source software and be shared openly between agencies. This was a step in the right direction, but ultimately only a proposed target without actual deadlines or teeth behind it. In this talk I will examine the 2016 mandate and the impact it has had on the government. I will use this example to discuss the government’s history with proprietary technology and proponents of open source and free software within the government. I will focus on the history within the United States with notable examples of other countries provided. For example, I will discuss the Malaysian Public Sector Open Source Software Program and its success. I will finish by discussing hope for the future and what we can do to support the growth of free software in government. There are ways we can advocate for furthering the open source movement, by promoting free software at all levels of education and government and taking specific actions (call your senator!).
+</abstract>
+<description>Properly caring for and protecting citizen data requires the use of free software, but few public institutions adhere to this standard. Incidents like the breakdown of technology at this year’s democratic party caucuses in Iowa have (rightfully) made many citizens more wary of any government technology when it comes to our electoral processes. Encouraging the development and use of open source software has the potential to make technology developers more accountable and technology users more secure. 
+
+However, the government does not explicitly seek to convert software to free or see the need for doing so at most levels. In 2016, the United States instituted a source-code policy requiring 20% of code developed for or by an agency of the government to be released as open source software and be shared openly between agencies. This was a step in the right direction, but ultimately only a proposed target without actual deadlines or teeth behind it. In this talk I will examine the 2016 mandate and the impact it has had on the government. I will use this example to discuss the government’s history with proprietary technology and proponents of open source and free software within the government. I will focus on the history within the United States with notable examples of other countries provided. For example, I will discuss the Malaysian Public Sector Open Source Software Program and its success. I will finish by discussing hope for the future and what we can do to support the growth of free software in government. There are ways we can advocate for furthering the open source movement, by promoting free software at all levels of education and government and taking specific actions (call your senator!).
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="746">Amanda Sopkin</person>
+</persons>
+</event>
+<event guid="XWLUxznthLA9gvEKjStLUg" id="801">
+<date>2020-11-14T07:30:00-08:00</date>
+<start>15:30</start>
+<duration>00:30</duration>
+<room>Room 1</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>801-first-steps-with-swift-for-tensorflow</slug>
+<title>First steps with Swift for TensorFlow</title>
+<subtitle/>
+<track>Tools</track>
+<abstract>This session will introduce Swift, the popular free and open source programming language introduced by Apple and developed by a huge community. You’ll learn why Swift is such an in-demand skill, why Swift is such an interesting language, and how to get started with it.
+
+More specifically, you’ll learn how you can use Google’s Swift for TensorFlow project for modern, powerful machine learning on Linux, macOS, and Windows. Swift is a fabulous, powerful, fast, easy to learn alternative and companion to Python (and even works with the ubiquitous Jupyter notebooks). The time has never been better to learn about Swift (for machine learning).
+
+Find out why Swift might just be the future of scientific computing and machine learning in this beginner friendly session.</abstract>
+<description>This session will introduce Swift, the popular free and open source programming language introduced by Apple and developed by a huge community. You’ll learn why Swift is such an in-demand skill, why Swift is such an interesting language, and how to get started with it.
+
+More specifically, you’ll learn how you can use Google’s Swift for TensorFlow project for modern, powerful machine learning on Linux, macOS, and Windows. Swift is a fabulous, powerful, fast, easy to learn alternative and companion to Python (and even works with the ubiquitous Jupyter notebooks). The time has never been better to learn about Swift (for machine learning).
+
+Find out why Swift might just be the future of scientific computing and machine learning in this beginner friendly session.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1076">Paris Buttfield-Addison</person>
+<person id="1086">Tim Nugent</person>
+</persons>
+</event>
+</room>
+<room name="Room 3 ">
+<event guid="vjgzgbmXTRy_8s6WpqZObQ" id="788">
+<date>2020-11-14T02:00:00-08:00</date>
+<start>10:00</start>
+<duration>00:30</duration>
+<room>Room 3 </room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>788-crossing-the-gender-divide</slug>
+<title>Crossing the Gender Divide</title>
+<subtitle>How I Learned to See My Own Bias</subtitle>
+<track/>
+<abstract>Fifteen years into a successful career in tech, I came out. I had a choice to make: whether to walk away, or try and salvage my professional network. I say I &quot;came out&quot; in 2017 though this process never really ends, and in this talk I&apos;m going to come out to all of you again. And while my jobless period eventually came to a close, it lasted far longer than I expected. I&apos;d like to share with you what I learned.
+
+Was my network shrinking as colleagues chose to distance themselves from me, or because I felt nervous to reach out and have another awkward conversation? Was my bias changing because bad experiences taught me to anticipate more of them, or because my hormones were changing? Was my worldview changing, or just other people&apos;s perception of me?
+
+I asked myself these questions daily for almost two years.
+
+Through meditation, I understood that perception bias can be directly perceived, and I learned some tools to recognize the impact that my bias has on my decisions.
+
+We can not become unbiased.
+
+What matters is what we do about it.</abstract>
+<description>Fifteen years into a successful career in tech, I came out. I had a choice to make: whether to walk away, or try and salvage my professional network. I say I &quot;came out&quot; in 2017 though this process never really ends, and in this talk I&apos;m going to come out to all of you again. And while my jobless period eventually came to a close, it lasted far longer than I expected. I&apos;d like to share with you what I learned.
+
+Was my network shrinking as colleagues chose to distance themselves from me, or because I felt nervous to reach out and have another awkward conversation? Was my bias changing because bad experiences taught me to anticipate more of them, or because my hormones were changing? Was my worldview changing, or just other people&apos;s perception of me?
+
+I asked myself these questions daily for almost two years.
+
+Through meditation, I understood that perception bias can be directly perceived, and I learned some tools to recognize the impact that my bias has on my decisions.
+
+We can not become unbiased.
+
+What matters is what we do about it.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="911">Aeva Black</person>
+</persons>
+</event>
+<event guid="zJkHkbJYQUmZUEvcNuFd8A" id="760">
+<date>2020-11-14T02:45:00-08:00</date>
+<start>10:45</start>
+<duration>00:30</duration>
+<room>Room 3 </room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>760-time-for-action-how-to-build-d-i-in-your-project</slug>
+<title>Time for Action: How to build D&amp;I in your project</title>
+<subtitle>5 years of lessons from D&amp;I work in open source</subtitle>
+<track>Community</track>
+<abstract>[[ This is co-presented by Bhagyashree &quot;Bee&quot; Padalkar and Justin W. Flory. ]]
+
+Diversity and inclusion (D&amp;I) is not a new topic in Open Source. But what does D&amp;I work look like in the context of open source communities? [Bhagyashree “Bee” Padalkar](https://bee2502.github.io/) and [Justin W. Flory](https://jwf.io/) share lessons learned from five years of volunteering and leading D&amp;I teams in open source communities.
+
+In this talk, Bee and Justin tell the story of how the Fedora Project’s [Diversity &amp; Inclusion Team](https://docs.fedoraproject.org/en-US/diversity-inclusion/) came to be, what common pitfalls and challenges are in D&amp;I work, and a guiding principle behind everything the team does.
+
+(_An expanded outline is available on request._)
+</abstract>
+<description>[[ This is co-presented by Bhagyashree &quot;Bee&quot; Padalkar and Justin W. Flory. ]]
+
+Diversity and inclusion (D&amp;I) is not a new topic in Open Source. But what does D&amp;I work look like in the context of open source communities? [Bhagyashree “Bee” Padalkar](https://bee2502.github.io/) and [Justin W. Flory](https://jwf.io/) share lessons learned from five years of volunteering and leading D&amp;I teams in open source communities.
+
+In this talk, Bee and Justin tell the story of how the Fedora Project’s [Diversity &amp; Inclusion Team](https://docs.fedoraproject.org/en-US/diversity-inclusion/) came to be, what common pitfalls and challenges are in D&amp;I work, and a guiding principle behind everything the team does.
+
+(_An expanded outline is available on request._)
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1055">Justin W. Flory (he/him)</person>
+<person id="1056">Bhagyashree </person>
+</persons>
+</event>
+<event guid="I2M9kJTc-UQo3WR-usy19w" id="791">
+<date>2020-11-14T03:30:00-08:00</date>
+<start>11:30</start>
+<duration>00:30</duration>
+<room>Room 3 </room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>791-alcohol-inclusivity-in-tech</slug>
+<title>Alcohol &amp; Inclusivity in Tech</title>
+<subtitle/>
+<track/>
+<abstract>Alcohol is a major theme in tech culture, whether it&apos;s bonding with peers near the office keg, letting off steam with afterword drinks, or meeting industry giants over conference beers. Unfortunately, tech culture around alcohol often excludes people on the basis of gender, medication, religion, pregnancy, addiction, age, and more. We&apos;ll learn some of the basic pitfalls to avoid, and then talk solutions with easy-to-practice ally skills for how to discuss, serve, and approach alcohol at events and in the workplace.
+
+We&apos;re all virtual right now, which provides a lot more space to make our own decisions free of professional obligation. It&apos;s also a great time to reconsider how we approach things, so we can return to the office and events with fresh eyes and new skills.</abstract>
+<description>Alcohol is a major theme in tech culture, whether it&apos;s bonding with peers near the office keg, letting off steam with afterword drinks, or meeting industry giants over conference beers. Unfortunately, tech culture around alcohol often excludes people on the basis of gender, medication, religion, pregnancy, addiction, age, and more. We&apos;ll learn some of the basic pitfalls to avoid, and then talk solutions with easy-to-practice ally skills for how to discuss, serve, and approach alcohol at events and in the workplace.
+
+We&apos;re all virtual right now, which provides a lot more space to make our own decisions free of professional obligation. It&apos;s also a great time to reconsider how we approach things, so we can return to the office and events with fresh eyes and new skills.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1074">Kara Sowles</person>
+</persons>
+</event>
+<event guid="WRUQvJvqEDmBsc1U_MZuDg" id="795">
+<date>2020-11-14T05:15:00-08:00</date>
+<start>13:15</start>
+<duration>00:30</duration>
+<room>Room 3 </room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>795-contacts-to-connections-crm-funneling-for-projects-and-people</slug>
+<title>Contacts to Connections: CRM funneling for projects and people</title>
+<subtitle/>
+<track/>
+<abstract>Do you have a pile of sticky notes, a folder full of spreadsheets, or a dusty
+box of business cards gathered at conferences? Have you ever had a donor
+approached by multiple people trying to gather the same information? Beyond an
+organizational context; are there friends that you haven&apos;t spoke to for some
+time and would like to, but how long has it been?
+
+We meet new folks daily, whether in a personal context or organizational. Often,
+it becomes hard to keep track of where, when, and how the connections were made. 
+Further, the upkeep of these connections include remembering important dates,
+following steps in a particular order, and capturing information from multiple
+sources. A solution to assist with all of this is the often used sales tool, a
+contact relationship manager (CRM). These provide many features beyond that of a
+mere address book.
+
+Come learn about two non-sales focused tools, CiviCRM and Monica. See how they
+can be used to clean up your contacts; getting them back under *your* control.</abstract>
+<description>Do you have a pile of sticky notes, a folder full of spreadsheets, or a dusty
+box of business cards gathered at conferences? Have you ever had a donor
+approached by multiple people trying to gather the same information? Beyond an
+organizational context; are there friends that you haven&apos;t spoke to for some
+time and would like to, but how long has it been?
+
+We meet new folks daily, whether in a personal context or organizational. Often,
+it becomes hard to keep track of where, when, and how the connections were made. 
+Further, the upkeep of these connections include remembering important dates,
+following steps in a particular order, and capturing information from multiple
+sources. A solution to assist with all of this is the often used sales tool, a
+contact relationship manager (CRM). These provide many features beyond that of a
+mere address book.
+
+Come learn about two non-sales focused tools, CiviCRM and Monica. See how they
+can be used to clean up your contacts; getting them back under *your* control.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="87">Wm Salt Hale</person>
+</persons>
+</event>
+<event guid="557ckeXjdVI1A4i5mM_RKg" id="798">
+<date>2020-11-14T06:00:00-08:00</date>
+<start>14:00</start>
+<duration>00:30</duration>
+<room>Room 3 </room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>798-building-alternative-networks-for-fun-and-resistance</slug>
+<title>Building Alternative Networks for Fun and Resistance</title>
+<subtitle/>
+<track>Security</track>
+<abstract>If all the networks are owned by a small handful of corporations, how can your network be free (as in speech)? If all the networks are surveilled by the government, how can any network by free? Is there any alternative?
+
+This talk will tell you how to build several types of alternative networks with open source tools that can be used temporarily or for the long term, depending on need and context. I&apos;ll talk about choices of hardware and network type, how (and whether) to connect it to the wider Internet, and some basic security considerations to help you plan. I&apos;ll broadly cover light-based networks, smartphone network hacks, point to point radio networks, and mesh networks you can build with off the shelf (or thrift store) wifi routers. For each network type, I&apos;ll give some pros and cons, along with links to more detailed tutorials so you can try them out yourself.</abstract>
+<description>If all the networks are owned by a small handful of corporations, how can your network be free (as in speech)? If all the networks are surveilled by the government, how can any network by free? Is there any alternative?
+
+This talk will tell you how to build several types of alternative networks with open source tools that can be used temporarily or for the long term, depending on need and context. I&apos;ll talk about choices of hardware and network type, how (and whether) to connect it to the wider Internet, and some basic security considerations to help you plan. I&apos;ll broadly cover light-based networks, smartphone network hacks, point to point radio networks, and mesh networks you can build with off the shelf (or thrift store) wifi routers. For each network type, I&apos;ll give some pros and cons, along with links to more detailed tutorials so you can try them out yourself.</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="398">Elior Sterling</person>
+</persons>
+</event>
+<event guid="EErBd1_h6DFy_DGKauACgg" id="733">
+<date>2020-11-14T07:30:00-08:00</date>
+<start>15:30</start>
+<duration>00:30</duration>
+<room>Room 3 </room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>733-data-liberation-open-source-observability-moved-from-prev-slot</slug>
+<title>Data Liberation: Open Source Observability (moved from prev slot)</title>
+<subtitle/>
+<track/>
+<abstract>Observability is a very popular buzzword for measuring your system&apos;s performance, and vendors are extremely excited to sell you tools that will grant meaningful insight to performance problems.
+
+But real observability isn&apos;t a product you can buy in a box, it&apos;s about truly understanding your system, reducing the number of &apos;black box&apos; components in your stack, and quickly finding the cause of problems.
+
+I&apos;ll show you how tools like Grafana and Prometheus can make it easy to measure your stack.
+
+</abstract>
+<description>Observability is a very popular buzzword for measuring your system&apos;s performance, and vendors are extremely excited to sell you tools that will grant meaningful insight to performance problems.
+
+But real observability isn&apos;t a product you can buy in a box, it&apos;s about truly understanding your system, reducing the number of &apos;black box&apos; components in your stack, and quickly finding the cause of problems.
+
+I&apos;ll show you how tools like Grafana and Prometheus can make it easy to measure your stack.
+
+</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="1035">Nočnica Mellifera</person>
+</persons>
+</event>
+</room>
+<room name="Social">
+<event guid="OzntA-tgpfAYne_Ac5B1FQ" id="810">
+<date>2020-11-14T06:45:00-08:00</date>
+<start>14:45</start>
+<duration>00:30</duration>
+<room>Social</room>
+<type>20-Minute Talk</type>
+<language/>
+<slug>810-saturday-teagl</slug>
+<title>Saturday TeaGL</title>
+<subtitle/>
+<track/>
+<abstract>TeaGL is a tea swap where participants have mailed each other different kinds of tea to make and chat about during TeaGL on Friday afternoon! Black/green/white/herbal/whatever, all teas are welcome! Free as in Tea!</abstract>
+<description>TeaGL is a tea swap where participants have mailed each other different kinds of tea to make and chat about during TeaGL on Friday afternoon! Black/green/white/herbal/whatever, all teas are welcome! Free as in Tea!</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="789">Rachel Kelly</person>
+</persons>
+</event>
+<event guid="q1tQFjdSxmNDULnG2_f-QQ" id="812">
+<date>2020-11-14T10:00:00-08:00</date>
+<start>18:00</start>
+<duration>04:00</duration>
+<room>Social</room>
+<type>Saturday Closing Virtual Party</type>
+<language/>
+<slug>812-closing-virtual-party</slug>
+<title>Closing Virtual Party</title>
+<subtitle/>
+<track/>
+<abstract>party</abstract>
+<description>party</description>
+<recording>
+<license/>
+<optout>false</optout>
+</recording>
+<persons>
+<person id="789">Rachel Kelly</person>
+</persons>
+</event>
+</room>
+</day>
+</schedule>

@@ -1,0 +1,298 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<title>SeaGL</title>
+<meta content="" name="description">
+<meta content="" name="author">
+<link rel="stylesheet" href="/assets/application-9ebb7e8df4f6abe04ca09a78e84abc751d81a041f3702dfc6c2ebbdd106ceaa0.css" media="all">
+<script src="/assets/application-47ef59ee7b6477ee91a0ce07fca426e369cd7b348258d0db05fed8e81411ccdc.js"></script>
+<meta name="csrf-param" content="authenticity_token">
+
+
+<meta content="Scaling up Startups" property="og:title">
+<meta content="https://osem.seagl.org/conferences/seagl2016/program/proposals/220" property="og:url">
+<meta content="The first year of operations in a startup!
+
+Commonly, full stack engineers handle the early days and MVP in a startup. At some point, a devops/SRE is hired to takeover the infrastructure. What does that look like? I'll speak to that first year of operations, from transitioning from a monolithic application and a single database, to implementing orchestration, configuration management, CI, and other common toolsets.
+
+Initially we'll dive into seeing what's already there. What CI/CD exists? What deployment methodology? What sort of monitoring, metrics, and logging? What internal tools are already in place? Next, how do we create a roadmap and get stakeholders to buy in.
+
+We'll go over multiple technologies like Ansible, Nagios, ELK, AWS, but try and stay agnostic and talk more about overall implementations and themes.
+
+Thank you!" property="og:description">
+<meta content="SeaGL" property="og:site_name">
+<meta content="https://secure.gravatar.com/avatar/0a226523bbd4fc1bf1014596b75b2a33.png?r=PG&amp;s=32" property="og:image">
+<meta content="https://secure.gravatar.com/avatar/0a226523bbd4fc1bf1014596b75b2a33.png?r=PG&amp;s=32" property="og:image:secure_url">
+
+</head>
+<body class="conference-seagl2016">
+<div class="navbar navbar-default navbar-fixed-top nav-osem" role="navigation">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle" data-target="#main-nav" data-toggle="collapse" type="button">
+<span class="sr-only">
+Toggle navigation
+</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" title="Open Source Event Manager" href="/">SeaGL</a>
+</div>
+<div class="collapse navbar-collapse" id="main-nav">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown visible-desktop">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<span class="fa-solid fa-user"></span>
+Sign In
+<span class="caret"></span>
+</a>
+<div class="dropdown-menu">
+<form action="/accounts/sign_in" accept-charset="UTF-8" method="post"><input type="text" name="user[login]" id="user_login_dd" class="form-control" placeholder="Username / E-Mail" inert="true">
+<input type="password" name="user[password]" id="user_password_dd" class="form-control" placeholder="Password" inert="true">
+<p class="text-right">
+<small>
+<label for="user_remember_me" inert="true">Remember me</label>
+<input type="checkbox" name="user[remember_me]" id="user_remember_me" value="1" inert="true">
+</small>
+</p>
+<button class="btn btn-success btn-block" inert="true">Sign in</button>
+<p class="text-right">
+<br>
+<a class="small btn btn-xs btn-default" data-target="#navbar-devise-help" data-toggle="collapse">
+Need Help?
+</a>
+</p><div class="collapse" id="navbar-devise-help">
+<a href="/accounts/password/new">Forgot your password?</a>
+<br>
+<a href="/accounts/confirmation/new">Didn't receive confirmation instructions?</a>
+<br>
+
+</div>
+<p></p>
+</form></div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="messages">
+<div class="container">
+<noscript>
+<style>
+  #content {
+    display: none;
+  }
+</style>
+<h2>
+JavaScript is not enabled
+</h2>
+<p>
+OSEM requires JavaScript to be enabled to function. Please turn on JavaScript in your browser's settings and reload the page to continue.
+</p>
+</noscript>
+
+</div>
+</div>
+<div id="content">
+<div class="container">
+<div class="row">
+<div class="col-md-12 page-header">
+<h2>
+Scaling up Startups
+<br>
+<small>
+First Year of Operations
+</small>
+<div class="btn-group pull-right">
+</div>
+</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-3">
+<h3></h3>
+Presented by:
+<div class="speakerinfo">
+<div class="row">
+<div class="col-md-4">
+<img class="img-responsive img-rounded" src="https://secure.gravatar.com/avatar/0a226523bbd4fc1bf1014596b75b2a33.png?r=PG&amp;s=120">
+</div>
+<div class="col-md-8">
+<h4>
+<a href="/users/378">Stephen Brandon</a>
+<br>
+</h4>
+<div class="text-muted">
+from
+Coffee Meets Bagel
+</div>
+</div>
+</div>
+<div class="row speakerbio">
+<div class="col-md-12">
+<p>I am a devops/SRE that has been working in startups over the last few years. Prior to that I have worked with several large companies. I currently live in San Francisco with my wife and son.</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-9">
+<div class="row">
+<div class="col-md-12">
+<div class="lead">
+
+
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<p>
+</p><p>The first year of operations in a startup!</p>
+
+<p>Commonly, full stack engineers handle the early days and MVP in a startup. At some point, a devops/SRE is hired to takeover the infrastructure. What does that look like? I'll speak to that first year of operations, from transitioning from a monolithic application and a single database, to implementing orchestration, configuration management, CI, and other common toolsets.</p>
+
+<p>Initially we'll dive into seeing what's already there. What CI/CD exists? What deployment methodology? What sort of monitoring, metrics, and logging? What internal tools are already in place? Next, how do we create a roadmap and get stakeholders to buy in.</p>
+
+<p>We'll go over multiple technologies like Ansible, Nagios, ELK, AWS, but try and stay agnostic and talk more about overall implementations and themes.</p>
+
+<p>Thank you!</p>
+
+<p></p>
+</div>
+<dl id="proposal-info">
+<div class="col-md-12">
+<dt>Date:</dt>
+<dd>2016 November 11 - 16:30</dd>
+</div>
+<div class="col-md-12">
+<dt>Duration:</dt>
+<dd>1 h</dd>
+</div>
+<div class="col-md-12">
+<dt>Room:</dt>
+<dd>
+Room 3180
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Conference:</dt>
+<dd><a href="/conferences/seagl2016">Seattle GNU/Linux Conference 2016</a></dd>
+</div>
+<div class="col-md-12">
+<dt>Language:</dt>
+<dd></dd>
+</div>
+<div class="col-md-12">
+<dt>Track:</dt>
+<dd>
+</dd>
+</div>
+<div class="col-md-12">
+<dt>Difficulty:</dt>
+<dd>
+<span class="label" style="background-color: #70EF69; color: black;">
+Easy
+</span>
+</dd>
+</div>
+<div class="col-md-12">
+<hr>
+<h4>Happening at the same time:</h4>
+<ol>
+<li>
+<a href="/conferences/seagl2016/program/proposals/236">A brief history of Linux Containers: 1999 to 2016
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2016 November 11 16:30
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3183
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2016/program/proposals/208">Compiling your First Linux Kernel
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2016 November 11 16:30
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3184
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2016/program/proposals/187">Exploring System Calls with Strace
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2016 November 11 16:30
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3179
+</dd>
+<br>
+</dl>
+<li>
+<a href="/conferences/seagl2016/program/proposals/171">Open Source Isn't Sustainable, but Software Freedom Is
+</a></li>
+<dl>
+<dt>Start Time:</dt>
+<dd>
+2016 November 11 16:30
+</dd>
+<br>
+<dt>Room:</dt>
+<dd>
+Room 3178
+</dd>
+<br>
+</dl>
+</ol>
+</div>
+</dl>
+</div>
+<div class="row">
+<div class="col-md-12">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<div id="footer">
+<div class="container">
+<p class="muted text-center">
+<small>
+This tool is
+<a href="http://www.gnu.org/philosophy/free-sw.html">free software</a>,
+released under the
+<a href="http://opensource.org/licenses/MIT">MIT license</a>.
+You can run, copy, distribute, study, change and improve it.
+The source code and the developers are on
+<a href="https://github.com/openSUSE/osem">GitHub</a>.
+</small>
+</p>
+</div>
+</div>
+
+
+
+
+</body></html>
