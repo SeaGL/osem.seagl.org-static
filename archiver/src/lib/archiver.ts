@@ -1,4 +1,4 @@
-import { DOMParser } from "@b-fuze/deno-dom";
+import { DOMParser, type HTMLDocument } from "@b-fuze/deno-dom";
 import { assert, assertEquals, unimplemented } from "@std/assert";
 import { equals as bytesEquals } from "@std/bytes";
 import type { JsonValue } from "@std/json";
@@ -71,6 +71,38 @@ export class Archiver {
       (await this.#githubPagesVerifier).close(),
       this.#warc.close(),
     ]);
+  }
+
+  private curate(document: HTMLDocument): void {
+    const notice = `
+      This is a <a href="https://github.com/SeaGL/osem.seagl.org-static">read-only archive</a> of
+      <a href="https://osem.io/"><abbr title="Open Source Event Manager">OSEM</abbr></a>. For current
+      information or assistance with the archive, please see <a href="https://seagl.org/">seagl.org</a>.
+    `;
+
+    // Remove unusable links
+    for (const a of document.querySelectorAll("a[inert]")) a.remove();
+
+    // Remove login menu
+    for (const li of document.querySelectorAll("#main-nav > ul > li")) {
+      if (li.querySelector(":scope > a")?.textContent.includes("Sign In")) li.remove();
+    }
+
+    // Replace byline with notice of archival
+    for (const small of document.querySelectorAll("#footer small")) {
+      if (small?.textContent.includes("This tool is")) small.innerHTML = notice;
+    }
+
+    // Add notice of archive to main index
+    for (const h2 of document.querySelectorAll("h2")) {
+      if (!h2.textContent.includes("Upcoming Conferences")) continue;
+
+      const alert = document.createElement("div");
+      alert.classList.add("alert", "alert-info");
+      alert.innerHTML = notice;
+      for (const a of alert.getElementsByTagName("a")) a.classList.add("alert-link");
+      h2.closest(".page-header")!.parentElement!.appendChild(alert);
+    }
   }
 
   private async *drain(): AsyncGenerator<URL> {
@@ -255,6 +287,8 @@ export class Archiver {
     for (const script of document.querySelectorAll("script")) {
       script.textContent = yield* this.processJs(script.textContent);
     }
+
+    this.curate(document);
 
     return toHtml(document);
   }
