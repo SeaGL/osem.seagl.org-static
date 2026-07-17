@@ -6,10 +6,34 @@ import { dirname } from "@std/path";
 import Bottleneck from "bottleneck";
 
 const limiter = new Bottleneck({ maxConcurrent: 1, minTime: 200 /* ms */ });
+const limited: typeof globalThis.fetch = limiter.wrap(globalThis.fetch);
 
 export const defaultType = "application/octet-stream";
 
-export const fetch: typeof globalThis.fetch = limiter.wrap(globalThis.fetch);
+const offline = booleanFromEnv("OFFLINE", false);
+
+function booleanFromEnv(name: string, or: boolean): boolean {
+  const value = Deno.env.get(name);
+
+  switch (value) {
+    case undefined:
+      return or;
+    case "true":
+      return true;
+    case "false":
+      return false;
+    default:
+      throw new Error(`Unrecognized value of ${name}`, { cause: value });
+  }
+}
+
+export const fetch = function (
+  ...args: Parameters<typeof globalThis.fetch>
+): ReturnType<typeof globalThis.fetch> {
+  if (offline) throw new Error("Refusing to fetch while offline", { cause: args });
+
+  return limited(...args);
+};
 
 export async function getWriter(path: string): Promise<WritableStreamDefaultWriter> {
   await ensureDir(dirname(path));

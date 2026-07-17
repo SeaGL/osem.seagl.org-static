@@ -39,8 +39,9 @@
     }
   },
   "tasks": {
-    "archive": "unzstd --rm ../archive/osem.seagl.org.warc.zst; rm --force --recursive ../github-pages && deno --allow-env=LOG_LEVEL --allow-read=../archive,../github-pages --allow-write=../archive,../github-pages --allow-net=osem.seagl.org src/main.ts --archive-dir=../archive --github-pages-dir=../github-pages && zstd --long --rm -19 ../archive/osem.seagl.org.warc",
+    "archive": "unzstd --rm ../archive/osem.seagl.org.warc.zst; rm --force --recursive ../github-pages && deno --allow-env=LOG_LEVEL,OFFLINE --allow-read=../archive,../github-pages --allow-write=../archive,../github-pages --allow-net=osem.seagl.org src/main.ts --archive-dir=../archive --github-pages-dir=../github-pages && zstd --long --rm -19 ../archive/osem.seagl.org.warc",
     "verify-archive": "hurl --delay 200ms --jobs 1 --test ../archive/verify.hurl",
+    "rebuild": "OFFLINE=true deno task archive",
     "emulate-github-pages": "podman run --name osem-static --rm --volume \"$PWD/resources/emulate-github-pages.nginx.conf:/etc/nginx/conf.d/default.conf:ro\" --volume \"$PWD/../github-pages:/mnt/github-pages:ro\" --publish '8080:80' 'nginx:1'",
     "verify-emulated-github-pages": "hurl --continue-on-error --location --jobs 1 --test --variable origin=http://localhost:8080 ../github-pages/verify.hurl",
     "verify-staging-github-pages": "hurl --connect-to osem.seagl.org:80:seagl.github.io:80 --delay 500ms --location --jobs 1 --test --variable origin=http://osem.seagl.org ../github-pages/verify.hurl",

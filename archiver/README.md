@@ -24,6 +24,12 @@ Test the archive expectations against OSEM:
 deno task verify-archive
 ```
 
+Rebuild the static site:
+
+```bash
+deno task rebuild
+```
+
 Locally serve the static site:
 
 ```bash
