@@ -212,10 +212,9 @@ export class Archiver {
 
       case "webcal:": {
         const https = this.resolve(href.replace(/^webcal:/, "https:"));
-        if (https.origin !== this.origin) return href;
+        if (https.origin === this.origin) yield https;
 
-        yield https;
-        return url.protocol + url.pathname + url.search + url.hash;
+        return href;
       }
 
       default:
