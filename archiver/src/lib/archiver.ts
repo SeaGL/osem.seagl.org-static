@@ -332,6 +332,7 @@ export class Archiver {
     // Archive original
     const { status, ...original } = await this.#warc.get(url);
     log.debug(`Response: ${status} (${url})`);
+    if (500 <= status && status < 600) log.warn(`Server error: ${status} (${url})`);
 
     // Discard unstable data
     original.headers.delete("date");
