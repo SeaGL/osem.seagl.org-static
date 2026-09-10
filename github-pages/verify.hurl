@@ -760,66 +760,6 @@ HTTP 200
 [Asserts]
 header "content-type" startsWith "text/html"
 
-HEAD {{origin}}/api/v1/conferences/dbwritetest25.json
-accept: text/html,*/*
-HTTP 200
-[Asserts]
-header "content-type" startsWith "application/json"
-
-HEAD {{origin}}/api/v1/conferences/dbwritetest25
-accept: text/html,*/*
-HTTP 200
-[Asserts]
-header "content-type" startsWith "text/html"
-
-HEAD {{origin}}/api/v1/conferences/dbwritetest25/events.json
-accept: text/html,*/*
-HTTP 200
-[Asserts]
-header "content-type" startsWith "application/json"
-
-HEAD {{origin}}/api/v1/conferences/dbwritetest25/events
-accept: text/html,*/*
-HTTP 200
-[Asserts]
-header "content-type" startsWith "text/html"
-
-HEAD {{origin}}/api/v1/conferences/dbwritetest25/rooms.json
-accept: text/html,*/*
-HTTP 200
-[Asserts]
-header "content-type" startsWith "application/json"
-
-HEAD {{origin}}/api/v1/conferences/dbwritetest25/rooms
-accept: text/html,*/*
-HTTP 200
-[Asserts]
-header "content-type" startsWith "text/html"
-
-HEAD {{origin}}/api/v1/conferences/dbwritetest25/speakers.json
-accept: text/html,*/*
-HTTP 200
-[Asserts]
-header "content-type" startsWith "application/json"
-
-HEAD {{origin}}/api/v1/conferences/dbwritetest25/speakers
-accept: text/html,*/*
-HTTP 200
-[Asserts]
-header "content-type" startsWith "text/html"
-
-HEAD {{origin}}/api/v1/conferences/dbwritetest25/tracks.json
-accept: text/html,*/*
-HTTP 200
-[Asserts]
-header "content-type" startsWith "application/json"
-
-HEAD {{origin}}/api/v1/conferences/dbwritetest25/tracks
-accept: text/html,*/*
-HTTP 200
-[Asserts]
-header "content-type" startsWith "text/html"
-
 HEAD {{origin}}/assets/bootstrap/glyphicons-halflings-regular-0805fb1fe24235f70a639f67514990e4bfb6d2cfb00ca563ad4b553c240ddc33.eot
 accept: text/html,*/*
 HTTP 200

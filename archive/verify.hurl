@@ -29,7 +29,7 @@ HTTP 200
 [Asserts]
 header "cache-control" == "max-age=0, private, must-revalidate"
 header "content-type" == "application/json; charset=utf-8"
-header "etag" == "W/\"adfb71886793341181cf0bbd7a87d0e4\""
+header "etag" == "W/\"89a9c48d936de242887b458e8ef0b314\""
 header "referrer-policy" == "strict-origin-when-cross-origin"
 header "server" == "nginx"
 header "strict-transport-security" == "max-age=15724800; includeSubdomains"
@@ -485,14 +485,6 @@ header "x-permitted-cross-domain-policies" == "none"
 header "x-xss-protection" == "0"
 
 HEAD https://osem.seagl.org/conferences/seagl2015/subscriptions
-accept: text/html,*/*
-HTTP 404
-[Asserts]
-header "content-type" == "text/html; charset=UTF-8"
-header "server" == "nginx"
-header "strict-transport-security" == "max-age=15724800; includeSubdomains"
-
-HEAD https://osem.seagl.org/conferences/dbwritetest25/subscriptions
 accept: text/html,*/*
 HTTP 404
 [Asserts]
@@ -1273,91 +1265,6 @@ header "x-permitted-cross-domain-policies" == "none"
 header "x-xss-protection" == "0"
 
 GET https://osem.seagl.org/api/v1/conferences/seagl2015/tracks
-accept: text/html,*/*
-HTTP 200
-[Asserts]
-header "cache-control" == "max-age=0, private, must-revalidate"
-header "content-length" == "13"
-header "content-type" == "application/json; charset=utf-8"
-header "etag" == "W/\"ac11c4570c1e4918245c0ca34c2b9510\""
-header "referrer-policy" == "strict-origin-when-cross-origin"
-header "server" == "nginx"
-header "strict-transport-security" == "max-age=15724800; includeSubdomains"
-header "x-content-type-options" == "nosniff"
-header "x-download-options" == "noopen"
-header "x-frame-options" == "SAMEORIGIN"
-header "x-permitted-cross-domain-policies" == "none"
-header "x-xss-protection" == "0"
-
-GET https://osem.seagl.org/api/v1/conferences/dbwritetest25
-accept: text/html,*/*
-HTTP 200
-[Asserts]
-header "cache-control" == "max-age=0, private, must-revalidate"
-header "content-length" == "799"
-header "content-type" == "application/json; charset=utf-8"
-header "etag" == "W/\"9a30ed409b1299ecd4a1e501c2ae1ae6\""
-header "referrer-policy" == "strict-origin-when-cross-origin"
-header "server" == "nginx"
-header "strict-transport-security" == "max-age=15724800; includeSubdomains"
-header "x-content-type-options" == "nosniff"
-header "x-download-options" == "noopen"
-header "x-frame-options" == "SAMEORIGIN"
-header "x-permitted-cross-domain-policies" == "none"
-header "x-xss-protection" == "0"
-
-GET https://osem.seagl.org/api/v1/conferences/dbwritetest25/events
-accept: text/html,*/*
-HTTP 200
-[Asserts]
-header "cache-control" == "max-age=0, private, must-revalidate"
-header "content-length" == "13"
-header "content-type" == "application/json; charset=utf-8"
-header "etag" == "W/\"24de1c4a19c43ad41b013f13dcd858c1\""
-header "referrer-policy" == "strict-origin-when-cross-origin"
-header "server" == "nginx"
-header "strict-transport-security" == "max-age=15724800; includeSubdomains"
-header "x-content-type-options" == "nosniff"
-header "x-download-options" == "noopen"
-header "x-frame-options" == "SAMEORIGIN"
-header "x-permitted-cross-domain-policies" == "none"
-header "x-xss-protection" == "0"
-
-GET https://osem.seagl.org/api/v1/conferences/dbwritetest25/rooms
-accept: text/html,*/*
-HTTP 200
-[Asserts]
-header "cache-control" == "max-age=0, private, must-revalidate"
-header "content-length" == "12"
-header "content-type" == "application/json; charset=utf-8"
-header "etag" == "W/\"a248b629f2d9508e8ac49b43f61e90e3\""
-header "referrer-policy" == "strict-origin-when-cross-origin"
-header "server" == "nginx"
-header "strict-transport-security" == "max-age=15724800; includeSubdomains"
-header "x-content-type-options" == "nosniff"
-header "x-download-options" == "noopen"
-header "x-frame-options" == "SAMEORIGIN"
-header "x-permitted-cross-domain-policies" == "none"
-header "x-xss-protection" == "0"
-
-GET https://osem.seagl.org/api/v1/conferences/dbwritetest25/speakers
-accept: text/html,*/*
-HTTP 200
-[Asserts]
-header "cache-control" == "max-age=0, private, must-revalidate"
-header "content-length" == "15"
-header "content-type" == "application/json; charset=utf-8"
-header "etag" == "W/\"a20d9c8bd8c76ec31779562ef9e7fb13\""
-header "referrer-policy" == "strict-origin-when-cross-origin"
-header "server" == "nginx"
-header "strict-transport-security" == "max-age=15724800; includeSubdomains"
-header "x-content-type-options" == "nosniff"
-header "x-download-options" == "noopen"
-header "x-frame-options" == "SAMEORIGIN"
-header "x-permitted-cross-domain-policies" == "none"
-header "x-xss-protection" == "0"
-
-GET https://osem.seagl.org/api/v1/conferences/dbwritetest25/tracks
 accept: text/html,*/*
 HTTP 200
 [Asserts]
